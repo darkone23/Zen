@@ -1,0 +1,2072 @@
+"lexmap.ml" 37 1551 1557 "lexmap.ml" 37 1551 1563
+type(
+  'a * 'b -> 'a * 'b list
+)
+ident(
+  def single "lexmap.ml" 41 1662 1662 "lexmap.ml" 1 0 -1
+)
+"lexmap.ml" 37 1551 1565 "lexmap.ml" 37 1551 1566
+type(
+  'a
+)
+ident(
+  def d "lexmap.ml" 37 1551 1572 "lexmap.ml" 37 1551 1581
+)
+"lexmap.ml" 37 1551 1567 "lexmap.ml" 37 1551 1568
+type(
+  'b
+)
+ident(
+  def i "lexmap.ml" 37 1551 1572 "lexmap.ml" 37 1551 1581
+)
+"lexmap.ml" 37 1551 1564 "lexmap.ml" 37 1551 1569
+type(
+  'a * 'b
+)
+"lexmap.ml" 37 1551 1573 "lexmap.ml" 37 1551 1574
+type(
+  'a
+)
+ident(
+  int_ref d "lexmap.ml" 37 1551 1565 "lexmap.ml" 37 1551 1566
+)
+"lexmap.ml" 37 1551 1577 "lexmap.ml" 37 1551 1578
+type(
+  'b list
+)
+type(
+  'b
+)
+ident(
+  int_ref i "lexmap.ml" 37 1551 1567 "lexmap.ml" 37 1551 1568
+)
+type(
+  'b list
+)
+"lexmap.ml" 37 1551 1572 "lexmap.ml" 37 1551 1581
+type(
+  'a * 'b list
+)
+"lexmap.ml" 37 1551 1564 "lexmap.ml" 37 1551 1581
+type(
+  'a * 'b -> 'a * 'b list
+)
+"lexmap.ml" 41 1662 1672 "lexmap.ml" 41 1662 1679
+type(
+  ('a * 'b list) * 'c ->
+  (('a * 'b list) * 'c list) list -> (('a * 'b list) * 'c list) list
+)
+ident(
+  def add_inv "lexmap.ml" 41 1662 1662 "lexmap.ml" 1 0 -1
+)
+"lexmap.ml" 41 1662 1682 "lexmap.ml" 41 1662 1687
+type(
+  'a * 'b list
+)
+ident(
+  def delta "lexmap.ml" 41 1662 1702 "lexmap.ml" 47 1962 1965
+)
+"lexmap.ml" 41 1662 1688 "lexmap.ml" 41 1662 1692
+type(
+  'c
+)
+ident(
+  def flex "lexmap.ml" 41 1662 1702 "lexmap.ml" 47 1962 1965
+)
+"lexmap.ml" 41 1662 1681 "lexmap.ml" 41 1662 1693
+type(
+  ('a * 'b list) * 'c
+)
+"lexmap.ml" 41 1662 1697 "lexmap.ml" 41 1662 1698
+ident(
+  def i "lexmap.ml" 41 1662 1702 "lexmap.ml" 47 1962 1965
+)
+"lexmap.ml" 41 1662 1680 "lexmap.ml" 41 1662 1699
+type(
+  ('a * 'b list) * 'c
+)
+"lexmap.ml" 42 1706 1710 "lexmap.ml" 42 1706 1712
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 42 1706 1718 "lexmap.ml" 42 1706 1724
+type(
+  ('a * 'b list) * 'c -> ('a * 'b list) * 'c list
+)
+ident(
+  int_ref single "lexmap.ml" 37 1551 1557 "lexmap.ml" 37 1551 1563
+)
+"lexmap.ml" 42 1706 1725 "lexmap.ml" 42 1706 1726
+type(
+  ('a * 'b list) * 'c
+)
+ident(
+  int_ref i "lexmap.ml" 41 1662 1680 "lexmap.ml" 41 1662 1699
+)
+"lexmap.ml" 42 1706 1718 "lexmap.ml" 42 1706 1726
+call(
+  stack
+)
+type(
+  (('a * 'b list) * 'c list) list
+)
+type(
+  ('a * 'b list) * 'c list
+)
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 43 1729 1736 "lexmap.ml" 43 1729 1737
+type(
+  'a * 'b list
+)
+ident(
+  def d "lexmap.ml" 44 1765 1771 "lexmap.ml" 46 1898 1961
+)
+"lexmap.ml" 43 1729 1738 "lexmap.ml" 43 1729 1743
+type(
+  'c list
+)
+ident(
+  def lflex "lexmap.ml" 44 1765 1771 "lexmap.ml" 46 1898 1961
+)
+"lexmap.ml" 43 1729 1735 "lexmap.ml" 43 1729 1744
+type(
+  (('a * 'b list) * 'c list) list
+)
+type(
+  ('a * 'b list) * 'c list
+)
+"lexmap.ml" 43 1729 1748 "lexmap.ml" 43 1729 1749
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  def l "lexmap.ml" 44 1765 1771 "lexmap.ml" 46 1898 1961
+)
+"lexmap.ml" 43 1729 1755 "lexmap.ml" 43 1729 1760
+ident(
+  def infos "lexmap.ml" 44 1765 1771 "lexmap.ml" 46 1898 1961
+)
+"lexmap.ml" 43 1729 1733 "lexmap.ml" 43 1729 1760
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 44 1765 1774 "lexmap.ml" 44 1765 1775
+type(
+  'a * 'b list
+)
+ident(
+  int_ref d "lexmap.ml" 43 1729 1736 "lexmap.ml" 43 1729 1737
+)
+"lexmap.ml" 44 1765 1776 "lexmap.ml" 44 1765 1777
+type(
+  'a * 'b list -> 'a * 'b list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"lexmap.ml" 44 1765 1778 "lexmap.ml" 44 1765 1783
+type(
+  'a * 'b list
+)
+ident(
+  int_ref delta "lexmap.ml" 41 1662 1682 "lexmap.ml" 41 1662 1687
+)
+"lexmap.ml" 44 1765 1774 "lexmap.ml" 44 1765 1783
+type(
+  bool
+)
+"lexmap.ml" 44 1765 1792 "lexmap.ml" 44 1765 1793
+type(
+  'a * 'b list
+)
+ident(
+  int_ref d "lexmap.ml" 43 1729 1736 "lexmap.ml" 43 1729 1737
+)
+"lexmap.ml" 44 1765 1794 "lexmap.ml" 44 1765 1806
+type(
+  'c -> 'c list -> 'c list
+)
+ident(
+  int_ref List2.union1 "list2.ml" 52 1694 1700 "list2.ml" 52 1694 1706
+)
+"lexmap.ml" 44 1765 1807 "lexmap.ml" 44 1765 1811
+type(
+  'c
+)
+ident(
+  int_ref flex "lexmap.ml" 41 1662 1688 "lexmap.ml" 41 1662 1692
+)
+"lexmap.ml" 44 1765 1812 "lexmap.ml" 44 1765 1817
+type(
+  'c list
+)
+ident(
+  int_ref lflex "lexmap.ml" 43 1729 1738 "lexmap.ml" 43 1729 1743
+)
+"lexmap.ml" 44 1765 1794 "lexmap.ml" 44 1765 1817
+call(
+  stack
+)
+type(
+  'c list
+)
+"lexmap.ml" 44 1765 1791 "lexmap.ml" 44 1765 1818
+type(
+  ('a * 'b list) * 'c list
+)
+"lexmap.ml" 44 1765 1822 "lexmap.ml" 44 1765 1823
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref l "lexmap.ml" 43 1729 1748 "lexmap.ml" 43 1729 1749
+)
+"lexmap.ml" 44 1765 1791 "lexmap.ml" 44 1765 1823
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 45 1826 1840 "lexmap.ml" 45 1826 1854
+type(
+  'a * 'b list -> 'a * 'b list -> bool
+)
+ident(
+  int_ref Word.less_diff "word.ml" 74 3099 3105 "word.ml" 74 3099 3114
+)
+"lexmap.ml" 45 1826 1855 "lexmap.ml" 45 1826 1856
+type(
+  'a * 'b list
+)
+ident(
+  int_ref d "lexmap.ml" 43 1729 1736 "lexmap.ml" 43 1729 1737
+)
+"lexmap.ml" 45 1826 1857 "lexmap.ml" 45 1826 1862
+type(
+  'a * 'b list
+)
+ident(
+  int_ref delta "lexmap.ml" 41 1662 1682 "lexmap.ml" 41 1662 1687
+)
+"lexmap.ml" 45 1826 1840 "lexmap.ml" 45 1826 1862
+call(
+  stack
+)
+type(
+  bool
+)
+"lexmap.ml" 45 1826 1871 "lexmap.ml" 45 1826 1872
+type(
+  'a * 'b list
+)
+ident(
+  int_ref d "lexmap.ml" 43 1729 1736 "lexmap.ml" 43 1729 1737
+)
+"lexmap.ml" 45 1826 1873 "lexmap.ml" 45 1826 1878
+type(
+  'c list
+)
+ident(
+  int_ref lflex "lexmap.ml" 43 1729 1738 "lexmap.ml" 43 1729 1743
+)
+"lexmap.ml" 45 1826 1870 "lexmap.ml" 45 1826 1879
+type(
+  ('a * 'b list) * 'c list
+)
+"lexmap.ml" 45 1826 1883 "lexmap.ml" 45 1826 1890
+type(
+  ('a * 'b list) * 'c ->
+  (('a * 'b list) * 'c list) list -> (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref add_inv "lexmap.ml" 41 1662 1672 "lexmap.ml" 41 1662 1679
+)
+"lexmap.ml" 45 1826 1891 "lexmap.ml" 45 1826 1892
+type(
+  ('a * 'b list) * 'c
+)
+ident(
+  int_ref i "lexmap.ml" 41 1662 1680 "lexmap.ml" 41 1662 1699
+)
+"lexmap.ml" 45 1826 1893 "lexmap.ml" 45 1826 1894
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref l "lexmap.ml" 43 1729 1748 "lexmap.ml" 43 1729 1749
+)
+"lexmap.ml" 45 1826 1883 "lexmap.ml" 45 1826 1894
+call(
+  stack
+)
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 45 1826 1870 "lexmap.ml" 45 1826 1894
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 46 1898 1942 "lexmap.ml" 46 1898 1948
+type(
+  ('a * 'b list) * 'c -> ('a * 'b list) * 'c list
+)
+ident(
+  int_ref single "lexmap.ml" 37 1551 1557 "lexmap.ml" 37 1551 1563
+)
+"lexmap.ml" 46 1898 1949 "lexmap.ml" 46 1898 1950
+type(
+  ('a * 'b list) * 'c
+)
+ident(
+  int_ref i "lexmap.ml" 41 1662 1680 "lexmap.ml" 41 1662 1699
+)
+"lexmap.ml" 46 1898 1942 "lexmap.ml" 46 1898 1950
+call(
+  stack
+)
+type(
+  ('a * 'b list) * 'c list
+)
+"lexmap.ml" 46 1898 1954 "lexmap.ml" 46 1898 1959
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref infos "lexmap.ml" 43 1729 1733 "lexmap.ml" 43 1729 1760
+)
+"lexmap.ml" 46 1898 1942 "lexmap.ml" 46 1898 1959
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 45 1826 1837 "lexmap.ml" 46 1898 1961
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 44 1765 1771 "lexmap.ml" 46 1898 1961
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 41 1662 1702 "lexmap.ml" 47 1962 1965
+type(
+  (('a * 'b list) * 'c list) list -> (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 41 1662 1680 "lexmap.ml" 47 1962 1965
+type(
+  ('a * 'b list) * 'c ->
+  (('a * 'b list) * 'c list) list -> (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 54 2220 2230 "lexmap.ml" 54 2220 2238
+type(
+  ('a * 'b list) * 'c ->
+  (('a * 'b list) * 'c list) list -> (('a * 'b list) * 'c list) list
+)
+ident(
+  def add_inv2 "lexmap.ml" 54 2220 2220 "lexmap.ml" 1 0 -1
+)
+"lexmap.ml" 54 2220 2241 "lexmap.ml" 54 2220 2246
+type(
+  'a * 'b list
+)
+ident(
+  def delta "lexmap.ml" 54 2220 2261 "lexmap.ml" 60 2486 2491
+)
+"lexmap.ml" 54 2220 2247 "lexmap.ml" 54 2220 2251
+type(
+  'c
+)
+ident(
+  def flex "lexmap.ml" 54 2220 2261 "lexmap.ml" 60 2486 2491
+)
+"lexmap.ml" 54 2220 2240 "lexmap.ml" 54 2220 2252
+type(
+  ('a * 'b list) * 'c
+)
+"lexmap.ml" 54 2220 2256 "lexmap.ml" 54 2220 2257
+ident(
+  def i "lexmap.ml" 54 2220 2261 "lexmap.ml" 60 2486 2491
+)
+"lexmap.ml" 54 2220 2239 "lexmap.ml" 54 2220 2258
+type(
+  ('a * 'b list) * 'c
+)
+"lexmap.ml" 55 2265 2271 "lexmap.ml" 55 2265 2273
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 55 2265 2279 "lexmap.ml" 55 2265 2285
+type(
+  ('a * 'b list) * 'c -> ('a * 'b list) * 'c list
+)
+ident(
+  int_ref single "lexmap.ml" 37 1551 1557 "lexmap.ml" 37 1551 1563
+)
+"lexmap.ml" 55 2265 2286 "lexmap.ml" 55 2265 2287
+type(
+  ('a * 'b list) * 'c
+)
+ident(
+  int_ref i "lexmap.ml" 54 2220 2239 "lexmap.ml" 54 2220 2258
+)
+"lexmap.ml" 55 2265 2279 "lexmap.ml" 55 2265 2287
+call(
+  stack
+)
+type(
+  (('a * 'b list) * 'c list) list
+)
+type(
+  ('a * 'b list) * 'c list
+)
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 56 2290 2299 "lexmap.ml" 56 2290 2300
+type(
+  'a * 'b list
+)
+ident(
+  def d "lexmap.ml" 57 2328 2329 "lexmap.ml" 59 2451 2485
+)
+"lexmap.ml" 56 2290 2301 "lexmap.ml" 56 2290 2306
+type(
+  'c list
+)
+ident(
+  def lflex "lexmap.ml" 57 2328 2329 "lexmap.ml" 59 2451 2485
+)
+"lexmap.ml" 56 2290 2298 "lexmap.ml" 56 2290 2307
+type(
+  (('a * 'b list) * 'c list) list
+)
+type(
+  ('a * 'b list) * 'c list
+)
+"lexmap.ml" 56 2290 2311 "lexmap.ml" 56 2290 2312
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  def l "lexmap.ml" 57 2328 2329 "lexmap.ml" 59 2451 2485
+)
+"lexmap.ml" 56 2290 2318 "lexmap.ml" 56 2290 2323
+ident(
+  def infos "lexmap.ml" 57 2328 2329 "lexmap.ml" 59 2451 2485
+)
+"lexmap.ml" 56 2290 2296 "lexmap.ml" 56 2290 2323
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 57 2328 2332 "lexmap.ml" 57 2328 2333
+type(
+  'a * 'b list
+)
+ident(
+  int_ref d "lexmap.ml" 56 2290 2299 "lexmap.ml" 56 2290 2300
+)
+"lexmap.ml" 57 2328 2334 "lexmap.ml" 57 2328 2335
+type(
+  'a * 'b list -> 'a * 'b list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"lexmap.ml" 57 2328 2336 "lexmap.ml" 57 2328 2341
+type(
+  'a * 'b list
+)
+ident(
+  int_ref delta "lexmap.ml" 54 2220 2241 "lexmap.ml" 54 2220 2246
+)
+"lexmap.ml" 57 2328 2332 "lexmap.ml" 57 2328 2341
+type(
+  bool
+)
+"lexmap.ml" 57 2328 2350 "lexmap.ml" 57 2328 2351
+type(
+  'a * 'b list
+)
+ident(
+  int_ref d "lexmap.ml" 56 2290 2299 "lexmap.ml" 56 2290 2300
+)
+"lexmap.ml" 57 2328 2352 "lexmap.ml" 57 2328 2364
+type(
+  'c -> 'c list -> 'c list
+)
+ident(
+  int_ref List2.union2 "list2.ml" 57 1784 1790 "list2.ml" 57 1784 1796
+)
+"lexmap.ml" 57 2328 2365 "lexmap.ml" 57 2328 2369
+type(
+  'c
+)
+ident(
+  int_ref flex "lexmap.ml" 54 2220 2247 "lexmap.ml" 54 2220 2251
+)
+"lexmap.ml" 57 2328 2370 "lexmap.ml" 57 2328 2375
+type(
+  'c list
+)
+ident(
+  int_ref lflex "lexmap.ml" 56 2290 2301 "lexmap.ml" 56 2290 2306
+)
+"lexmap.ml" 57 2328 2352 "lexmap.ml" 57 2328 2375
+call(
+  stack
+)
+type(
+  'c list
+)
+"lexmap.ml" 57 2328 2349 "lexmap.ml" 57 2328 2376
+type(
+  ('a * 'b list) * 'c list
+)
+"lexmap.ml" 57 2328 2380 "lexmap.ml" 57 2328 2381
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref l "lexmap.ml" 56 2290 2311 "lexmap.ml" 56 2290 2312
+)
+"lexmap.ml" 57 2328 2349 "lexmap.ml" 57 2328 2381
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 58 2384 2393 "lexmap.ml" 58 2384 2407
+type(
+  'a * 'b list -> 'a * 'b list -> bool
+)
+ident(
+  int_ref Word.less_diff "word.ml" 74 3099 3105 "word.ml" 74 3099 3114
+)
+"lexmap.ml" 58 2384 2408 "lexmap.ml" 58 2384 2409
+type(
+  'a * 'b list
+)
+ident(
+  int_ref d "lexmap.ml" 56 2290 2299 "lexmap.ml" 56 2290 2300
+)
+"lexmap.ml" 58 2384 2410 "lexmap.ml" 58 2384 2415
+type(
+  'a * 'b list
+)
+ident(
+  int_ref delta "lexmap.ml" 54 2220 2241 "lexmap.ml" 54 2220 2246
+)
+"lexmap.ml" 58 2384 2393 "lexmap.ml" 58 2384 2415
+call(
+  stack
+)
+type(
+  bool
+)
+"lexmap.ml" 58 2384 2424 "lexmap.ml" 58 2384 2425
+type(
+  'a * 'b list
+)
+ident(
+  int_ref d "lexmap.ml" 56 2290 2299 "lexmap.ml" 56 2290 2300
+)
+"lexmap.ml" 58 2384 2426 "lexmap.ml" 58 2384 2431
+type(
+  'c list
+)
+ident(
+  int_ref lflex "lexmap.ml" 56 2290 2301 "lexmap.ml" 56 2290 2306
+)
+"lexmap.ml" 58 2384 2423 "lexmap.ml" 58 2384 2432
+type(
+  ('a * 'b list) * 'c list
+)
+"lexmap.ml" 58 2384 2436 "lexmap.ml" 58 2384 2443
+type(
+  ('a * 'b list) * 'c ->
+  (('a * 'b list) * 'c list) list -> (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref add_inv "lexmap.ml" 41 1662 1672 "lexmap.ml" 41 1662 1679
+)
+"lexmap.ml" 58 2384 2444 "lexmap.ml" 58 2384 2445
+type(
+  ('a * 'b list) * 'c
+)
+ident(
+  int_ref i "lexmap.ml" 54 2220 2239 "lexmap.ml" 54 2220 2258
+)
+"lexmap.ml" 58 2384 2446 "lexmap.ml" 58 2384 2447
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref l "lexmap.ml" 56 2290 2311 "lexmap.ml" 56 2290 2312
+)
+"lexmap.ml" 58 2384 2436 "lexmap.ml" 58 2384 2447
+call(
+  stack
+)
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 58 2384 2423 "lexmap.ml" 58 2384 2447
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 59 2451 2466 "lexmap.ml" 59 2451 2472
+type(
+  ('a * 'b list) * 'c -> ('a * 'b list) * 'c list
+)
+ident(
+  int_ref single "lexmap.ml" 37 1551 1557 "lexmap.ml" 37 1551 1563
+)
+"lexmap.ml" 59 2451 2473 "lexmap.ml" 59 2451 2474
+type(
+  ('a * 'b list) * 'c
+)
+ident(
+  int_ref i "lexmap.ml" 54 2220 2239 "lexmap.ml" 54 2220 2258
+)
+"lexmap.ml" 59 2451 2466 "lexmap.ml" 59 2451 2474
+call(
+  stack
+)
+type(
+  ('a * 'b list) * 'c list
+)
+"lexmap.ml" 59 2451 2478 "lexmap.ml" 59 2451 2483
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref infos "lexmap.ml" 56 2290 2296 "lexmap.ml" 56 2290 2323
+)
+"lexmap.ml" 59 2451 2466 "lexmap.ml" 59 2451 2483
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 58 2384 2390 "lexmap.ml" 59 2451 2485
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 57 2328 2329 "lexmap.ml" 59 2451 2485
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 54 2220 2261 "lexmap.ml" 60 2486 2491
+type(
+  (('a * 'b list) * 'c list) list -> (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 54 2220 2239 "lexmap.ml" 60 2486 2491
+type(
+  ('a * 'b list) * 'c ->
+  (('a * 'b list) * 'c list) list -> (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 64 2574 2580 "lexmap.ml" 64 2574 2584
+type(
+  (('a * 'b list) * 'c list) Deco.deco ->
+  Word.letter list ->
+  ('a * 'b list) * 'c -> (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  def addl "lexmap.ml" 80 3119 3119 "lexmap.ml" 1 0 -1
+)
+"lexmap.ml" 64 2574 2585 "lexmap.ml" 64 2574 2591
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  def lexmap "lexmap.ml" 64 2574 2592 "lexmap.ml" 78 3113 3116
+)
+"lexmap.ml" 64 2574 2592 "lexmap.ml" 64 2574 2596
+type(
+  Word.letter list
+)
+ident(
+  def word "lexmap.ml" 64 2574 2597 "lexmap.ml" 78 3113 3116
+)
+"lexmap.ml" 64 2574 2597 "lexmap.ml" 64 2574 2598
+type(
+  ('a * 'b list) * 'c
+)
+ident(
+  def i "lexmap.ml" 64 2574 2601 "lexmap.ml" 78 3113 3116
+)
+"lexmap.ml" 64 2574 2601 "lexmap.ml" 64 2574 2611
+type(
+  (('a * 'b list) * 'c list) Deco.zipd ->
+  (('a * 'b list) * 'c list) Deco.deco ->
+  Word.letter list -> (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref enter_edit "lexmap.ml" 65 2628 2640 "lexmap.ml" 65 2628 2650
+)
+"lexmap.ml" 64 2574 2612 "lexmap.ml" 64 2574 2615
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+"lexmap.ml" 64 2574 2616 "lexmap.ml" 64 2574 2622
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref lexmap "lexmap.ml" 64 2574 2585 "lexmap.ml" 64 2574 2591
+)
+"lexmap.ml" 64 2574 2623 "lexmap.ml" 64 2574 2627
+type(
+  Word.letter list
+)
+ident(
+  int_ref word "lexmap.ml" 64 2574 2592 "lexmap.ml" 64 2574 2596
+)
+"lexmap.ml" 64 2574 2601 "lexmap.ml" 64 2574 2627
+call(
+  tail
+)
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 65 2628 2640 "lexmap.ml" 65 2628 2650
+type(
+  (('a * 'b list) * 'c list) Deco.zipd ->
+  (('a * 'b list) * 'c list) Deco.deco ->
+  Word.letter list -> (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  def enter_edit "lexmap.ml" 64 2574 2601 "lexmap.ml" 78 3113 3116
+)
+"lexmap.ml" 65 2628 2651 "lexmap.ml" 65 2628 2652
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+ident(
+  def z "lexmap.ml" 65 2628 2653 "lexmap.ml" 78 3113 3116
+)
+"lexmap.ml" 65 2628 2653 "lexmap.ml" 65 2628 2654
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  def d "lexmap.ml" 65 2628 2657 "lexmap.ml" 78 3113 3116
+)
+"lexmap.ml" 66 2661 2665 "lexmap.ml" 66 2661 2667
+type(
+  Word.letter list
+)
+"lexmap.ml" 66 2661 2677 "lexmap.ml" 66 2661 2678
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref d "lexmap.ml" 65 2628 2653 "lexmap.ml" 65 2628 2654
+)
+"lexmap.ml" 66 2661 2692 "lexmap.ml" 66 2661 2693
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  def j "lexmap.ml" 66 2661 2700 "lexmap.ml" 66 2661 2731
+)
+"lexmap.ml" 66 2661 2694 "lexmap.ml" 66 2661 2695
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  def l "lexmap.ml" 66 2661 2700 "lexmap.ml" 66 2661 2731
+)
+"lexmap.ml" 66 2661 2691 "lexmap.ml" 66 2661 2696
+type(
+  (('a * 'b list) * 'c list) list * (('a * 'b list) * 'c list) Deco.darcs
+)
+"lexmap.ml" 66 2661 2686 "lexmap.ml" 66 2661 2696
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 66 2661 2700 "lexmap.ml" 66 2661 2706
+type(
+  (('a * 'b list) * 'c list) Deco.zipd ->
+  (('a * 'b list) * 'c list) Deco.deco ->
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref Deco.zip_up "deco.ml" 33 1263 1273 "deco.ml" 33 1263 1279
+)
+"lexmap.ml" 66 2661 2707 "lexmap.ml" 66 2661 2708
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+ident(
+  int_ref z "lexmap.ml" 65 2628 2651 "lexmap.ml" 65 2628 2652
+)
+"lexmap.ml" 66 2661 2716 "lexmap.ml" 66 2661 2723
+type(
+  ('a * 'b list) * 'c ->
+  (('a * 'b list) * 'c list) list -> (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref add_inv "lexmap.ml" 41 1662 1672 "lexmap.ml" 41 1662 1679
+)
+"lexmap.ml" 66 2661 2724 "lexmap.ml" 66 2661 2725
+type(
+  ('a * 'b list) * 'c
+)
+ident(
+  int_ref i "lexmap.ml" 64 2574 2597 "lexmap.ml" 64 2574 2598
+)
+"lexmap.ml" 66 2661 2726 "lexmap.ml" 66 2661 2727
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref j "lexmap.ml" 66 2661 2692 "lexmap.ml" 66 2661 2693
+)
+"lexmap.ml" 66 2661 2716 "lexmap.ml" 66 2661 2727
+call(
+  stack
+)
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 66 2661 2728 "lexmap.ml" 66 2661 2729
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref l "lexmap.ml" 66 2661 2694 "lexmap.ml" 66 2661 2695
+)
+"lexmap.ml" 66 2661 2715 "lexmap.ml" 66 2661 2730
+type(
+  (('a * 'b list) * 'c list) list * (('a * 'b list) * 'c list) Deco.darcs
+)
+"lexmap.ml" 66 2661 2710 "lexmap.ml" 66 2661 2730
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 66 2661 2700 "lexmap.ml" 66 2661 2731
+call(
+  tail
+)
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 66 2661 2671 "lexmap.ml" 66 2661 2733
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 67 2734 2740 "lexmap.ml" 67 2734 2741
+type(
+  Word.letter list
+)
+type(
+  Word.letter
+)
+ident(
+  def n "lexmap.ml" 68 2756 2762 "lexmap.ml" 77 3105 3112
+)
+"lexmap.ml" 67 2734 2745 "lexmap.ml" 67 2734 2749
+type(
+  Word.letter list
+)
+ident(
+  def rest "lexmap.ml" 68 2756 2762 "lexmap.ml" 77 3105 3112
+)
+"lexmap.ml" 68 2756 2768 "lexmap.ml" 68 2756 2769
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref d "lexmap.ml" 65 2628 2653 "lexmap.ml" 65 2628 2654
+)
+"lexmap.ml" 69 2776 2790 "lexmap.ml" 69 2776 2791
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  def j "lexmap.ml" 70 2799 2807 "lexmap.ml" 76 3102 3104
+)
+"lexmap.ml" 69 2776 2792 "lexmap.ml" 69 2776 2793
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  def l "lexmap.ml" 70 2799 2807 "lexmap.ml" 76 3102 3104
+)
+"lexmap.ml" 69 2776 2789 "lexmap.ml" 69 2776 2794
+type(
+  (('a * 'b list) * 'c list) list * (('a * 'b list) * 'c list) Deco.darcs
+)
+"lexmap.ml" 69 2776 2784 "lexmap.ml" 69 2776 2794
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 70 2799 2812 "lexmap.ml" 70 2799 2816
+type(
+  (Word.letter * (('a * 'b list) * 'c list) Deco.deco) list
+)
+ident(
+  def left "lexmap.ml" 71 2843 2851 "lexmap.ml" 76 3102 3104
+)
+"lexmap.ml" 70 2799 2817 "lexmap.ml" 70 2799 2822
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  def right "lexmap.ml" 71 2843 2851 "lexmap.ml" 76 3102 3104
+)
+"lexmap.ml" 70 2799 2811 "lexmap.ml" 70 2799 2823
+type(
+  (Word.letter * (('a * 'b list) * 'c list) Deco.deco) list *
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+"lexmap.ml" 70 2799 2826 "lexmap.ml" 70 2799 2835
+type(
+  Word.letter ->
+  (('a * 'b list) * 'c list) Deco.darcs ->
+  (Word.letter * (('a * 'b list) * 'c list) Deco.deco) list *
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref List2.zip "list2.ml" 118 3998 4004 "list2.ml" 118 3998 4007
+)
+"lexmap.ml" 70 2799 2836 "lexmap.ml" 70 2799 2837
+type(
+  Word.letter
+)
+ident(
+  int_ref n "lexmap.ml" 67 2734 2740 "lexmap.ml" 67 2734 2741
+)
+"lexmap.ml" 70 2799 2838 "lexmap.ml" 70 2799 2839
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref l "lexmap.ml" 69 2776 2792 "lexmap.ml" 69 2776 2793
+)
+"lexmap.ml" 70 2799 2826 "lexmap.ml" 70 2799 2839
+call(
+  stack
+)
+type(
+  (Word.letter * (('a * 'b list) * 'c list) Deco.deco) list *
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+"lexmap.ml" 71 2843 2857 "lexmap.ml" 71 2843 2862
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref right "lexmap.ml" 70 2799 2817 "lexmap.ml" 70 2799 2822
+)
+"lexmap.ml" 72 2868 2878 "lexmap.ml" 72 2868 2880
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+"lexmap.ml" 72 2868 2884 "lexmap.ml" 72 2868 2890
+type(
+  (('a * 'b list) * 'c list) Deco.zipd ->
+  (('a * 'b list) * 'c list) Deco.deco ->
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref Deco.zip_up "deco.ml" 33 1263 1273 "deco.ml" 33 1263 1279
+)
+"lexmap.ml" 72 2868 2897 "lexmap.ml" 72 2868 2898
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref j "lexmap.ml" 69 2776 2790 "lexmap.ml" 69 2776 2791
+)
+"lexmap.ml" 72 2868 2899 "lexmap.ml" 72 2868 2903
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref left "lexmap.ml" 70 2799 2812 "lexmap.ml" 70 2799 2816
+)
+"lexmap.ml" 72 2868 2904 "lexmap.ml" 72 2868 2905
+type(
+  Word.letter
+)
+ident(
+  int_ref n "lexmap.ml" 67 2734 2740 "lexmap.ml" 67 2734 2741
+)
+"lexmap.ml" 72 2868 2906 "lexmap.ml" 72 2868 2908
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+"lexmap.ml" 72 2868 2909 "lexmap.ml" 72 2868 2910
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+ident(
+  int_ref z "lexmap.ml" 65 2628 2651 "lexmap.ml" 65 2628 2652
+)
+"lexmap.ml" 72 2868 2896 "lexmap.ml" 72 2868 2911
+type(
+  (('a * 'b list) * 'c list) list * (('a * 'b list) * 'c list) Deco.darcs *
+  Word.letter * (('a * 'b list) * 'c list) Deco.darcs *
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+"lexmap.ml" 72 2868 2892 "lexmap.ml" 72 2868 2911
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+"lexmap.ml" 72 2868 2914 "lexmap.ml" 72 2868 2921
+type(
+  (('a * 'b list) * 'c list) list ->
+  Word.letter list -> (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref Deco.deco_of "deco.ml" 45 1681 1687 "deco.ml" 45 1681 1694
+)
+"lexmap.ml" 72 2868 2924 "lexmap.ml" 72 2868 2930
+type(
+  ('a * 'b list) * 'c -> ('a * 'b list) * 'c list
+)
+ident(
+  int_ref single "lexmap.ml" 37 1551 1557 "lexmap.ml" 37 1551 1563
+)
+"lexmap.ml" 72 2868 2931 "lexmap.ml" 72 2868 2932
+type(
+  ('a * 'b list) * 'c
+)
+ident(
+  int_ref i "lexmap.ml" 64 2574 2597 "lexmap.ml" 64 2574 2598
+)
+"lexmap.ml" 72 2868 2924 "lexmap.ml" 72 2868 2932
+call(
+  stack
+)
+type(
+  (('a * 'b list) * 'c list) list
+)
+type(
+  ('a * 'b list) * 'c list
+)
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 72 2868 2935 "lexmap.ml" 72 2868 2939
+type(
+  Word.letter list
+)
+ident(
+  int_ref rest "lexmap.ml" 67 2734 2745 "lexmap.ml" 67 2734 2749
+)
+"lexmap.ml" 72 2868 2914 "lexmap.ml" 72 2868 2939
+call(
+  stack
+)
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 72 2868 2884 "lexmap.ml" 72 2868 2940
+call(
+  tail
+)
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 73 2942 2948 "lexmap.ml" 73 2942 2949
+type(
+  Word.letter
+)
+ident(
+  def m "lexmap.ml" 74 2964 2974 "lexmap.ml" 75 3026 3100
+)
+"lexmap.ml" 73 2942 2950 "lexmap.ml" 73 2942 2951
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  def u "lexmap.ml" 74 2964 2974 "lexmap.ml" 75 3026 3100
+)
+"lexmap.ml" 73 2942 2947 "lexmap.ml" 73 2942 2952
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+type(
+  Word.letter * (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 73 2942 2956 "lexmap.ml" 73 2942 2957
+type(
+  (Word.letter * (('a * 'b list) * 'c list) Deco.deco) list
+)
+ident(
+  def r "lexmap.ml" 74 2964 2974 "lexmap.ml" 75 3026 3100
+)
+"lexmap.ml" 74 2964 2977 "lexmap.ml" 74 2964 2978
+type(
+  Word.letter
+)
+ident(
+  int_ref m "lexmap.ml" 73 2942 2948 "lexmap.ml" 73 2942 2949
+)
+"lexmap.ml" 74 2964 2978 "lexmap.ml" 74 2964 2979
+type(
+  Word.letter -> Word.letter -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"lexmap.ml" 74 2964 2979 "lexmap.ml" 74 2964 2980
+type(
+  Word.letter
+)
+ident(
+  int_ref n "lexmap.ml" 67 2734 2740 "lexmap.ml" 67 2734 2741
+)
+"lexmap.ml" 74 2964 2977 "lexmap.ml" 74 2964 2980
+type(
+  bool
+)
+"lexmap.ml" 74 2964 2986 "lexmap.ml" 74 2964 2996
+type(
+  (('a * 'b list) * 'c list) Deco.zipd ->
+  (('a * 'b list) * 'c list) Deco.deco ->
+  Word.letter list -> (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref enter_edit "lexmap.ml" 65 2628 2640 "lexmap.ml" 65 2628 2650
+)
+"lexmap.ml" 74 2964 3003 "lexmap.ml" 74 2964 3004
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref j "lexmap.ml" 69 2776 2790 "lexmap.ml" 69 2776 2791
+)
+"lexmap.ml" 74 2964 3005 "lexmap.ml" 74 2964 3009
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref left "lexmap.ml" 70 2799 2812 "lexmap.ml" 70 2799 2816
+)
+"lexmap.ml" 74 2964 3010 "lexmap.ml" 74 2964 3011
+type(
+  Word.letter
+)
+ident(
+  int_ref n "lexmap.ml" 67 2734 2740 "lexmap.ml" 67 2734 2741
+)
+"lexmap.ml" 74 2964 3012 "lexmap.ml" 74 2964 3013
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref r "lexmap.ml" 73 2942 2956 "lexmap.ml" 73 2942 2957
+)
+"lexmap.ml" 74 2964 3014 "lexmap.ml" 74 2964 3015
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+ident(
+  int_ref z "lexmap.ml" 65 2628 2651 "lexmap.ml" 65 2628 2652
+)
+"lexmap.ml" 74 2964 3002 "lexmap.ml" 74 2964 3016
+type(
+  (('a * 'b list) * 'c list) list * (('a * 'b list) * 'c list) Deco.darcs *
+  Word.letter * (('a * 'b list) * 'c list) Deco.darcs *
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+"lexmap.ml" 74 2964 2998 "lexmap.ml" 74 2964 3016
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+"lexmap.ml" 74 2964 3018 "lexmap.ml" 74 2964 3019
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref u "lexmap.ml" 73 2942 2950 "lexmap.ml" 73 2942 2951
+)
+"lexmap.ml" 74 2964 3020 "lexmap.ml" 74 2964 3024
+type(
+  Word.letter list
+)
+ident(
+  int_ref rest "lexmap.ml" 67 2734 2745 "lexmap.ml" 67 2734 2749
+)
+"lexmap.ml" 74 2964 2986 "lexmap.ml" 74 2964 3024
+call(
+  tail
+)
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 75 3026 3041 "lexmap.ml" 75 3026 3047
+type(
+  (('a * 'b list) * 'c list) Deco.zipd ->
+  (('a * 'b list) * 'c list) Deco.deco ->
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref Deco.zip_up "deco.ml" 33 1263 1273 "deco.ml" 33 1263 1279
+)
+"lexmap.ml" 75 3026 3054 "lexmap.ml" 75 3026 3055
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref j "lexmap.ml" 69 2776 2790 "lexmap.ml" 69 2776 2791
+)
+"lexmap.ml" 75 3026 3056 "lexmap.ml" 75 3026 3060
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref left "lexmap.ml" 70 2799 2812 "lexmap.ml" 70 2799 2816
+)
+"lexmap.ml" 75 3026 3061 "lexmap.ml" 75 3026 3062
+type(
+  Word.letter
+)
+ident(
+  int_ref n "lexmap.ml" 67 2734 2740 "lexmap.ml" 67 2734 2741
+)
+"lexmap.ml" 75 3026 3063 "lexmap.ml" 75 3026 3068
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref right "lexmap.ml" 70 2799 2817 "lexmap.ml" 70 2799 2822
+)
+"lexmap.ml" 75 3026 3069 "lexmap.ml" 75 3026 3070
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+ident(
+  int_ref z "lexmap.ml" 65 2628 2651 "lexmap.ml" 65 2628 2652
+)
+"lexmap.ml" 75 3026 3053 "lexmap.ml" 75 3026 3071
+type(
+  (('a * 'b list) * 'c list) list * (('a * 'b list) * 'c list) Deco.darcs *
+  Word.letter * (('a * 'b list) * 'c list) Deco.darcs *
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+"lexmap.ml" 75 3026 3049 "lexmap.ml" 75 3026 3071
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+"lexmap.ml" 75 3026 3074 "lexmap.ml" 75 3026 3081
+type(
+  (('a * 'b list) * 'c list) list ->
+  Word.letter list -> (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref Deco.deco_of "deco.ml" 45 1681 1687 "deco.ml" 45 1681 1694
+)
+"lexmap.ml" 75 3026 3084 "lexmap.ml" 75 3026 3090
+type(
+  ('a * 'b list) * 'c -> ('a * 'b list) * 'c list
+)
+ident(
+  int_ref single "lexmap.ml" 37 1551 1557 "lexmap.ml" 37 1551 1563
+)
+"lexmap.ml" 75 3026 3091 "lexmap.ml" 75 3026 3092
+type(
+  ('a * 'b list) * 'c
+)
+ident(
+  int_ref i "lexmap.ml" 64 2574 2597 "lexmap.ml" 64 2574 2598
+)
+"lexmap.ml" 75 3026 3084 "lexmap.ml" 75 3026 3092
+call(
+  stack
+)
+type(
+  (('a * 'b list) * 'c list) list
+)
+type(
+  ('a * 'b list) * 'c list
+)
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 75 3026 3095 "lexmap.ml" 75 3026 3099
+type(
+  Word.letter list
+)
+ident(
+  int_ref rest "lexmap.ml" 67 2734 2745 "lexmap.ml" 67 2734 2749
+)
+"lexmap.ml" 75 3026 3074 "lexmap.ml" 75 3026 3099
+call(
+  stack
+)
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 75 3026 3041 "lexmap.ml" 75 3026 3100
+call(
+  tail
+)
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 74 2964 2974 "lexmap.ml" 75 3026 3100
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 71 2843 2851 "lexmap.ml" 76 3102 3104
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 70 2799 2807 "lexmap.ml" 76 3102 3104
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 68 2756 2762 "lexmap.ml" 77 3105 3112
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 65 2628 2657 "lexmap.ml" 78 3113 3116
+type(
+  Word.letter list -> (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 65 2628 2653 "lexmap.ml" 78 3113 3116
+type(
+  (('a * 'b list) * 'c list) Deco.deco ->
+  Word.letter list -> (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 65 2628 2651 "lexmap.ml" 78 3113 3116
+type(
+  (('a * 'b list) * 'c list) Deco.zipd ->
+  (('a * 'b list) * 'c list) Deco.deco ->
+  Word.letter list -> (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 64 2574 2601 "lexmap.ml" 78 3113 3116
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 64 2574 2597 "lexmap.ml" 78 3113 3116
+type(
+  ('a * 'b list) * 'c -> (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 64 2574 2592 "lexmap.ml" 78 3113 3116
+type(
+  Word.letter list ->
+  ('a * 'b list) * 'c -> (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 64 2574 2585 "lexmap.ml" 78 3113 3116
+type(
+  (('a * 'b list) * 'c list) Deco.deco ->
+  Word.letter list ->
+  ('a * 'b list) * 'c -> (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 84 3225 3231 "lexmap.ml" 84 3225 3236
+type(
+  (('a * 'b list) * 'c list) Deco.deco ->
+  Word.letter list ->
+  ('a * 'b list) * 'c -> (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  def addl2 "lexmap.ml" 100 3826 3884 "lexmap.ml" 1 0 -1
+)
+"lexmap.ml" 84 3225 3237 "lexmap.ml" 84 3225 3243
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  def lexmap "lexmap.ml" 84 3225 3244 "lexmap.ml" 100 3826 3884
+)
+"lexmap.ml" 84 3225 3244 "lexmap.ml" 84 3225 3248
+type(
+  Word.letter list
+)
+ident(
+  def word "lexmap.ml" 84 3225 3249 "lexmap.ml" 100 3826 3884
+)
+"lexmap.ml" 84 3225 3249 "lexmap.ml" 84 3225 3250
+type(
+  ('a * 'b list) * 'c
+)
+ident(
+  def i "lexmap.ml" 85 3254 3256 "lexmap.ml" 100 3826 3884
+)
+"lexmap.ml" 85 3254 3260 "lexmap.ml" 85 3254 3270
+type(
+  (('a * 'b list) * 'c list) Deco.zipd ->
+  (('a * 'b list) * 'c list) Deco.deco ->
+  Word.letter list -> (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref enter_edit "lexmap.ml" 86 3287 3303 "lexmap.ml" 86 3287 3313
+)
+"lexmap.ml" 85 3254 3271 "lexmap.ml" 85 3254 3274
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+"lexmap.ml" 85 3254 3275 "lexmap.ml" 85 3254 3281
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref lexmap "lexmap.ml" 84 3225 3237 "lexmap.ml" 84 3225 3243
+)
+"lexmap.ml" 85 3254 3282 "lexmap.ml" 85 3254 3286
+type(
+  Word.letter list
+)
+ident(
+  int_ref word "lexmap.ml" 84 3225 3244 "lexmap.ml" 84 3225 3248
+)
+"lexmap.ml" 85 3254 3260 "lexmap.ml" 85 3254 3286
+call(
+  stack
+)
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 86 3287 3303 "lexmap.ml" 86 3287 3313
+type(
+  (('a * 'b list) * 'c list) Deco.zipd ->
+  (('a * 'b list) * 'c list) Deco.deco ->
+  Word.letter list -> (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  def enter_edit "lexmap.ml" 85 3254 3260 "lexmap.ml" 99 3818 3825
+)
+"lexmap.ml" 86 3287 3314 "lexmap.ml" 86 3287 3315
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+ident(
+  def z "lexmap.ml" 86 3287 3316 "lexmap.ml" 99 3818 3825
+)
+"lexmap.ml" 86 3287 3316 "lexmap.ml" 86 3287 3317
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  def d "lexmap.ml" 86 3287 3320 "lexmap.ml" 99 3818 3825
+)
+"lexmap.ml" 87 3324 3332 "lexmap.ml" 87 3324 3334
+type(
+  Word.letter list
+)
+"lexmap.ml" 87 3324 3344 "lexmap.ml" 87 3324 3345
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref d "lexmap.ml" 86 3287 3316 "lexmap.ml" 86 3287 3317
+)
+"lexmap.ml" 87 3324 3359 "lexmap.ml" 87 3324 3360
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  def j "lexmap.ml" 87 3324 3367 "lexmap.ml" 87 3324 3399
+)
+"lexmap.ml" 87 3324 3361 "lexmap.ml" 87 3324 3362
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  def l "lexmap.ml" 87 3324 3367 "lexmap.ml" 87 3324 3399
+)
+"lexmap.ml" 87 3324 3358 "lexmap.ml" 87 3324 3363
+type(
+  (('a * 'b list) * 'c list) list * (('a * 'b list) * 'c list) Deco.darcs
+)
+"lexmap.ml" 87 3324 3353 "lexmap.ml" 87 3324 3363
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 87 3324 3367 "lexmap.ml" 87 3324 3373
+type(
+  (('a * 'b list) * 'c list) Deco.zipd ->
+  (('a * 'b list) * 'c list) Deco.deco ->
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref Deco.zip_up "deco.ml" 33 1263 1273 "deco.ml" 33 1263 1279
+)
+"lexmap.ml" 87 3324 3374 "lexmap.ml" 87 3324 3375
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+ident(
+  int_ref z "lexmap.ml" 86 3287 3314 "lexmap.ml" 86 3287 3315
+)
+"lexmap.ml" 87 3324 3383 "lexmap.ml" 87 3324 3391
+type(
+  ('a * 'b list) * 'c ->
+  (('a * 'b list) * 'c list) list -> (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref add_inv2 "lexmap.ml" 54 2220 2230 "lexmap.ml" 54 2220 2238
+)
+"lexmap.ml" 87 3324 3392 "lexmap.ml" 87 3324 3393
+type(
+  ('a * 'b list) * 'c
+)
+ident(
+  int_ref i "lexmap.ml" 84 3225 3249 "lexmap.ml" 84 3225 3250
+)
+"lexmap.ml" 87 3324 3394 "lexmap.ml" 87 3324 3395
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref j "lexmap.ml" 87 3324 3359 "lexmap.ml" 87 3324 3360
+)
+"lexmap.ml" 87 3324 3383 "lexmap.ml" 87 3324 3395
+call(
+  stack
+)
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 87 3324 3396 "lexmap.ml" 87 3324 3397
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref l "lexmap.ml" 87 3324 3361 "lexmap.ml" 87 3324 3362
+)
+"lexmap.ml" 87 3324 3382 "lexmap.ml" 87 3324 3398
+type(
+  (('a * 'b list) * 'c list) list * (('a * 'b list) * 'c list) Deco.darcs
+)
+"lexmap.ml" 87 3324 3377 "lexmap.ml" 87 3324 3398
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 87 3324 3367 "lexmap.ml" 87 3324 3399
+call(
+  tail
+)
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 87 3324 3338 "lexmap.ml" 87 3324 3401
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 88 3402 3412 "lexmap.ml" 88 3402 3413
+type(
+  Word.letter list
+)
+type(
+  Word.letter
+)
+ident(
+  def n "lexmap.ml" 89 3428 3438 "lexmap.ml" 98 3806 3817
+)
+"lexmap.ml" 88 3402 3417 "lexmap.ml" 88 3402 3421
+type(
+  Word.letter list
+)
+ident(
+  def rest "lexmap.ml" 89 3428 3438 "lexmap.ml" 98 3806 3817
+)
+"lexmap.ml" 89 3428 3444 "lexmap.ml" 89 3428 3445
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref d "lexmap.ml" 86 3287 3316 "lexmap.ml" 86 3287 3317
+)
+"lexmap.ml" 90 3452 3470 "lexmap.ml" 90 3452 3471
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  def j "lexmap.ml" 91 3479 3491 "lexmap.ml" 97 3799 3805
+)
+"lexmap.ml" 90 3452 3472 "lexmap.ml" 90 3452 3473
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  def l "lexmap.ml" 91 3479 3491 "lexmap.ml" 97 3799 3805
+)
+"lexmap.ml" 90 3452 3469 "lexmap.ml" 90 3452 3474
+type(
+  (('a * 'b list) * 'c list) list * (('a * 'b list) * 'c list) Deco.darcs
+)
+"lexmap.ml" 90 3452 3464 "lexmap.ml" 90 3452 3474
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 91 3479 3496 "lexmap.ml" 91 3479 3500
+type(
+  (Word.letter * (('a * 'b list) * 'c list) Deco.deco) list
+)
+ident(
+  def left "lexmap.ml" 92 3527 3532 "lexmap.ml" 97 3799 3805
+)
+"lexmap.ml" 91 3479 3501 "lexmap.ml" 91 3479 3506
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  def right "lexmap.ml" 92 3527 3532 "lexmap.ml" 97 3799 3805
+)
+"lexmap.ml" 91 3479 3495 "lexmap.ml" 91 3479 3507
+type(
+  (Word.letter * (('a * 'b list) * 'c list) Deco.deco) list *
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+"lexmap.ml" 91 3479 3510 "lexmap.ml" 91 3479 3519
+type(
+  Word.letter ->
+  (('a * 'b list) * 'c list) Deco.darcs ->
+  (Word.letter * (('a * 'b list) * 'c list) Deco.deco) list *
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref List2.zip "list2.ml" 118 3998 4004 "list2.ml" 118 3998 4007
+)
+"lexmap.ml" 91 3479 3520 "lexmap.ml" 91 3479 3521
+type(
+  Word.letter
+)
+ident(
+  int_ref n "lexmap.ml" 88 3402 3412 "lexmap.ml" 88 3402 3413
+)
+"lexmap.ml" 91 3479 3522 "lexmap.ml" 91 3479 3523
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref l "lexmap.ml" 90 3452 3472 "lexmap.ml" 90 3452 3473
+)
+"lexmap.ml" 91 3479 3510 "lexmap.ml" 91 3479 3523
+call(
+  stack
+)
+type(
+  (Word.letter * (('a * 'b list) * 'c list) Deco.deco) list *
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+"lexmap.ml" 92 3527 3538 "lexmap.ml" 92 3527 3543
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref right "lexmap.ml" 91 3479 3501 "lexmap.ml" 91 3479 3506
+)
+"lexmap.ml" 93 3549 3563 "lexmap.ml" 93 3549 3565
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+"lexmap.ml" 93 3549 3569 "lexmap.ml" 93 3549 3575
+type(
+  (('a * 'b list) * 'c list) Deco.zipd ->
+  (('a * 'b list) * 'c list) Deco.deco ->
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref Deco.zip_up "deco.ml" 33 1263 1273 "deco.ml" 33 1263 1279
+)
+"lexmap.ml" 93 3549 3582 "lexmap.ml" 93 3549 3583
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref j "lexmap.ml" 90 3452 3470 "lexmap.ml" 90 3452 3471
+)
+"lexmap.ml" 93 3549 3584 "lexmap.ml" 93 3549 3588
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref left "lexmap.ml" 91 3479 3496 "lexmap.ml" 91 3479 3500
+)
+"lexmap.ml" 93 3549 3589 "lexmap.ml" 93 3549 3590
+type(
+  Word.letter
+)
+ident(
+  int_ref n "lexmap.ml" 88 3402 3412 "lexmap.ml" 88 3402 3413
+)
+"lexmap.ml" 93 3549 3591 "lexmap.ml" 93 3549 3593
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+"lexmap.ml" 93 3549 3594 "lexmap.ml" 93 3549 3595
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+ident(
+  int_ref z "lexmap.ml" 86 3287 3314 "lexmap.ml" 86 3287 3315
+)
+"lexmap.ml" 93 3549 3581 "lexmap.ml" 93 3549 3596
+type(
+  (('a * 'b list) * 'c list) list * (('a * 'b list) * 'c list) Deco.darcs *
+  Word.letter * (('a * 'b list) * 'c list) Deco.darcs *
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+"lexmap.ml" 93 3549 3577 "lexmap.ml" 93 3549 3596
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+"lexmap.ml" 93 3549 3599 "lexmap.ml" 93 3549 3606
+type(
+  (('a * 'b list) * 'c list) list ->
+  Word.letter list -> (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref Deco.deco_of "deco.ml" 45 1681 1687 "deco.ml" 45 1681 1694
+)
+"lexmap.ml" 93 3549 3609 "lexmap.ml" 93 3549 3615
+type(
+  ('a * 'b list) * 'c -> ('a * 'b list) * 'c list
+)
+ident(
+  int_ref single "lexmap.ml" 37 1551 1557 "lexmap.ml" 37 1551 1563
+)
+"lexmap.ml" 93 3549 3616 "lexmap.ml" 93 3549 3617
+type(
+  ('a * 'b list) * 'c
+)
+ident(
+  int_ref i "lexmap.ml" 84 3225 3249 "lexmap.ml" 84 3225 3250
+)
+"lexmap.ml" 93 3549 3609 "lexmap.ml" 93 3549 3617
+call(
+  stack
+)
+type(
+  (('a * 'b list) * 'c list) list
+)
+type(
+  ('a * 'b list) * 'c list
+)
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 93 3549 3620 "lexmap.ml" 93 3549 3624
+type(
+  Word.letter list
+)
+ident(
+  int_ref rest "lexmap.ml" 88 3402 3417 "lexmap.ml" 88 3402 3421
+)
+"lexmap.ml" 93 3549 3599 "lexmap.ml" 93 3549 3624
+call(
+  stack
+)
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 93 3549 3569 "lexmap.ml" 93 3549 3625
+call(
+  tail
+)
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 94 3627 3637 "lexmap.ml" 94 3627 3638
+type(
+  Word.letter
+)
+ident(
+  def m "lexmap.ml" 95 3653 3667 "lexmap.ml" 96 3719 3797
+)
+"lexmap.ml" 94 3627 3639 "lexmap.ml" 94 3627 3640
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  def u "lexmap.ml" 95 3653 3667 "lexmap.ml" 96 3719 3797
+)
+"lexmap.ml" 94 3627 3636 "lexmap.ml" 94 3627 3641
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+type(
+  Word.letter * (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 94 3627 3645 "lexmap.ml" 94 3627 3646
+type(
+  (Word.letter * (('a * 'b list) * 'c list) Deco.deco) list
+)
+ident(
+  def r "lexmap.ml" 95 3653 3667 "lexmap.ml" 96 3719 3797
+)
+"lexmap.ml" 95 3653 3670 "lexmap.ml" 95 3653 3671
+type(
+  Word.letter
+)
+ident(
+  int_ref m "lexmap.ml" 94 3627 3637 "lexmap.ml" 94 3627 3638
+)
+"lexmap.ml" 95 3653 3671 "lexmap.ml" 95 3653 3672
+type(
+  Word.letter -> Word.letter -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"lexmap.ml" 95 3653 3672 "lexmap.ml" 95 3653 3673
+type(
+  Word.letter
+)
+ident(
+  int_ref n "lexmap.ml" 88 3402 3412 "lexmap.ml" 88 3402 3413
+)
+"lexmap.ml" 95 3653 3670 "lexmap.ml" 95 3653 3673
+type(
+  bool
+)
+"lexmap.ml" 95 3653 3679 "lexmap.ml" 95 3653 3689
+type(
+  (('a * 'b list) * 'c list) Deco.zipd ->
+  (('a * 'b list) * 'c list) Deco.deco ->
+  Word.letter list -> (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref enter_edit "lexmap.ml" 86 3287 3303 "lexmap.ml" 86 3287 3313
+)
+"lexmap.ml" 95 3653 3696 "lexmap.ml" 95 3653 3697
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref j "lexmap.ml" 90 3452 3470 "lexmap.ml" 90 3452 3471
+)
+"lexmap.ml" 95 3653 3698 "lexmap.ml" 95 3653 3702
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref left "lexmap.ml" 91 3479 3496 "lexmap.ml" 91 3479 3500
+)
+"lexmap.ml" 95 3653 3703 "lexmap.ml" 95 3653 3704
+type(
+  Word.letter
+)
+ident(
+  int_ref n "lexmap.ml" 88 3402 3412 "lexmap.ml" 88 3402 3413
+)
+"lexmap.ml" 95 3653 3705 "lexmap.ml" 95 3653 3706
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref r "lexmap.ml" 94 3627 3645 "lexmap.ml" 94 3627 3646
+)
+"lexmap.ml" 95 3653 3707 "lexmap.ml" 95 3653 3708
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+ident(
+  int_ref z "lexmap.ml" 86 3287 3314 "lexmap.ml" 86 3287 3315
+)
+"lexmap.ml" 95 3653 3695 "lexmap.ml" 95 3653 3709
+type(
+  (('a * 'b list) * 'c list) list * (('a * 'b list) * 'c list) Deco.darcs *
+  Word.letter * (('a * 'b list) * 'c list) Deco.darcs *
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+"lexmap.ml" 95 3653 3691 "lexmap.ml" 95 3653 3709
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+"lexmap.ml" 95 3653 3711 "lexmap.ml" 95 3653 3712
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref u "lexmap.ml" 94 3627 3639 "lexmap.ml" 94 3627 3640
+)
+"lexmap.ml" 95 3653 3713 "lexmap.ml" 95 3653 3717
+type(
+  Word.letter list
+)
+ident(
+  int_ref rest "lexmap.ml" 88 3402 3417 "lexmap.ml" 88 3402 3421
+)
+"lexmap.ml" 95 3653 3679 "lexmap.ml" 95 3653 3717
+call(
+  tail
+)
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 96 3719 3738 "lexmap.ml" 96 3719 3744
+type(
+  (('a * 'b list) * 'c list) Deco.zipd ->
+  (('a * 'b list) * 'c list) Deco.deco ->
+  (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref Deco.zip_up "deco.ml" 33 1263 1273 "deco.ml" 33 1263 1279
+)
+"lexmap.ml" 96 3719 3751 "lexmap.ml" 96 3719 3752
+type(
+  (('a * 'b list) * 'c list) list
+)
+ident(
+  int_ref j "lexmap.ml" 90 3452 3470 "lexmap.ml" 90 3452 3471
+)
+"lexmap.ml" 96 3719 3753 "lexmap.ml" 96 3719 3757
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref left "lexmap.ml" 91 3479 3496 "lexmap.ml" 91 3479 3500
+)
+"lexmap.ml" 96 3719 3758 "lexmap.ml" 96 3719 3759
+type(
+  Word.letter
+)
+ident(
+  int_ref n "lexmap.ml" 88 3402 3412 "lexmap.ml" 88 3402 3413
+)
+"lexmap.ml" 96 3719 3760 "lexmap.ml" 96 3719 3765
+type(
+  (('a * 'b list) * 'c list) Deco.darcs
+)
+ident(
+  int_ref right "lexmap.ml" 91 3479 3501 "lexmap.ml" 91 3479 3506
+)
+"lexmap.ml" 96 3719 3766 "lexmap.ml" 96 3719 3767
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+ident(
+  int_ref z "lexmap.ml" 86 3287 3314 "lexmap.ml" 86 3287 3315
+)
+"lexmap.ml" 96 3719 3750 "lexmap.ml" 96 3719 3768
+type(
+  (('a * 'b list) * 'c list) list * (('a * 'b list) * 'c list) Deco.darcs *
+  Word.letter * (('a * 'b list) * 'c list) Deco.darcs *
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+"lexmap.ml" 96 3719 3746 "lexmap.ml" 96 3719 3768
+type(
+  (('a * 'b list) * 'c list) Deco.zipd
+)
+"lexmap.ml" 96 3719 3771 "lexmap.ml" 96 3719 3778
+type(
+  (('a * 'b list) * 'c list) list ->
+  Word.letter list -> (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref Deco.deco_of "deco.ml" 45 1681 1687 "deco.ml" 45 1681 1694
+)
+"lexmap.ml" 96 3719 3781 "lexmap.ml" 96 3719 3787
+type(
+  ('a * 'b list) * 'c -> ('a * 'b list) * 'c list
+)
+ident(
+  int_ref single "lexmap.ml" 37 1551 1557 "lexmap.ml" 37 1551 1563
+)
+"lexmap.ml" 96 3719 3788 "lexmap.ml" 96 3719 3789
+type(
+  ('a * 'b list) * 'c
+)
+ident(
+  int_ref i "lexmap.ml" 84 3225 3249 "lexmap.ml" 84 3225 3250
+)
+"lexmap.ml" 96 3719 3781 "lexmap.ml" 96 3719 3789
+call(
+  stack
+)
+type(
+  (('a * 'b list) * 'c list) list
+)
+type(
+  ('a * 'b list) * 'c list
+)
+type(
+  (('a * 'b list) * 'c list) list
+)
+"lexmap.ml" 96 3719 3792 "lexmap.ml" 96 3719 3796
+type(
+  Word.letter list
+)
+ident(
+  int_ref rest "lexmap.ml" 88 3402 3417 "lexmap.ml" 88 3402 3421
+)
+"lexmap.ml" 96 3719 3771 "lexmap.ml" 96 3719 3796
+call(
+  stack
+)
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 96 3719 3738 "lexmap.ml" 96 3719 3797
+call(
+  tail
+)
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 95 3653 3667 "lexmap.ml" 96 3719 3797
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 92 3527 3532 "lexmap.ml" 97 3799 3805
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 91 3479 3491 "lexmap.ml" 97 3799 3805
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 89 3428 3438 "lexmap.ml" 98 3806 3817
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 86 3287 3320 "lexmap.ml" 99 3818 3825
+type(
+  Word.letter list -> (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 86 3287 3316 "lexmap.ml" 99 3818 3825
+type(
+  (('a * 'b list) * 'c list) Deco.deco ->
+  Word.letter list -> (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 86 3287 3314 "lexmap.ml" 99 3818 3825
+type(
+  (('a * 'b list) * 'c list) Deco.zipd ->
+  (('a * 'b list) * 'c list) Deco.deco ->
+  Word.letter list -> (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 85 3254 3260 "lexmap.ml" 99 3818 3825
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 100 3826 3835 "lexmap.ml" 100 3826 3861
+type(
+  exn
+)
+"lexmap.ml" 100 3826 3865 "lexmap.ml" 100 3826 3870
+type(
+  exn -> (('a * 'b list) * 'c list) Deco.deco
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 36 1664 1664 "stdlib.mli" 36 1664 1701
+)
+"lexmap.ml" 100 3826 3871 "lexmap.ml" 100 3826 3882
+type(
+  exn
+)
+"lexmap.ml" 100 3826 3865 "lexmap.ml" 100 3826 3882
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 85 3254 3256 "lexmap.ml" 100 3826 3884
+type(
+  (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 84 3225 3249 "lexmap.ml" 100 3826 3884
+type(
+  ('a * 'b list) * 'c -> (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 84 3225 3244 "lexmap.ml" 100 3826 3884
+type(
+  Word.letter list ->
+  ('a * 'b list) * 'c -> (('a * 'b list) * 'c list) Deco.deco
+)
+"lexmap.ml" 84 3225 3237 "lexmap.ml" 100 3826 3884
+type(
+  (('a * 'b list) * 'c list) Deco.deco ->
+  Word.letter list ->
+  ('a * 'b list) * 'c -> (('a * 'b list) * 'c list) Deco.deco
+)

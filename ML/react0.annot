@@ -1,0 +1,1020 @@
+"react0.ml" 40 1418 1424 "react0.ml" 40 1418 1432
+type(
+  Disp.phase -> input -> backtrack list -> backtrack list
+)
+ident(
+  def schedule "react0.ml" 49 1757 1757 "react0.ml" 91 2862 2865
+)
+"react0.ml" 40 1418 1433 "react0.ml" 40 1418 1438
+type(
+  Disp.phase
+)
+ident(
+  def phase "react0.ml" 40 1418 1439 "react0.ml" 42 1510 1553
+)
+"react0.ml" 40 1418 1439 "react0.ml" 40 1418 1444
+type(
+  input
+)
+ident(
+  def input "react0.ml" 40 1418 1445 "react0.ml" 42 1510 1553
+)
+"react0.ml" 40 1418 1445 "react0.ml" 40 1418 1449
+type(
+  backtrack list
+)
+ident(
+  def cont "react0.ml" 41 1452 1454 "react0.ml" 42 1510 1553
+)
+"react0.ml" 41 1452 1458 "react0.ml" 41 1452 1461
+type(
+  Disp.phase -> backtrack list -> backtrack list
+)
+ident(
+  def add "react0.ml" 42 1510 1512 "react0.ml" 42 1510 1553
+)
+"react0.ml" 41 1452 1462 "react0.ml" 41 1452 1467
+type(
+  Disp.phase
+)
+ident(
+  def phase "react0.ml" 41 1452 1468 "react0.ml" 41 1452 1506
+)
+"react0.ml" 41 1452 1468 "react0.ml" 41 1452 1472
+type(
+  backtrack list
+)
+ident(
+  def cont "react0.ml" 41 1452 1477 "react0.ml" 41 1452 1504
+)
+"react0.ml" 41 1452 1485 "react0.ml" 41 1452 1490
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "react0.ml" 41 1452 1462 "react0.ml" 41 1452 1467
+)
+"react0.ml" 41 1452 1491 "react0.ml" 41 1452 1496
+type(
+  input
+)
+ident(
+  int_ref input "react0.ml" 40 1418 1439 "react0.ml" 40 1418 1444
+)
+"react0.ml" 41 1452 1477 "react0.ml" 41 1452 1496
+type(
+  backtrack
+)
+"react0.ml" 41 1452 1500 "react0.ml" 41 1452 1504
+type(
+  backtrack list
+)
+ident(
+  int_ref cont "react0.ml" 41 1452 1468 "react0.ml" 41 1452 1472
+)
+"react0.ml" 41 1452 1477 "react0.ml" 41 1452 1504
+type(
+  backtrack list
+)
+"react0.ml" 41 1452 1468 "react0.ml" 41 1452 1506
+type(
+  backtrack list -> backtrack list
+)
+"react0.ml" 41 1452 1462 "react0.ml" 41 1452 1506
+type(
+  Disp.phase -> backtrack list -> backtrack list
+)
+"react0.ml" 42 1510 1512 "react0.ml" 42 1510 1527
+type(
+  (Disp.phase -> backtrack list -> backtrack list) ->
+  Disp.phase list -> backtrack list -> backtrack list
+)
+ident(
+  int_ref Stdlib.List.fold_right "list.mli" 138 5329 5329 "list.mli" 138 5329 5385
+)
+"react0.ml" 42 1510 1528 "react0.ml" 42 1510 1531
+type(
+  Disp.phase -> backtrack list -> backtrack list
+)
+ident(
+  int_ref add "react0.ml" 41 1452 1458 "react0.ml" 41 1452 1461
+)
+"react0.ml" 42 1510 1533 "react0.ml" 42 1510 1541
+type(
+  Disp.phase -> Disp.phase list
+)
+ident(
+  int_ref Disp.dispatch "react0.ml" 23 1031 1039 "react0.ml" 23 1031 1075
+)
+"react0.ml" 42 1510 1542 "react0.ml" 42 1510 1547
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "react0.ml" 40 1418 1433 "react0.ml" 40 1418 1438
+)
+"react0.ml" 42 1510 1533 "react0.ml" 42 1510 1547
+call(
+  stack
+)
+type(
+  Disp.phase list
+)
+"react0.ml" 42 1510 1549 "react0.ml" 42 1510 1553
+type(
+  backtrack list
+)
+ident(
+  int_ref cont "react0.ml" 40 1418 1445 "react0.ml" 40 1418 1449
+)
+"react0.ml" 42 1510 1512 "react0.ml" 42 1510 1553
+call(
+  tail
+)
+type(
+  backtrack list
+)
+"react0.ml" 41 1452 1454 "react0.ml" 42 1510 1553
+type(
+  backtrack list
+)
+"react0.ml" 40 1418 1445 "react0.ml" 42 1510 1553
+type(
+  backtrack list -> backtrack list
+)
+"react0.ml" 40 1418 1439 "react0.ml" 42 1510 1553
+type(
+  input -> backtrack list -> backtrack list
+)
+"react0.ml" 40 1418 1433 "react0.ml" 42 1510 1553
+type(
+  Disp.phase -> input -> backtrack list -> backtrack list
+)
+"react0.ml" 49 1757 1767 "react0.ml" 49 1757 1772
+type(
+  Disp.phase ->
+  input -> backtrack list -> Aum0.Auto.auto -> backtrack list option
+)
+ident(
+  def react "react0.ml" 49 1757 1757 "react0.ml" 91 2862 2865
+)
+"react0.ml" 49 1757 1773 "react0.ml" 49 1757 1778
+type(
+  Disp.phase
+)
+ident(
+  def phase "react0.ml" 49 1757 1779 "react0.ml" 68 2361 2364
+)
+"react0.ml" 49 1757 1779 "react0.ml" 49 1757 1784
+type(
+  input
+)
+ident(
+  def input "react0.ml" 49 1757 1785 "react0.ml" 68 2361 2364
+)
+"react0.ml" 49 1757 1785 "react0.ml" 49 1757 1789
+type(
+  backtrack list
+)
+ident(
+  def back "react0.ml" 49 1757 1792 "react0.ml" 68 2361 2364
+)
+"react0.ml" 50 1796 1807 "react0.ml" 50 1796 1808
+type(
+  bool
+)
+ident(
+  def b "react0.ml" 51 1818 1822 "react0.ml" 67 2341 2360
+)
+"react0.ml" 50 1796 1809 "react0.ml" 50 1796 1812
+type(
+  Aum0.Auto.deter
+)
+ident(
+  def det "react0.ml" 51 1818 1822 "react0.ml" 67 2341 2360
+)
+"react0.ml" 50 1796 1806 "react0.ml" 50 1796 1813
+type(
+  bool * Aum0.Auto.deter
+)
+"react0.ml" 50 1796 1800 "react0.ml" 50 1796 1813
+type(
+  Aum0.Auto.auto
+)
+"react0.ml" 51 1818 1826 "react0.ml" 51 1818 1831
+type(
+  backtrack list -> backtrack list option
+)
+ident(
+  def deter "react0.ml" 61 2140 2144 "react0.ml" 67 2341 2360
+)
+"react0.ml" 51 1818 1832 "react0.ml" 51 1818 1836
+type(
+  backtrack list
+)
+ident(
+  def cont "react0.ml" 51 1818 1839 "react0.ml" 60 2129 2136
+)
+"react0.ml" 51 1818 1845 "react0.ml" 51 1818 1850
+type(
+  input
+)
+ident(
+  int_ref input "react0.ml" 49 1757 1779 "react0.ml" 49 1757 1784
+)
+"react0.ml" 52 1856 1864 "react0.ml" 52 1856 1866
+type(
+  input
+)
+"react0.ml" 52 1856 1870 "react0.ml" 52 1856 1878
+type(
+  backtrack list -> backtrack list option
+)
+ident(
+  int_ref continue "react0.ml" 69 2365 2369 "react0.ml" 69 2365 2377
+)
+"react0.ml" 52 1856 1879 "react0.ml" 52 1856 1883
+type(
+  backtrack list
+)
+ident(
+  int_ref cont "react0.ml" 51 1818 1832 "react0.ml" 51 1818 1836
+)
+"react0.ml" 52 1856 1870 "react0.ml" 52 1856 1883
+call(
+  tail
+)
+type(
+  backtrack list option
+)
+"react0.ml" 53 1884 1894 "react0.ml" 53 1884 1900
+type(
+  input
+)
+type(
+  Word.letter
+)
+ident(
+  def letter "react0.ml" 54 1915 1923 "react0.ml" 59 2126 2128
+)
+"react0.ml" 53 1884 1904 "react0.ml" 53 1884 1908
+type(
+  Word.letter list
+)
+ident(
+  def rest "react0.ml" 54 1915 1923 "react0.ml" 59 2126 2128
+)
+"react0.ml" 54 1915 1927 "react0.ml" 54 1915 1936
+type(
+  Aum0.Auto.auto option
+)
+ident(
+  def opt_state "react0.ml" 56 2026 2034 "react0.ml" 59 2126 2128
+)
+"react0.ml" 54 1915 1949 "react0.ml" 54 1915 1959
+type(
+  Word.letter -> Aum0.Auto.deter -> Aum0.Auto.auto
+)
+ident(
+  int_ref Stdlib.List.assoc "list.mli" 242 9129 9129 "list.mli" 242 9129 9167
+)
+"react0.ml" 54 1915 1960 "react0.ml" 54 1915 1966
+type(
+  Word.letter
+)
+ident(
+  int_ref letter "react0.ml" 53 1884 1894 "react0.ml" 53 1884 1900
+)
+"react0.ml" 54 1915 1967 "react0.ml" 54 1915 1970
+type(
+  Aum0.Auto.deter
+)
+ident(
+  int_ref det "react0.ml" 50 1796 1809 "react0.ml" 50 1796 1812
+)
+"react0.ml" 54 1915 1949 "react0.ml" 54 1915 1970
+call(
+  stack
+)
+type(
+  Aum0.Auto.auto
+)
+"react0.ml" 54 1915 1943 "react0.ml" 54 1915 1971
+type(
+  Aum0.Auto.auto option
+)
+"react0.ml" 55 1977 2003 "react0.ml" 55 1977 2012
+type(
+  exn
+)
+"react0.ml" 55 1977 2016 "react0.ml" 55 1977 2020
+type(
+  Aum0.Auto.auto option
+)
+"react0.ml" 54 1915 1939 "react0.ml" 55 1977 2022
+type(
+  Aum0.Auto.auto option
+)
+"react0.ml" 56 2026 2040 "react0.ml" 56 2026 2049
+type(
+  Aum0.Auto.auto option
+)
+ident(
+  int_ref opt_state "react0.ml" 54 1915 1927 "react0.ml" 54 1915 1936
+)
+"react0.ml" 57 2055 2070 "react0.ml" 57 2055 2071
+type(
+  Aum0.Auto.auto
+)
+ident(
+  def s "react0.ml" 57 2055 2075 "react0.ml" 57 2055 2098
+)
+"react0.ml" 57 2055 2065 "react0.ml" 57 2055 2071
+type(
+  Aum0.Auto.auto option
+)
+"react0.ml" 57 2055 2075 "react0.ml" 57 2055 2080
+type(
+  Disp.phase ->
+  Word.letter list ->
+  backtrack list -> Aum0.Auto.auto -> backtrack list option
+)
+ident(
+  int_ref react "react0.ml" 49 1757 1767 "react0.ml" 49 1757 1772
+)
+"react0.ml" 57 2055 2081 "react0.ml" 57 2055 2086
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "react0.ml" 49 1757 1773 "react0.ml" 49 1757 1778
+)
+"react0.ml" 57 2055 2087 "react0.ml" 57 2055 2091
+type(
+  Word.letter list
+)
+ident(
+  int_ref rest "react0.ml" 53 1884 1904 "react0.ml" 53 1884 1908
+)
+"react0.ml" 57 2055 2092 "react0.ml" 57 2055 2096
+type(
+  backtrack list
+)
+ident(
+  int_ref cont "react0.ml" 51 1818 1832 "react0.ml" 51 1818 1836
+)
+"react0.ml" 57 2055 2097 "react0.ml" 57 2055 2098
+type(
+  Aum0.Auto.auto
+)
+ident(
+  int_ref s "react0.ml" 57 2055 2070 "react0.ml" 57 2055 2071
+)
+"react0.ml" 57 2055 2075 "react0.ml" 57 2055 2098
+call(
+  tail
+)
+type(
+  backtrack list option
+)
+"react0.ml" 58 2101 2104 "react0.ml" 58 2101 2108
+type(
+  Aum0.Auto.auto option
+)
+"react0.ml" 58 2101 2112 "react0.ml" 58 2101 2120
+type(
+  backtrack list -> backtrack list option
+)
+ident(
+  int_ref continue "react0.ml" 69 2365 2369 "react0.ml" 69 2365 2377
+)
+"react0.ml" 58 2101 2121 "react0.ml" 58 2101 2125
+type(
+  backtrack list
+)
+ident(
+  int_ref cont "react0.ml" 51 1818 1832 "react0.ml" 51 1818 1836
+)
+"react0.ml" 58 2101 2112 "react0.ml" 58 2101 2125
+call(
+  tail
+)
+type(
+  backtrack list option
+)
+"react0.ml" 56 2026 2034 "react0.ml" 59 2126 2128
+type(
+  backtrack list option
+)
+"react0.ml" 54 1915 1923 "react0.ml" 59 2126 2128
+type(
+  backtrack list option
+)
+"react0.ml" 51 1818 1839 "react0.ml" 60 2129 2136
+type(
+  backtrack list option
+)
+"react0.ml" 51 1818 1832 "react0.ml" 60 2129 2136
+type(
+  backtrack list -> backtrack list option
+)
+"react0.ml" 61 2140 2147 "react0.ml" 61 2140 2148
+type(
+  bool
+)
+ident(
+  int_ref b "react0.ml" 50 1796 1807 "react0.ml" 50 1796 1808
+)
+"react0.ml" 62 2155 2164 "react0.ml" 62 2155 2169
+type(
+  input
+)
+ident(
+  int_ref input "react0.ml" 49 1757 1779 "react0.ml" 49 1757 1784
+)
+"react0.ml" 62 2155 2169 "react0.ml" 62 2155 2170
+type(
+  input -> input -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"react0.ml" 62 2155 2170 "react0.ml" 62 2155 2172
+type(
+  input
+)
+"react0.ml" 62 2155 2164 "react0.ml" 62 2155 2172
+type(
+  bool
+)
+"react0.ml" 63 2179 2190 "react0.ml" 63 2179 2198
+type(
+  Disp.phase -> bool
+)
+ident(
+  int_ref Disp.terminal "react0.ml" 22 991 999 "react0.ml" 22 991 1029
+)
+"react0.ml" 63 2179 2199 "react0.ml" 63 2179 2204
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "react0.ml" 49 1757 1773 "react0.ml" 49 1757 1778
+)
+"react0.ml" 63 2179 2190 "react0.ml" 63 2179 2204
+call(
+  stack
+)
+type(
+  bool
+)
+"react0.ml" 63 2179 2215 "react0.ml" 63 2179 2219
+type(
+  backtrack list
+)
+ident(
+  int_ref back "react0.ml" 49 1757 1785 "react0.ml" 49 1757 1789
+)
+"react0.ml" 63 2179 2210 "react0.ml" 63 2179 2219
+type(
+  backtrack list option
+)
+"react0.ml" 64 2241 2254 "react0.ml" 64 2241 2262
+type(
+  backtrack list -> backtrack list option
+)
+ident(
+  int_ref continue "react0.ml" 69 2365 2369 "react0.ml" 69 2365 2377
+)
+"react0.ml" 64 2241 2263 "react0.ml" 64 2241 2267
+type(
+  backtrack list
+)
+ident(
+  int_ref back "react0.ml" 49 1757 1785 "react0.ml" 49 1757 1789
+)
+"react0.ml" 64 2241 2254 "react0.ml" 64 2241 2267
+call(
+  tail
+)
+type(
+  backtrack list option
+)
+"react0.ml" 63 2179 2187 "react0.ml" 64 2241 2267
+type(
+  backtrack list option
+)
+"react0.ml" 65 2268 2283 "react0.ml" 65 2268 2287
+type(
+  backtrack list
+)
+ident(
+  def cont "react0.ml" 66 2319 2330 "react0.ml" 66 2319 2340
+)
+"react0.ml" 65 2268 2290 "react0.ml" 65 2268 2298
+type(
+  Disp.phase -> input -> backtrack list -> backtrack list
+)
+ident(
+  int_ref schedule "react0.ml" 40 1418 1424 "react0.ml" 40 1418 1432
+)
+"react0.ml" 65 2268 2299 "react0.ml" 65 2268 2304
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "react0.ml" 49 1757 1773 "react0.ml" 49 1757 1778
+)
+"react0.ml" 65 2268 2305 "react0.ml" 65 2268 2310
+type(
+  input
+)
+ident(
+  int_ref input "react0.ml" 49 1757 1779 "react0.ml" 49 1757 1784
+)
+"react0.ml" 65 2268 2311 "react0.ml" 65 2268 2315
+type(
+  backtrack list
+)
+ident(
+  int_ref back "react0.ml" 49 1757 1785 "react0.ml" 49 1757 1789
+)
+"react0.ml" 65 2268 2290 "react0.ml" 65 2268 2315
+call(
+  stack
+)
+type(
+  backtrack list
+)
+"react0.ml" 66 2319 2330 "react0.ml" 66 2319 2335
+type(
+  backtrack list -> backtrack list option
+)
+ident(
+  int_ref deter "react0.ml" 51 1818 1826 "react0.ml" 51 1818 1831
+)
+"react0.ml" 66 2319 2336 "react0.ml" 66 2319 2340
+type(
+  backtrack list
+)
+ident(
+  int_ref cont "react0.ml" 65 2268 2283 "react0.ml" 65 2268 2287
+)
+"react0.ml" 66 2319 2330 "react0.ml" 66 2319 2340
+call(
+  tail
+)
+type(
+  backtrack list option
+)
+"react0.ml" 65 2268 2279 "react0.ml" 66 2319 2340
+type(
+  backtrack list option
+)
+"react0.ml" 62 2155 2161 "react0.ml" 66 2319 2340
+type(
+  backtrack list option
+)
+"react0.ml" 67 2341 2350 "react0.ml" 67 2341 2355
+type(
+  backtrack list -> backtrack list option
+)
+ident(
+  int_ref deter "react0.ml" 51 1818 1826 "react0.ml" 51 1818 1831
+)
+"react0.ml" 67 2341 2356 "react0.ml" 67 2341 2360
+type(
+  backtrack list
+)
+ident(
+  int_ref back "react0.ml" 49 1757 1785 "react0.ml" 49 1757 1789
+)
+"react0.ml" 67 2341 2350 "react0.ml" 67 2341 2360
+call(
+  tail
+)
+type(
+  backtrack list option
+)
+"react0.ml" 61 2140 2144 "react0.ml" 67 2341 2360
+type(
+  backtrack list option
+)
+"react0.ml" 51 1818 1822 "react0.ml" 67 2341 2360
+type(
+  backtrack list option
+)
+"react0.ml" 49 1757 1792 "react0.ml" 68 2361 2364
+type(
+  Aum0.Auto.auto -> backtrack list option
+)
+"react0.ml" 49 1757 1785 "react0.ml" 68 2361 2364
+type(
+  backtrack list -> Aum0.Auto.auto -> backtrack list option
+)
+"react0.ml" 49 1757 1779 "react0.ml" 68 2361 2364
+type(
+  input -> backtrack list -> Aum0.Auto.auto -> backtrack list option
+)
+"react0.ml" 49 1757 1773 "react0.ml" 68 2361 2364
+type(
+  Disp.phase ->
+  input -> backtrack list -> Aum0.Auto.auto -> backtrack list option
+)
+"react0.ml" 69 2365 2369 "react0.ml" 69 2365 2377
+type(
+  backtrack list -> backtrack list option
+)
+ident(
+  def continue "react0.ml" 49 1757 1757 "react0.ml" 91 2862 2865
+)
+"react0.ml" 70 2384 2388 "react0.ml" 70 2384 2390
+type(
+  backtrack list
+)
+"react0.ml" 70 2384 2394 "react0.ml" 70 2384 2398
+type(
+  backtrack list option
+)
+"react0.ml" 71 2399 2405 "react0.ml" 71 2399 2411
+type(
+  backtrack list
+)
+type(
+  backtrack
+)
+ident(
+  def resume "react0.ml" 71 2399 2425 "react0.ml" 74 2526 2533
+)
+"react0.ml" 71 2399 2415 "react0.ml" 71 2399 2419
+type(
+  backtrack list
+)
+ident(
+  def back "react0.ml" 71 2399 2425 "react0.ml" 74 2526 2533
+)
+"react0.ml" 71 2399 2431 "react0.ml" 71 2399 2437
+type(
+  backtrack
+)
+ident(
+  int_ref resume "react0.ml" 71 2399 2405 "react0.ml" 71 2399 2411
+)
+"react0.ml" 72 2443 2459 "react0.ml" 72 2443 2464
+type(
+  Disp.phase
+)
+ident(
+  def phase "react0.ml" 73 2475 2484 "react0.ml" 73 2475 2525
+)
+"react0.ml" 72 2443 2465 "react0.ml" 72 2443 2470
+type(
+  input
+)
+ident(
+  def input "react0.ml" 73 2475 2484 "react0.ml" 73 2475 2525
+)
+"react0.ml" 72 2443 2451 "react0.ml" 72 2443 2470
+type(
+  backtrack
+)
+"react0.ml" 73 2475 2484 "react0.ml" 73 2475 2489
+type(
+  Disp.phase ->
+  input -> backtrack list -> Aum0.Auto.auto -> backtrack list option
+)
+ident(
+  int_ref react "react0.ml" 49 1757 1767 "react0.ml" 49 1757 1772
+)
+"react0.ml" 73 2475 2490 "react0.ml" 73 2475 2495
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "react0.ml" 72 2443 2459 "react0.ml" 72 2443 2464
+)
+"react0.ml" 73 2475 2496 "react0.ml" 73 2475 2501
+type(
+  input
+)
+ident(
+  int_ref input "react0.ml" 72 2443 2465 "react0.ml" 72 2443 2470
+)
+"react0.ml" 73 2475 2502 "react0.ml" 73 2475 2506
+type(
+  backtrack list
+)
+ident(
+  int_ref back "react0.ml" 71 2399 2415 "react0.ml" 71 2399 2419
+)
+"react0.ml" 73 2475 2508 "react0.ml" 73 2475 2518
+type(
+  Disp.phase -> Aum0.Auto.auto
+)
+ident(
+  int_ref Disp.transducer "react0.ml" 20 918 926 "react0.ml" 20 918 958
+)
+"react0.ml" 73 2475 2519 "react0.ml" 73 2475 2524
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "react0.ml" 72 2443 2459 "react0.ml" 72 2443 2464
+)
+"react0.ml" 73 2475 2508 "react0.ml" 73 2475 2524
+call(
+  stack
+)
+type(
+  Aum0.Auto.auto
+)
+"react0.ml" 73 2475 2484 "react0.ml" 73 2475 2525
+call(
+  tail
+)
+type(
+  backtrack list option
+)
+"react0.ml" 71 2399 2425 "react0.ml" 74 2526 2533
+type(
+  backtrack list option
+)
+"react0.ml" 69 2365 2380 "react0.ml" 75 2534 2537
+type(
+  backtrack list -> backtrack list option
+)
+"react0.ml" 77 2540 2546 "react0.ml" 77 2540 2556
+type(
+  input -> backtrack list
+)
+ident(
+  def init_react "react0.ml" 79 2600 2600 "react0.ml" 91 2862 2865
+)
+"react0.ml" 77 2540 2557 "react0.ml" 77 2540 2565
+type(
+  input
+)
+ident(
+  def sentence "react0.ml" 77 2540 2570 "react0.ml" 77 2540 2594
+)
+"react0.ml" 77 2540 2578 "react0.ml" 77 2540 2585
+type(
+  Disp.phase
+)
+ident(
+  int_ref Disp.initial "react0.ml" 21 960 968 "react0.ml" 21 960 989
+)
+"react0.ml" 77 2540 2586 "react0.ml" 77 2540 2594
+type(
+  input
+)
+ident(
+  int_ref sentence "react0.ml" 77 2540 2557 "react0.ml" 77 2540 2565
+)
+"react0.ml" 77 2540 2570 "react0.ml" 77 2540 2594
+type(
+  backtrack list
+)
+type(
+  backtrack
+)
+type(
+  backtrack list
+)
+"react0.ml" 77 2540 2557 "react0.ml" 77 2540 2596
+type(
+  input -> backtrack list
+)
+"react0.ml" 79 2600 2606 "react0.ml" 79 2600 2612
+type(
+  input -> backtrack list option
+)
+ident(
+  def react1 "react0.ml" 83 2689 2689 "react0.ml" 91 2862 2865
+)
+"react0.ml" 79 2600 2613 "react0.ml" 79 2600 2621
+type(
+  input
+)
+ident(
+  def sentence "react0.ml" 79 2600 2624 "react0.ml" 79 2600 2654
+)
+"react0.ml" 79 2600 2624 "react0.ml" 79 2600 2632
+type(
+  backtrack list -> backtrack list option
+)
+ident(
+  int_ref continue "react0.ml" 69 2365 2369 "react0.ml" 69 2365 2377
+)
+"react0.ml" 79 2600 2634 "react0.ml" 79 2600 2644
+type(
+  input -> backtrack list
+)
+ident(
+  int_ref init_react "react0.ml" 77 2540 2546 "react0.ml" 77 2540 2556
+)
+"react0.ml" 79 2600 2645 "react0.ml" 79 2600 2653
+type(
+  input
+)
+ident(
+  int_ref sentence "react0.ml" 79 2600 2613 "react0.ml" 79 2600 2621
+)
+"react0.ml" 79 2600 2634 "react0.ml" 79 2600 2653
+call(
+  stack
+)
+type(
+  backtrack list
+)
+"react0.ml" 79 2600 2624 "react0.ml" 79 2600 2654
+call(
+  tail
+)
+type(
+  backtrack list option
+)
+"react0.ml" 79 2600 2613 "react0.ml" 79 2600 2654
+type(
+  input -> backtrack list option
+)
+"react0.ml" 83 2689 2695 "react0.ml" 83 2689 2707
+type(
+  input -> int
+)
+ident(
+  def multiplicity "react0.ml" 89 2854 2859 "react0.ml" 91 2862 2865
+)
+"react0.ml" 83 2689 2708 "react0.ml" 83 2689 2716
+type(
+  input
+)
+ident(
+  def sentence "react0.ml" 84 2720 2722 "react0.ml" 89 2854 2859
+)
+"react0.ml" 84 2720 2722 "react0.ml" 84 2720 2727
+type(
+  int -> backtrack list -> int
+)
+ident(
+  int_ref count "react0.ml" 85 2752 2764 "react0.ml" 85 2752 2769
+)
+"react0.ml" 84 2720 2728 "react0.ml" 84 2720 2729
+type(
+  int
+)
+"react0.ml" 84 2720 2731 "react0.ml" 84 2720 2741
+type(
+  input -> backtrack list
+)
+ident(
+  int_ref init_react "react0.ml" 77 2540 2546 "react0.ml" 77 2540 2556
+)
+"react0.ml" 84 2720 2742 "react0.ml" 84 2720 2750
+type(
+  input
+)
+ident(
+  int_ref sentence "react0.ml" 83 2689 2708 "react0.ml" 83 2689 2716
+)
+"react0.ml" 84 2720 2731 "react0.ml" 84 2720 2750
+call(
+  stack
+)
+type(
+  backtrack list
+)
+"react0.ml" 84 2720 2722 "react0.ml" 84 2720 2751
+call(
+  tail
+)
+type(
+  int
+)
+"react0.ml" 85 2752 2764 "react0.ml" 85 2752 2769
+type(
+  int -> backtrack list -> int
+)
+ident(
+  def count "react0.ml" 84 2720 2722 "react0.ml" 89 2854 2859
+)
+"react0.ml" 85 2752 2770 "react0.ml" 85 2752 2771
+type(
+  int
+)
+ident(
+  def n "react0.ml" 85 2752 2772 "react0.ml" 89 2854 2859
+)
+"react0.ml" 85 2752 2772 "react0.ml" 85 2752 2773
+type(
+  backtrack list
+)
+ident(
+  def c "react0.ml" 86 2776 2780 "react0.ml" 89 2854 2859
+)
+"react0.ml" 86 2776 2786 "react0.ml" 86 2776 2794
+type(
+  backtrack list -> backtrack list option
+)
+ident(
+  int_ref continue "react0.ml" 69 2365 2369 "react0.ml" 69 2365 2377
+)
+"react0.ml" 86 2776 2795 "react0.ml" 86 2776 2796
+type(
+  backtrack list
+)
+ident(
+  int_ref c "react0.ml" 85 2752 2772 "react0.ml" 85 2752 2773
+)
+"react0.ml" 86 2776 2786 "react0.ml" 86 2776 2796
+call(
+  stack
+)
+type(
+  backtrack list option
+)
+"react0.ml" 87 2802 2813 "react0.ml" 87 2802 2817
+type(
+  backtrack list
+)
+ident(
+  def next "react0.ml" 87 2802 2821 "react0.ml" 87 2802 2837
+)
+"react0.ml" 87 2802 2808 "react0.ml" 87 2802 2817
+type(
+  backtrack list option
+)
+"react0.ml" 87 2802 2821 "react0.ml" 87 2802 2826
+type(
+  int -> backtrack list -> int
+)
+ident(
+  int_ref count "react0.ml" 85 2752 2764 "react0.ml" 85 2752 2769
+)
+"react0.ml" 87 2802 2828 "react0.ml" 87 2802 2829
+type(
+  int
+)
+ident(
+  int_ref n "react0.ml" 85 2752 2770 "react0.ml" 85 2752 2771
+)
+"react0.ml" 87 2802 2829 "react0.ml" 87 2802 2830
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"react0.ml" 87 2802 2830 "react0.ml" 87 2802 2831
+type(
+  int
+)
+"react0.ml" 87 2802 2828 "react0.ml" 87 2802 2831
+type(
+  int
+)
+"react0.ml" 87 2802 2833 "react0.ml" 87 2802 2837
+type(
+  backtrack list
+)
+ident(
+  int_ref next "react0.ml" 87 2802 2813 "react0.ml" 87 2802 2817
+)
+"react0.ml" 87 2802 2821 "react0.ml" 87 2802 2837
+call(
+  tail
+)
+type(
+  int
+)
+"react0.ml" 88 2838 2844 "react0.ml" 88 2838 2848
+type(
+  backtrack list option
+)
+"react0.ml" 88 2838 2852 "react0.ml" 88 2838 2853
+type(
+  int
+)
+ident(
+  int_ref n "react0.ml" 85 2752 2770 "react0.ml" 85 2752 2771
+)
+"react0.ml" 86 2776 2780 "react0.ml" 89 2854 2859
+type(
+  int
+)
+"react0.ml" 85 2752 2772 "react0.ml" 89 2854 2859
+type(
+  backtrack list -> int
+)
+"react0.ml" 85 2752 2770 "react0.ml" 89 2854 2859
+type(
+  int -> backtrack list -> int
+)
+"react0.ml" 84 2720 2722 "react0.ml" 89 2854 2859
+type(
+  int
+)
+"react0.ml" 83 2689 2708 "react0.ml" 89 2854 2859
+type(
+  input -> int
+)

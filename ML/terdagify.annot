@@ -1,0 +1,128 @@
+"terdagify.ml" 17 907 917 "terdagify.ml" 17 907 926
+type(
+  unit -> unit
+)
+ident(
+  def terdagify "terdagify.ml" 17 907 907 "terdagify.ml" 1 0 -1
+)
+"terdagify.ml" 17 907 927 "terdagify.ml" 17 907 929
+type(
+  unit
+)
+"terdagify.ml" 18 932 938 "terdagify.ml" 18 932 945
+type(
+  Tertree.tree
+)
+ident(
+  def lexicon "terdagify.ml" 19 983 988 "terdagify.ml" 19 983 1053
+)
+"terdagify.ml" 18 932 949 "terdagify.ml" 18 932 960
+type(
+  in_channel -> Tertree.tree
+)
+ident(
+  int_ref Stdlib.input_value "stdlib.mli" 999 38408 38408 "stdlib.mli" 999 38408 38442
+)
+"terdagify.ml" 18 932 961 "terdagify.ml" 18 932 966
+type(
+  in_channel
+)
+ident(
+  int_ref Stdlib.stdin "stdlib.mli" 706 26474 26474 "stdlib.mli" 706 26474 26496
+)
+"terdagify.ml" 18 932 949 "terdagify.ml" 18 932 966
+call(
+  stack
+)
+type(
+  Tertree.tree
+)
+type(
+  Tertree.tree
+)
+"terdagify.ml" 19 983 992 "terdagify.ml" 19 983 995
+type(
+  Tertree.tree
+)
+ident(
+  def dag "terdagify.ml" 19 983 1030 "terdagify.ml" 19 983 1053
+)
+"terdagify.ml" 19 983 998 "terdagify.ml" 19 983 1018
+type(
+  Tertree.tree -> Tertree.tree
+)
+ident(
+  int_ref Minitertree.minimize "minitertree.ml" 49 2011 2017 "minitertree.ml" 49 2011 2025
+)
+"terdagify.ml" 19 983 1019 "terdagify.ml" 19 983 1026
+type(
+  Tertree.tree
+)
+ident(
+  int_ref lexicon "terdagify.ml" 18 932 938 "terdagify.ml" 18 932 945
+)
+"terdagify.ml" 19 983 998 "terdagify.ml" 19 983 1026
+call(
+  stack
+)
+type(
+  Tertree.tree
+)
+"terdagify.ml" 19 983 1030 "terdagify.ml" 19 983 1042
+type(
+  out_channel -> Tertree.tree -> unit
+)
+ident(
+  int_ref Stdlib.output_value "stdlib.mli" 880 32823 32823 "stdlib.mli" 880 32823 32867
+)
+"terdagify.ml" 19 983 1043 "terdagify.ml" 19 983 1049
+type(
+  out_channel
+)
+ident(
+  int_ref Stdlib.stdout "stdlib.mli" 709 26541 26541 "stdlib.mli" 709 26541 26565
+)
+"terdagify.ml" 19 983 1050 "terdagify.ml" 19 983 1053
+type(
+  Tertree.tree
+)
+ident(
+  int_ref dag "terdagify.ml" 19 983 992 "terdagify.ml" 19 983 995
+)
+"terdagify.ml" 19 983 1030 "terdagify.ml" 19 983 1053
+call(
+  tail
+)
+type(
+  unit
+)
+"terdagify.ml" 19 983 988 "terdagify.ml" 19 983 1053
+type(
+  unit
+)
+"terdagify.ml" 18 932 934 "terdagify.ml" 19 983 1053
+type(
+  unit
+)
+"terdagify.ml" 17 907 927 "terdagify.ml" 19 983 1053
+type(
+  unit -> unit
+)
+"terdagify.ml" 22 1063 1063 "terdagify.ml" 22 1063 1072
+type(
+  unit -> unit
+)
+ident(
+  int_ref terdagify "terdagify.ml" 17 907 917 "terdagify.ml" 17 907 926
+)
+"terdagify.ml" 22 1063 1072 "terdagify.ml" 22 1063 1074
+type(
+  unit
+)
+"terdagify.ml" 22 1063 1063 "terdagify.ml" 22 1063 1074
+call(
+  stack
+)
+type(
+  unit
+)

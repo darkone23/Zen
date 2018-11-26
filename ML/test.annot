@@ -1,0 +1,360 @@
+"test.ml" 15 681 692 "test.ml" 15 681 694
+type(
+  int list
+)
+ident(
+  def w1 "test.ml" 17 766 776 "test.ml" 17 766 804
+)
+"test.ml" 15 681 695 "test.ml" 15 681 707
+type(
+  string -> int list
+)
+ident(
+  int_ref Ascii.encode "ascii.ml" 16 757 763 "ascii.ml" 16 757 769
+)
+"test.ml" 15 681 708 "test.ml" 15 681 722
+type(
+  string
+)
+"test.ml" 15 681 695 "test.ml" 15 681 722
+call(
+  stack
+)
+type(
+  int list
+)
+"test.ml" 16 724 735 "test.ml" 16 724 737
+type(
+  int list
+)
+ident(
+  def w2 "test.ml" 17 766 776 "test.ml" 17 766 804
+)
+"test.ml" 16 724 738 "test.ml" 16 724 750
+type(
+  string -> int list
+)
+ident(
+  int_ref Ascii.encode "ascii.ml" 16 757 763 "ascii.ml" 16 757 769
+)
+"test.ml" 16 724 751 "test.ml" 16 724 765
+type(
+  string
+)
+"test.ml" 16 724 738 "test.ml" 16 724 765
+call(
+  stack
+)
+type(
+  int list
+)
+"test.ml" 17 766 776 "test.ml" 17 766 782
+type(
+  int list -> int list -> bool
+)
+ident(
+  int_ref Word.lexico "word.ml" 49 2356 2366 "word.ml" 49 2356 2372
+)
+"test.ml" 17 766 783 "test.ml" 17 766 785
+type(
+  int list
+)
+ident(
+  int_ref w1 "test.ml" 15 681 692 "test.ml" 15 681 694
+)
+"test.ml" 17 766 786 "test.ml" 17 766 788
+type(
+  int list
+)
+ident(
+  int_ref w2 "test.ml" 16 724 735 "test.ml" 16 724 737
+)
+"test.ml" 17 766 776 "test.ml" 17 766 788
+call(
+  stack
+)
+type(
+  bool
+)
+"test.ml" 17 766 789 "test.ml" 17 766 791
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 143 5989 5989 "stdlib.mli" 143 5989 6040
+)
+"test.ml" 17 766 792 "test.ml" 17 766 798
+type(
+  int list -> int list -> bool
+)
+ident(
+  int_ref Word.lexico "word.ml" 49 2356 2366 "word.ml" 49 2356 2372
+)
+"test.ml" 17 766 799 "test.ml" 17 766 801
+type(
+  int list
+)
+ident(
+  int_ref w1 "test.ml" 15 681 692 "test.ml" 15 681 694
+)
+"test.ml" 17 766 802 "test.ml" 17 766 804
+type(
+  int list
+)
+ident(
+  int_ref w1 "test.ml" 15 681 692 "test.ml" 15 681 694
+)
+"test.ml" 17 766 792 "test.ml" 17 766 804
+call(
+  stack
+)
+type(
+  bool
+)
+"test.ml" 17 766 776 "test.ml" 17 766 804
+type(
+  bool
+)
+"test.ml" 15 681 688 "test.ml" 17 766 804
+type(
+  bool
+)
+"test.ml" 15 681 681 "test.ml" 17 766 804
+type(
+  unit
+)
+"test.ml" 20 833 844 "test.ml" 20 833 846
+type(
+  int list
+)
+ident(
+  def w1 "test.ml" 21 907 917 "test.ml" 22 959 1007
+)
+"test.ml" 20 833 847 "test.ml" 20 833 859
+type(
+  string -> int list
+)
+ident(
+  int_ref Ascii.encode "ascii.ml" 16 757 763 "ascii.ml" 16 757 769
+)
+"test.ml" 20 833 860 "test.ml" 20 833 871
+type(
+  string
+)
+"test.ml" 20 833 847 "test.ml" 20 833 871
+call(
+  stack
+)
+type(
+  int list
+)
+"test.ml" 20 833 876 "test.ml" 20 833 878
+type(
+  int list
+)
+ident(
+  def w2 "test.ml" 21 907 917 "test.ml" 22 959 1007
+)
+"test.ml" 20 833 879 "test.ml" 20 833 891
+type(
+  string -> int list
+)
+ident(
+  int_ref Ascii.encode "ascii.ml" 16 757 763 "ascii.ml" 16 757 769
+)
+"test.ml" 20 833 892 "test.ml" 20 833 906
+type(
+  string
+)
+"test.ml" 20 833 879 "test.ml" 20 833 906
+call(
+  stack
+)
+type(
+  int list
+)
+"test.ml" 21 907 921 "test.ml" 21 907 924
+type(
+  int * int list
+)
+ident(
+  def d12 "test.ml" 22 959 969 "test.ml" 22 959 1007
+)
+"test.ml" 21 907 927 "test.ml" 21 907 931
+type(
+  int list -> int list -> int * int list
+)
+ident(
+  int_ref Word.diff "word.ml" 82 3452 3462 "word.ml" 82 3452 3466
+)
+"test.ml" 21 907 932 "test.ml" 21 907 934
+type(
+  int list
+)
+ident(
+  int_ref w1 "test.ml" 20 833 844 "test.ml" 20 833 846
+)
+"test.ml" 21 907 935 "test.ml" 21 907 937
+type(
+  int list
+)
+ident(
+  int_ref w2 "test.ml" 20 833 876 "test.ml" 20 833 878
+)
+"test.ml" 21 907 927 "test.ml" 21 907 937
+call(
+  stack
+)
+type(
+  int * int list
+)
+"test.ml" 21 907 942 "test.ml" 21 907 945
+type(
+  int * int list
+)
+ident(
+  def d21 "test.ml" 22 959 969 "test.ml" 22 959 1007
+)
+"test.ml" 21 907 948 "test.ml" 21 907 952
+type(
+  int list -> int list -> int * int list
+)
+ident(
+  int_ref Word.diff "word.ml" 82 3452 3462 "word.ml" 82 3452 3466
+)
+"test.ml" 21 907 953 "test.ml" 21 907 955
+type(
+  int list
+)
+ident(
+  int_ref w2 "test.ml" 20 833 876 "test.ml" 20 833 878
+)
+"test.ml" 21 907 956 "test.ml" 21 907 958
+type(
+  int list
+)
+ident(
+  int_ref w1 "test.ml" 20 833 844 "test.ml" 20 833 846
+)
+"test.ml" 21 907 948 "test.ml" 21 907 958
+call(
+  stack
+)
+type(
+  int * int list
+)
+"test.ml" 22 959 969 "test.ml" 22 959 974
+type(
+  int * int list -> int list -> int list
+)
+ident(
+  int_ref Word.patch "word.ml" 95 3828 3834 "word.ml" 95 3828 3839
+)
+"test.ml" 22 959 975 "test.ml" 22 959 978
+type(
+  int * int list
+)
+ident(
+  int_ref d12 "test.ml" 21 907 921 "test.ml" 21 907 924
+)
+"test.ml" 22 959 979 "test.ml" 22 959 981
+type(
+  int list
+)
+ident(
+  int_ref w1 "test.ml" 20 833 844 "test.ml" 20 833 846
+)
+"test.ml" 22 959 969 "test.ml" 22 959 981
+call(
+  stack
+)
+type(
+  int list
+)
+"test.ml" 22 959 982 "test.ml" 22 959 983
+type(
+  int list -> int list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"test.ml" 22 959 984 "test.ml" 22 959 986
+type(
+  int list
+)
+ident(
+  int_ref w2 "test.ml" 20 833 876 "test.ml" 20 833 878
+)
+"test.ml" 22 959 969 "test.ml" 22 959 986
+type(
+  bool
+)
+"test.ml" 22 959 987 "test.ml" 22 959 989
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 143 5989 5989 "stdlib.mli" 143 5989 6040
+)
+"test.ml" 22 959 990 "test.ml" 22 959 995
+type(
+  int * int list -> int list -> int list
+)
+ident(
+  int_ref Word.patch "word.ml" 95 3828 3834 "word.ml" 95 3828 3839
+)
+"test.ml" 22 959 996 "test.ml" 22 959 999
+type(
+  int * int list
+)
+ident(
+  int_ref d21 "test.ml" 21 907 942 "test.ml" 21 907 945
+)
+"test.ml" 22 959 1000 "test.ml" 22 959 1002
+type(
+  int list
+)
+ident(
+  int_ref w2 "test.ml" 20 833 876 "test.ml" 20 833 878
+)
+"test.ml" 22 959 990 "test.ml" 22 959 1002
+call(
+  stack
+)
+type(
+  int list
+)
+"test.ml" 22 959 1003 "test.ml" 22 959 1004
+type(
+  int list -> int list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"test.ml" 22 959 1005 "test.ml" 22 959 1007
+type(
+  int list
+)
+ident(
+  int_ref w1 "test.ml" 20 833 844 "test.ml" 20 833 846
+)
+"test.ml" 22 959 990 "test.ml" 22 959 1007
+type(
+  bool
+)
+"test.ml" 22 959 969 "test.ml" 22 959 1007
+type(
+  bool
+)
+"test.ml" 21 907 917 "test.ml" 22 959 1007
+type(
+  bool
+)
+"test.ml" 20 833 840 "test.ml" 22 959 1007
+type(
+  bool
+)
+"test.ml" 20 833 833 "test.ml" 22 959 1007
+type(
+  unit
+)

@@ -1,0 +1,2282 @@
+"zen_lexer.ml" 38 1320 1332 "zen_lexer.ml" 38 1320 1334
+type(
+  'a -> 'a
+)
+ident(
+  def mk "zen_lexer.ml" 40 1359 1365 "zen_lexer.ml" 54 1789 1796
+)
+"zen_lexer.ml" 38 1320 1335 "zen_lexer.ml" 38 1320 1341
+type(
+  'a
+)
+ident(
+  def is_kwd "zen_lexer.ml" 38 1320 1344 "zen_lexer.ml" 38 1320 1350
+)
+"zen_lexer.ml" 38 1320 1344 "zen_lexer.ml" 38 1320 1350
+type(
+  'a
+)
+ident(
+  int_ref is_kwd "zen_lexer.ml" 38 1320 1335 "zen_lexer.ml" 38 1320 1341
+)
+"zen_lexer.ml" 38 1320 1335 "zen_lexer.ml" 38 1320 1350
+type(
+  'a -> 'a
+)
+"zen_lexer.ml" 40 1359 1375 "zen_lexer.ml" 40 1359 1381
+type(
+  (string -> bool) -> (t * 'b) Stream.t -> (t * 'b) Stream.t
+)
+ident(
+  def filter "zen_lexer.ml" 40 1359 1365 "zen_lexer.ml" 54 1789 1796
+)
+"zen_lexer.ml" 40 1359 1382 "zen_lexer.ml" 40 1359 1388
+type(
+  string -> bool
+)
+ident(
+  def is_kwd "zen_lexer.ml" 40 1359 1391 "zen_lexer.ml" 46 1638 1647
+)
+"zen_lexer.ml" 41 1398 1422 "zen_lexer.ml" 41 1398 1423
+type(
+  string
+)
+ident(
+  def s "zen_lexer.ml" 41 1398 1411 "zen_lexer.ml" 41 1398 1435
+)
+"zen_lexer.ml" 41 1398 1414 "zen_lexer.ml" 41 1398 1423
+type(
+  t
+)
+"zen_lexer.ml" 41 1398 1425 "zen_lexer.ml" 41 1398 1428
+type(
+  'b
+)
+ident(
+  def loc "zen_lexer.ml" 41 1398 1411 "zen_lexer.ml" 41 1398 1435
+)
+"zen_lexer.ml" 41 1398 1413 "zen_lexer.ml" 41 1398 1429
+type(
+  t * 'b
+)
+"zen_lexer.ml" 41 1398 1433 "zen_lexer.ml" 41 1398 1434
+ident(
+  def p "zen_lexer.ml" 41 1398 1411 "zen_lexer.ml" 41 1398 1435
+)
+"zen_lexer.ml" 41 1398 1412 "zen_lexer.ml" 41 1398 1435
+type(
+  t * 'b
+)
+"zen_lexer.ml" 41 1398 1411 "zen_lexer.ml" 41 1398 1435
+call(
+  stack
+)
+type(
+  (t * 'b) Stream.t
+)
+type(
+  unit
+)
+type(
+  (t * 'b) Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 40 1359 1391 "zen_lexer.ml" 46 1638 1647
+)
+type(
+  (t * 'b) Stream.t -> unit
+)
+ident(
+  int_ref Stdlib.Stream.junk "stream.mli" 82 3054 3054 "stream.mli" 82 3054 3077
+)
+type(
+  (t * 'b) option
+)
+"zen_lexer.ml" 41 1398 1437 "zen_lexer.ml" 41 1398 1441
+type(
+  (t * 'b) Stream.t
+)
+type(
+  (t * 'b) Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 40 1359 1391 "zen_lexer.ml" 46 1638 1647
+)
+type(
+  (t * 'b) Stream.t
+)
+ident(
+  def strm "zen_lexer.ml" 42 1448 1461 "zen_lexer.ml" 43 1507 1559
+)
+"zen_lexer.ml" 42 1448 1464 "zen_lexer.ml" 42 1448 1470
+type(
+  string -> bool
+)
+ident(
+  int_ref is_kwd "zen_lexer.ml" 40 1359 1382 "zen_lexer.ml" 40 1359 1388
+)
+"zen_lexer.ml" 42 1448 1471 "zen_lexer.ml" 42 1448 1472
+type(
+  string
+)
+ident(
+  int_ref s "zen_lexer.ml" 41 1398 1422 "zen_lexer.ml" 41 1398 1423
+)
+"zen_lexer.ml" 42 1448 1464 "zen_lexer.ml" 42 1448 1472
+call(
+  stack
+)
+type(
+  bool
+)
+"zen_lexer.ml" 42 1448 1482 "zen_lexer.ml" 42 1448 1483
+type(
+  t * 'b
+)
+ident(
+  int_ref p "zen_lexer.ml" 41 1398 1412 "zen_lexer.ml" 41 1398 1435
+)
+"zen_lexer.ml" 42 1448 1481 "zen_lexer.ml" 42 1448 1483
+call(
+  tail
+)
+type(
+  (t * 'b) Stream.t
+)
+type(
+  t * 'b -> (t * 'b) Stream.t -> (t * 'b) Stream.t
+)
+ident(
+  int_ref Stdlib.Stream.icons "stream.mli" 100 3590 3590 "stream.mli" 100 3590 3620
+)
+"zen_lexer.ml" 42 1448 1485 "zen_lexer.ml" 42 1448 1491
+type(
+  (string -> bool) -> (t * 'b) Stream.t -> (t * 'b) Stream.t
+)
+ident(
+  int_ref filter "zen_lexer.ml" 40 1359 1375 "zen_lexer.ml" 40 1359 1381
+)
+"zen_lexer.ml" 42 1448 1492 "zen_lexer.ml" 42 1448 1498
+type(
+  string -> bool
+)
+ident(
+  int_ref is_kwd "zen_lexer.ml" 40 1359 1382 "zen_lexer.ml" 40 1359 1388
+)
+"zen_lexer.ml" 42 1448 1499 "zen_lexer.ml" 42 1448 1503
+type(
+  (t * 'b) Stream.t
+)
+ident(
+  int_ref strm "zen_lexer.ml" 41 1398 1437 "zen_lexer.ml" 41 1398 1441
+)
+"zen_lexer.ml" 42 1448 1485 "zen_lexer.ml" 42 1448 1503
+call(
+  stack
+)
+call(
+  tail
+)
+type(
+  (t * 'b) Stream.t
+)
+type(
+  unit -> (t * 'b) Stream.t
+)
+type(
+  (t * 'b) Stream.t
+)
+type(
+  unit
+)
+type(
+  (unit -> (t * 'b) Stream.t) -> (t * 'b) Stream.t
+)
+ident(
+  int_ref Stdlib.Stream.slazy "stream.mli" 108 3780 3780 "stream.mli" 108 3780 3814
+)
+"zen_lexer.ml" 43 1507 1525 "zen_lexer.ml" 43 1507 1533
+type(
+  string -> (t * 'b) Stream.t
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 47 1981 1981 "stdlib.mli" 47 1981 2008
+)
+"zen_lexer.ml" 43 1507 1535 "zen_lexer.ml" 43 1507 1554
+type(
+  string
+)
+"zen_lexer.ml" 43 1507 1555 "zen_lexer.ml" 43 1507 1556
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 576 22098 22098 "stdlib.mli" 576 22098 22136
+)
+"zen_lexer.ml" 43 1507 1557 "zen_lexer.ml" 43 1507 1558
+type(
+  string
+)
+ident(
+  int_ref s "zen_lexer.ml" 41 1398 1422 "zen_lexer.ml" 41 1398 1423
+)
+"zen_lexer.ml" 43 1507 1535 "zen_lexer.ml" 43 1507 1558
+call(
+  stack
+)
+type(
+  string
+)
+"zen_lexer.ml" 43 1507 1525 "zen_lexer.ml" 43 1507 1559
+call(
+  tail
+)
+type(
+  (t * 'b) Stream.t
+)
+"zen_lexer.ml" 42 1448 1461 "zen_lexer.ml" 43 1507 1559
+type(
+  (t * 'b) Stream.t
+)
+"zen_lexer.ml" 44 1561 1575 "zen_lexer.ml" 44 1561 1576
+type(
+  t * 'b
+)
+ident(
+  def x "zen_lexer.ml" 44 1561 1574 "zen_lexer.ml" 44 1561 1576
+)
+"zen_lexer.ml" 44 1561 1574 "zen_lexer.ml" 44 1561 1576
+call(
+  stack
+)
+type(
+  (t * 'b) Stream.t
+)
+type(
+  unit
+)
+type(
+  (t * 'b) Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 40 1359 1391 "zen_lexer.ml" 46 1638 1647
+)
+type(
+  (t * 'b) Stream.t -> unit
+)
+ident(
+  int_ref Stdlib.Stream.junk "stream.mli" 82 3054 3054 "stream.mli" 82 3054 3077
+)
+type(
+  (t * 'b) option
+)
+"zen_lexer.ml" 44 1561 1578 "zen_lexer.ml" 44 1561 1579
+type(
+  (t * 'b) Stream.t
+)
+type(
+  (t * 'b) Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 40 1359 1391 "zen_lexer.ml" 46 1638 1647
+)
+type(
+  (t * 'b) Stream.t
+)
+ident(
+  def s "zen_lexer.ml" 44 1561 1589 "zen_lexer.ml" 44 1561 1591
+)
+"zen_lexer.ml" 44 1561 1590 "zen_lexer.ml" 44 1561 1591
+type(
+  t * 'b
+)
+ident(
+  int_ref x "zen_lexer.ml" 44 1561 1575 "zen_lexer.ml" 44 1561 1576
+)
+"zen_lexer.ml" 44 1561 1589 "zen_lexer.ml" 44 1561 1591
+call(
+  tail
+)
+type(
+  (t * 'b) Stream.t
+)
+type(
+  t * 'b -> (t * 'b) Stream.t -> (t * 'b) Stream.t
+)
+ident(
+  int_ref Stdlib.Stream.icons "stream.mli" 100 3590 3590 "stream.mli" 100 3590 3620
+)
+"zen_lexer.ml" 44 1561 1593 "zen_lexer.ml" 44 1561 1599
+type(
+  (string -> bool) -> (t * 'b) Stream.t -> (t * 'b) Stream.t
+)
+ident(
+  int_ref filter "zen_lexer.ml" 40 1359 1375 "zen_lexer.ml" 40 1359 1381
+)
+"zen_lexer.ml" 44 1561 1600 "zen_lexer.ml" 44 1561 1606
+type(
+  string -> bool
+)
+ident(
+  int_ref is_kwd "zen_lexer.ml" 40 1359 1382 "zen_lexer.ml" 40 1359 1388
+)
+"zen_lexer.ml" 44 1561 1607 "zen_lexer.ml" 44 1561 1608
+type(
+  (t * 'b) Stream.t
+)
+ident(
+  int_ref s "zen_lexer.ml" 44 1561 1578 "zen_lexer.ml" 44 1561 1579
+)
+"zen_lexer.ml" 44 1561 1593 "zen_lexer.ml" 44 1561 1608
+call(
+  stack
+)
+call(
+  tail
+)
+type(
+  (t * 'b) Stream.t
+)
+type(
+  unit -> (t * 'b) Stream.t
+)
+type(
+  (t * 'b) Stream.t
+)
+type(
+  unit
+)
+type(
+  (unit -> (t * 'b) Stream.t) -> (t * 'b) Stream.t
+)
+ident(
+  int_ref Stdlib.Stream.slazy "stream.mli" 108 3780 3780 "stream.mli" 108 3780 3814
+)
+"zen_lexer.ml" 45 1612 1631 "zen_lexer.ml" 45 1612 1636
+type(
+  (t * 'b) Stream.t
+)
+ident(
+  int_ref Stdlib.Stream.sempty "stream.mli" 107 3762 3762 "stream.mli" 107 3762 3779
+)
+"zen_lexer.ml" 40 1359 1391 "zen_lexer.ml" 46 1638 1647
+call(
+  stack
+)
+type(
+  (t * 'b) Stream.t -> (t * 'b) Stream.t
+)
+type(
+  (t * 'b) Stream.t
+)
+type(
+  (t * 'b) option
+)
+type(
+  (t * 'b) option
+)
+type(
+  (t * 'b) Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 40 1359 1391 "zen_lexer.ml" 46 1638 1647
+)
+type(
+  (t * 'b) Stream.t -> (t * 'b) option
+)
+ident(
+  int_ref Stdlib.Stream.peek "stream.mli" 78 2928 2928 "stream.mli" 78 2928 2956
+)
+type(
+  (t * 'b) Stream.t
+)
+ident(
+  def __strm "zen_lexer.ml" 40 1359 1391 "zen_lexer.ml" 46 1638 1647
+)
+"zen_lexer.ml" 40 1359 1382 "zen_lexer.ml" 46 1638 1647
+type(
+  (string -> bool) -> (t * 'b) Stream.t -> (t * 'b) Stream.t
+)
+"zen_lexer.ml" 48 1656 1668 "zen_lexer.ml" 48 1656 1681
+type(
+  'c -> 'd -> unit
+)
+ident(
+  def define_filter "zen_lexer.ml" 50 1699 1705 "zen_lexer.ml" 54 1789 1796
+)
+"zen_lexer.ml" 48 1656 1682 "zen_lexer.ml" 48 1656 1683
+type(
+  'c
+)
+"zen_lexer.ml" 48 1656 1684 "zen_lexer.ml" 48 1656 1685
+type(
+  'd
+)
+"zen_lexer.ml" 48 1656 1688 "zen_lexer.ml" 48 1656 1690
+type(
+  unit
+)
+"zen_lexer.ml" 48 1656 1684 "zen_lexer.ml" 48 1656 1690
+type(
+  'd -> unit
+)
+"zen_lexer.ml" 48 1656 1682 "zen_lexer.ml" 48 1656 1690
+type(
+  'c -> 'd -> unit
+)
+"zen_lexer.ml" 50 1699 1711 "zen_lexer.ml" 50 1699 1724
+type(
+  'e -> 'f -> 'g -> unit
+)
+ident(
+  def keyword_added "zen_lexer.ml" 52 1744 1750 "zen_lexer.ml" 54 1789 1796
+)
+"zen_lexer.ml" 50 1699 1725 "zen_lexer.ml" 50 1699 1726
+type(
+  'e
+)
+"zen_lexer.ml" 50 1699 1727 "zen_lexer.ml" 50 1699 1728
+type(
+  'f
+)
+"zen_lexer.ml" 50 1699 1729 "zen_lexer.ml" 50 1699 1730
+type(
+  'g
+)
+"zen_lexer.ml" 50 1699 1733 "zen_lexer.ml" 50 1699 1735
+type(
+  unit
+)
+"zen_lexer.ml" 50 1699 1729 "zen_lexer.ml" 50 1699 1735
+type(
+  'g -> unit
+)
+"zen_lexer.ml" 50 1699 1727 "zen_lexer.ml" 50 1699 1735
+type(
+  'f -> 'g -> unit
+)
+"zen_lexer.ml" 50 1699 1725 "zen_lexer.ml" 50 1699 1735
+type(
+  'e -> 'f -> 'g -> unit
+)
+"zen_lexer.ml" 52 1744 1756 "zen_lexer.ml" 52 1744 1771
+type(
+  'h -> 'i -> unit
+)
+ident(
+  def keyword_removed "zen_lexer.ml" 52 1744 1780 "zen_lexer.ml" 54 1789 1796
+)
+"zen_lexer.ml" 52 1744 1772 "zen_lexer.ml" 52 1744 1773
+type(
+  'h
+)
+"zen_lexer.ml" 52 1744 1774 "zen_lexer.ml" 52 1744 1775
+type(
+  'i
+)
+"zen_lexer.ml" 52 1744 1778 "zen_lexer.ml" 52 1744 1780
+type(
+  unit
+)
+"zen_lexer.ml" 52 1744 1774 "zen_lexer.ml" 52 1744 1780
+type(
+  'i -> unit
+)
+"zen_lexer.ml" 52 1744 1772 "zen_lexer.ml" 52 1744 1780
+type(
+  'h -> 'i -> unit
+)
+"zen_lexer.ml" 56 1803 1813 "zen_lexer.ml" 56 1803 1822
+type(
+  t -> string
+)
+ident(
+  def to_string "zen_lexer.ml" 63 1986 1990 "zen_lexer.ml" 76 2293 2298
+)
+"zen_lexer.ml" 57 1829 1845 "zen_lexer.ml" 57 1829 1846
+type(
+  string
+)
+ident(
+  def s "zen_lexer.ml" 57 1829 1850 "zen_lexer.ml" 57 1829 1872
+)
+"zen_lexer.ml" 57 1829 1837 "zen_lexer.ml" 57 1829 1846
+type(
+  t
+)
+"zen_lexer.ml" 57 1829 1850 "zen_lexer.ml" 57 1829 1857
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Format.sprintf "format.mli" 1046 41740 41740 "format.mli" 1046 41740 41785
+)
+"zen_lexer.ml" 57 1829 1858 "zen_lexer.ml" 57 1829 1870
+type(
+  (string -> string, unit, string) format
+)
+"zen_lexer.ml" 57 1829 1871 "zen_lexer.ml" 57 1829 1872
+type(
+  string
+)
+ident(
+  int_ref s "zen_lexer.ml" 57 1829 1845 "zen_lexer.ml" 57 1829 1846
+)
+"zen_lexer.ml" 57 1829 1850 "zen_lexer.ml" 57 1829 1872
+call(
+  tail
+)
+type(
+  string
+)
+"zen_lexer.ml" 58 1873 1888 "zen_lexer.ml" 58 1873 1889
+type(
+  string
+)
+ident(
+  def s "zen_lexer.ml" 58 1873 1893 "zen_lexer.ml" 58 1873 1914
+)
+"zen_lexer.ml" 58 1873 1881 "zen_lexer.ml" 58 1873 1889
+type(
+  t
+)
+"zen_lexer.ml" 58 1873 1893 "zen_lexer.ml" 58 1873 1900
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Format.sprintf "format.mli" 1046 41740 41740 "format.mli" 1046 41740 41785
+)
+"zen_lexer.ml" 58 1873 1901 "zen_lexer.ml" 58 1873 1912
+type(
+  (string -> string, unit, string) format
+)
+"zen_lexer.ml" 58 1873 1913 "zen_lexer.ml" 58 1873 1914
+type(
+  string
+)
+ident(
+  int_ref s "zen_lexer.ml" 58 1873 1888 "zen_lexer.ml" 58 1873 1889
+)
+"zen_lexer.ml" 58 1873 1893 "zen_lexer.ml" 58 1873 1914
+call(
+  tail
+)
+type(
+  string
+)
+"zen_lexer.ml" 59 1915 1927 "zen_lexer.ml" 59 1915 1928
+type(
+  int
+)
+ident(
+  def i "zen_lexer.ml" 59 1915 1932 "zen_lexer.ml" 59 1915 1950
+)
+"zen_lexer.ml" 59 1915 1923 "zen_lexer.ml" 59 1915 1928
+type(
+  t
+)
+"zen_lexer.ml" 59 1915 1932 "zen_lexer.ml" 59 1915 1939
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  int_ref Stdlib.Format.sprintf "format.mli" 1046 41740 41740 "format.mli" 1046 41740 41785
+)
+"zen_lexer.ml" 59 1915 1940 "zen_lexer.ml" 59 1915 1948
+type(
+  (int -> string, unit, string) format
+)
+"zen_lexer.ml" 59 1915 1949 "zen_lexer.ml" 59 1915 1950
+type(
+  int
+)
+ident(
+  int_ref i "zen_lexer.ml" 59 1915 1927 "zen_lexer.ml" 59 1915 1928
+)
+"zen_lexer.ml" 59 1915 1932 "zen_lexer.ml" 59 1915 1950
+call(
+  tail
+)
+type(
+  string
+)
+"zen_lexer.ml" 60 1951 1959 "zen_lexer.ml" 60 1951 1962
+type(
+  t
+)
+"zen_lexer.ml" 60 1951 1966 "zen_lexer.ml" 60 1951 1971
+type(
+  string
+)
+"zen_lexer.ml" 56 1803 1825 "zen_lexer.ml" 61 1972 1979
+type(
+  t -> string
+)
+"zen_lexer.ml" 63 1986 1996 "zen_lexer.ml" 63 1986 2001
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def print "zen_lexer.ml" 65 2050 2054 "zen_lexer.ml" 76 2293 2298
+)
+"zen_lexer.ml" 63 1986 2002 "zen_lexer.ml" 63 1986 2005
+type(
+  Format.formatter
+)
+ident(
+  def ppf "zen_lexer.ml" 63 1986 2006 "zen_lexer.ml" 63 1986 2043
+)
+"zen_lexer.ml" 63 1986 2006 "zen_lexer.ml" 63 1986 2007
+type(
+  t
+)
+ident(
+  def x "zen_lexer.ml" 63 1986 2010 "zen_lexer.ml" 63 1986 2043
+)
+"zen_lexer.ml" 63 1986 2010 "zen_lexer.ml" 63 1986 2025
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_print_string "format.mli" 216 9004 9004 "format.mli" 216 9004 9053
+)
+"zen_lexer.ml" 63 1986 2026 "zen_lexer.ml" 63 1986 2029
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "zen_lexer.ml" 63 1986 2002 "zen_lexer.ml" 63 1986 2005
+)
+"zen_lexer.ml" 63 1986 2031 "zen_lexer.ml" 63 1986 2040
+type(
+  t -> string
+)
+ident(
+  int_ref to_string "zen_lexer.ml" 56 1803 1813 "zen_lexer.ml" 56 1803 1822
+)
+"zen_lexer.ml" 63 1986 2041 "zen_lexer.ml" 63 1986 2042
+type(
+  t
+)
+ident(
+  int_ref x "zen_lexer.ml" 63 1986 2006 "zen_lexer.ml" 63 1986 2007
+)
+"zen_lexer.ml" 63 1986 2031 "zen_lexer.ml" 63 1986 2042
+call(
+  stack
+)
+type(
+  string
+)
+"zen_lexer.ml" 63 1986 2010 "zen_lexer.ml" 63 1986 2043
+call(
+  tail
+)
+type(
+  unit
+)
+"zen_lexer.ml" 63 1986 2006 "zen_lexer.ml" 63 1986 2043
+type(
+  t -> unit
+)
+"zen_lexer.ml" 63 1986 2002 "zen_lexer.ml" 63 1986 2043
+type(
+  Format.formatter -> t -> unit
+)
+"zen_lexer.ml" 65 2050 2060 "zen_lexer.ml" 65 2050 2073
+type(
+  string -> t -> bool
+)
+ident(
+  def match_keyword "zen_lexer.ml" 70 2162 2166 "zen_lexer.ml" 76 2293 2298
+)
+"zen_lexer.ml" 65 2050 2074 "zen_lexer.ml" 65 2050 2077
+type(
+  string
+)
+ident(
+  def kwd "zen_lexer.ml" 65 2050 2080 "zen_lexer.ml" 68 2148 2155
+)
+"zen_lexer.ml" 66 2084 2100 "zen_lexer.ml" 66 2084 2104
+type(
+  string
+)
+ident(
+  def kwd' "zen_lexer.ml" 66 2084 2110 "zen_lexer.ml" 66 2084 2128
+)
+"zen_lexer.ml" 66 2084 2092 "zen_lexer.ml" 66 2084 2104
+type(
+  t
+)
+"zen_lexer.ml" 66 2084 2110 "zen_lexer.ml" 66 2084 2114
+type(
+  string
+)
+ident(
+  int_ref kwd' "zen_lexer.ml" 66 2084 2100 "zen_lexer.ml" 66 2084 2104
+)
+"zen_lexer.ml" 66 2084 2115 "zen_lexer.ml" 66 2084 2116
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"zen_lexer.ml" 66 2084 2117 "zen_lexer.ml" 66 2084 2120
+type(
+  string
+)
+ident(
+  int_ref kwd "zen_lexer.ml" 65 2050 2074 "zen_lexer.ml" 65 2050 2077
+)
+"zen_lexer.ml" 66 2084 2110 "zen_lexer.ml" 66 2084 2120
+type(
+  bool
+)
+"zen_lexer.ml" 66 2084 2124 "zen_lexer.ml" 66 2084 2128
+type(
+  bool
+)
+"zen_lexer.ml" 67 2129 2137 "zen_lexer.ml" 67 2129 2138
+type(
+  t
+)
+"zen_lexer.ml" 67 2129 2142 "zen_lexer.ml" 67 2129 2147
+type(
+  bool
+)
+"zen_lexer.ml" 65 2050 2080 "zen_lexer.ml" 68 2148 2155
+type(
+  t -> bool
+)
+"zen_lexer.ml" 65 2050 2074 "zen_lexer.ml" 68 2148 2155
+type(
+  string -> t -> bool
+)
+"zen_lexer.ml" 70 2162 2172 "zen_lexer.ml" 70 2162 2186
+type(
+  t -> string
+)
+ident(
+  def extract_string "zen_lexer.ml" 74 2279 2286 "zen_lexer.ml" 76 2293 2298
+)
+"zen_lexer.ml" 71 2193 2205 "zen_lexer.ml" 71 2193 2206
+type(
+  int
+)
+ident(
+  def i "zen_lexer.ml" 71 2193 2210 "zen_lexer.ml" 71 2193 2225
+)
+"zen_lexer.ml" 71 2193 2201 "zen_lexer.ml" 71 2193 2206
+type(
+  t
+)
+"zen_lexer.ml" 71 2193 2210 "zen_lexer.ml" 71 2193 2223
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 625 23523 23523 "stdlib.mli" 625 23523 23556
+)
+"zen_lexer.ml" 71 2193 2224 "zen_lexer.ml" 71 2193 2225
+type(
+  int
+)
+ident(
+  int_ref i "zen_lexer.ml" 71 2193 2205 "zen_lexer.ml" 71 2193 2206
+)
+"zen_lexer.ml" 71 2193 2210 "zen_lexer.ml" 71 2193 2225
+call(
+  tail
+)
+type(
+  string
+)
+"zen_lexer.ml" 72 2226 2241 "zen_lexer.ml" 72 2226 2242
+type(
+  string
+)
+ident(
+  def s "zen_lexer.ml" 72 2226 2258 "zen_lexer.ml" 72 2226 2259
+)
+"zen_lexer.ml" 72 2226 2234 "zen_lexer.ml" 72 2226 2242
+type(
+  t
+)
+"zen_lexer.ml" 72 2226 2253 "zen_lexer.ml" 72 2226 2254
+type(
+  string
+)
+ident(
+  def s "zen_lexer.ml" 72 2226 2258 "zen_lexer.ml" 72 2226 2259
+)
+"zen_lexer.ml" 72 2226 2245 "zen_lexer.ml" 72 2226 2254
+type(
+  t
+)
+"zen_lexer.ml" 72 2226 2234 "zen_lexer.ml" 72 2226 2254
+type(
+  t
+)
+"zen_lexer.ml" 72 2226 2258 "zen_lexer.ml" 72 2226 2259
+type(
+  string
+)
+ident(
+  int_ref s "zen_lexer.ml" 72 2226 2241 "zen_lexer.ml" 72 2226 2242
+)
+"zen_lexer.ml" 73 2260 2268 "zen_lexer.ml" 73 2260 2271
+type(
+  t
+)
+"zen_lexer.ml" 73 2260 2275 "zen_lexer.ml" 73 2260 2277
+type(
+  string
+)
+"zen_lexer.ml" 70 2162 2189 "zen_lexer.ml" 74 2279 2286
+type(
+  t -> string
+)
+"zen_lexer.ml" 83 2379 2387 "zen_lexer.ml" 83 2379 2392
+type(
+  Buffer.t -> char -> Buffer.t
+)
+ident(
+  def store "zen_lexer.ml" 85 2439 2441 "zen_lexer.ml" 1 0 -1
+)
+"zen_lexer.ml" 83 2379 2393 "zen_lexer.ml" 83 2379 2396
+type(
+  Buffer.t
+)
+ident(
+  def buf "zen_lexer.ml" 83 2379 2397 "zen_lexer.ml" 83 2379 2434
+)
+"zen_lexer.ml" 83 2379 2397 "zen_lexer.ml" 83 2379 2398
+type(
+  char
+)
+ident(
+  def c "zen_lexer.ml" 83 2379 2406 "zen_lexer.ml" 83 2379 2434
+)
+"zen_lexer.ml" 83 2379 2406 "zen_lexer.ml" 83 2379 2421
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.add_char "buffer.mli" 85 3741 3741 "buffer.mli" 85 3741 3773
+)
+"zen_lexer.ml" 83 2379 2422 "zen_lexer.ml" 83 2379 2425
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "zen_lexer.ml" 83 2379 2393 "zen_lexer.ml" 83 2379 2396
+)
+"zen_lexer.ml" 83 2379 2426 "zen_lexer.ml" 83 2379 2427
+type(
+  char
+)
+ident(
+  int_ref c "zen_lexer.ml" 83 2379 2397 "zen_lexer.ml" 83 2379 2398
+)
+"zen_lexer.ml" 83 2379 2406 "zen_lexer.ml" 83 2379 2427
+call(
+  stack
+)
+type(
+  unit
+)
+"zen_lexer.ml" 83 2379 2429 "zen_lexer.ml" 83 2379 2432
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "zen_lexer.ml" 83 2379 2393 "zen_lexer.ml" 83 2379 2396
+)
+"zen_lexer.ml" 83 2379 2406 "zen_lexer.ml" 83 2379 2434
+type(
+  Buffer.t
+)
+"zen_lexer.ml" 83 2379 2397 "zen_lexer.ml" 83 2379 2434
+type(
+  char -> Buffer.t
+)
+"zen_lexer.ml" 83 2379 2393 "zen_lexer.ml" 83 2379 2434
+type(
+  Buffer.t -> char -> Buffer.t
+)
+"zen_lexer.ml" 85 2439 2451 "zen_lexer.ml" 85 2439 2457
+type(
+  Buffer.t -> char Stream.t -> string
+)
+ident(
+  def number "zen_lexer.ml" 85 2439 2441 "zen_lexer.ml" 1 0 -1
+)
+"zen_lexer.ml" 85 2439 2458 "zen_lexer.ml" 85 2439 2461
+type(
+  Buffer.t
+)
+ident(
+  def buf "zen_lexer.ml" 86 2464 2468 "zen_lexer.ml" 89 2568 2573
+)
+"zen_lexer.ml" 87 2475 2486 "zen_lexer.ml" 87 2475 2494
+type(
+  char
+)
+"zen_lexer.ml" 87 2475 2498 "zen_lexer.ml" 87 2475 2499
+ident(
+  def c "zen_lexer.ml" 87 2475 2484 "zen_lexer.ml" 87 2475 2500
+)
+"zen_lexer.ml" 87 2475 2485 "zen_lexer.ml" 87 2475 2500
+type(
+  char
+)
+"zen_lexer.ml" 87 2475 2484 "zen_lexer.ml" 87 2475 2500
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  unit
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 86 2464 2468 "zen_lexer.ml" 89 2568 2573
+)
+type(
+  char Stream.t -> unit
+)
+ident(
+  int_ref Stdlib.Stream.junk "stream.mli" 82 3054 3054 "stream.mli" 82 3054 3077
+)
+type(
+  char option
+)
+"zen_lexer.ml" 87 2475 2510 "zen_lexer.ml" 87 2475 2516
+type(
+  Buffer.t -> char Stream.t -> string
+)
+ident(
+  int_ref number "zen_lexer.ml" 85 2439 2451 "zen_lexer.ml" 85 2439 2457
+)
+"zen_lexer.ml" 87 2475 2518 "zen_lexer.ml" 87 2475 2523
+type(
+  Buffer.t -> char -> Buffer.t
+)
+ident(
+  int_ref store "zen_lexer.ml" 83 2379 2387 "zen_lexer.ml" 83 2379 2392
+)
+"zen_lexer.ml" 87 2475 2524 "zen_lexer.ml" 87 2475 2527
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "zen_lexer.ml" 85 2439 2458 "zen_lexer.ml" 85 2439 2461
+)
+"zen_lexer.ml" 87 2475 2528 "zen_lexer.ml" 87 2475 2529
+type(
+  char
+)
+ident(
+  int_ref c "zen_lexer.ml" 87 2475 2485 "zen_lexer.ml" 87 2475 2500
+)
+"zen_lexer.ml" 87 2475 2518 "zen_lexer.ml" 87 2475 2529
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"zen_lexer.ml" 87 2475 2531 "zen_lexer.ml" 87 2475 2532
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 86 2464 2468 "zen_lexer.ml" 89 2568 2573
+)
+"zen_lexer.ml" 87 2475 2510 "zen_lexer.ml" 87 2475 2532
+call(
+  tail
+)
+type(
+  string
+)
+"zen_lexer.ml" 88 2533 2548 "zen_lexer.ml" 88 2533 2563
+type(
+  Buffer.t -> string
+)
+ident(
+  int_ref Stdlib.Buffer.contents "buffer.mli" 41 2156 2156 "buffer.mli" 41 2156 2182
+)
+"zen_lexer.ml" 88 2533 2564 "zen_lexer.ml" 88 2533 2567
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "zen_lexer.ml" 85 2439 2458 "zen_lexer.ml" 85 2439 2461
+)
+"zen_lexer.ml" 88 2533 2548 "zen_lexer.ml" 88 2533 2567
+call(
+  tail
+)
+type(
+  string
+)
+"zen_lexer.ml" 86 2464 2468 "zen_lexer.ml" 89 2568 2573
+call(
+  stack
+)
+type(
+  char Stream.t -> string
+)
+type(
+  string
+)
+type(
+  char option
+)
+type(
+  char option
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 86 2464 2468 "zen_lexer.ml" 89 2568 2573
+)
+type(
+  char Stream.t -> char option
+)
+ident(
+  int_ref Stdlib.Stream.peek "stream.mli" 78 2928 2928 "stream.mli" 78 2928 2956
+)
+type(
+  char Stream.t
+)
+ident(
+  def __strm "zen_lexer.ml" 86 2464 2468 "zen_lexer.ml" 89 2568 2573
+)
+"zen_lexer.ml" 85 2439 2458 "zen_lexer.ml" 89 2568 2573
+type(
+  Buffer.t -> char Stream.t -> string
+)
+"zen_lexer.ml" 91 2578 2590 "zen_lexer.ml" 91 2578 2601
+type(
+  char Stream.t -> unit
+)
+ident(
+  def skip_to_eol "zen_lexer.ml" 91 2578 2580 "zen_lexer.ml" 1 0 -1
+)
+"zen_lexer.ml" 93 2615 2625 "zen_lexer.ml" 93 2615 2629
+type(
+  char
+)
+"zen_lexer.ml" 93 2615 2632 "zen_lexer.ml" 93 2615 2638
+type(
+  char
+)
+"zen_lexer.ml" 93 2615 2625 "zen_lexer.ml" 93 2615 2638
+type(
+  char
+)
+"zen_lexer.ml" 93 2615 2641 "zen_lexer.ml" 93 2615 2647
+type(
+  char
+)
+"zen_lexer.ml" 93 2615 2625 "zen_lexer.ml" 93 2615 2647
+type(
+  char
+)
+"zen_lexer.ml" 93 2615 2624 "zen_lexer.ml" 93 2615 2647
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 92 2604 2608 "zen_lexer.ml" 95 2697 2702
+)
+type(
+  char Stream.t -> unit
+)
+ident(
+  int_ref Stdlib.Stream.junk "stream.mli" 82 3054 3054 "stream.mli" 82 3054 3077
+)
+type(
+  char option
+)
+"zen_lexer.ml" 93 2615 2657 "zen_lexer.ml" 93 2615 2659
+type(
+  unit
+)
+"zen_lexer.ml" 94 2660 2670 "zen_lexer.ml" 94 2660 2671
+type(
+  char
+)
+ident(
+  def c "zen_lexer.ml" 94 2660 2669 "zen_lexer.ml" 94 2660 2671
+)
+"zen_lexer.ml" 94 2660 2669 "zen_lexer.ml" 94 2660 2671
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 92 2604 2608 "zen_lexer.ml" 95 2697 2702
+)
+type(
+  char Stream.t -> unit
+)
+ident(
+  int_ref Stdlib.Stream.junk "stream.mli" 82 3054 3054 "stream.mli" 82 3054 3077
+)
+type(
+  char option
+)
+"zen_lexer.ml" 94 2660 2682 "zen_lexer.ml" 94 2660 2693
+type(
+  char Stream.t -> unit
+)
+ident(
+  int_ref skip_to_eol "zen_lexer.ml" 91 2578 2590 "zen_lexer.ml" 91 2578 2601
+)
+"zen_lexer.ml" 94 2660 2694 "zen_lexer.ml" 94 2660 2695
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 92 2604 2608 "zen_lexer.ml" 95 2697 2702
+)
+"zen_lexer.ml" 94 2660 2682 "zen_lexer.ml" 94 2660 2695
+call(
+  tail
+)
+type(
+  unit
+)
+"zen_lexer.ml" 92 2604 2608 "zen_lexer.ml" 95 2697 2702
+call(
+  stack
+)
+type(
+  char Stream.t -> unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  exn
+)
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 36 1664 1664 "stdlib.mli" 36 1664 1701
+)
+type(
+  char option
+)
+type(
+  char option
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 92 2604 2608 "zen_lexer.ml" 95 2697 2702
+)
+type(
+  char Stream.t -> char option
+)
+ident(
+  int_ref Stdlib.Stream.peek "stream.mli" 78 2928 2928 "stream.mli" 78 2928 2956
+)
+type(
+  char Stream.t
+)
+ident(
+  def __strm "zen_lexer.ml" 92 2604 2608 "zen_lexer.ml" 95 2697 2702
+)
+"zen_lexer.ml" 97 2707 2715 "zen_lexer.ml" 97 2707 2729
+type(
+  char Stream.t -> Token.t * (int * int)
+)
+ident(
+  def next_token_fun "zen_lexer.ml" 115 3401 3403 "zen_lexer.ml" 1 0 -1
+)
+"zen_lexer.ml" 98 2732 2744 "zen_lexer.ml" 98 2732 2754
+type(
+  char Stream.t -> Token.t
+)
+ident(
+  def next_token "zen_lexer.ml" 98 2732 2736 "zen_lexer.ml" 113 3378 3396
+)
+"zen_lexer.ml" 99 2757 2770 "zen_lexer.ml" 99 2757 2773
+type(
+  int
+)
+ident(
+  def _bp "zen_lexer.ml" 99 2757 2763 "zen_lexer.ml" 106 3122 3129
+)
+"zen_lexer.ml" 100 2774 2786 "zen_lexer.ml" 100 2774 2789
+type(
+  char
+)
+"zen_lexer.ml" 100 2774 2785 "zen_lexer.ml" 100 2774 2789
+call(
+  stack
+)
+type(
+  Token.t
+)
+type(
+  unit
+)
+type(
+  string
+)
+type(
+  exn
+)
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 36 1664 1664 "stdlib.mli" 36 1664 1701
+)
+type(
+  unit
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 99 2757 2763 "zen_lexer.ml" 106 3122 3129
+)
+type(
+  char Stream.t -> unit
+)
+ident(
+  int_ref Stdlib.Stream.junk "stream.mli" 82 3054 3054 "stream.mli" 82 3054 3077
+)
+type(
+  char option
+)
+"zen_lexer.ml" 100 2774 2792 "zen_lexer.ml" 100 2774 2793
+type(
+  unit
+)
+"zen_lexer.ml" 100 2774 2796 "zen_lexer.ml" 100 2774 2807
+type(
+  char Stream.t -> unit
+)
+ident(
+  int_ref skip_to_eol "zen_lexer.ml" 91 2578 2590 "zen_lexer.ml" 91 2578 2601
+)
+"zen_lexer.ml" 100 2774 2792 "zen_lexer.ml" 100 2774 2807
+call(
+  stack
+)
+type(
+  Token.t
+)
+type(
+  unit
+)
+type(
+  exn
+)
+type(
+  unit
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 99 2757 2763 "zen_lexer.ml" 106 3122 3129
+)
+"zen_lexer.ml" 100 2774 2817 "zen_lexer.ml" 100 2774 2827
+type(
+  char Stream.t -> Token.t
+)
+ident(
+  int_ref next_token "zen_lexer.ml" 98 2732 2744 "zen_lexer.ml" 98 2732 2754
+)
+"zen_lexer.ml" 100 2774 2828 "zen_lexer.ml" 100 2774 2829
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 99 2757 2763 "zen_lexer.ml" 106 3122 3129
+)
+"zen_lexer.ml" 100 2774 2817 "zen_lexer.ml" 100 2774 2829
+call(
+  tail
+)
+type(
+  Token.t
+)
+"zen_lexer.ml" 101 2830 2843 "zen_lexer.ml" 101 2830 2851
+type(
+  char
+)
+"zen_lexer.ml" 101 2830 2854 "zen_lexer.ml" 101 2830 2862
+type(
+  char
+)
+"zen_lexer.ml" 101 2830 2843 "zen_lexer.ml" 101 2830 2862
+type(
+  char
+)
+"zen_lexer.ml" 101 2830 2865 "zen_lexer.ml" 101 2830 2879
+type(
+  char
+)
+"zen_lexer.ml" 101 2830 2843 "zen_lexer.ml" 101 2830 2879
+type(
+  char
+)
+"zen_lexer.ml" 101 2830 2882 "zen_lexer.ml" 101 2830 2896
+type(
+  char
+)
+"zen_lexer.ml" 101 2830 2843 "zen_lexer.ml" 101 2830 2896
+type(
+  char
+)
+"zen_lexer.ml" 102 2913 2929 "zen_lexer.ml" 102 2913 2930
+ident(
+  def c "zen_lexer.ml" 101 2830 2841 "zen_lexer.ml" 102 2913 2931
+)
+"zen_lexer.ml" 101 2830 2842 "zen_lexer.ml" 102 2913 2931
+type(
+  char
+)
+"zen_lexer.ml" 101 2830 2841 "zen_lexer.ml" 102 2913 2931
+call(
+  stack
+)
+type(
+  Token.t
+)
+type(
+  unit
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 99 2757 2763 "zen_lexer.ml" 106 3122 3129
+)
+type(
+  char Stream.t -> unit
+)
+ident(
+  int_ref Stdlib.Stream.junk "stream.mli" 82 3054 3054 "stream.mli" 82 3054 3077
+)
+type(
+  char option
+)
+"zen_lexer.ml" 102 2913 2946 "zen_lexer.ml" 102 2913 2957
+type(
+  int -> char -> string
+)
+ident(
+  int_ref Stdlib.String.make "string.mli" 80 3832 3832 "string.mli" 80 3832 3864
+)
+"zen_lexer.ml" 102 2913 2958 "zen_lexer.ml" 102 2913 2959
+type(
+  int
+)
+"zen_lexer.ml" 102 2913 2960 "zen_lexer.ml" 102 2913 2961
+type(
+  char
+)
+ident(
+  int_ref c "zen_lexer.ml" 101 2830 2842 "zen_lexer.ml" 102 2913 2931
+)
+"zen_lexer.ml" 102 2913 2946 "zen_lexer.ml" 102 2913 2961
+call(
+  stack
+)
+type(
+  string
+)
+"zen_lexer.ml" 102 2913 2938 "zen_lexer.ml" 102 2913 2962
+type(
+  Token.t
+)
+"zen_lexer.ml" 103 2963 2976 "zen_lexer.ml" 103 2963 2984
+type(
+  char
+)
+"zen_lexer.ml" 103 2963 2988 "zen_lexer.ml" 103 2963 2989
+ident(
+  def c "zen_lexer.ml" 103 2963 2974 "zen_lexer.ml" 103 2963 2990
+)
+"zen_lexer.ml" 103 2963 2975 "zen_lexer.ml" 103 2963 2990
+type(
+  char
+)
+"zen_lexer.ml" 103 2963 2974 "zen_lexer.ml" 103 2963 2990
+call(
+  stack
+)
+type(
+  Token.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  exn
+)
+type(
+  exn -> string
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 36 1664 1664 "stdlib.mli" 36 1664 1701
+)
+type(
+  unit
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 99 2757 2763 "zen_lexer.ml" 106 3122 3129
+)
+type(
+  char Stream.t -> unit
+)
+ident(
+  int_ref Stdlib.Stream.junk "stream.mli" 82 3054 3054 "stream.mli" 82 3054 3077
+)
+type(
+  char option
+)
+"zen_lexer.ml" 103 2963 2992 "zen_lexer.ml" 103 2963 2993
+type(
+  string
+)
+ident(
+  def s "zen_lexer.ml" 104 3038 3050 "zen_lexer.ml" 104 3038 3071
+)
+"zen_lexer.ml" 103 2963 2996 "zen_lexer.ml" 103 2963 3002
+type(
+  Buffer.t -> char Stream.t -> string
+)
+ident(
+  int_ref number "zen_lexer.ml" 85 2439 2451 "zen_lexer.ml" 85 2439 2457
+)
+"zen_lexer.ml" 103 2963 3004 "zen_lexer.ml" 103 2963 3009
+type(
+  Buffer.t -> char -> Buffer.t
+)
+ident(
+  int_ref store "zen_lexer.ml" 83 2379 2387 "zen_lexer.ml" 83 2379 2392
+)
+"zen_lexer.ml" 103 2963 3011 "zen_lexer.ml" 103 2963 3024
+type(
+  int -> Buffer.t
+)
+ident(
+  int_ref Stdlib.Buffer.create "buffer.mli" 27 1376 1376 "buffer.mli" 27 1376 1397
+)
+"zen_lexer.ml" 103 2963 3025 "zen_lexer.ml" 103 2963 3027
+type(
+  int
+)
+"zen_lexer.ml" 103 2963 3011 "zen_lexer.ml" 103 2963 3027
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"zen_lexer.ml" 103 2963 3029 "zen_lexer.ml" 103 2963 3030
+type(
+  char
+)
+ident(
+  int_ref c "zen_lexer.ml" 103 2963 2975 "zen_lexer.ml" 103 2963 2990
+)
+"zen_lexer.ml" 103 2963 3004 "zen_lexer.ml" 103 2963 3030
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"zen_lexer.ml" 103 2963 2992 "zen_lexer.ml" 103 2963 3031
+call(
+  stack
+)
+type(
+  Token.t
+)
+type(
+  string
+)
+type(
+  exn
+)
+type(
+  string
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 99 2757 2763 "zen_lexer.ml" 106 3122 3129
+)
+"zen_lexer.ml" 104 3038 3055 "zen_lexer.ml" 104 3038 3068
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 628 23625 23625 "stdlib.mli" 628 23625 23686
+)
+"zen_lexer.ml" 104 3038 3069 "zen_lexer.ml" 104 3038 3070
+type(
+  string
+)
+ident(
+  int_ref s "zen_lexer.ml" 103 2963 2992 "zen_lexer.ml" 103 2963 2993
+)
+"zen_lexer.ml" 104 3038 3055 "zen_lexer.ml" 104 3038 3070
+type(
+  int
+)
+"zen_lexer.ml" 104 3038 3050 "zen_lexer.ml" 104 3038 3071
+type(
+  Token.t
+)
+"zen_lexer.ml" 105 3072 3084 "zen_lexer.ml" 105 3072 3085
+type(
+  char
+)
+ident(
+  def c "zen_lexer.ml" 105 3072 3083 "zen_lexer.ml" 105 3072 3085
+)
+"zen_lexer.ml" 105 3072 3083 "zen_lexer.ml" 105 3072 3085
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Token.t
+)
+type(
+  Token.t
+)
+type(
+  int
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 99 2757 2763 "zen_lexer.ml" 106 3122 3129
+)
+type(
+  char Stream.t -> int
+)
+ident(
+  int_ref Stdlib.Stream.count "stream.mli" 86 3160 3160 "stream.mli" 86 3160 3183
+)
+type(
+  unit
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 99 2757 2763 "zen_lexer.ml" 106 3122 3129
+)
+type(
+  char Stream.t -> unit
+)
+ident(
+  int_ref Stdlib.Stream.junk "stream.mli" 82 3054 3054 "stream.mli" 82 3054 3077
+)
+type(
+  char option
+)
+"zen_lexer.ml" 105 3072 3089 "zen_lexer.ml" 105 3072 3092
+type(
+  int
+)
+ident(
+  def _ep "zen_lexer.ml" 105 3072 3096 "zen_lexer.ml" 105 3072 3121
+)
+"zen_lexer.ml" 105 3072 3105 "zen_lexer.ml" 105 3072 3116
+type(
+  int -> char -> string
+)
+ident(
+  int_ref Stdlib.String.make "string.mli" 80 3832 3832 "string.mli" 80 3832 3864
+)
+"zen_lexer.ml" 105 3072 3117 "zen_lexer.ml" 105 3072 3118
+type(
+  int
+)
+"zen_lexer.ml" 105 3072 3119 "zen_lexer.ml" 105 3072 3120
+type(
+  char
+)
+ident(
+  int_ref c "zen_lexer.ml" 105 3072 3084 "zen_lexer.ml" 105 3072 3085
+)
+"zen_lexer.ml" 105 3072 3105 "zen_lexer.ml" 105 3072 3120
+call(
+  stack
+)
+type(
+  string
+)
+"zen_lexer.ml" 105 3072 3096 "zen_lexer.ml" 105 3072 3121
+type(
+  Token.t
+)
+"zen_lexer.ml" 99 2757 2763 "zen_lexer.ml" 106 3122 3129
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  char Stream.t -> Token.t
+)
+type(
+  Token.t
+)
+type(
+  Token.t
+)
+type(
+  Token.t
+)
+type(
+  exn
+)
+type(
+  exn -> Token.t
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 36 1664 1664 "stdlib.mli" 36 1664 1701
+)
+type(
+  char option
+)
+type(
+  char option
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 99 2757 2763 "zen_lexer.ml" 106 3122 3129
+)
+type(
+  char Stream.t -> char option
+)
+ident(
+  int_ref Stdlib.Stream.peek "stream.mli" 78 2928 2928 "stream.mli" 78 2928 2956
+)
+type(
+  int
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 99 2757 2763 "zen_lexer.ml" 106 3122 3129
+)
+type(
+  char Stream.t -> int
+)
+ident(
+  int_ref Stdlib.Stream.count "stream.mli" 86 3160 3160 "stream.mli" 86 3160 3183
+)
+type(
+  char Stream.t
+)
+ident(
+  def __strm "zen_lexer.ml" 99 2757 2763 "zen_lexer.ml" 106 3122 3129
+)
+"zen_lexer.ml" 107 3133 3145 "zen_lexer.ml" 107 3133 3159
+type(
+  char Stream.t -> Token.t * (int * int)
+)
+ident(
+  def next_token_loc "zen_lexer.ml" 107 3133 3137 "zen_lexer.ml" 113 3378 3396
+)
+"zen_lexer.ml" 108 3162 3175 "zen_lexer.ml" 108 3162 3177
+type(
+  int
+)
+ident(
+  def bp "zen_lexer.ml" 108 3162 3168 "zen_lexer.ml" 112 3367 3374
+)
+"zen_lexer.ml" 109 3178 3190 "zen_lexer.ml" 109 3178 3193
+type(
+  char
+)
+"zen_lexer.ml" 109 3178 3196 "zen_lexer.ml" 109 3178 3200
+type(
+  char
+)
+"zen_lexer.ml" 109 3178 3190 "zen_lexer.ml" 109 3178 3200
+type(
+  char
+)
+"zen_lexer.ml" 109 3178 3203 "zen_lexer.ml" 109 3178 3207
+type(
+  char
+)
+"zen_lexer.ml" 109 3178 3190 "zen_lexer.ml" 109 3178 3207
+type(
+  char
+)
+"zen_lexer.ml" 109 3178 3210 "zen_lexer.ml" 109 3178 3214
+type(
+  char
+)
+"zen_lexer.ml" 109 3178 3190 "zen_lexer.ml" 109 3178 3214
+type(
+  char
+)
+"zen_lexer.ml" 109 3178 3217 "zen_lexer.ml" 109 3178 3223
+type(
+  char
+)
+"zen_lexer.ml" 109 3178 3190 "zen_lexer.ml" 109 3178 3223
+type(
+  char
+)
+"zen_lexer.ml" 109 3178 3226 "zen_lexer.ml" 109 3178 3232
+type(
+  char
+)
+"zen_lexer.ml" 109 3178 3190 "zen_lexer.ml" 109 3178 3232
+type(
+  char
+)
+"zen_lexer.ml" 109 3178 3189 "zen_lexer.ml" 109 3178 3232
+call(
+  stack
+)
+type(
+  Token.t * (int * int)
+)
+type(
+  unit
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 108 3162 3168 "zen_lexer.ml" 112 3367 3374
+)
+type(
+  char Stream.t -> unit
+)
+ident(
+  int_ref Stdlib.Stream.junk "stream.mli" 82 3054 3054 "stream.mli" 82 3054 3077
+)
+type(
+  char option
+)
+"zen_lexer.ml" 109 3178 3242 "zen_lexer.ml" 109 3178 3256
+type(
+  char Stream.t -> Token.t * (int * int)
+)
+ident(
+  int_ref next_token_loc "zen_lexer.ml" 107 3133 3145 "zen_lexer.ml" 107 3133 3159
+)
+"zen_lexer.ml" 109 3178 3257 "zen_lexer.ml" 109 3178 3258
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 108 3162 3168 "zen_lexer.ml" 112 3367 3374
+)
+"zen_lexer.ml" 109 3178 3242 "zen_lexer.ml" 109 3178 3258
+call(
+  tail
+)
+type(
+  Token.t * (int * int)
+)
+"zen_lexer.ml" 110 3259 3270 "zen_lexer.ml" 110 3259 3273
+type(
+  Token.t
+)
+ident(
+  def tok "zen_lexer.ml" 108 3162 3168 "zen_lexer.ml" 112 3367 3374
+)
+"zen_lexer.ml" 110 3259 3276 "zen_lexer.ml" 110 3259 3286
+type(
+  char Stream.t -> Token.t
+)
+ident(
+  int_ref next_token "zen_lexer.ml" 98 2732 2744 "zen_lexer.ml" 98 2732 2754
+)
+"zen_lexer.ml" 110 3259 3270 "zen_lexer.ml" 110 3259 3286
+call(
+  stack
+)
+type(
+  Token.t * (int * int)
+)
+type(
+  Token.t option
+)
+type(
+  Token.t option
+)
+type(
+  Token.t option
+)
+type(
+  Token.t option
+)
+type(
+  exn
+)
+type(
+  Token.t
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 108 3162 3168 "zen_lexer.ml" 112 3367 3374
+)
+type(
+  Token.t option
+)
+"zen_lexer.ml" 110 3259 3290 "zen_lexer.ml" 110 3259 3292
+type(
+  int
+)
+ident(
+  def ep "zen_lexer.ml" 110 3259 3296 "zen_lexer.ml" 110 3259 3311
+)
+"zen_lexer.ml" 110 3259 3297 "zen_lexer.ml" 110 3259 3300
+type(
+  Token.t
+)
+ident(
+  int_ref tok "zen_lexer.ml" 110 3259 3270 "zen_lexer.ml" 110 3259 3273
+)
+"zen_lexer.ml" 110 3259 3303 "zen_lexer.ml" 110 3259 3305
+type(
+  int
+)
+ident(
+  int_ref bp "zen_lexer.ml" 108 3162 3175 "zen_lexer.ml" 108 3162 3177
+)
+"zen_lexer.ml" 110 3259 3307 "zen_lexer.ml" 110 3259 3309
+type(
+  int
+)
+ident(
+  int_ref ep "zen_lexer.ml" 110 3259 3290 "zen_lexer.ml" 110 3259 3292
+)
+"zen_lexer.ml" 110 3259 3302 "zen_lexer.ml" 110 3259 3310
+type(
+  int * int
+)
+"zen_lexer.ml" 110 3259 3296 "zen_lexer.ml" 110 3259 3311
+type(
+  Token.t * (int * int)
+)
+"zen_lexer.ml" 111 3312 3323 "zen_lexer.ml" 111 3312 3324
+type(
+  unit
+)
+"zen_lexer.ml" 111 3312 3327 "zen_lexer.ml" 111 3312 3339
+type(
+  char Stream.t -> unit
+)
+ident(
+  int_ref Stdlib.Stream.empty "stream.mli" 72 2799 2799 "stream.mli" 72 2799 2823
+)
+"zen_lexer.ml" 111 3312 3323 "zen_lexer.ml" 111 3312 3339
+call(
+  stack
+)
+type(
+  Token.t * (int * int)
+)
+type(
+  unit
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 108 3162 3168 "zen_lexer.ml" 112 3367 3374
+)
+"zen_lexer.ml" 111 3312 3347 "zen_lexer.ml" 111 3312 3350
+type(
+  Token.t
+)
+"zen_lexer.ml" 111 3312 3353 "zen_lexer.ml" 111 3312 3355
+type(
+  int
+)
+ident(
+  int_ref bp "zen_lexer.ml" 108 3162 3175 "zen_lexer.ml" 108 3162 3177
+)
+"zen_lexer.ml" 111 3312 3357 "zen_lexer.ml" 111 3312 3361
+type(
+  int -> int
+)
+ident(
+  int_ref Stdlib.succ "stdlib.mli" 261 10246 10246 "stdlib.mli" 261 10246 10285
+)
+"zen_lexer.ml" 111 3312 3362 "zen_lexer.ml" 111 3312 3364
+type(
+  int
+)
+ident(
+  int_ref bp "zen_lexer.ml" 108 3162 3175 "zen_lexer.ml" 108 3162 3177
+)
+"zen_lexer.ml" 111 3312 3357 "zen_lexer.ml" 111 3312 3364
+type(
+  int
+)
+"zen_lexer.ml" 111 3312 3352 "zen_lexer.ml" 111 3312 3365
+type(
+  int * int
+)
+"zen_lexer.ml" 111 3312 3346 "zen_lexer.ml" 111 3312 3366
+type(
+  Token.t * (int * int)
+)
+"zen_lexer.ml" 108 3162 3168 "zen_lexer.ml" 112 3367 3374
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  char Stream.t -> Token.t * (int * int)
+)
+type(
+  Token.t * (int * int)
+)
+type(
+  Token.t * (int * int)
+)
+type(
+  Token.t * (int * int)
+)
+type(
+  int
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 108 3162 3168 "zen_lexer.ml" 112 3367 3374
+)
+type(
+  char Stream.t -> int
+)
+ident(
+  int_ref Stdlib.Stream.count "stream.mli" 86 3160 3160 "stream.mli" 86 3160 3183
+)
+type(
+  char option
+)
+type(
+  char option
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 108 3162 3168 "zen_lexer.ml" 112 3367 3374
+)
+type(
+  char Stream.t -> char option
+)
+ident(
+  int_ref Stdlib.Stream.peek "stream.mli" 78 2928 2928 "stream.mli" 78 2928 2956
+)
+type(
+  int
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref __strm "zen_lexer.ml" 108 3162 3168 "zen_lexer.ml" 112 3367 3374
+)
+type(
+  char Stream.t -> int
+)
+ident(
+  int_ref Stdlib.Stream.count "stream.mli" 86 3160 3160 "stream.mli" 86 3160 3183
+)
+type(
+  char Stream.t
+)
+ident(
+  def __strm "zen_lexer.ml" 108 3162 3168 "zen_lexer.ml" 112 3367 3374
+)
+"zen_lexer.ml" 113 3378 3382 "zen_lexer.ml" 113 3378 3396
+type(
+  char Stream.t -> Token.t * (int * int)
+)
+ident(
+  int_ref next_token_loc "zen_lexer.ml" 107 3133 3145 "zen_lexer.ml" 107 3133 3159
+)
+"zen_lexer.ml" 107 3133 3137 "zen_lexer.ml" 113 3378 3396
+type(
+  char Stream.t -> Token.t * (int * int)
+)
+"zen_lexer.ml" 98 2732 2736 "zen_lexer.ml" 113 3378 3396
+type(
+  char Stream.t -> Token.t * (int * int)
+)
+"zen_lexer.ml" 115 3401 3409 "zen_lexer.ml" 115 3401 3411
+type(
+  unit -> Token.Loc.t -> char Stream.t -> (Token.t * Token.Loc.t) Stream.t
+)
+ident(
+  def mk "zen_lexer.ml" 120 3595 3619 "zen_lexer.ml" 1 0 -1
+)
+"zen_lexer.ml" 115 3401 3412 "zen_lexer.ml" 115 3401 3414
+type(
+  unit
+)
+"zen_lexer.ml" 116 3417 3425 "zen_lexer.ml" 116 3417 3433
+type(
+  Token.Loc.t
+)
+ident(
+  def init_loc "zen_lexer.ml" 116 3417 3434 "zen_lexer.ml" 120 3595 3619
+)
+"zen_lexer.ml" 116 3417 3434 "zen_lexer.ml" 116 3417 3439
+type(
+  char Stream.t
+)
+ident(
+  def cstrm "zen_lexer.ml" 116 3417 3443 "zen_lexer.ml" 120 3595 3619
+)
+"zen_lexer.ml" 116 3417 3443 "zen_lexer.ml" 116 3417 3454
+type(
+  (int -> (Token.t * Token.Loc.t) option) -> (Token.t * Token.Loc.t) Stream.t
+)
+ident(
+  int_ref Stdlib.Stream.from "stream.mli" 32 1483 1483 "stream.mli" 32 1483 1520
+)
+"zen_lexer.ml" 117 3456 3467 "zen_lexer.ml" 117 3456 3468
+type(
+  int
+)
+"zen_lexer.ml" 118 3472 3485 "zen_lexer.ml" 118 3472 3488
+type(
+  Token.t
+)
+ident(
+  def tok "zen_lexer.ml" 119 3526 3534 "zen_lexer.ml" 120 3595 3618
+)
+"zen_lexer.ml" 118 3472 3491 "zen_lexer.ml" 118 3472 3493
+type(
+  int
+)
+ident(
+  def bp "zen_lexer.ml" 119 3526 3534 "zen_lexer.ml" 120 3595 3618
+)
+"zen_lexer.ml" 118 3472 3495 "zen_lexer.ml" 118 3472 3497
+type(
+  int
+)
+ident(
+  def ep "zen_lexer.ml" 119 3526 3534 "zen_lexer.ml" 120 3595 3618
+)
+"zen_lexer.ml" 118 3472 3490 "zen_lexer.ml" 118 3472 3498
+type(
+  int * int
+)
+"zen_lexer.ml" 118 3472 3484 "zen_lexer.ml" 118 3472 3499
+type(
+  Token.t * (int * int)
+)
+"zen_lexer.ml" 118 3472 3502 "zen_lexer.ml" 118 3472 3516
+type(
+  char Stream.t -> Token.t * (int * int)
+)
+ident(
+  int_ref next_token_fun "zen_lexer.ml" 97 2707 2715 "zen_lexer.ml" 97 2707 2729
+)
+"zen_lexer.ml" 118 3472 3517 "zen_lexer.ml" 118 3472 3522
+type(
+  char Stream.t
+)
+ident(
+  int_ref cstrm "zen_lexer.ml" 116 3417 3434 "zen_lexer.ml" 116 3417 3439
+)
+"zen_lexer.ml" 118 3472 3502 "zen_lexer.ml" 118 3472 3522
+call(
+  stack
+)
+type(
+  Token.t * (int * int)
+)
+"zen_lexer.ml" 119 3526 3538 "zen_lexer.ml" 119 3526 3541
+type(
+  Token.Loc.t
+)
+ident(
+  def loc "zen_lexer.ml" 120 3595 3603 "zen_lexer.ml" 120 3595 3618
+)
+"zen_lexer.ml" 119 3526 3544 "zen_lexer.ml" 119 3526 3552
+type(
+  [ `both | `start | `stop ] -> int -> Token.Loc.t -> Token.Loc.t
+)
+ident(
+  int_ref Token.Loc.move "camlp4/Camlp4/Sig.ml" 120 4341 4343 "camlp4/Camlp4/Sig.ml" 120 4341 4400
+)
+"zen_lexer.ml" 119 3526 3553 "zen_lexer.ml" 119 3526 3559
+type(
+  [ `both | `start | `stop ]
+)
+"zen_lexer.ml" 119 3526 3560 "zen_lexer.ml" 119 3526 3562
+type(
+  int
+)
+ident(
+  int_ref bp "zen_lexer.ml" 118 3472 3491 "zen_lexer.ml" 118 3472 3493
+)
+"zen_lexer.ml" 119 3526 3564 "zen_lexer.ml" 119 3526 3572
+type(
+  [ `both | `start | `stop ] -> int -> Token.Loc.t -> Token.Loc.t
+)
+ident(
+  int_ref Token.Loc.move "camlp4/Camlp4/Sig.ml" 120 4341 4343 "camlp4/Camlp4/Sig.ml" 120 4341 4400
+)
+"zen_lexer.ml" 119 3526 3573 "zen_lexer.ml" 119 3526 3578
+type(
+  [ `both | `start | `stop ]
+)
+"zen_lexer.ml" 119 3526 3579 "zen_lexer.ml" 119 3526 3581
+type(
+  int
+)
+ident(
+  int_ref ep "zen_lexer.ml" 118 3472 3495 "zen_lexer.ml" 118 3472 3497
+)
+"zen_lexer.ml" 119 3526 3582 "zen_lexer.ml" 119 3526 3590
+type(
+  Token.Loc.t
+)
+ident(
+  int_ref init_loc "zen_lexer.ml" 116 3417 3425 "zen_lexer.ml" 116 3417 3433
+)
+"zen_lexer.ml" 119 3526 3564 "zen_lexer.ml" 119 3526 3590
+call(
+  stack
+)
+type(
+  Token.Loc.t
+)
+"zen_lexer.ml" 119 3526 3544 "zen_lexer.ml" 119 3526 3591
+call(
+  stack
+)
+type(
+  Token.Loc.t
+)
+"zen_lexer.ml" 120 3595 3609 "zen_lexer.ml" 120 3595 3612
+type(
+  Token.t
+)
+ident(
+  int_ref tok "zen_lexer.ml" 118 3472 3485 "zen_lexer.ml" 118 3472 3488
+)
+"zen_lexer.ml" 120 3595 3614 "zen_lexer.ml" 120 3595 3617
+type(
+  Token.Loc.t
+)
+ident(
+  int_ref loc "zen_lexer.ml" 119 3526 3538 "zen_lexer.ml" 119 3526 3541
+)
+"zen_lexer.ml" 120 3595 3608 "zen_lexer.ml" 120 3595 3618
+type(
+  Token.t * Token.Loc.t
+)
+"zen_lexer.ml" 120 3595 3603 "zen_lexer.ml" 120 3595 3618
+type(
+  (Token.t * Token.Loc.t) option
+)
+"zen_lexer.ml" 119 3526 3534 "zen_lexer.ml" 120 3595 3618
+type(
+  (Token.t * Token.Loc.t) option
+)
+"zen_lexer.ml" 118 3472 3480 "zen_lexer.ml" 120 3595 3618
+type(
+  (Token.t * Token.Loc.t) option
+)
+"zen_lexer.ml" 117 3456 3467 "zen_lexer.ml" 120 3595 3618
+type(
+  int -> (Token.t * Token.Loc.t) option
+)
+"zen_lexer.ml" 116 3417 3443 "zen_lexer.ml" 120 3595 3619
+call(
+  tail
+)
+type(
+  (Token.t * Token.Loc.t) Stream.t
+)
+"zen_lexer.ml" 116 3417 3434 "zen_lexer.ml" 120 3595 3619
+type(
+  char Stream.t -> (Token.t * Token.Loc.t) Stream.t
+)
+"zen_lexer.ml" 116 3417 3425 "zen_lexer.ml" 120 3595 3619
+type(
+  Token.Loc.t -> char Stream.t -> (Token.t * Token.Loc.t) Stream.t
+)
+"zen_lexer.ml" 115 3401 3412 "zen_lexer.ml" 120 3595 3619
+type(
+  unit -> Token.Loc.t -> char Stream.t -> (Token.t * Token.Loc.t) Stream.t
+)

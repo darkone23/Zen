@@ -1,0 +1,886 @@
+"word.ml" 37 2103 2113 "word.ml" 37 2103 2119
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  def prefix "word.ml" 37 2103 2103 "word.ml" 1 0 -1
+)
+"word.ml" 37 2103 2120 "word.ml" 37 2103 2121
+type(
+  'a list
+)
+ident(
+  def u "word.ml" 37 2103 2122 "word.ml" 44 2267 2272
+)
+"word.ml" 37 2103 2122 "word.ml" 37 2103 2123
+type(
+  'a list
+)
+ident(
+  def v "word.ml" 38 2127 2129 "word.ml" 44 2267 2272
+)
+"word.ml" 38 2127 2135 "word.ml" 38 2127 2136
+type(
+  'a list
+)
+ident(
+  int_ref u "word.ml" 37 2103 2120 "word.ml" 37 2103 2121
+)
+"word.ml" 39 2142 2148 "word.ml" 39 2142 2150
+type(
+  'a list
+)
+"word.ml" 39 2142 2154 "word.ml" 39 2142 2158
+type(
+  bool
+)
+"word.ml" 40 2159 2167 "word.ml" 40 2159 2168
+type(
+  'a list
+)
+type(
+  'a
+)
+ident(
+  def a "word.ml" 40 2159 2179 "word.ml" 43 2257 2266
+)
+"word.ml" 40 2159 2172 "word.ml" 40 2159 2173
+type(
+  'a list
+)
+ident(
+  def r "word.ml" 40 2159 2179 "word.ml" 43 2257 2266
+)
+"word.ml" 40 2159 2185 "word.ml" 40 2159 2186
+type(
+  'a list
+)
+ident(
+  int_ref v "word.ml" 37 2103 2122 "word.ml" 37 2103 2123
+)
+"word.ml" 41 2192 2202 "word.ml" 41 2192 2204
+type(
+  'a list
+)
+"word.ml" 41 2192 2208 "word.ml" 41 2192 2213
+type(
+  bool
+)
+"word.ml" 42 2214 2226 "word.ml" 42 2214 2227
+type(
+  'a list
+)
+type(
+  'a
+)
+ident(
+  def b "word.ml" 42 2214 2238 "word.ml" 42 2214 2255
+)
+"word.ml" 42 2214 2231 "word.ml" 42 2214 2232
+type(
+  'a list
+)
+ident(
+  def s "word.ml" 42 2214 2238 "word.ml" 42 2214 2255
+)
+"word.ml" 42 2214 2238 "word.ml" 42 2214 2239
+type(
+  'a
+)
+ident(
+  int_ref a "word.ml" 40 2159 2167 "word.ml" 40 2159 2168
+)
+"word.ml" 42 2214 2239 "word.ml" 42 2214 2240
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"word.ml" 42 2214 2240 "word.ml" 42 2214 2241
+type(
+  'a
+)
+ident(
+  int_ref b "word.ml" 42 2214 2226 "word.ml" 42 2214 2227
+)
+"word.ml" 42 2214 2238 "word.ml" 42 2214 2241
+type(
+  bool
+)
+"word.ml" 42 2214 2242 "word.ml" 42 2214 2244
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 143 5989 5989 "stdlib.mli" 143 5989 6040
+)
+"word.ml" 42 2214 2245 "word.ml" 42 2214 2251
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  int_ref prefix "word.ml" 37 2103 2113 "word.ml" 37 2103 2119
+)
+"word.ml" 42 2214 2252 "word.ml" 42 2214 2253
+type(
+  'a list
+)
+ident(
+  int_ref r "word.ml" 40 2159 2172 "word.ml" 40 2159 2173
+)
+"word.ml" 42 2214 2254 "word.ml" 42 2214 2255
+type(
+  'a list
+)
+ident(
+  int_ref s "word.ml" 42 2214 2231 "word.ml" 42 2214 2232
+)
+"word.ml" 42 2214 2245 "word.ml" 42 2214 2255
+call(
+  tail
+)
+type(
+  bool
+)
+"word.ml" 42 2214 2238 "word.ml" 42 2214 2255
+type(
+  bool
+)
+"word.ml" 40 2159 2179 "word.ml" 43 2257 2266
+type(
+  bool
+)
+"word.ml" 38 2127 2129 "word.ml" 44 2267 2272
+type(
+  bool
+)
+"word.ml" 37 2103 2122 "word.ml" 44 2267 2272
+type(
+  'a list -> bool
+)
+"word.ml" 37 2103 2120 "word.ml" 44 2267 2272
+type(
+  'a list -> 'a list -> bool
+)
+"word.ml" 49 2356 2366 "word.ml" 49 2356 2372
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  def lexico "word.ml" 49 2356 2356 "word.ml" 1 0 -1
+)
+"word.ml" 49 2356 2373 "word.ml" 49 2356 2375
+type(
+  'a list
+)
+ident(
+  def l1 "word.ml" 49 2356 2376 "word.ml" 57 2614 2617
+)
+"word.ml" 49 2356 2376 "word.ml" 49 2356 2378
+type(
+  'a list
+)
+ident(
+  def l2 "word.ml" 49 2356 2381 "word.ml" 57 2614 2617
+)
+"word.ml" 49 2356 2387 "word.ml" 49 2356 2389
+type(
+  'a list
+)
+ident(
+  int_ref l1 "word.ml" 49 2356 2373 "word.ml" 49 2356 2375
+)
+"word.ml" 50 2395 2399 "word.ml" 50 2395 2401
+type(
+  'a list
+)
+"word.ml" 50 2395 2405 "word.ml" 50 2395 2409
+type(
+  bool
+)
+"word.ml" 51 2410 2416 "word.ml" 51 2410 2418
+type(
+  'a list
+)
+type(
+  'a
+)
+ident(
+  def c1 "word.ml" 51 2410 2430 "word.ml" 56 2606 2613
+)
+"word.ml" 51 2410 2422 "word.ml" 51 2410 2424
+type(
+  'a list
+)
+ident(
+  def r1 "word.ml" 51 2410 2430 "word.ml" 56 2606 2613
+)
+"word.ml" 51 2410 2436 "word.ml" 51 2410 2438
+type(
+  'a list
+)
+ident(
+  int_ref l2 "word.ml" 49 2356 2376 "word.ml" 49 2356 2378
+)
+"word.ml" 52 2446 2454 "word.ml" 52 2446 2456
+type(
+  'a list
+)
+"word.ml" 52 2446 2460 "word.ml" 52 2446 2465
+type(
+  bool
+)
+"word.ml" 53 2466 2476 "word.ml" 53 2466 2478
+type(
+  'a list
+)
+type(
+  'a
+)
+ident(
+  def c2 "word.ml" 53 2466 2490 "word.ml" 55 2567 2605
+)
+"word.ml" 53 2466 2482 "word.ml" 53 2466 2484
+type(
+  'a list
+)
+ident(
+  def r2 "word.ml" 53 2466 2490 "word.ml" 55 2567 2605
+)
+"word.ml" 53 2466 2493 "word.ml" 53 2466 2495
+type(
+  'a
+)
+ident(
+  int_ref c2 "word.ml" 53 2466 2476 "word.ml" 53 2466 2478
+)
+"word.ml" 53 2466 2495 "word.ml" 53 2466 2496
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 70 2854 2854 "stdlib.mli" 70 2854 2901
+)
+"word.ml" 53 2466 2496 "word.ml" 53 2466 2498
+type(
+  'a
+)
+ident(
+  int_ref c1 "word.ml" 51 2410 2416 "word.ml" 51 2410 2418
+)
+"word.ml" 53 2466 2493 "word.ml" 53 2466 2498
+type(
+  bool
+)
+"word.ml" 53 2466 2504 "word.ml" 53 2466 2509
+type(
+  bool
+)
+"word.ml" 54 2511 2543 "word.ml" 54 2511 2545
+type(
+  'a
+)
+ident(
+  int_ref c2 "word.ml" 53 2466 2476 "word.ml" 53 2466 2478
+)
+"word.ml" 54 2511 2545 "word.ml" 54 2511 2546
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"word.ml" 54 2511 2546 "word.ml" 54 2511 2548
+type(
+  'a
+)
+ident(
+  int_ref c1 "word.ml" 51 2410 2416 "word.ml" 51 2410 2418
+)
+"word.ml" 54 2511 2543 "word.ml" 54 2511 2548
+type(
+  bool
+)
+"word.ml" 54 2511 2554 "word.ml" 54 2511 2560
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  int_ref lexico "word.ml" 49 2356 2366 "word.ml" 49 2356 2372
+)
+"word.ml" 54 2511 2561 "word.ml" 54 2511 2563
+type(
+  'a list
+)
+ident(
+  int_ref r1 "word.ml" 51 2410 2422 "word.ml" 51 2410 2424
+)
+"word.ml" 54 2511 2564 "word.ml" 54 2511 2566
+type(
+  'a list
+)
+ident(
+  int_ref r2 "word.ml" 53 2466 2482 "word.ml" 53 2466 2484
+)
+"word.ml" 54 2511 2554 "word.ml" 54 2511 2566
+call(
+  tail
+)
+type(
+  bool
+)
+"word.ml" 55 2567 2601 "word.ml" 55 2567 2605
+type(
+  bool
+)
+"word.ml" 54 2511 2540 "word.ml" 55 2567 2605
+type(
+  bool
+)
+"word.ml" 53 2466 2490 "word.ml" 55 2567 2605
+type(
+  bool
+)
+"word.ml" 51 2410 2430 "word.ml" 56 2606 2613
+type(
+  bool
+)
+"word.ml" 49 2356 2381 "word.ml" 57 2614 2617
+type(
+  bool
+)
+"word.ml" 49 2356 2376 "word.ml" 57 2614 2617
+type(
+  'a list -> bool
+)
+"word.ml" 49 2356 2373 "word.ml" 57 2614 2617
+type(
+  'a list -> 'a list -> bool
+)
+"word.ml" 59 2620 2626 "word.ml" 59 2620 2632
+type(
+  'a list -> int
+)
+ident(
+  def length "word.ml" 70 2998 2998 "word.ml" 1 0 -1
+)
+"word.ml" 59 2620 2635 "word.ml" 59 2620 2646
+type(
+  'a list -> int
+)
+ident(
+  int_ref Stdlib.List.length "list.mli" 29 1637 1637 "list.mli" 29 1637 1664
+)
+"word.ml" 60 2647 2651 "word.ml" 60 2647 2657
+type(
+  'b list -> 'b list
+)
+ident(
+  def mirror "word.ml" 70 2998 2998 "word.ml" 1 0 -1
+)
+"word.ml" 60 2647 2660 "word.ml" 60 2647 2668
+type(
+  'b list -> 'b list
+)
+ident(
+  int_ref Stdlib.List.rev "list.mli" 73 3121 3121 "list.mli" 73 3121 3149
+)
+"word.ml" 74 3099 3105 "word.ml" 74 3099 3114
+type(
+  'a * 'b list -> 'a * 'b list -> bool
+)
+ident(
+  def less_diff "word.ml" 82 3452 3452 "word.ml" 1 0 -1
+)
+"word.ml" 74 3099 3116 "word.ml" 74 3099 3118
+type(
+  'a
+)
+ident(
+  def n1 "word.ml" 74 3099 3123 "word.ml" 74 3099 3165
+)
+"word.ml" 74 3099 3119 "word.ml" 74 3099 3121
+type(
+  'b list
+)
+ident(
+  def w1 "word.ml" 74 3099 3123 "word.ml" 74 3099 3165
+)
+"word.ml" 74 3099 3115 "word.ml" 74 3099 3122
+type(
+  'a * 'b list
+)
+"word.ml" 74 3099 3124 "word.ml" 74 3099 3126
+type(
+  'a
+)
+ident(
+  def n2 "word.ml" 74 3099 3133 "word.ml" 74 3099 3165
+)
+"word.ml" 74 3099 3127 "word.ml" 74 3099 3129
+type(
+  'b list
+)
+ident(
+  def w2 "word.ml" 74 3099 3133 "word.ml" 74 3099 3165
+)
+"word.ml" 74 3099 3123 "word.ml" 74 3099 3130
+type(
+  'a * 'b list
+)
+"word.ml" 74 3099 3133 "word.ml" 74 3099 3135
+type(
+  'a
+)
+ident(
+  int_ref n1 "word.ml" 74 3099 3116 "word.ml" 74 3099 3118
+)
+"word.ml" 74 3099 3135 "word.ml" 74 3099 3136
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 70 2854 2854 "stdlib.mli" 70 2854 2901
+)
+"word.ml" 74 3099 3136 "word.ml" 74 3099 3138
+type(
+  'a
+)
+ident(
+  int_ref n2 "word.ml" 74 3099 3124 "word.ml" 74 3099 3126
+)
+"word.ml" 74 3099 3133 "word.ml" 74 3099 3138
+type(
+  bool
+)
+"word.ml" 74 3099 3139 "word.ml" 74 3099 3141
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 154 6484 6484 "stdlib.mli" 154 6484 6534
+)
+"word.ml" 74 3099 3143 "word.ml" 74 3099 3145
+type(
+  'a
+)
+ident(
+  int_ref n1 "word.ml" 74 3099 3116 "word.ml" 74 3099 3118
+)
+"word.ml" 74 3099 3145 "word.ml" 74 3099 3146
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"word.ml" 74 3099 3146 "word.ml" 74 3099 3148
+type(
+  'a
+)
+ident(
+  int_ref n2 "word.ml" 74 3099 3124 "word.ml" 74 3099 3126
+)
+"word.ml" 74 3099 3143 "word.ml" 74 3099 3148
+type(
+  bool
+)
+"word.ml" 74 3099 3150 "word.ml" 74 3099 3152
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 143 5989 5989 "stdlib.mli" 143 5989 6040
+)
+"word.ml" 74 3099 3153 "word.ml" 74 3099 3159
+type(
+  'b list -> 'b list -> bool
+)
+ident(
+  int_ref lexico "word.ml" 49 2356 2366 "word.ml" 49 2356 2372
+)
+"word.ml" 74 3099 3160 "word.ml" 74 3099 3162
+type(
+  'b list
+)
+ident(
+  int_ref w1 "word.ml" 74 3099 3119 "word.ml" 74 3099 3121
+)
+"word.ml" 74 3099 3163 "word.ml" 74 3099 3165
+type(
+  'b list
+)
+ident(
+  int_ref w2 "word.ml" 74 3099 3127 "word.ml" 74 3099 3129
+)
+"word.ml" 74 3099 3153 "word.ml" 74 3099 3165
+call(
+  tail
+)
+type(
+  bool
+)
+"word.ml" 74 3099 3142 "word.ml" 74 3099 3165
+type(
+  bool
+)
+"word.ml" 74 3099 3133 "word.ml" 74 3099 3165
+type(
+  bool
+)
+"word.ml" 74 3099 3123 "word.ml" 74 3099 3165
+type(
+  'a * 'b list -> bool
+)
+"word.ml" 74 3099 3115 "word.ml" 74 3099 3165
+type(
+  'a * 'b list -> 'a * 'b list -> bool
+)
+"word.ml" 82 3452 3462 "word.ml" 82 3452 3466
+type(
+  'a list -> 'a list -> int * 'a list
+)
+ident(
+  def diff "word.ml" 82 3452 3452 "word.ml" 1 0 -1
+)
+"word.ml" 82 3452 3467 "word.ml" 82 3452 3468
+type(
+  'a list
+)
+ident(
+  def w "word.ml" 82 3452 3469 "word.ml" 89 3664 3667
+)
+"word.ml" 82 3452 3469 "word.ml" 82 3452 3471
+type(
+  'a list
+)
+ident(
+  def w' "word.ml" 82 3452 3474 "word.ml" 89 3664 3667
+)
+"word.ml" 82 3452 3480 "word.ml" 82 3452 3481
+type(
+  'a list
+)
+ident(
+  int_ref w "word.ml" 82 3452 3467 "word.ml" 82 3452 3468
+)
+"word.ml" 83 3487 3491 "word.ml" 83 3487 3493
+type(
+  'a list
+)
+"word.ml" 83 3487 3498 "word.ml" 83 3487 3499
+type(
+  int
+)
+"word.ml" 83 3487 3500 "word.ml" 83 3487 3502
+type(
+  'a list
+)
+ident(
+  int_ref w' "word.ml" 82 3452 3469 "word.ml" 82 3452 3471
+)
+"word.ml" 83 3487 3497 "word.ml" 83 3487 3503
+type(
+  int * 'a list
+)
+"word.ml" 84 3504 3510 "word.ml" 84 3504 3511
+type(
+  'a list
+)
+type(
+  'a
+)
+ident(
+  def c "word.ml" 84 3504 3522 "word.ml" 88 3656 3663
+)
+"word.ml" 84 3504 3515 "word.ml" 84 3504 3516
+type(
+  'a list
+)
+ident(
+  def r "word.ml" 84 3504 3522 "word.ml" 88 3656 3663
+)
+"word.ml" 84 3504 3528 "word.ml" 84 3504 3530
+type(
+  'a list
+)
+ident(
+  int_ref w' "word.ml" 82 3452 3469 "word.ml" 82 3452 3471
+)
+"word.ml" 85 3536 3544 "word.ml" 85 3536 3546
+type(
+  'a list
+)
+"word.ml" 85 3536 3551 "word.ml" 85 3536 3557
+type(
+  'a list -> int
+)
+ident(
+  int_ref length "word.ml" 59 2620 2626 "word.ml" 59 2620 2632
+)
+"word.ml" 85 3536 3558 "word.ml" 85 3536 3559
+type(
+  'a list
+)
+ident(
+  int_ref w "word.ml" 82 3452 3467 "word.ml" 82 3452 3468
+)
+"word.ml" 85 3536 3551 "word.ml" 85 3536 3559
+call(
+  stack
+)
+type(
+  int
+)
+"word.ml" 85 3536 3560 "word.ml" 85 3536 3562
+type(
+  'a list
+)
+"word.ml" 85 3536 3550 "word.ml" 85 3536 3563
+type(
+  int * 'a list
+)
+"word.ml" 86 3564 3574 "word.ml" 86 3564 3576
+type(
+  'a list
+)
+type(
+  'a
+)
+ident(
+  def c' "word.ml" 86 3564 3588 "word.ml" 87 3613 3655
+)
+"word.ml" 86 3564 3580 "word.ml" 86 3564 3582
+type(
+  'a list
+)
+ident(
+  def r' "word.ml" 86 3564 3588 "word.ml" 87 3613 3655
+)
+"word.ml" 86 3564 3591 "word.ml" 86 3564 3592
+type(
+  'a
+)
+ident(
+  int_ref c "word.ml" 84 3504 3510 "word.ml" 84 3504 3511
+)
+"word.ml" 86 3564 3593 "word.ml" 86 3564 3594
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"word.ml" 86 3564 3595 "word.ml" 86 3564 3597
+type(
+  'a
+)
+ident(
+  int_ref c' "word.ml" 86 3564 3574 "word.ml" 86 3564 3576
+)
+"word.ml" 86 3564 3591 "word.ml" 86 3564 3597
+type(
+  bool
+)
+"word.ml" 86 3564 3603 "word.ml" 86 3564 3607
+type(
+  'a list -> 'a list -> int * 'a list
+)
+ident(
+  int_ref diff "word.ml" 82 3452 3462 "word.ml" 82 3452 3466
+)
+"word.ml" 86 3564 3608 "word.ml" 86 3564 3609
+type(
+  'a list
+)
+ident(
+  int_ref r "word.ml" 84 3504 3515 "word.ml" 84 3504 3516
+)
+"word.ml" 86 3564 3610 "word.ml" 86 3564 3612
+type(
+  'a list
+)
+ident(
+  int_ref r' "word.ml" 86 3564 3580 "word.ml" 86 3564 3582
+)
+"word.ml" 86 3564 3603 "word.ml" 86 3564 3612
+call(
+  tail
+)
+type(
+  int * 'a list
+)
+"word.ml" 87 3613 3643 "word.ml" 87 3613 3649
+type(
+  'a list -> int
+)
+ident(
+  int_ref length "word.ml" 59 2620 2626 "word.ml" 59 2620 2632
+)
+"word.ml" 87 3613 3650 "word.ml" 87 3613 3651
+type(
+  'a list
+)
+ident(
+  int_ref w "word.ml" 82 3452 3467 "word.ml" 82 3452 3468
+)
+"word.ml" 87 3613 3643 "word.ml" 87 3613 3651
+call(
+  stack
+)
+type(
+  int
+)
+"word.ml" 87 3613 3652 "word.ml" 87 3613 3654
+type(
+  'a list
+)
+ident(
+  int_ref w' "word.ml" 82 3452 3469 "word.ml" 82 3452 3471
+)
+"word.ml" 87 3613 3642 "word.ml" 87 3613 3655
+type(
+  int * 'a list
+)
+"word.ml" 86 3564 3588 "word.ml" 87 3613 3655
+type(
+  int * 'a list
+)
+"word.ml" 84 3504 3522 "word.ml" 88 3656 3663
+type(
+  int * 'a list
+)
+"word.ml" 82 3452 3474 "word.ml" 89 3664 3667
+type(
+  int * 'a list
+)
+"word.ml" 82 3452 3469 "word.ml" 89 3664 3667
+type(
+  'a list -> int * 'a list
+)
+"word.ml" 82 3452 3467 "word.ml" 89 3664 3667
+type(
+  'a list -> 'a list -> int * 'a list
+)
+"word.ml" 95 3828 3834 "word.ml" 95 3828 3839
+type(
+  int * 'a list -> 'a list -> 'a list
+)
+ident(
+  def patch "word.ml" 97 3893 3913 "word.ml" 1 0 -1
+)
+"word.ml" 95 3828 3841 "word.ml" 95 3828 3842
+type(
+  int
+)
+ident(
+  def n "word.ml" 95 3828 3847 "word.ml" 97 3893 3913
+)
+"word.ml" 95 3828 3843 "word.ml" 95 3828 3845
+type(
+  'a list
+)
+ident(
+  def dw "word.ml" 95 3828 3847 "word.ml" 97 3893 3913
+)
+"word.ml" 95 3828 3840 "word.ml" 95 3828 3846
+type(
+  int * 'a list
+)
+"word.ml" 95 3828 3847 "word.ml" 95 3828 3848
+type(
+  'a list
+)
+ident(
+  def w "word.ml" 96 3852 3854 "word.ml" 97 3893 3913
+)
+"word.ml" 96 3852 3858 "word.ml" 96 3852 3859
+type(
+  'a list
+)
+ident(
+  def p "word.ml" 97 3893 3895 "word.ml" 97 3893 3913
+)
+"word.ml" 96 3852 3862 "word.ml" 96 3852 3876
+type(
+  int -> 'a list -> 'a list
+)
+ident(
+  int_ref List2.truncate "list2.ml" 99 3087 3093 "list2.ml" 99 3087 3101
+)
+"word.ml" 96 3852 3877 "word.ml" 96 3852 3878
+type(
+  int
+)
+ident(
+  int_ref n "word.ml" 95 3828 3841 "word.ml" 95 3828 3842
+)
+"word.ml" 96 3852 3880 "word.ml" 96 3852 3886
+type(
+  'a list -> 'a list
+)
+ident(
+  int_ref mirror "word.ml" 60 2647 2651 "word.ml" 60 2647 2657
+)
+"word.ml" 96 3852 3887 "word.ml" 96 3852 3888
+type(
+  'a list
+)
+ident(
+  int_ref w "word.ml" 95 3828 3847 "word.ml" 95 3828 3848
+)
+"word.ml" 96 3852 3880 "word.ml" 96 3852 3888
+call(
+  stack
+)
+type(
+  'a list
+)
+"word.ml" 96 3852 3862 "word.ml" 96 3852 3889
+call(
+  stack
+)
+type(
+  'a list
+)
+"word.ml" 97 3893 3895 "word.ml" 97 3893 3908
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref List2.unstack "list2.ml" 16 794 804 "list2.ml" 16 794 811
+)
+"word.ml" 97 3893 3909 "word.ml" 97 3893 3910
+type(
+  'a list
+)
+ident(
+  int_ref p "word.ml" 96 3852 3858 "word.ml" 96 3852 3859
+)
+"word.ml" 97 3893 3911 "word.ml" 97 3893 3913
+type(
+  'a list
+)
+ident(
+  int_ref dw "word.ml" 95 3828 3843 "word.ml" 95 3828 3845
+)
+"word.ml" 97 3893 3895 "word.ml" 97 3893 3913
+call(
+  tail
+)
+type(
+  'a list
+)
+"word.ml" 96 3852 3854 "word.ml" 97 3893 3913
+type(
+  'a list
+)
+"word.ml" 95 3828 3847 "word.ml" 97 3893 3913
+type(
+  'a list -> 'a list
+)
+"word.ml" 95 3828 3840 "word.ml" 97 3893 3913
+type(
+  int * 'a list -> 'a list -> 'a list
+)

@@ -1,0 +1,2147 @@
+"trie.ml" 56 2109 2119 "trie.ml" 56 2109 2125
+type(
+  zipper -> trie -> trie
+)
+ident(
+  def zip_up "trie.ml" 56 2109 2109 "trie.ml" 1 0 -1
+)
+"trie.ml" 56 2109 2126 "trie.ml" 56 2109 2127
+type(
+  zipper
+)
+ident(
+  def z "trie.ml" 56 2109 2128 "trie.ml" 60 2254 2257
+)
+"trie.ml" 56 2109 2128 "trie.ml" 56 2109 2129
+type(
+  trie
+)
+ident(
+  def t "trie.ml" 56 2109 2132 "trie.ml" 60 2254 2257
+)
+"trie.ml" 56 2109 2138 "trie.ml" 56 2109 2139
+type(
+  zipper
+)
+ident(
+  int_ref z "trie.ml" 56 2109 2126 "trie.ml" 56 2109 2127
+)
+"trie.ml" 57 2145 2149 "trie.ml" 57 2145 2152
+type(
+  zipper
+)
+"trie.ml" 57 2145 2156 "trie.ml" 57 2145 2157
+type(
+  trie
+)
+ident(
+  int_ref t "trie.ml" 56 2109 2128 "trie.ml" 56 2109 2129
+)
+"trie.ml" 58 2159 2168 "trie.ml" 58 2159 2169
+type(
+  bool
+)
+ident(
+  def b "trie.ml" 59 2191 2195 "trie.ml" 59 2191 2253
+)
+"trie.ml" 58 2159 2170 "trie.ml" 58 2159 2174
+type(
+  arcs
+)
+ident(
+  def left "trie.ml" 59 2191 2195 "trie.ml" 59 2191 2253
+)
+"trie.ml" 58 2159 2175 "trie.ml" 58 2159 2176
+type(
+  Word.letter
+)
+ident(
+  def n "trie.ml" 59 2191 2195 "trie.ml" 59 2191 2253
+)
+"trie.ml" 58 2159 2177 "trie.ml" 58 2159 2182
+type(
+  arcs
+)
+ident(
+  def right "trie.ml" 59 2191 2195 "trie.ml" 59 2191 2253
+)
+"trie.ml" 58 2159 2183 "trie.ml" 58 2159 2185
+type(
+  zipper
+)
+ident(
+  def up "trie.ml" 59 2191 2195 "trie.ml" 59 2191 2253
+)
+"trie.ml" 58 2159 2167 "trie.ml" 58 2159 2186
+type(
+  bool * arcs * Word.letter * arcs * zipper
+)
+"trie.ml" 58 2159 2163 "trie.ml" 58 2159 2186
+type(
+  zipper
+)
+"trie.ml" 59 2191 2195 "trie.ml" 59 2191 2201
+type(
+  zipper -> trie -> trie
+)
+ident(
+  int_ref zip_up "trie.ml" 56 2109 2119 "trie.ml" 56 2109 2125
+)
+"trie.ml" 59 2191 2202 "trie.ml" 59 2191 2204
+type(
+  zipper
+)
+ident(
+  int_ref up "trie.ml" 58 2159 2183 "trie.ml" 58 2159 2185
+)
+"trie.ml" 59 2191 2212 "trie.ml" 59 2191 2213
+type(
+  bool
+)
+ident(
+  int_ref b "trie.ml" 58 2159 2168 "trie.ml" 58 2159 2169
+)
+"trie.ml" 59 2191 2214 "trie.ml" 59 2191 2227
+type(
+  arcs -> arcs -> arcs
+)
+ident(
+  int_ref List2.unstack "list2.ml" 16 794 804 "list2.ml" 16 794 811
+)
+"trie.ml" 59 2191 2228 "trie.ml" 59 2191 2232
+type(
+  arcs
+)
+ident(
+  int_ref left "trie.ml" 58 2159 2170 "trie.ml" 58 2159 2174
+)
+"trie.ml" 59 2191 2236 "trie.ml" 59 2191 2237
+type(
+  Word.letter
+)
+ident(
+  int_ref n "trie.ml" 58 2159 2175 "trie.ml" 58 2159 2176
+)
+"trie.ml" 59 2191 2238 "trie.ml" 59 2191 2239
+type(
+  trie
+)
+ident(
+  int_ref t "trie.ml" 56 2109 2128 "trie.ml" 56 2109 2129
+)
+"trie.ml" 59 2191 2235 "trie.ml" 59 2191 2240
+type(
+  Word.letter * trie
+)
+"trie.ml" 59 2191 2244 "trie.ml" 59 2191 2249
+type(
+  arcs
+)
+ident(
+  int_ref right "trie.ml" 58 2159 2177 "trie.ml" 58 2159 2182
+)
+"trie.ml" 59 2191 2235 "trie.ml" 59 2191 2249
+type(
+  arcs
+)
+"trie.ml" 59 2191 2214 "trie.ml" 59 2191 2251
+call(
+  stack
+)
+type(
+  arcs
+)
+"trie.ml" 59 2191 2211 "trie.ml" 59 2191 2252
+type(
+  bool * arcs
+)
+"trie.ml" 59 2191 2206 "trie.ml" 59 2191 2252
+type(
+  trie
+)
+"trie.ml" 59 2191 2195 "trie.ml" 59 2191 2253
+call(
+  tail
+)
+type(
+  trie
+)
+"trie.ml" 56 2109 2132 "trie.ml" 60 2254 2257
+type(
+  trie
+)
+"trie.ml" 56 2109 2128 "trie.ml" 60 2254 2257
+type(
+  trie -> trie
+)
+"trie.ml" 56 2109 2126 "trie.ml" 60 2254 2257
+type(
+  zipper -> trie -> trie
+)
+"trie.ml" 71 2687 2697 "trie.ml" 71 2687 2704
+type(
+  Word.letter list -> trie
+)
+ident(
+  def trie_of "trie.ml" 71 2687 2687 "trie.ml" 1 0 -1
+)
+"trie.ml" 72 2711 2715 "trie.ml" 72 2711 2717
+type(
+  Word.letter list
+)
+"trie.ml" 72 2711 2727 "trie.ml" 72 2711 2731
+type(
+  bool
+)
+"trie.ml" 72 2711 2732 "trie.ml" 72 2711 2734
+type(
+  arcs
+)
+"trie.ml" 72 2711 2726 "trie.ml" 72 2711 2735
+type(
+  bool * arcs
+)
+"trie.ml" 72 2711 2721 "trie.ml" 72 2711 2735
+type(
+  trie
+)
+"trie.ml" 73 2738 2744 "trie.ml" 73 2738 2745
+type(
+  Word.letter list
+)
+type(
+  Word.letter
+)
+ident(
+  def n "trie.ml" 73 2738 2759 "trie.ml" 73 2738 2792
+)
+"trie.ml" 73 2738 2749 "trie.ml" 73 2738 2753
+type(
+  Word.letter list
+)
+ident(
+  def rest "trie.ml" 73 2738 2759 "trie.ml" 73 2738 2792
+)
+"trie.ml" 73 2738 2765 "trie.ml" 73 2738 2770
+type(
+  bool
+)
+"trie.ml" 73 2738 2774 "trie.ml" 73 2738 2775
+type(
+  Word.letter
+)
+ident(
+  int_ref n "trie.ml" 73 2738 2744 "trie.ml" 73 2738 2745
+)
+"trie.ml" 73 2738 2776 "trie.ml" 73 2738 2783
+type(
+  Word.letter list -> trie
+)
+ident(
+  int_ref trie_of "trie.ml" 71 2687 2697 "trie.ml" 71 2687 2704
+)
+"trie.ml" 73 2738 2784 "trie.ml" 73 2738 2788
+type(
+  Word.letter list
+)
+ident(
+  int_ref rest "trie.ml" 73 2738 2749 "trie.ml" 73 2738 2753
+)
+"trie.ml" 73 2738 2776 "trie.ml" 73 2738 2788
+call(
+  stack
+)
+type(
+  trie
+)
+"trie.ml" 73 2738 2773 "trie.ml" 73 2738 2789
+type(
+  (Word.letter * trie) list
+)
+type(
+  Word.letter * trie
+)
+type(
+  arcs
+)
+"trie.ml" 73 2738 2764 "trie.ml" 73 2738 2792
+type(
+  bool * arcs
+)
+"trie.ml" 73 2738 2759 "trie.ml" 73 2738 2792
+type(
+  trie
+)
+"trie.ml" 71 2687 2707 "trie.ml" 74 2793 2796
+type(
+  Word.letter list -> trie
+)
+"trie.ml" 82 2926 2932 "trie.ml" 82 2926 2937
+type(
+  trie -> Word.letter list -> trie
+)
+ident(
+  def enter "trie.ml" 102 3626 3626 "trie.ml" 1 0 -1
+)
+"trie.ml" 82 2926 2938 "trie.ml" 82 2926 2942
+type(
+  trie
+)
+ident(
+  def trie "trie.ml" 82 2926 2945 "trie.ml" 96 3468 3473
+)
+"trie.ml" 82 2926 2945 "trie.ml" 82 2926 2955
+type(
+  zipper * trie -> Word.letter list -> trie
+)
+ident(
+  int_ref enter_edit "trie.ml" 83 2967 2979 "trie.ml" 83 2967 2989
+)
+"trie.ml" 82 2926 2957 "trie.ml" 82 2926 2960
+type(
+  zipper
+)
+"trie.ml" 82 2926 2961 "trie.ml" 82 2926 2965
+type(
+  trie
+)
+ident(
+  int_ref trie "trie.ml" 82 2926 2938 "trie.ml" 82 2926 2942
+)
+"trie.ml" 82 2926 2956 "trie.ml" 82 2926 2966
+type(
+  zipper * trie
+)
+"trie.ml" 82 2926 2945 "trie.ml" 82 2926 2966
+call(
+  tail
+)
+type(
+  Word.letter list -> trie
+)
+"trie.ml" 83 2967 2979 "trie.ml" 83 2967 2989
+type(
+  zipper * trie -> Word.letter list -> trie
+)
+ident(
+  def enter_edit "trie.ml" 82 2926 2945 "trie.ml" 96 3468 3473
+)
+"trie.ml" 83 2967 2991 "trie.ml" 83 2967 2992
+type(
+  zipper
+)
+ident(
+  def z "trie.ml" 83 2967 2998 "trie.ml" 96 3468 3473
+)
+"trie.ml" 83 2967 2993 "trie.ml" 83 2967 2994
+type(
+  trie
+)
+ident(
+  def t "trie.ml" 83 2967 2998 "trie.ml" 96 3468 3473
+)
+"trie.ml" 83 2967 2990 "trie.ml" 83 2967 2995
+type(
+  zipper * trie
+)
+"trie.ml" 83 2967 3004 "trie.ml" 83 2967 3005
+type(
+  trie
+)
+ident(
+  int_ref t "trie.ml" 83 2967 2993 "trie.ml" 83 2967 2994
+)
+"trie.ml" 84 3012 3024 "trie.ml" 84 3012 3025
+type(
+  bool
+)
+ident(
+  def b "trie.ml" 84 3012 3032 "trie.ml" 95 3460 3467
+)
+"trie.ml" 84 3012 3026 "trie.ml" 84 3012 3027
+type(
+  arcs
+)
+ident(
+  def l "trie.ml" 84 3012 3032 "trie.ml" 95 3460 3467
+)
+"trie.ml" 84 3012 3023 "trie.ml" 84 3012 3028
+type(
+  bool * arcs
+)
+"trie.ml" 84 3012 3018 "trie.ml" 84 3012 3028
+type(
+  trie
+)
+"trie.ml" 85 3036 3044 "trie.ml" 85 3036 3046
+type(
+  Word.letter list
+)
+"trie.ml" 85 3036 3053 "trie.ml" 85 3036 3054
+type(
+  bool
+)
+ident(
+  int_ref b "trie.ml" 84 3012 3024 "trie.ml" 84 3012 3025
+)
+"trie.ml" 85 3036 3060 "trie.ml" 85 3036 3065
+type(
+  exn -> trie
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 36 1664 1664 "stdlib.mli" 36 1664 1701
+)
+"trie.ml" 85 3036 3066 "trie.ml" 85 3036 3076
+type(
+  exn
+)
+"trie.ml" 85 3036 3060 "trie.ml" 85 3036 3076
+type(
+  trie
+)
+"trie.ml" 86 3078 3097 "trie.ml" 86 3078 3103
+type(
+  zipper -> trie -> trie
+)
+ident(
+  int_ref zip_up "trie.ml" 56 2109 2119 "trie.ml" 56 2109 2125
+)
+"trie.ml" 86 3078 3104 "trie.ml" 86 3078 3105
+type(
+  zipper
+)
+ident(
+  int_ref z "trie.ml" 83 2967 2991 "trie.ml" 83 2967 2992
+)
+"trie.ml" 86 3078 3113 "trie.ml" 86 3078 3117
+type(
+  bool
+)
+"trie.ml" 86 3078 3118 "trie.ml" 86 3078 3119
+type(
+  arcs
+)
+ident(
+  int_ref l "trie.ml" 84 3012 3026 "trie.ml" 84 3012 3027
+)
+"trie.ml" 86 3078 3112 "trie.ml" 86 3078 3120
+type(
+  bool * arcs
+)
+"trie.ml" 86 3078 3107 "trie.ml" 86 3078 3120
+type(
+  trie
+)
+"trie.ml" 86 3078 3097 "trie.ml" 86 3078 3121
+call(
+  tail
+)
+type(
+  trie
+)
+"trie.ml" 85 3036 3050 "trie.ml" 86 3078 3121
+type(
+  trie
+)
+"trie.ml" 87 3123 3133 "trie.ml" 87 3123 3134
+type(
+  Word.letter list
+)
+type(
+  Word.letter
+)
+ident(
+  def n "trie.ml" 88 3149 3158 "trie.ml" 94 3447 3459
+)
+"trie.ml" 87 3123 3138 "trie.ml" 87 3123 3142
+type(
+  Word.letter list
+)
+ident(
+  def rest "trie.ml" 88 3149 3158 "trie.ml" 94 3447 3459
+)
+"trie.ml" 88 3149 3163 "trie.ml" 88 3149 3167
+type(
+  (Word.letter * trie) list
+)
+ident(
+  def left "trie.ml" 89 3194 3203 "trie.ml" 94 3447 3459
+)
+"trie.ml" 88 3149 3168 "trie.ml" 88 3149 3173
+type(
+  arcs
+)
+ident(
+  def right "trie.ml" 89 3194 3203 "trie.ml" 94 3447 3459
+)
+"trie.ml" 88 3149 3162 "trie.ml" 88 3149 3174
+type(
+  (Word.letter * trie) list * arcs
+)
+"trie.ml" 88 3149 3177 "trie.ml" 88 3149 3186
+type(
+  Word.letter -> arcs -> (Word.letter * trie) list * arcs
+)
+ident(
+  int_ref List2.zip "list2.ml" 118 3998 4004 "list2.ml" 118 3998 4007
+)
+"trie.ml" 88 3149 3187 "trie.ml" 88 3149 3188
+type(
+  Word.letter
+)
+ident(
+  int_ref n "trie.ml" 87 3123 3133 "trie.ml" 87 3123 3134
+)
+"trie.ml" 88 3149 3189 "trie.ml" 88 3149 3190
+type(
+  arcs
+)
+ident(
+  int_ref l "trie.ml" 84 3012 3026 "trie.ml" 84 3012 3027
+)
+"trie.ml" 88 3149 3177 "trie.ml" 88 3149 3190
+call(
+  stack
+)
+type(
+  (Word.letter * trie) list * arcs
+)
+"trie.ml" 89 3194 3209 "trie.ml" 89 3194 3214
+type(
+  arcs
+)
+ident(
+  int_ref right "trie.ml" 88 3149 3168 "trie.ml" 88 3149 3173
+)
+"trie.ml" 90 3220 3233 "trie.ml" 90 3220 3235
+type(
+  arcs
+)
+"trie.ml" 90 3220 3239 "trie.ml" 90 3220 3245
+type(
+  zipper -> trie -> trie
+)
+ident(
+  int_ref zip_up "trie.ml" 56 2109 2119 "trie.ml" 56 2109 2125
+)
+"trie.ml" 90 3220 3252 "trie.ml" 90 3220 3253
+type(
+  bool
+)
+ident(
+  int_ref b "trie.ml" 84 3012 3024 "trie.ml" 84 3012 3025
+)
+"trie.ml" 90 3220 3254 "trie.ml" 90 3220 3258
+type(
+  arcs
+)
+ident(
+  int_ref left "trie.ml" 88 3149 3163 "trie.ml" 88 3149 3167
+)
+"trie.ml" 90 3220 3259 "trie.ml" 90 3220 3260
+type(
+  Word.letter
+)
+ident(
+  int_ref n "trie.ml" 87 3123 3133 "trie.ml" 87 3123 3134
+)
+"trie.ml" 90 3220 3261 "trie.ml" 90 3220 3263
+type(
+  arcs
+)
+"trie.ml" 90 3220 3264 "trie.ml" 90 3220 3265
+type(
+  zipper
+)
+ident(
+  int_ref z "trie.ml" 83 2967 2991 "trie.ml" 83 2967 2992
+)
+"trie.ml" 90 3220 3251 "trie.ml" 90 3220 3266
+type(
+  bool * arcs * Word.letter * arcs * zipper
+)
+"trie.ml" 90 3220 3247 "trie.ml" 90 3220 3266
+type(
+  zipper
+)
+"trie.ml" 90 3220 3269 "trie.ml" 90 3220 3276
+type(
+  Word.letter list -> trie
+)
+ident(
+  int_ref trie_of "trie.ml" 71 2687 2697 "trie.ml" 71 2687 2704
+)
+"trie.ml" 90 3220 3277 "trie.ml" 90 3220 3281
+type(
+  Word.letter list
+)
+ident(
+  int_ref rest "trie.ml" 87 3123 3138 "trie.ml" 87 3123 3142
+)
+"trie.ml" 90 3220 3269 "trie.ml" 90 3220 3281
+call(
+  stack
+)
+type(
+  trie
+)
+"trie.ml" 90 3220 3239 "trie.ml" 90 3220 3282
+call(
+  tail
+)
+type(
+  trie
+)
+"trie.ml" 91 3284 3300 "trie.ml" 91 3284 3301
+type(
+  Word.letter
+)
+ident(
+  def m "trie.ml" 92 3316 3329 "trie.ml" 93 3381 3445
+)
+"trie.ml" 91 3284 3302 "trie.ml" 91 3284 3303
+type(
+  trie
+)
+ident(
+  def u "trie.ml" 92 3316 3329 "trie.ml" 93 3381 3445
+)
+"trie.ml" 91 3284 3299 "trie.ml" 91 3284 3304
+type(
+  arcs
+)
+type(
+  Word.letter * trie
+)
+"trie.ml" 91 3284 3308 "trie.ml" 91 3284 3309
+type(
+  (Word.letter * trie) list
+)
+ident(
+  def r "trie.ml" 92 3316 3329 "trie.ml" 93 3381 3445
+)
+"trie.ml" 92 3316 3332 "trie.ml" 92 3316 3333
+type(
+  Word.letter
+)
+ident(
+  int_ref m "trie.ml" 91 3284 3300 "trie.ml" 91 3284 3301
+)
+"trie.ml" 92 3316 3333 "trie.ml" 92 3316 3334
+type(
+  Word.letter -> Word.letter -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"trie.ml" 92 3316 3334 "trie.ml" 92 3316 3335
+type(
+  Word.letter
+)
+ident(
+  int_ref n "trie.ml" 87 3123 3133 "trie.ml" 87 3123 3134
+)
+"trie.ml" 92 3316 3332 "trie.ml" 92 3316 3335
+type(
+  bool
+)
+"trie.ml" 92 3316 3341 "trie.ml" 92 3316 3351
+type(
+  zipper * trie -> Word.letter list -> trie
+)
+ident(
+  int_ref enter_edit "trie.ml" 83 2967 2979 "trie.ml" 83 2967 2989
+)
+"trie.ml" 92 3316 3358 "trie.ml" 92 3316 3359
+type(
+  bool
+)
+ident(
+  int_ref b "trie.ml" 84 3012 3024 "trie.ml" 84 3012 3025
+)
+"trie.ml" 92 3316 3360 "trie.ml" 92 3316 3364
+type(
+  arcs
+)
+ident(
+  int_ref left "trie.ml" 88 3149 3163 "trie.ml" 88 3149 3167
+)
+"trie.ml" 92 3316 3365 "trie.ml" 92 3316 3366
+type(
+  Word.letter
+)
+ident(
+  int_ref n "trie.ml" 87 3123 3133 "trie.ml" 87 3123 3134
+)
+"trie.ml" 92 3316 3367 "trie.ml" 92 3316 3368
+type(
+  arcs
+)
+ident(
+  int_ref r "trie.ml" 91 3284 3308 "trie.ml" 91 3284 3309
+)
+"trie.ml" 92 3316 3369 "trie.ml" 92 3316 3370
+type(
+  zipper
+)
+ident(
+  int_ref z "trie.ml" 83 2967 2991 "trie.ml" 83 2967 2992
+)
+"trie.ml" 92 3316 3357 "trie.ml" 92 3316 3371
+type(
+  bool * arcs * Word.letter * arcs * zipper
+)
+"trie.ml" 92 3316 3353 "trie.ml" 92 3316 3371
+type(
+  zipper
+)
+"trie.ml" 92 3316 3372 "trie.ml" 92 3316 3373
+type(
+  trie
+)
+ident(
+  int_ref u "trie.ml" 91 3284 3302 "trie.ml" 91 3284 3303
+)
+"trie.ml" 92 3316 3352 "trie.ml" 92 3316 3374
+type(
+  zipper * trie
+)
+"trie.ml" 92 3316 3375 "trie.ml" 92 3316 3379
+type(
+  Word.letter list
+)
+ident(
+  int_ref rest "trie.ml" 87 3123 3138 "trie.ml" 87 3123 3142
+)
+"trie.ml" 92 3316 3341 "trie.ml" 92 3316 3379
+call(
+  tail
+)
+type(
+  trie
+)
+"trie.ml" 93 3381 3399 "trie.ml" 93 3381 3405
+type(
+  zipper -> trie -> trie
+)
+ident(
+  int_ref zip_up "trie.ml" 56 2109 2119 "trie.ml" 56 2109 2125
+)
+"trie.ml" 93 3381 3412 "trie.ml" 93 3381 3413
+type(
+  bool
+)
+ident(
+  int_ref b "trie.ml" 84 3012 3024 "trie.ml" 84 3012 3025
+)
+"trie.ml" 93 3381 3414 "trie.ml" 93 3381 3418
+type(
+  arcs
+)
+ident(
+  int_ref left "trie.ml" 88 3149 3163 "trie.ml" 88 3149 3167
+)
+"trie.ml" 93 3381 3419 "trie.ml" 93 3381 3420
+type(
+  Word.letter
+)
+ident(
+  int_ref n "trie.ml" 87 3123 3133 "trie.ml" 87 3123 3134
+)
+"trie.ml" 93 3381 3421 "trie.ml" 93 3381 3426
+type(
+  arcs
+)
+ident(
+  int_ref right "trie.ml" 88 3149 3168 "trie.ml" 88 3149 3173
+)
+"trie.ml" 93 3381 3427 "trie.ml" 93 3381 3428
+type(
+  zipper
+)
+ident(
+  int_ref z "trie.ml" 83 2967 2991 "trie.ml" 83 2967 2992
+)
+"trie.ml" 93 3381 3411 "trie.ml" 93 3381 3429
+type(
+  bool * arcs * Word.letter * arcs * zipper
+)
+"trie.ml" 93 3381 3407 "trie.ml" 93 3381 3429
+type(
+  zipper
+)
+"trie.ml" 93 3381 3432 "trie.ml" 93 3381 3439
+type(
+  Word.letter list -> trie
+)
+ident(
+  int_ref trie_of "trie.ml" 71 2687 2697 "trie.ml" 71 2687 2704
+)
+"trie.ml" 93 3381 3440 "trie.ml" 93 3381 3444
+type(
+  Word.letter list
+)
+ident(
+  int_ref rest "trie.ml" 87 3123 3138 "trie.ml" 87 3123 3142
+)
+"trie.ml" 93 3381 3432 "trie.ml" 93 3381 3444
+call(
+  stack
+)
+type(
+  trie
+)
+"trie.ml" 93 3381 3399 "trie.ml" 93 3381 3445
+call(
+  tail
+)
+type(
+  trie
+)
+"trie.ml" 92 3316 3329 "trie.ml" 93 3381 3445
+type(
+  trie
+)
+"trie.ml" 89 3194 3203 "trie.ml" 94 3447 3459
+type(
+  trie
+)
+"trie.ml" 88 3149 3158 "trie.ml" 94 3447 3459
+type(
+  trie
+)
+"trie.ml" 84 3012 3032 "trie.ml" 95 3460 3467
+type(
+  Word.letter list -> trie
+)
+"trie.ml" 83 2967 2998 "trie.ml" 96 3468 3473
+type(
+  Word.letter list -> trie
+)
+"trie.ml" 83 2967 2990 "trie.ml" 96 3468 3473
+type(
+  zipper * trie -> Word.letter list -> trie
+)
+"trie.ml" 82 2926 2945 "trie.ml" 96 3468 3473
+type(
+  Word.letter list -> trie
+)
+"trie.ml" 82 2926 2938 "trie.ml" 96 3468 3473
+type(
+  trie -> Word.letter list -> trie
+)
+"trie.ml" 102 3626 3632 "trie.ml" 102 3626 3640
+type(
+  trie -> Word.letter list list
+)
+ident(
+  def contents "trie.ml" 112 3938 3938 "trie.ml" 1 0 -1
+)
+"trie.ml" 102 3626 3643 "trie.ml" 102 3626 3658
+type(
+  Word.letter list -> trie -> Word.letter list list
+)
+ident(
+  int_ref contents_prefix "trie.ml" 103 3663 3675 "trie.ml" 103 3663 3690
+)
+"trie.ml" 102 3626 3659 "trie.ml" 102 3626 3661
+type(
+  Word.letter list
+)
+"trie.ml" 102 3626 3643 "trie.ml" 102 3626 3661
+call(
+  stack
+)
+type(
+  trie -> Word.letter list list
+)
+"trie.ml" 103 3663 3675 "trie.ml" 103 3663 3690
+type(
+  Word.letter list -> trie -> Word.letter list list
+)
+ident(
+  def contents_prefix "trie.ml" 102 3626 3643 "trie.ml" 108 3894 3899
+)
+"trie.ml" 103 3663 3691 "trie.ml" 103 3663 3695
+type(
+  Word.letter list
+)
+ident(
+  def pref "trie.ml" 103 3663 3698 "trie.ml" 108 3894 3899
+)
+"trie.ml" 104 3702 3714 "trie.ml" 104 3702 3715
+type(
+  bool
+)
+ident(
+  def b "trie.ml" 105 3723 3729 "trie.ml" 107 3839 3892
+)
+"trie.ml" 104 3702 3716 "trie.ml" 104 3702 3717
+type(
+  arcs
+)
+ident(
+  def l "trie.ml" 105 3723 3729 "trie.ml" 107 3839 3892
+)
+"trie.ml" 104 3702 3713 "trie.ml" 104 3702 3718
+type(
+  bool * arcs
+)
+"trie.ml" 104 3702 3708 "trie.ml" 104 3702 3718
+type(
+  trie
+)
+"trie.ml" 105 3723 3733 "trie.ml" 105 3723 3737
+type(
+  Word.letter list list
+)
+ident(
+  def down "trie.ml" 107 3839 3845 "trie.ml" 107 3839 3892
+)
+"trie.ml" 105 3723 3744 "trie.ml" 105 3723 3745
+type(
+  Word.letter list list -> Word.letter * trie -> Word.letter list list
+)
+ident(
+  def f "trie.ml" 106 3797 3814 "trie.ml" 106 3797 3835
+)
+"trie.ml" 105 3723 3746 "trie.ml" 105 3723 3747
+type(
+  Word.letter list list
+)
+ident(
+  def l "trie.ml" 105 3723 3748 "trie.ml" 105 3723 3793
+)
+"trie.ml" 105 3723 3749 "trie.ml" 105 3723 3750
+type(
+  Word.letter
+)
+ident(
+  def n "trie.ml" 105 3723 3756 "trie.ml" 105 3723 3793
+)
+"trie.ml" 105 3723 3751 "trie.ml" 105 3723 3752
+type(
+  trie
+)
+ident(
+  def t "trie.ml" 105 3723 3756 "trie.ml" 105 3723 3793
+)
+"trie.ml" 105 3723 3748 "trie.ml" 105 3723 3753
+type(
+  Word.letter * trie
+)
+"trie.ml" 105 3723 3756 "trie.ml" 105 3723 3757
+type(
+  Word.letter list list
+)
+ident(
+  int_ref l "trie.ml" 105 3723 3746 "trie.ml" 105 3723 3747
+)
+"trie.ml" 105 3723 3758 "trie.ml" 105 3723 3759
+type(
+  Word.letter list list -> Word.letter list list -> Word.letter list list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 691 26062 26062 "stdlib.mli" 691 26062 26103
+)
+"trie.ml" 105 3723 3761 "trie.ml" 105 3723 3776
+type(
+  Word.letter list -> trie -> Word.letter list list
+)
+ident(
+  int_ref contents_prefix "trie.ml" 103 3663 3675 "trie.ml" 103 3663 3690
+)
+"trie.ml" 105 3723 3779 "trie.ml" 105 3723 3780
+type(
+  Word.letter
+)
+ident(
+  int_ref n "trie.ml" 105 3723 3749 "trie.ml" 105 3723 3750
+)
+"trie.ml" 105 3723 3784 "trie.ml" 105 3723 3788
+type(
+  Word.letter list
+)
+ident(
+  int_ref pref "trie.ml" 103 3663 3691 "trie.ml" 103 3663 3695
+)
+"trie.ml" 105 3723 3779 "trie.ml" 105 3723 3788
+type(
+  Word.letter list
+)
+"trie.ml" 105 3723 3791 "trie.ml" 105 3723 3792
+type(
+  trie
+)
+ident(
+  int_ref t "trie.ml" 105 3723 3751 "trie.ml" 105 3723 3752
+)
+"trie.ml" 105 3723 3761 "trie.ml" 105 3723 3792
+call(
+  stack
+)
+type(
+  Word.letter list list
+)
+"trie.ml" 105 3723 3756 "trie.ml" 105 3723 3793
+call(
+  tail
+)
+type(
+  Word.letter list list
+)
+"trie.ml" 105 3723 3748 "trie.ml" 105 3723 3793
+type(
+  Word.letter * trie -> Word.letter list list
+)
+"trie.ml" 105 3723 3746 "trie.ml" 105 3723 3793
+type(
+  Word.letter list list -> Word.letter * trie -> Word.letter list list
+)
+"trie.ml" 106 3797 3814 "trie.ml" 106 3797 3828
+type(
+  (Word.letter list list -> Word.letter * trie -> Word.letter list list) ->
+  Word.letter list list -> arcs -> Word.letter list list
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 134 5190 5190 "list.mli" 134 5190 5245
+)
+"trie.ml" 106 3797 3829 "trie.ml" 106 3797 3830
+type(
+  Word.letter list list -> Word.letter * trie -> Word.letter list list
+)
+ident(
+  int_ref f "trie.ml" 105 3723 3744 "trie.ml" 105 3723 3745
+)
+"trie.ml" 106 3797 3831 "trie.ml" 106 3797 3833
+type(
+  Word.letter list list
+)
+"trie.ml" 106 3797 3834 "trie.ml" 106 3797 3835
+type(
+  arcs
+)
+ident(
+  int_ref l "trie.ml" 104 3702 3716 "trie.ml" 104 3702 3717
+)
+"trie.ml" 106 3797 3814 "trie.ml" 106 3797 3835
+call(
+  stack
+)
+type(
+  Word.letter list list
+)
+"trie.ml" 105 3723 3740 "trie.ml" 106 3797 3835
+type(
+  Word.letter list list
+)
+"trie.ml" 107 3839 3848 "trie.ml" 107 3839 3849
+type(
+  bool
+)
+ident(
+  int_ref b "trie.ml" 104 3702 3714 "trie.ml" 104 3702 3715
+)
+"trie.ml" 107 3839 3858 "trie.ml" 107 3839 3866
+type(
+  Word.letter list -> Word.letter list
+)
+ident(
+  int_ref Stdlib.List.rev "list.mli" 73 3121 3121 "list.mli" 73 3121 3149
+)
+"trie.ml" 107 3839 3867 "trie.ml" 107 3839 3871
+type(
+  Word.letter list
+)
+ident(
+  int_ref pref "trie.ml" 103 3663 3691 "trie.ml" 103 3663 3695
+)
+"trie.ml" 107 3839 3858 "trie.ml" 107 3839 3871
+call(
+  stack
+)
+type(
+  Word.letter list
+)
+"trie.ml" 107 3839 3876 "trie.ml" 107 3839 3880
+type(
+  Word.letter list list
+)
+ident(
+  int_ref down "trie.ml" 105 3723 3733 "trie.ml" 105 3723 3737
+)
+"trie.ml" 107 3839 3857 "trie.ml" 107 3839 3880
+type(
+  Word.letter list list
+)
+"trie.ml" 107 3839 3888 "trie.ml" 107 3839 3892
+type(
+  Word.letter list list
+)
+ident(
+  int_ref down "trie.ml" 105 3723 3733 "trie.ml" 105 3723 3737
+)
+"trie.ml" 107 3839 3845 "trie.ml" 107 3839 3892
+type(
+  Word.letter list list
+)
+"trie.ml" 105 3723 3729 "trie.ml" 107 3839 3892
+type(
+  Word.letter list list
+)
+"trie.ml" 103 3663 3698 "trie.ml" 108 3894 3899
+type(
+  trie -> Word.letter list list
+)
+"trie.ml" 103 3663 3691 "trie.ml" 108 3894 3899
+type(
+  Word.letter list -> trie -> Word.letter list list
+)
+"trie.ml" 102 3626 3643 "trie.ml" 108 3894 3899
+type(
+  trie -> Word.letter list list
+)
+"trie.ml" 112 3938 3948 "trie.ml" 112 3938 3951
+type(
+  Word.letter list -> trie -> bool
+)
+ident(
+  def mem "trie.ml" 112 3938 3938 "trie.ml" 1 0 -1
+)
+"trie.ml" 112 3938 3952 "trie.ml" 112 3938 3953
+type(
+  Word.letter list
+)
+ident(
+  def w "trie.ml" 112 3938 3956 "trie.ml" 118 4107 4110
+)
+"trie.ml" 113 3960 3970 "trie.ml" 113 3960 3971
+type(
+  bool
+)
+ident(
+  def b "trie.ml" 113 3960 3978 "trie.ml" 117 4101 4106
+)
+"trie.ml" 113 3960 3972 "trie.ml" 113 3960 3973
+type(
+  arcs
+)
+ident(
+  def l "trie.ml" 113 3960 3978 "trie.ml" 117 4101 4106
+)
+"trie.ml" 113 3960 3969 "trie.ml" 113 3960 3974
+type(
+  bool * arcs
+)
+"trie.ml" 113 3960 3964 "trie.ml" 113 3960 3974
+type(
+  trie
+)
+"trie.ml" 113 3960 3984 "trie.ml" 113 3960 3985
+type(
+  Word.letter list
+)
+ident(
+  int_ref w "trie.ml" 112 3938 3952 "trie.ml" 112 3938 3953
+)
+"trie.ml" 114 3991 3997 "trie.ml" 114 3991 3999
+type(
+  Word.letter list
+)
+"trie.ml" 114 3991 4003 "trie.ml" 114 3991 4004
+type(
+  bool
+)
+ident(
+  int_ref b "trie.ml" 113 3960 3970 "trie.ml" 113 3960 3971
+)
+"trie.ml" 115 4005 4013 "trie.ml" 115 4005 4014
+type(
+  Word.letter list
+)
+type(
+  Word.letter
+)
+ident(
+  def n "trie.ml" 115 4005 4025 "trie.ml" 116 4053 4100
+)
+"trie.ml" 115 4005 4018 "trie.ml" 115 4005 4019
+type(
+  Word.letter list
+)
+ident(
+  def r "trie.ml" 115 4005 4025 "trie.ml" 116 4053 4100
+)
+"trie.ml" 115 4005 4029 "trie.ml" 115 4005 4032
+type(
+  Word.letter list -> trie -> bool
+)
+ident(
+  int_ref mem "trie.ml" 112 3938 3948 "trie.ml" 112 3938 3951
+)
+"trie.ml" 115 4005 4033 "trie.ml" 115 4005 4034
+type(
+  Word.letter list
+)
+ident(
+  int_ref r "trie.ml" 115 4005 4018 "trie.ml" 115 4005 4019
+)
+"trie.ml" 115 4005 4036 "trie.ml" 115 4005 4046
+type(
+  Word.letter -> arcs -> trie
+)
+ident(
+  int_ref Stdlib.List.assoc "list.mli" 242 9129 9129 "list.mli" 242 9129 9167
+)
+"trie.ml" 115 4005 4047 "trie.ml" 115 4005 4048
+type(
+  Word.letter
+)
+ident(
+  int_ref n "trie.ml" 115 4005 4013 "trie.ml" 115 4005 4014
+)
+"trie.ml" 115 4005 4049 "trie.ml" 115 4005 4050
+type(
+  arcs
+)
+ident(
+  int_ref l "trie.ml" 113 3960 3972 "trie.ml" 113 3960 3973
+)
+"trie.ml" 115 4005 4036 "trie.ml" 115 4005 4050
+call(
+  stack
+)
+type(
+  trie
+)
+"trie.ml" 115 4005 4029 "trie.ml" 115 4005 4051
+call(
+  stack
+)
+type(
+  bool
+)
+"trie.ml" 116 4053 4080 "trie.ml" 116 4053 4089
+type(
+  exn
+)
+"trie.ml" 116 4053 4093 "trie.ml" 116 4053 4098
+type(
+  bool
+)
+"trie.ml" 115 4005 4025 "trie.ml" 116 4053 4100
+type(
+  bool
+)
+"trie.ml" 113 3960 3978 "trie.ml" 117 4101 4106
+type(
+  bool
+)
+"trie.ml" 112 3938 3956 "trie.ml" 118 4107 4110
+type(
+  trie -> bool
+)
+"trie.ml" 112 3938 3952 "trie.ml" 118 4107 4110
+type(
+  Word.letter list -> trie -> bool
+)
+"trie.ml" 132 4893 4899 "trie.ml" 132 4893 4904
+type(
+  trie
+)
+ident(
+  def empty "trie.ml" 136 4994 4994 "trie.ml" 1 0 -1
+)
+"trie.ml" 132 4893 4913 "trie.ml" 132 4893 4918
+type(
+  bool
+)
+"trie.ml" 132 4893 4919 "trie.ml" 132 4893 4921
+type(
+  arcs
+)
+"trie.ml" 132 4893 4912 "trie.ml" 132 4893 4922
+type(
+  bool * arcs
+)
+"trie.ml" 132 4893 4907 "trie.ml" 132 4893 4922
+type(
+  trie
+)
+"trie.ml" 136 4994 5000 "trie.ml" 136 4994 5009
+type(
+  trie -> Word.letter list
+)
+ident(
+  def next_trie "trie.ml" 148 5315 5315 "trie.ml" 1 0 -1
+)
+"trie.ml" 136 4994 5012 "trie.ml" 136 4994 5020
+type(
+  Word.letter list -> trie -> Word.letter list
+)
+ident(
+  int_ref next_rec "trie.ml" 137 5025 5037 "trie.ml" 137 5025 5045
+)
+"trie.ml" 136 4994 5021 "trie.ml" 136 4994 5023
+type(
+  Word.letter list
+)
+"trie.ml" 136 4994 5012 "trie.ml" 136 4994 5023
+call(
+  stack
+)
+type(
+  trie -> Word.letter list
+)
+"trie.ml" 137 5025 5037 "trie.ml" 137 5025 5045
+type(
+  Word.letter list -> trie -> Word.letter list
+)
+ident(
+  def next_rec "trie.ml" 136 4994 5012 "trie.ml" 144 5239 5244
+)
+"trie.ml" 137 5025 5046 "trie.ml" 137 5025 5049
+type(
+  Word.letter list
+)
+ident(
+  def acc "trie.ml" 137 5025 5052 "trie.ml" 144 5239 5244
+)
+"trie.ml" 138 5057 5069 "trie.ml" 138 5057 5070
+type(
+  bool
+)
+ident(
+  def b "trie.ml" 139 5078 5084 "trie.ml" 143 5226 5238
+)
+"trie.ml" 138 5057 5071 "trie.ml" 138 5057 5072
+type(
+  arcs
+)
+ident(
+  def l "trie.ml" 139 5078 5084 "trie.ml" 143 5226 5238
+)
+"trie.ml" 138 5057 5068 "trie.ml" 138 5057 5073
+type(
+  bool * arcs
+)
+"trie.ml" 138 5057 5063 "trie.ml" 138 5057 5073
+type(
+  trie
+)
+"trie.ml" 139 5078 5087 "trie.ml" 139 5078 5088
+type(
+  bool
+)
+ident(
+  int_ref b "trie.ml" 138 5057 5069 "trie.ml" 138 5057 5070
+)
+"trie.ml" 139 5078 5094 "trie.ml" 139 5078 5102
+type(
+  Word.letter list -> Word.letter list
+)
+ident(
+  int_ref Stdlib.List.rev "list.mli" 73 3121 3121 "list.mli" 73 3121 3149
+)
+"trie.ml" 139 5078 5103 "trie.ml" 139 5078 5106
+type(
+  Word.letter list
+)
+ident(
+  int_ref acc "trie.ml" 137 5025 5046 "trie.ml" 137 5025 5049
+)
+"trie.ml" 139 5078 5094 "trie.ml" 139 5078 5106
+call(
+  tail
+)
+type(
+  Word.letter list
+)
+"trie.ml" 140 5107 5124 "trie.ml" 140 5107 5125
+type(
+  arcs
+)
+ident(
+  int_ref l "trie.ml" 138 5057 5071 "trie.ml" 138 5057 5072
+)
+"trie.ml" 141 5131 5144 "trie.ml" 141 5131 5146
+type(
+  arcs
+)
+"trie.ml" 141 5131 5150 "trie.ml" 141 5131 5158
+type(
+  string -> Word.letter list
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 47 1981 1981 "stdlib.mli" 47 1981 2008
+)
+"trie.ml" 141 5131 5159 "trie.ml" 141 5131 5170
+type(
+  string
+)
+"trie.ml" 141 5131 5150 "trie.ml" 141 5131 5170
+call(
+  tail
+)
+type(
+  Word.letter list
+)
+"trie.ml" 142 5171 5187 "trie.ml" 142 5171 5188
+type(
+  Word.letter
+)
+ident(
+  def n "trie.ml" 142 5171 5202 "trie.ml" 142 5171 5225
+)
+"trie.ml" 142 5171 5189 "trie.ml" 142 5171 5190
+type(
+  trie
+)
+ident(
+  def u "trie.ml" 142 5171 5202 "trie.ml" 142 5171 5225
+)
+"trie.ml" 142 5171 5186 "trie.ml" 142 5171 5191
+type(
+  arcs
+)
+type(
+  Word.letter * trie
+)
+"trie.ml" 142 5171 5195 "trie.ml" 142 5171 5196
+type(
+  (Word.letter * trie) list
+)
+"trie.ml" 142 5171 5202 "trie.ml" 142 5171 5210
+type(
+  Word.letter list -> trie -> Word.letter list
+)
+ident(
+  int_ref next_rec "trie.ml" 137 5025 5037 "trie.ml" 137 5025 5045
+)
+"trie.ml" 142 5171 5213 "trie.ml" 142 5171 5214
+type(
+  Word.letter
+)
+ident(
+  int_ref n "trie.ml" 142 5171 5187 "trie.ml" 142 5171 5188
+)
+"trie.ml" 142 5171 5218 "trie.ml" 142 5171 5221
+type(
+  Word.letter list
+)
+ident(
+  int_ref acc "trie.ml" 137 5025 5046 "trie.ml" 137 5025 5049
+)
+"trie.ml" 142 5171 5213 "trie.ml" 142 5171 5221
+type(
+  Word.letter list
+)
+"trie.ml" 142 5171 5224 "trie.ml" 142 5171 5225
+type(
+  trie
+)
+ident(
+  int_ref u "trie.ml" 142 5171 5189 "trie.ml" 142 5171 5190
+)
+"trie.ml" 142 5171 5202 "trie.ml" 142 5171 5225
+call(
+  tail
+)
+type(
+  Word.letter list
+)
+"trie.ml" 140 5107 5118 "trie.ml" 143 5226 5238
+type(
+  Word.letter list
+)
+"trie.ml" 139 5078 5084 "trie.ml" 143 5226 5238
+type(
+  Word.letter list
+)
+"trie.ml" 137 5025 5052 "trie.ml" 144 5239 5244
+type(
+  trie -> Word.letter list
+)
+"trie.ml" 137 5025 5046 "trie.ml" 144 5239 5244
+type(
+  Word.letter list -> trie -> Word.letter list
+)
+"trie.ml" 136 4994 5012 "trie.ml" 144 5239 5244
+type(
+  trie -> Word.letter list
+)
+"trie.ml" 148 5315 5321 "trie.ml" 148 5315 5330
+type(
+  trie -> Word.letter list
+)
+ident(
+  def last_trie "trie.ml" 159 5634 5634 "trie.ml" 1 0 -1
+)
+"trie.ml" 148 5315 5333 "trie.ml" 148 5315 5341
+type(
+  Word.letter list -> trie -> Word.letter list
+)
+ident(
+  int_ref last_rec "trie.ml" 149 5346 5359 "trie.ml" 149 5346 5367
+)
+"trie.ml" 148 5315 5342 "trie.ml" 148 5315 5344
+type(
+  Word.letter list
+)
+"trie.ml" 148 5315 5333 "trie.ml" 148 5315 5344
+call(
+  stack
+)
+type(
+  trie -> Word.letter list
+)
+"trie.ml" 149 5346 5359 "trie.ml" 149 5346 5367
+type(
+  Word.letter list -> trie -> Word.letter list
+)
+ident(
+  def last_rec "trie.ml" 148 5315 5333 "trie.ml" 155 5565 5571
+)
+"trie.ml" 149 5346 5368 "trie.ml" 149 5346 5371
+type(
+  Word.letter list
+)
+ident(
+  def acc "trie.ml" 149 5346 5374 "trie.ml" 155 5565 5571
+)
+"trie.ml" 150 5378 5391 "trie.ml" 150 5378 5392
+type(
+  bool
+)
+ident(
+  def b "trie.ml" 150 5378 5399 "trie.ml" 154 5556 5564
+)
+"trie.ml" 150 5378 5393 "trie.ml" 150 5378 5394
+type(
+  arcs
+)
+ident(
+  def l "trie.ml" 150 5378 5399 "trie.ml" 154 5556 5564
+)
+"trie.ml" 150 5378 5390 "trie.ml" 150 5378 5395
+type(
+  bool * arcs
+)
+"trie.ml" 150 5378 5385 "trie.ml" 150 5378 5395
+type(
+  trie
+)
+"trie.ml" 150 5378 5405 "trie.ml" 150 5378 5406
+type(
+  arcs
+)
+ident(
+  int_ref l "trie.ml" 150 5378 5393 "trie.ml" 150 5378 5394
+)
+"trie.ml" 151 5412 5421 "trie.ml" 151 5412 5423
+type(
+  arcs
+)
+"trie.ml" 151 5412 5430 "trie.ml" 151 5412 5431
+type(
+  bool
+)
+ident(
+  int_ref b "trie.ml" 150 5378 5391 "trie.ml" 150 5378 5392
+)
+"trie.ml" 151 5412 5437 "trie.ml" 151 5412 5445
+type(
+  Word.letter list -> Word.letter list
+)
+ident(
+  int_ref Stdlib.List.rev "list.mli" 73 3121 3121 "list.mli" 73 3121 3149
+)
+"trie.ml" 151 5412 5446 "trie.ml" 151 5412 5449
+type(
+  Word.letter list
+)
+ident(
+  int_ref acc "trie.ml" 149 5346 5368 "trie.ml" 149 5346 5371
+)
+"trie.ml" 151 5412 5437 "trie.ml" 151 5412 5449
+call(
+  tail
+)
+type(
+  Word.letter list
+)
+"trie.ml" 151 5412 5455 "trie.ml" 151 5412 5463
+type(
+  string -> Word.letter list
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 47 1981 1981 "stdlib.mli" 47 1981 2008
+)
+"trie.ml" 151 5412 5464 "trie.ml" 151 5412 5475
+type(
+  string
+)
+"trie.ml" 151 5412 5455 "trie.ml" 151 5412 5475
+call(
+  tail
+)
+type(
+  Word.letter list
+)
+"trie.ml" 151 5412 5427 "trie.ml" 151 5412 5475
+type(
+  Word.letter list
+)
+"trie.ml" 152 5476 5485 "trie.ml" 152 5476 5486
+type(
+  arcs
+)
+"trie.ml" 152 5476 5495 "trie.ml" 152 5476 5496
+type(
+  Word.letter
+)
+ident(
+  def n "trie.ml" 153 5518 5532 "trie.ml" 153 5518 5555
+)
+"trie.ml" 152 5476 5497 "trie.ml" 152 5476 5498
+type(
+  trie
+)
+ident(
+  def u "trie.ml" 153 5518 5532 "trie.ml" 153 5518 5555
+)
+"trie.ml" 152 5476 5494 "trie.ml" 152 5476 5499
+type(
+  Word.letter * trie
+)
+"trie.ml" 152 5476 5502 "trie.ml" 152 5476 5512
+type(
+  arcs -> Word.letter * trie
+)
+ident(
+  int_ref List2.last "list2.ml" 79 2452 2462 "list2.ml" 79 2452 2466
+)
+"trie.ml" 152 5476 5513 "trie.ml" 152 5476 5514
+type(
+  arcs
+)
+ident(
+  int_ref l "trie.ml" 150 5378 5393 "trie.ml" 150 5378 5394
+)
+"trie.ml" 152 5476 5502 "trie.ml" 152 5476 5514
+call(
+  stack
+)
+type(
+  Word.letter * trie
+)
+"trie.ml" 153 5518 5532 "trie.ml" 153 5518 5540
+type(
+  Word.letter list -> trie -> Word.letter list
+)
+ident(
+  int_ref last_rec "trie.ml" 149 5346 5359 "trie.ml" 149 5346 5367
+)
+"trie.ml" 153 5518 5543 "trie.ml" 153 5518 5544
+type(
+  Word.letter
+)
+ident(
+  int_ref n "trie.ml" 152 5476 5495 "trie.ml" 152 5476 5496
+)
+"trie.ml" 153 5518 5548 "trie.ml" 153 5518 5551
+type(
+  Word.letter list
+)
+ident(
+  int_ref acc "trie.ml" 149 5346 5368 "trie.ml" 149 5346 5371
+)
+"trie.ml" 153 5518 5543 "trie.ml" 153 5518 5551
+type(
+  Word.letter list
+)
+"trie.ml" 153 5518 5554 "trie.ml" 153 5518 5555
+type(
+  trie
+)
+ident(
+  int_ref u "trie.ml" 152 5476 5497 "trie.ml" 152 5476 5498
+)
+"trie.ml" 153 5518 5532 "trie.ml" 153 5518 5555
+call(
+  tail
+)
+type(
+  Word.letter list
+)
+"trie.ml" 152 5476 5490 "trie.ml" 153 5518 5555
+type(
+  Word.letter list
+)
+"trie.ml" 150 5378 5399 "trie.ml" 154 5556 5564
+type(
+  Word.letter list
+)
+"trie.ml" 149 5346 5374 "trie.ml" 155 5565 5571
+type(
+  trie -> Word.letter list
+)
+"trie.ml" 149 5346 5368 "trie.ml" 155 5565 5571
+type(
+  Word.letter list -> trie -> Word.letter list
+)
+"trie.ml" 148 5315 5333 "trie.ml" 155 5565 5571
+type(
+  trie -> Word.letter list
+)
+"trie.ml" 159 5634 5644 "trie.ml" 159 5634 5648
+type(
+  trie -> int
+)
+ident(
+  def size "trie.ml" 159 5634 5634 "trie.ml" 1 0 -1
+)
+"trie.ml" 160 5655 5665 "trie.ml" 160 5655 5666
+type(
+  bool
+)
+ident(
+  def b "trie.ml" 161 5677 5682 "trie.ml" 163 5765 5783
+)
+"trie.ml" 160 5655 5667 "trie.ml" 160 5655 5671
+type(
+  arcs
+)
+ident(
+  def arcs "trie.ml" 161 5677 5682 "trie.ml" 163 5765 5783
+)
+"trie.ml" 160 5655 5664 "trie.ml" 160 5655 5672
+type(
+  bool * arcs
+)
+"trie.ml" 160 5655 5659 "trie.ml" 160 5655 5672
+type(
+  trie
+)
+"trie.ml" 161 5677 5686 "trie.ml" 161 5677 5687
+type(
+  int
+)
+ident(
+  def s "trie.ml" 163 5765 5770 "trie.ml" 163 5765 5783
+)
+"trie.ml" 161 5677 5690 "trie.ml" 161 5677 5704
+type(
+  (int -> Word.letter * trie -> int) -> int -> arcs -> int
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 134 5190 5190 "list.mli" 134 5190 5245
+)
+"trie.ml" 161 5677 5705 "trie.ml" 161 5677 5710
+type(
+  int -> Word.letter * trie -> int
+)
+ident(
+  int_ref count "trie.ml" 162 5718 5737 "trie.ml" 162 5718 5742
+)
+"trie.ml" 161 5677 5711 "trie.ml" 161 5677 5712
+type(
+  int
+)
+"trie.ml" 161 5677 5713 "trie.ml" 161 5677 5717
+type(
+  arcs
+)
+ident(
+  int_ref arcs "trie.ml" 160 5655 5667 "trie.ml" 160 5655 5671
+)
+"trie.ml" 161 5677 5690 "trie.ml" 161 5677 5717
+call(
+  stack
+)
+type(
+  int
+)
+"trie.ml" 162 5718 5737 "trie.ml" 162 5718 5742
+type(
+  int -> 'a * trie -> int
+)
+ident(
+  def count "trie.ml" 161 5677 5690 "trie.ml" 161 5677 5717
+)
+"trie.ml" 162 5718 5743 "trie.ml" 162 5718 5744
+type(
+  int
+)
+ident(
+  def n "trie.ml" 162 5718 5745 "trie.ml" 162 5718 5761
+)
+"trie.ml" 162 5718 5746 "trie.ml" 162 5718 5747
+type(
+  'a
+)
+"trie.ml" 162 5718 5748 "trie.ml" 162 5718 5749
+type(
+  trie
+)
+ident(
+  def t "trie.ml" 162 5718 5753 "trie.ml" 162 5718 5761
+)
+"trie.ml" 162 5718 5745 "trie.ml" 162 5718 5750
+type(
+  'a * trie
+)
+"trie.ml" 162 5718 5753 "trie.ml" 162 5718 5754
+type(
+  int
+)
+ident(
+  int_ref n "trie.ml" 162 5718 5743 "trie.ml" 162 5718 5744
+)
+"trie.ml" 162 5718 5754 "trie.ml" 162 5718 5755
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"trie.ml" 162 5718 5755 "trie.ml" 162 5718 5759
+type(
+  trie -> int
+)
+ident(
+  int_ref size "trie.ml" 159 5634 5644 "trie.ml" 159 5634 5648
+)
+"trie.ml" 162 5718 5760 "trie.ml" 162 5718 5761
+type(
+  trie
+)
+ident(
+  int_ref t "trie.ml" 162 5718 5748 "trie.ml" 162 5718 5749
+)
+"trie.ml" 162 5718 5755 "trie.ml" 162 5718 5761
+call(
+  stack
+)
+type(
+  int
+)
+"trie.ml" 162 5718 5753 "trie.ml" 162 5718 5761
+type(
+  int
+)
+"trie.ml" 162 5718 5745 "trie.ml" 162 5718 5761
+type(
+  'a * trie -> int
+)
+"trie.ml" 162 5718 5743 "trie.ml" 162 5718 5761
+type(
+  int -> 'a * trie -> int
+)
+"trie.ml" 161 5677 5690 "trie.ml" 162 5718 5761
+type(
+  int
+)
+"trie.ml" 163 5765 5770 "trie.ml" 163 5765 5771
+type(
+  int
+)
+ident(
+  int_ref s "trie.ml" 161 5677 5686 "trie.ml" 161 5677 5687
+)
+"trie.ml" 163 5765 5771 "trie.ml" 163 5765 5772
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"trie.ml" 163 5765 5772 "trie.ml" 163 5765 5781
+type(
+  bool -> int
+)
+ident(
+  int_ref Gen.dirac "gen.ml" 14 708 714 "gen.ml" 14 708 719
+)
+"trie.ml" 163 5765 5782 "trie.ml" 163 5765 5783
+type(
+  bool
+)
+ident(
+  int_ref b "trie.ml" 160 5655 5665 "trie.ml" 160 5655 5666
+)
+"trie.ml" 163 5765 5772 "trie.ml" 163 5765 5783
+call(
+  stack
+)
+type(
+  int
+)
+"trie.ml" 163 5765 5770 "trie.ml" 163 5765 5783
+type(
+  int
+)
+"trie.ml" 161 5677 5682 "trie.ml" 163 5765 5783
+type(
+  int
+)
+"trie.ml" 159 5634 5651 "trie.ml" 164 5784 5787
+type(
+  trie -> int
+)
+"trie.ml" 170 5870 5876 "trie.ml" 170 5870 5880
+type(
+  (Word.letter list -> unit) -> trie -> unit
+)
+ident(
+  def iter "trie.ml" 177 6104 6109 "trie.ml" 1 0 -1
+)
+"trie.ml" 170 5870 5881 "trie.ml" 170 5870 5882
+type(
+  Word.letter list -> unit
+)
+ident(
+  def f "trie.ml" 170 5870 5883 "trie.ml" 177 6104 6109
+)
+"trie.ml" 170 5870 5883 "trie.ml" 170 5870 5884
+type(
+  trie
+)
+ident(
+  def t "trie.ml" 170 5870 5887 "trie.ml" 177 6104 6109
+)
+"trie.ml" 170 5870 5887 "trie.ml" 170 5870 5898
+type(
+  Word.letter list -> trie -> unit
+)
+ident(
+  int_ref iter_prefix "trie.ml" 171 5904 5916 "trie.ml" 171 5904 5927
+)
+"trie.ml" 170 5870 5899 "trie.ml" 170 5870 5901
+type(
+  Word.letter list
+)
+"trie.ml" 170 5870 5902 "trie.ml" 170 5870 5903
+type(
+  trie
+)
+ident(
+  int_ref t "trie.ml" 170 5870 5883 "trie.ml" 170 5870 5884
+)
+"trie.ml" 170 5870 5887 "trie.ml" 170 5870 5903
+call(
+  tail
+)
+type(
+  unit
+)
+"trie.ml" 171 5904 5916 "trie.ml" 171 5904 5927
+type(
+  Word.letter list -> trie -> unit
+)
+ident(
+  def iter_prefix "trie.ml" 170 5870 5887 "trie.ml" 177 6104 6109
+)
+"trie.ml" 171 5904 5928 "trie.ml" 171 5904 5932
+type(
+  Word.letter list
+)
+ident(
+  def pref "trie.ml" 171 5904 5935 "trie.ml" 177 6104 6109
+)
+"trie.ml" 172 5939 5951 "trie.ml" 172 5939 5952
+type(
+  bool
+)
+ident(
+  def b "trie.ml" 173 5965 5974 "trie.ml" 176 6094 6102
+)
+"trie.ml" 172 5939 5953 "trie.ml" 172 5939 5957
+type(
+  arcs
+)
+ident(
+  def arcs "trie.ml" 173 5965 5974 "trie.ml" 176 6094 6102
+)
+"trie.ml" 172 5939 5950 "trie.ml" 172 5939 5958
+type(
+  bool * arcs
+)
+"trie.ml" 172 5939 5945 "trie.ml" 172 5939 5958
+type(
+  trie
+)
+"trie.ml" 173 5965 5977 "trie.ml" 173 5965 5978
+type(
+  bool
+)
+ident(
+  int_ref b "trie.ml" 172 5939 5951 "trie.ml" 172 5939 5952
+)
+"trie.ml" 173 5965 5984 "trie.ml" 173 5965 5985
+type(
+  Word.letter list -> unit
+)
+ident(
+  int_ref f "trie.ml" 170 5870 5881 "trie.ml" 170 5870 5882
+)
+"trie.ml" 173 5965 5987 "trie.ml" 173 5965 5995
+type(
+  Word.letter list -> Word.letter list
+)
+ident(
+  int_ref Stdlib.List.rev "list.mli" 73 3121 3121 "list.mli" 73 3121 3149
+)
+"trie.ml" 173 5965 5996 "trie.ml" 173 5965 6000
+type(
+  Word.letter list
+)
+ident(
+  int_ref pref "trie.ml" 171 5904 5928 "trie.ml" 171 5904 5932
+)
+"trie.ml" 173 5965 5987 "trie.ml" 173 5965 6000
+call(
+  stack
+)
+type(
+  Word.letter list
+)
+"trie.ml" 173 5965 5984 "trie.ml" 173 5965 6001
+call(
+  stack
+)
+type(
+  unit
+)
+"trie.ml" 173 5965 6007 "trie.ml" 173 5965 6009
+type(
+  unit
+)
+"trie.ml" 173 5965 5974 "trie.ml" 173 5965 6009
+type(
+  unit
+)
+"trie.ml" 174 6010 6023 "trie.ml" 174 6010 6026
+type(
+  Word.letter * trie -> unit
+)
+ident(
+  def phi "trie.ml" 175 6066 6075 "trie.ml" 175 6066 6093
+)
+"trie.ml" 174 6010 6028 "trie.ml" 174 6010 6029
+type(
+  Word.letter
+)
+ident(
+  def n "trie.ml" 174 6010 6035 "trie.ml" 174 6010 6062
+)
+"trie.ml" 174 6010 6030 "trie.ml" 174 6010 6031
+type(
+  trie
+)
+ident(
+  def u "trie.ml" 174 6010 6035 "trie.ml" 174 6010 6062
+)
+"trie.ml" 174 6010 6027 "trie.ml" 174 6010 6032
+type(
+  Word.letter * trie
+)
+"trie.ml" 174 6010 6035 "trie.ml" 174 6010 6046
+type(
+  Word.letter list -> trie -> unit
+)
+ident(
+  int_ref iter_prefix "trie.ml" 171 5904 5916 "trie.ml" 171 5904 5927
+)
+"trie.ml" 174 6010 6049 "trie.ml" 174 6010 6050
+type(
+  Word.letter
+)
+ident(
+  int_ref n "trie.ml" 174 6010 6028 "trie.ml" 174 6010 6029
+)
+"trie.ml" 174 6010 6054 "trie.ml" 174 6010 6058
+type(
+  Word.letter list
+)
+ident(
+  int_ref pref "trie.ml" 171 5904 5928 "trie.ml" 171 5904 5932
+)
+"trie.ml" 174 6010 6049 "trie.ml" 174 6010 6058
+type(
+  Word.letter list
+)
+"trie.ml" 174 6010 6061 "trie.ml" 174 6010 6062
+type(
+  trie
+)
+ident(
+  int_ref u "trie.ml" 174 6010 6030 "trie.ml" 174 6010 6031
+)
+"trie.ml" 174 6010 6035 "trie.ml" 174 6010 6062
+call(
+  tail
+)
+type(
+  unit
+)
+"trie.ml" 174 6010 6027 "trie.ml" 174 6010 6062
+type(
+  Word.letter * trie -> unit
+)
+"trie.ml" 175 6066 6075 "trie.ml" 175 6066 6084
+type(
+  (Word.letter * trie -> unit) -> arcs -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 105 4099 4099 "list.mli" 105 4099 4141
+)
+"trie.ml" 175 6066 6085 "trie.ml" 175 6066 6088
+type(
+  Word.letter * trie -> unit
+)
+ident(
+  int_ref phi "trie.ml" 174 6010 6023 "trie.ml" 174 6010 6026
+)
+"trie.ml" 175 6066 6089 "trie.ml" 175 6066 6093
+type(
+  arcs
+)
+ident(
+  int_ref arcs "trie.ml" 172 5939 5953 "trie.ml" 172 5939 5957
+)
+"trie.ml" 175 6066 6075 "trie.ml" 175 6066 6093
+call(
+  tail
+)
+type(
+  unit
+)
+"trie.ml" 174 6010 6019 "trie.ml" 175 6066 6093
+type(
+  unit
+)
+"trie.ml" 173 5965 5974 "trie.ml" 176 6094 6102
+type(
+  unit
+)
+"trie.ml" 171 5904 5935 "trie.ml" 177 6104 6109
+type(
+  trie -> unit
+)
+"trie.ml" 171 5904 5928 "trie.ml" 177 6104 6109
+type(
+  Word.letter list -> trie -> unit
+)
+"trie.ml" 170 5870 5887 "trie.ml" 177 6104 6109
+type(
+  unit
+)
+"trie.ml" 170 5870 5883 "trie.ml" 177 6104 6109
+type(
+  trie -> unit
+)
+"trie.ml" 170 5870 5881 "trie.ml" 177 6104 6109
+type(
+  (Word.letter list -> unit) -> trie -> unit
+)

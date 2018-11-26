@@ -1,0 +1,1567 @@
+"reacte.ml" 38 1313 1319 "reacte.ml" 38 1313 1325
+type(
+  Disp.phase -> Word.letter list -> Aume.Auto.auto option
+)
+ident(
+  def access "reacte.ml" 50 1703 1703 "reacte.ml" 106 3730 3733
+)
+"reacte.ml" 38 1313 1326 "reacte.ml" 38 1313 1331
+type(
+  Disp.phase
+)
+ident(
+  def phase "reacte.ml" 38 1313 1334 "reacte.ml" 47 1631 1638
+)
+"reacte.ml" 38 1313 1334 "reacte.ml" 38 1313 1337
+type(
+  Aume.Auto.auto -> Word.letter list -> Aume.Auto.auto option
+)
+ident(
+  int_ref acc "reacte.ml" 39 1358 1371 "reacte.ml" 39 1358 1374
+)
+"reacte.ml" 38 1313 1339 "reacte.ml" 38 1313 1349
+type(
+  Disp.phase -> Aume.Auto.auto
+)
+ident(
+  int_ref Disp.transducer "reacte.ml" 18 842 850 "reacte.ml" 18 842 882
+)
+"reacte.ml" 38 1313 1350 "reacte.ml" 38 1313 1355
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "reacte.ml" 38 1313 1326 "reacte.ml" 38 1313 1331
+)
+"reacte.ml" 38 1313 1339 "reacte.ml" 38 1313 1355
+call(
+  stack
+)
+type(
+  Aume.Auto.auto
+)
+"reacte.ml" 38 1313 1334 "reacte.ml" 38 1313 1356
+call(
+  tail
+)
+type(
+  Word.letter list -> Aume.Auto.auto option
+)
+"reacte.ml" 39 1358 1371 "reacte.ml" 39 1358 1374
+type(
+  Aume.Auto.auto -> Word.letter list -> Aume.Auto.auto option
+)
+ident(
+  def acc "reacte.ml" 38 1313 1334 "reacte.ml" 47 1631 1638
+)
+"reacte.ml" 39 1358 1375 "reacte.ml" 39 1358 1380
+type(
+  Aume.Auto.auto
+)
+ident(
+  def state "reacte.ml" 39 1358 1383 "reacte.ml" 47 1631 1638
+)
+"reacte.ml" 40 1387 1395 "reacte.ml" 40 1387 1397
+type(
+  Word.letter list
+)
+"reacte.ml" 40 1387 1406 "reacte.ml" 40 1387 1411
+type(
+  Aume.Auto.auto
+)
+ident(
+  int_ref state "reacte.ml" 39 1358 1375 "reacte.ml" 39 1358 1380
+)
+"reacte.ml" 40 1387 1401 "reacte.ml" 40 1387 1411
+type(
+  Aume.Auto.auto option
+)
+"reacte.ml" 41 1412 1422 "reacte.ml" 41 1412 1423
+type(
+  Word.letter list
+)
+type(
+  Word.letter
+)
+ident(
+  def c "reacte.ml" 41 1412 1437 "reacte.ml" 46 1621 1630
+)
+"reacte.ml" 41 1412 1427 "reacte.ml" 41 1412 1431
+type(
+  Word.letter list
+)
+ident(
+  def rest "reacte.ml" 41 1412 1437 "reacte.ml" 46 1621 1630
+)
+"reacte.ml" 41 1412 1443 "reacte.ml" 41 1412 1448
+type(
+  Aume.Auto.auto
+)
+ident(
+  int_ref state "reacte.ml" 39 1358 1375 "reacte.ml" 39 1358 1380
+)
+"reacte.ml" 42 1454 1471 "reacte.ml" 42 1454 1476
+type(
+  Aume.Auto.deter
+)
+ident(
+  def deter "reacte.ml" 42 1454 1483 "reacte.ml" 45 1602 1619
+)
+"reacte.ml" 42 1454 1477 "reacte.ml" 42 1454 1478
+type(
+  Aume.Auto.choices
+)
+"reacte.ml" 42 1454 1470 "reacte.ml" 42 1454 1479
+type(
+  Aume.Auto.deter * Aume.Auto.choices
+)
+"reacte.ml" 42 1454 1464 "reacte.ml" 42 1454 1479
+type(
+  Aume.Auto.auto
+)
+"reacte.ml" 42 1454 1489 "reacte.ml" 42 1454 1498
+type(
+  Word.letter -> Aume.Auto.deter -> Aume.Auto.auto option
+)
+ident(
+  int_ref List2.ass "list2.ml" 41 1492 1498 "list2.ml" 41 1492 1501
+)
+"reacte.ml" 42 1454 1499 "reacte.ml" 42 1454 1500
+type(
+  Word.letter
+)
+ident(
+  int_ref c "reacte.ml" 41 1412 1422 "reacte.ml" 41 1412 1423
+)
+"reacte.ml" 42 1454 1501 "reacte.ml" 42 1454 1506
+type(
+  Aume.Auto.deter
+)
+ident(
+  int_ref deter "reacte.ml" 42 1454 1471 "reacte.ml" 42 1454 1476
+)
+"reacte.ml" 42 1454 1489 "reacte.ml" 42 1454 1506
+call(
+  stack
+)
+type(
+  Aume.Auto.auto option
+)
+"reacte.ml" 43 1513 1536 "reacte.ml" 43 1513 1546
+type(
+  Aume.Auto.auto
+)
+ident(
+  def next_state "reacte.ml" 43 1513 1550 "reacte.ml" 43 1513 1569
+)
+"reacte.ml" 43 1513 1531 "reacte.ml" 43 1513 1546
+type(
+  Aume.Auto.auto option
+)
+"reacte.ml" 43 1513 1550 "reacte.ml" 43 1513 1553
+type(
+  Aume.Auto.auto -> Word.letter list -> Aume.Auto.auto option
+)
+ident(
+  int_ref acc "reacte.ml" 39 1358 1371 "reacte.ml" 39 1358 1374
+)
+"reacte.ml" 43 1513 1554 "reacte.ml" 43 1513 1564
+type(
+  Aume.Auto.auto
+)
+ident(
+  int_ref next_state "reacte.ml" 43 1513 1536 "reacte.ml" 43 1513 1546
+)
+"reacte.ml" 43 1513 1565 "reacte.ml" 43 1513 1569
+type(
+  Word.letter list
+)
+ident(
+  int_ref rest "reacte.ml" 41 1412 1427 "reacte.ml" 41 1412 1431
+)
+"reacte.ml" 43 1513 1550 "reacte.ml" 43 1513 1569
+call(
+  tail
+)
+type(
+  Aume.Auto.auto option
+)
+"reacte.ml" 44 1570 1588 "reacte.ml" 44 1570 1592
+type(
+  Aume.Auto.auto option
+)
+"reacte.ml" 44 1570 1596 "reacte.ml" 44 1570 1600
+type(
+  Aume.Auto.auto option
+)
+"reacte.ml" 42 1454 1483 "reacte.ml" 45 1602 1619
+type(
+  Aume.Auto.auto option
+)
+"reacte.ml" 41 1412 1437 "reacte.ml" 46 1621 1630
+type(
+  Aume.Auto.auto option
+)
+"reacte.ml" 39 1358 1383 "reacte.ml" 47 1631 1638
+type(
+  Word.letter list -> Aume.Auto.auto option
+)
+"reacte.ml" 39 1358 1375 "reacte.ml" 47 1631 1638
+type(
+  Aume.Auto.auto -> Word.letter list -> Aume.Auto.auto option
+)
+"reacte.ml" 38 1313 1334 "reacte.ml" 47 1631 1638
+type(
+  Word.letter list -> Aume.Auto.auto option
+)
+"reacte.ml" 38 1313 1326 "reacte.ml" 47 1631 1638
+type(
+  Disp.phase -> Word.letter list -> Aume.Auto.auto option
+)
+"reacte.ml" 50 1703 1709 "reacte.ml" 50 1703 1717
+type(
+  Disp.phase -> input -> Word.word -> backtrack list -> backtrack list
+)
+ident(
+  def schedule "reacte.ml" 54 1876 1876 "reacte.ml" 106 3730 3733
+)
+"reacte.ml" 50 1703 1718 "reacte.ml" 50 1703 1723
+type(
+  Disp.phase
+)
+ident(
+  def phase "reacte.ml" 50 1703 1724 "reacte.ml" 52 1799 1842
+)
+"reacte.ml" 50 1703 1724 "reacte.ml" 50 1703 1729
+type(
+  input
+)
+ident(
+  def input "reacte.ml" 50 1703 1730 "reacte.ml" 52 1799 1842
+)
+"reacte.ml" 50 1703 1730 "reacte.ml" 50 1703 1731
+type(
+  Word.word
+)
+ident(
+  def v "reacte.ml" 50 1703 1732 "reacte.ml" 52 1799 1842
+)
+"reacte.ml" 50 1703 1732 "reacte.ml" 50 1703 1736
+type(
+  backtrack list
+)
+ident(
+  def cont "reacte.ml" 51 1739 1741 "reacte.ml" 52 1799 1842
+)
+"reacte.ml" 51 1739 1745 "reacte.ml" 51 1739 1748
+type(
+  Disp.phase -> backtrack list -> backtrack list
+)
+ident(
+  def add "reacte.ml" 52 1799 1801 "reacte.ml" 52 1799 1842
+)
+"reacte.ml" 51 1739 1749 "reacte.ml" 51 1739 1754
+type(
+  Disp.phase
+)
+ident(
+  def phase "reacte.ml" 51 1739 1755 "reacte.ml" 51 1739 1795
+)
+"reacte.ml" 51 1739 1755 "reacte.ml" 51 1739 1759
+type(
+  backtrack list
+)
+ident(
+  def cont "reacte.ml" 51 1739 1764 "reacte.ml" 51 1739 1793
+)
+"reacte.ml" 51 1739 1772 "reacte.ml" 51 1739 1777
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "reacte.ml" 51 1739 1749 "reacte.ml" 51 1739 1754
+)
+"reacte.ml" 51 1739 1778 "reacte.ml" 51 1739 1783
+type(
+  input
+)
+ident(
+  int_ref input "reacte.ml" 50 1703 1724 "reacte.ml" 50 1703 1729
+)
+"reacte.ml" 51 1739 1784 "reacte.ml" 51 1739 1785
+type(
+  Word.word
+)
+ident(
+  int_ref v "reacte.ml" 50 1703 1730 "reacte.ml" 50 1703 1731
+)
+"reacte.ml" 51 1739 1764 "reacte.ml" 51 1739 1785
+type(
+  backtrack
+)
+"reacte.ml" 51 1739 1789 "reacte.ml" 51 1739 1793
+type(
+  backtrack list
+)
+ident(
+  int_ref cont "reacte.ml" 51 1739 1755 "reacte.ml" 51 1739 1759
+)
+"reacte.ml" 51 1739 1764 "reacte.ml" 51 1739 1793
+type(
+  backtrack list
+)
+"reacte.ml" 51 1739 1755 "reacte.ml" 51 1739 1795
+type(
+  backtrack list -> backtrack list
+)
+"reacte.ml" 51 1739 1749 "reacte.ml" 51 1739 1795
+type(
+  Disp.phase -> backtrack list -> backtrack list
+)
+"reacte.ml" 52 1799 1801 "reacte.ml" 52 1799 1816
+type(
+  (Disp.phase -> backtrack list -> backtrack list) ->
+  Disp.phase list -> backtrack list -> backtrack list
+)
+ident(
+  int_ref Stdlib.List.fold_right "list.mli" 138 5329 5329 "list.mli" 138 5329 5385
+)
+"reacte.ml" 52 1799 1817 "reacte.ml" 52 1799 1820
+type(
+  Disp.phase -> backtrack list -> backtrack list
+)
+ident(
+  int_ref add "reacte.ml" 51 1739 1745 "reacte.ml" 51 1739 1748
+)
+"reacte.ml" 52 1799 1822 "reacte.ml" 52 1799 1830
+type(
+  Disp.phase -> Disp.phase list
+)
+ident(
+  int_ref Disp.dispatch "reacte.ml" 21 955 963 "reacte.ml" 21 955 999
+)
+"reacte.ml" 52 1799 1831 "reacte.ml" 52 1799 1836
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "reacte.ml" 50 1703 1718 "reacte.ml" 50 1703 1723
+)
+"reacte.ml" 52 1799 1822 "reacte.ml" 52 1799 1836
+call(
+  stack
+)
+type(
+  Disp.phase list
+)
+"reacte.ml" 52 1799 1838 "reacte.ml" 52 1799 1842
+type(
+  backtrack list
+)
+ident(
+  int_ref cont "reacte.ml" 50 1703 1732 "reacte.ml" 50 1703 1736
+)
+"reacte.ml" 52 1799 1801 "reacte.ml" 52 1799 1842
+call(
+  tail
+)
+type(
+  backtrack list
+)
+"reacte.ml" 51 1739 1741 "reacte.ml" 52 1799 1842
+type(
+  backtrack list
+)
+"reacte.ml" 50 1703 1732 "reacte.ml" 52 1799 1842
+type(
+  backtrack list -> backtrack list
+)
+"reacte.ml" 50 1703 1730 "reacte.ml" 52 1799 1842
+type(
+  Word.word -> backtrack list -> backtrack list
+)
+"reacte.ml" 50 1703 1724 "reacte.ml" 52 1799 1842
+type(
+  input -> Word.word -> backtrack list -> backtrack list
+)
+"reacte.ml" 50 1703 1718 "reacte.ml" 52 1799 1842
+type(
+  Disp.phase -> input -> Word.word -> backtrack list -> backtrack list
+)
+"reacte.ml" 54 1876 1882 "reacte.ml" 54 1876 1887
+type(
+  'a list -> bool
+)
+ident(
+  def final "reacte.ml" 63 2172 2172 "reacte.ml" 106 3730 3733
+)
+"reacte.ml" 54 1876 1888 "reacte.ml" 54 1876 1889
+type(
+  'a list
+)
+ident(
+  def v "reacte.ml" 55 1893 1895 "reacte.ml" 55 1893 1899
+)
+"reacte.ml" 55 1893 1895 "reacte.ml" 55 1893 1896
+type(
+  'a list
+)
+ident(
+  int_ref v "reacte.ml" 54 1876 1888 "reacte.ml" 54 1876 1889
+)
+"reacte.ml" 55 1893 1896 "reacte.ml" 55 1893 1897
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"reacte.ml" 55 1893 1897 "reacte.ml" 55 1893 1899
+type(
+  'a list
+)
+"reacte.ml" 55 1893 1895 "reacte.ml" 55 1893 1899
+type(
+  bool
+)
+"reacte.ml" 54 1876 1888 "reacte.ml" 55 1893 1899
+type(
+  'a list -> bool
+)
+"reacte.ml" 63 2172 2182 "reacte.ml" 63 2172 2187
+type(
+  Disp.phase -> input -> backtrack list -> Aume.Auto.auto -> backtrack list
+)
+ident(
+  def react "reacte.ml" 63 2172 2172 "reacte.ml" 106 3730 3733
+)
+"reacte.ml" 63 2172 2188 "reacte.ml" 63 2172 2193
+type(
+  Disp.phase
+)
+ident(
+  def phase "reacte.ml" 63 2172 2194 "reacte.ml" 75 2677 2680
+)
+"reacte.ml" 63 2172 2194 "reacte.ml" 63 2172 2199
+type(
+  input
+)
+ident(
+  def input "reacte.ml" 63 2172 2200 "reacte.ml" 75 2677 2680
+)
+"reacte.ml" 63 2172 2200 "reacte.ml" 63 2172 2204
+type(
+  backtrack list
+)
+ident(
+  def back "reacte.ml" 63 2172 2205 "reacte.ml" 75 2677 2680
+)
+"reacte.ml" 63 2172 2205 "reacte.ml" 63 2172 2210
+type(
+  Aume.Auto.auto
+)
+ident(
+  def state "reacte.ml" 63 2172 2213 "reacte.ml" 75 2677 2680
+)
+"reacte.ml" 63 2172 2219 "reacte.ml" 63 2172 2224
+type(
+  Aume.Auto.auto
+)
+ident(
+  int_ref state "reacte.ml" 63 2172 2205 "reacte.ml" 63 2172 2210
+)
+"reacte.ml" 64 2230 2241 "reacte.ml" 64 2230 2244
+type(
+  Aume.Auto.deter
+)
+ident(
+  def det "reacte.ml" 66 2332 2336 "reacte.ml" 74 2668 2676
+)
+"reacte.ml" 64 2230 2245 "reacte.ml" 64 2230 2252
+type(
+  Aume.Auto.choices
+)
+ident(
+  def choices "reacte.ml" 66 2332 2336 "reacte.ml" 74 2668 2676
+)
+"reacte.ml" 64 2230 2240 "reacte.ml" 64 2230 2253
+type(
+  Aume.Auto.deter * Aume.Auto.choices
+)
+"reacte.ml" 64 2230 2234 "reacte.ml" 64 2230 2253
+type(
+  Aume.Auto.auto
+)
+"reacte.ml" 66 2332 2340 "reacte.ml" 66 2332 2344
+type(
+  backtrack list
+)
+ident(
+  def cont "reacte.ml" 68 2439 2443 "reacte.ml" 74 2668 2676
+)
+"reacte.ml" 66 2332 2350 "reacte.ml" 66 2332 2357
+type(
+  Aume.Auto.choices
+)
+ident(
+  int_ref choices "reacte.ml" 64 2230 2245 "reacte.ml" 64 2230 2252
+)
+"reacte.ml" 66 2332 2357 "reacte.ml" 66 2332 2358
+type(
+  Aume.Auto.choices -> Aume.Auto.choices -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"reacte.ml" 66 2332 2358 "reacte.ml" 66 2332 2360
+type(
+  Aume.Auto.choices
+)
+"reacte.ml" 66 2332 2350 "reacte.ml" 66 2332 2360
+type(
+  bool
+)
+"reacte.ml" 66 2332 2366 "reacte.ml" 66 2332 2370
+type(
+  backtrack list
+)
+ident(
+  int_ref back "reacte.ml" 63 2172 2200 "reacte.ml" 63 2172 2204
+)
+"reacte.ml" 67 2371 2400 "reacte.ml" 67 2371 2405
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "reacte.ml" 63 2172 2188 "reacte.ml" 63 2172 2193
+)
+"reacte.ml" 67 2371 2406 "reacte.ml" 67 2371 2411
+type(
+  input
+)
+ident(
+  int_ref input "reacte.ml" 63 2172 2194 "reacte.ml" 63 2172 2199
+)
+"reacte.ml" 67 2371 2412 "reacte.ml" 67 2371 2417
+type(
+  Aume.Auto.auto
+)
+ident(
+  int_ref state "reacte.ml" 63 2172 2205 "reacte.ml" 63 2172 2210
+)
+"reacte.ml" 67 2371 2418 "reacte.ml" 67 2371 2425
+type(
+  Aume.Auto.choices
+)
+ident(
+  int_ref choices "reacte.ml" 64 2230 2245 "reacte.ml" 64 2230 2252
+)
+"reacte.ml" 67 2371 2393 "reacte.ml" 67 2371 2425
+type(
+  backtrack
+)
+"reacte.ml" 67 2371 2429 "reacte.ml" 67 2371 2433
+type(
+  backtrack list
+)
+ident(
+  int_ref back "reacte.ml" 63 2172 2200 "reacte.ml" 63 2172 2204
+)
+"reacte.ml" 67 2371 2393 "reacte.ml" 67 2371 2433
+type(
+  backtrack list
+)
+"reacte.ml" 66 2332 2347 "reacte.ml" 67 2371 2435
+type(
+  backtrack list
+)
+"reacte.ml" 68 2439 2449 "reacte.ml" 68 2439 2454
+type(
+  input
+)
+ident(
+  int_ref input "reacte.ml" 63 2172 2194 "reacte.ml" 63 2172 2199
+)
+"reacte.ml" 69 2460 2469 "reacte.ml" 69 2460 2471
+type(
+  input
+)
+"reacte.ml" 69 2460 2475 "reacte.ml" 69 2460 2483
+type(
+  backtrack list -> backtrack list
+)
+ident(
+  int_ref continue "reacte.ml" 90 3237 3241 "reacte.ml" 90 3237 3249
+)
+"reacte.ml" 69 2460 2484 "reacte.ml" 69 2460 2488
+type(
+  backtrack list
+)
+ident(
+  int_ref cont "reacte.ml" 66 2332 2340 "reacte.ml" 66 2332 2344
+)
+"reacte.ml" 69 2460 2475 "reacte.ml" 69 2460 2488
+call(
+  tail
+)
+type(
+  backtrack list
+)
+"reacte.ml" 70 2489 2500 "reacte.ml" 70 2489 2506
+type(
+  input
+)
+type(
+  Word.letter
+)
+ident(
+  def letter "reacte.ml" 70 2489 2520 "reacte.ml" 73 2654 2667
+)
+"reacte.ml" 70 2489 2510 "reacte.ml" 70 2489 2514
+type(
+  Word.letter list
+)
+ident(
+  def rest "reacte.ml" 70 2489 2520 "reacte.ml" 73 2654 2667
+)
+"reacte.ml" 70 2489 2526 "reacte.ml" 70 2489 2535
+type(
+  Word.letter -> Aume.Auto.deter -> Aume.Auto.auto option
+)
+ident(
+  int_ref List2.ass "list2.ml" 41 1492 1498 "list2.ml" 41 1492 1501
+)
+"reacte.ml" 70 2489 2536 "reacte.ml" 70 2489 2542
+type(
+  Word.letter
+)
+ident(
+  int_ref letter "reacte.ml" 70 2489 2500 "reacte.ml" 70 2489 2506
+)
+"reacte.ml" 70 2489 2543 "reacte.ml" 70 2489 2546
+type(
+  Aume.Auto.deter
+)
+ident(
+  int_ref det "reacte.ml" 64 2230 2241 "reacte.ml" 64 2230 2244
+)
+"reacte.ml" 70 2489 2526 "reacte.ml" 70 2489 2546
+call(
+  stack
+)
+type(
+  Aume.Auto.auto option
+)
+"reacte.ml" 71 2552 2571 "reacte.ml" 71 2552 2581
+type(
+  Aume.Auto.auto
+)
+ident(
+  def next_state "reacte.ml" 71 2552 2585 "reacte.ml" 71 2552 2617
+)
+"reacte.ml" 71 2552 2566 "reacte.ml" 71 2552 2581
+type(
+  Aume.Auto.auto option
+)
+"reacte.ml" 71 2552 2585 "reacte.ml" 71 2552 2590
+type(
+  Disp.phase -> input -> backtrack list -> Aume.Auto.auto -> backtrack list
+)
+ident(
+  int_ref react "reacte.ml" 63 2172 2182 "reacte.ml" 63 2172 2187
+)
+"reacte.ml" 71 2552 2591 "reacte.ml" 71 2552 2596
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "reacte.ml" 63 2172 2188 "reacte.ml" 63 2172 2193
+)
+"reacte.ml" 71 2552 2597 "reacte.ml" 71 2552 2601
+type(
+  input
+)
+ident(
+  int_ref rest "reacte.ml" 70 2489 2510 "reacte.ml" 70 2489 2514
+)
+"reacte.ml" 71 2552 2602 "reacte.ml" 71 2552 2606
+type(
+  backtrack list
+)
+ident(
+  int_ref cont "reacte.ml" 66 2332 2340 "reacte.ml" 66 2332 2344
+)
+"reacte.ml" 71 2552 2607 "reacte.ml" 71 2552 2617
+type(
+  Aume.Auto.auto
+)
+ident(
+  int_ref next_state "reacte.ml" 71 2552 2571 "reacte.ml" 71 2552 2581
+)
+"reacte.ml" 71 2552 2585 "reacte.ml" 71 2552 2617
+call(
+  tail
+)
+type(
+  backtrack list
+)
+"reacte.ml" 72 2618 2632 "reacte.ml" 72 2618 2636
+type(
+  Aume.Auto.auto option
+)
+"reacte.ml" 72 2618 2640 "reacte.ml" 72 2618 2648
+type(
+  backtrack list -> backtrack list
+)
+ident(
+  int_ref continue "reacte.ml" 90 3237 3241 "reacte.ml" 90 3237 3249
+)
+"reacte.ml" 72 2618 2649 "reacte.ml" 72 2618 2653
+type(
+  backtrack list
+)
+ident(
+  int_ref cont "reacte.ml" 66 2332 2340 "reacte.ml" 66 2332 2344
+)
+"reacte.ml" 72 2618 2640 "reacte.ml" 72 2618 2653
+call(
+  tail
+)
+type(
+  backtrack list
+)
+"reacte.ml" 70 2489 2520 "reacte.ml" 73 2654 2667
+type(
+  backtrack list
+)
+"reacte.ml" 68 2439 2443 "reacte.ml" 74 2668 2676
+type(
+  backtrack list
+)
+"reacte.ml" 66 2332 2336 "reacte.ml" 74 2668 2676
+type(
+  backtrack list
+)
+"reacte.ml" 63 2172 2213 "reacte.ml" 75 2677 2680
+type(
+  backtrack list
+)
+"reacte.ml" 63 2172 2205 "reacte.ml" 75 2677 2680
+type(
+  Aume.Auto.auto -> backtrack list
+)
+"reacte.ml" 63 2172 2200 "reacte.ml" 75 2677 2680
+type(
+  backtrack list -> Aume.Auto.auto -> backtrack list
+)
+"reacte.ml" 63 2172 2194 "reacte.ml" 75 2677 2680
+type(
+  input -> backtrack list -> Aume.Auto.auto -> backtrack list
+)
+"reacte.ml" 63 2172 2188 "reacte.ml" 75 2677 2680
+type(
+  Disp.phase -> input -> backtrack list -> Aume.Auto.auto -> backtrack list
+)
+"reacte.ml" 76 2681 2685 "reacte.ml" 76 2681 2691
+type(
+  Disp.phase ->
+  input ->
+  backtrack list ->
+  Aume.Auto.auto -> Aume.Auto.transition list -> backtrack list
+)
+ident(
+  def choose "reacte.ml" 63 2172 2172 "reacte.ml" 106 3730 3733
+)
+"reacte.ml" 76 2681 2692 "reacte.ml" 76 2681 2697
+type(
+  Disp.phase
+)
+ident(
+  def phase "reacte.ml" 76 2681 2698 "reacte.ml" 89 3233 3236
+)
+"reacte.ml" 76 2681 2698 "reacte.ml" 76 2681 2703
+type(
+  input
+)
+ident(
+  def input "reacte.ml" 76 2681 2704 "reacte.ml" 89 3233 3236
+)
+"reacte.ml" 76 2681 2704 "reacte.ml" 76 2681 2708
+type(
+  backtrack list
+)
+ident(
+  def back "reacte.ml" 76 2681 2709 "reacte.ml" 89 3233 3236
+)
+"reacte.ml" 76 2681 2709 "reacte.ml" 76 2681 2714
+type(
+  Aume.Auto.auto
+)
+ident(
+  def state "reacte.ml" 76 2681 2717 "reacte.ml" 89 3233 3236
+)
+"reacte.ml" 77 2721 2725 "reacte.ml" 77 2721 2727
+type(
+  Aume.Auto.transition list
+)
+"reacte.ml" 77 2721 2731 "reacte.ml" 77 2721 2739
+type(
+  backtrack list -> backtrack list
+)
+ident(
+  int_ref continue "reacte.ml" 90 3237 3241 "reacte.ml" 90 3237 3249
+)
+"reacte.ml" 77 2721 2740 "reacte.ml" 77 2721 2744
+type(
+  backtrack list
+)
+ident(
+  int_ref back "reacte.ml" 76 2681 2704 "reacte.ml" 76 2681 2708
+)
+"reacte.ml" 77 2721 2731 "reacte.ml" 77 2721 2744
+call(
+  tail
+)
+type(
+  backtrack list
+)
+"reacte.ml" 78 2746 2753 "reacte.ml" 78 2746 2754
+type(
+  Word.word
+)
+ident(
+  def w "reacte.ml" 79 2774 2781 "reacte.ml" 88 3222 3232
+)
+"reacte.ml" 78 2746 2755 "reacte.ml" 78 2746 2756
+type(
+  Word.word
+)
+ident(
+  def v "reacte.ml" 79 2774 2781 "reacte.ml" 88 3222 3232
+)
+"reacte.ml" 78 2746 2752 "reacte.ml" 78 2746 2757
+type(
+  Aume.Auto.transition list
+)
+type(
+  Aume.Auto.transition
+)
+"reacte.ml" 78 2746 2761 "reacte.ml" 78 2746 2767
+type(
+  Aume.Auto.transition list
+)
+ident(
+  def others "reacte.ml" 79 2774 2781 "reacte.ml" 88 3222 3232
+)
+"reacte.ml" 79 2774 2785 "reacte.ml" 79 2774 2789
+type(
+  backtrack list
+)
+ident(
+  def cont "reacte.ml" 81 2885 2892 "reacte.ml" 88 3222 3232
+)
+"reacte.ml" 79 2774 2795 "reacte.ml" 79 2774 2801
+type(
+  Aume.Auto.transition list
+)
+ident(
+  int_ref others "reacte.ml" 78 2746 2761 "reacte.ml" 78 2746 2767
+)
+"reacte.ml" 79 2774 2801 "reacte.ml" 79 2774 2802
+type(
+  Aume.Auto.transition list -> Aume.Auto.transition list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"reacte.ml" 79 2774 2802 "reacte.ml" 79 2774 2804
+type(
+  Aume.Auto.transition list
+)
+"reacte.ml" 79 2774 2795 "reacte.ml" 79 2774 2804
+type(
+  bool
+)
+"reacte.ml" 79 2774 2810 "reacte.ml" 79 2774 2814
+type(
+  backtrack list
+)
+ident(
+  int_ref back "reacte.ml" 76 2681 2704 "reacte.ml" 76 2681 2708
+)
+"reacte.ml" 80 2815 2847 "reacte.ml" 80 2815 2852
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "reacte.ml" 76 2681 2692 "reacte.ml" 76 2681 2697
+)
+"reacte.ml" 80 2815 2853 "reacte.ml" 80 2815 2858
+type(
+  input
+)
+ident(
+  int_ref input "reacte.ml" 76 2681 2698 "reacte.ml" 76 2681 2703
+)
+"reacte.ml" 80 2815 2859 "reacte.ml" 80 2815 2864
+type(
+  Aume.Auto.auto
+)
+ident(
+  int_ref state "reacte.ml" 76 2681 2709 "reacte.ml" 76 2681 2714
+)
+"reacte.ml" 80 2815 2865 "reacte.ml" 80 2815 2871
+type(
+  Aume.Auto.choices
+)
+ident(
+  int_ref others "reacte.ml" 78 2746 2761 "reacte.ml" 78 2746 2767
+)
+"reacte.ml" 80 2815 2840 "reacte.ml" 80 2815 2871
+type(
+  backtrack
+)
+"reacte.ml" 80 2815 2875 "reacte.ml" 80 2815 2879
+type(
+  backtrack list
+)
+ident(
+  int_ref back "reacte.ml" 76 2681 2704 "reacte.ml" 76 2681 2708
+)
+"reacte.ml" 80 2815 2840 "reacte.ml" 80 2815 2879
+type(
+  backtrack list
+)
+"reacte.ml" 79 2774 2792 "reacte.ml" 80 2815 2881
+type(
+  backtrack list
+)
+"reacte.ml" 81 2885 2898 "reacte.ml" 81 2885 2912
+type(
+  input -> Word.word -> input option
+)
+ident(
+  int_ref List2.subtract "list2.ml" 29 1192 1202 "list2.ml" 29 1192 1210
+)
+"reacte.ml" 81 2885 2913 "reacte.ml" 81 2885 2918
+type(
+  input
+)
+ident(
+  int_ref input "reacte.ml" 76 2681 2698 "reacte.ml" 76 2681 2703
+)
+"reacte.ml" 81 2885 2919 "reacte.ml" 81 2885 2920
+type(
+  Word.word
+)
+ident(
+  int_ref w "reacte.ml" 78 2746 2753 "reacte.ml" 78 2746 2754
+)
+"reacte.ml" 81 2885 2898 "reacte.ml" 81 2885 2920
+call(
+  stack
+)
+type(
+  input option
+)
+"reacte.ml" 82 2959 2975 "reacte.ml" 82 2959 2979
+type(
+  input
+)
+ident(
+  def tape "reacte.ml" 83 2983 2997 "reacte.ml" 86 3132 3188
+)
+"reacte.ml" 82 2959 2970 "reacte.ml" 82 2959 2979
+type(
+  input option
+)
+"reacte.ml" 83 2983 3000 "reacte.ml" 83 2983 3004
+type(
+  input
+)
+ident(
+  int_ref tape "reacte.ml" 82 2959 2975 "reacte.ml" 82 2959 2979
+)
+"reacte.ml" 83 2983 3005 "reacte.ml" 83 2983 3006
+type(
+  input -> input -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"reacte.ml" 83 2983 3007 "reacte.ml" 83 2983 3009
+type(
+  input
+)
+"reacte.ml" 83 2983 3000 "reacte.ml" 83 2983 3009
+type(
+  bool
+)
+"reacte.ml" 84 3036 3058 "reacte.ml" 84 3036 3066
+type(
+  Disp.phase -> bool
+)
+ident(
+  int_ref Disp.terminal "reacte.ml" 20 915 923 "reacte.ml" 20 915 953
+)
+"reacte.ml" 84 3036 3067 "reacte.ml" 84 3036 3072
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "reacte.ml" 76 2681 2692 "reacte.ml" 76 2681 2697
+)
+"reacte.ml" 84 3036 3058 "reacte.ml" 84 3036 3072
+call(
+  stack
+)
+type(
+  bool
+)
+"reacte.ml" 84 3036 3073 "reacte.ml" 84 3036 3075
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 143 5989 5989 "stdlib.mli" 143 5989 6040
+)
+"reacte.ml" 84 3036 3076 "reacte.ml" 84 3036 3081
+type(
+  Word.word -> bool
+)
+ident(
+  int_ref final "reacte.ml" 54 1876 1882 "reacte.ml" 54 1876 1887
+)
+"reacte.ml" 84 3036 3082 "reacte.ml" 84 3036 3083
+type(
+  Word.word
+)
+ident(
+  int_ref v "reacte.ml" 78 2746 2755 "reacte.ml" 78 2746 2756
+)
+"reacte.ml" 84 3036 3076 "reacte.ml" 84 3036 3083
+call(
+  stack
+)
+type(
+  bool
+)
+"reacte.ml" 84 3036 3058 "reacte.ml" 84 3036 3083
+type(
+  bool
+)
+"reacte.ml" 84 3036 3089 "reacte.ml" 84 3036 3093
+type(
+  backtrack list
+)
+ident(
+  int_ref cont "reacte.ml" 79 2774 2785 "reacte.ml" 79 2774 2789
+)
+"reacte.ml" 85 3094 3118 "reacte.ml" 85 3094 3126
+type(
+  backtrack list -> backtrack list
+)
+ident(
+  int_ref continue "reacte.ml" 90 3237 3241 "reacte.ml" 90 3237 3249
+)
+"reacte.ml" 85 3094 3127 "reacte.ml" 85 3094 3131
+type(
+  backtrack list
+)
+ident(
+  int_ref cont "reacte.ml" 79 2774 2785 "reacte.ml" 79 2774 2789
+)
+"reacte.ml" 85 3094 3118 "reacte.ml" 85 3094 3131
+call(
+  tail
+)
+type(
+  backtrack list
+)
+"reacte.ml" 84 3036 3055 "reacte.ml" 85 3094 3131
+type(
+  backtrack list
+)
+"reacte.ml" 86 3132 3151 "reacte.ml" 86 3132 3159
+type(
+  backtrack list -> backtrack list
+)
+ident(
+  int_ref continue "reacte.ml" 90 3237 3241 "reacte.ml" 90 3237 3249
+)
+"reacte.ml" 86 3132 3161 "reacte.ml" 86 3132 3169
+type(
+  Disp.phase -> input -> Word.word -> backtrack list -> backtrack list
+)
+ident(
+  int_ref schedule "reacte.ml" 50 1703 1709 "reacte.ml" 50 1703 1717
+)
+"reacte.ml" 86 3132 3170 "reacte.ml" 86 3132 3175
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "reacte.ml" 76 2681 2692 "reacte.ml" 76 2681 2697
+)
+"reacte.ml" 86 3132 3176 "reacte.ml" 86 3132 3180
+type(
+  input
+)
+ident(
+  int_ref tape "reacte.ml" 82 2959 2975 "reacte.ml" 82 2959 2979
+)
+"reacte.ml" 86 3132 3181 "reacte.ml" 86 3132 3182
+type(
+  Word.word
+)
+ident(
+  int_ref v "reacte.ml" 78 2746 2755 "reacte.ml" 78 2746 2756
+)
+"reacte.ml" 86 3132 3183 "reacte.ml" 86 3132 3187
+type(
+  backtrack list
+)
+ident(
+  int_ref cont "reacte.ml" 79 2774 2785 "reacte.ml" 79 2774 2789
+)
+"reacte.ml" 86 3132 3161 "reacte.ml" 86 3132 3187
+call(
+  stack
+)
+type(
+  backtrack list
+)
+"reacte.ml" 86 3132 3151 "reacte.ml" 86 3132 3188
+call(
+  tail
+)
+type(
+  backtrack list
+)
+"reacte.ml" 83 2983 2997 "reacte.ml" 86 3132 3188
+type(
+  backtrack list
+)
+"reacte.ml" 87 3189 3200 "reacte.ml" 87 3189 3204
+type(
+  input option
+)
+"reacte.ml" 87 3189 3208 "reacte.ml" 87 3189 3216
+type(
+  backtrack list -> backtrack list
+)
+ident(
+  int_ref continue "reacte.ml" 90 3237 3241 "reacte.ml" 90 3237 3249
+)
+"reacte.ml" 87 3189 3217 "reacte.ml" 87 3189 3221
+type(
+  backtrack list
+)
+ident(
+  int_ref cont "reacte.ml" 79 2774 2785 "reacte.ml" 79 2774 2789
+)
+"reacte.ml" 87 3189 3208 "reacte.ml" 87 3189 3221
+call(
+  tail
+)
+type(
+  backtrack list
+)
+"reacte.ml" 81 2885 2892 "reacte.ml" 88 3222 3232
+type(
+  backtrack list
+)
+"reacte.ml" 79 2774 2781 "reacte.ml" 88 3222 3232
+type(
+  backtrack list
+)
+"reacte.ml" 76 2681 2717 "reacte.ml" 89 3233 3236
+type(
+  Aume.Auto.transition list -> backtrack list
+)
+"reacte.ml" 76 2681 2709 "reacte.ml" 89 3233 3236
+type(
+  Aume.Auto.auto -> Aume.Auto.transition list -> backtrack list
+)
+"reacte.ml" 76 2681 2704 "reacte.ml" 89 3233 3236
+type(
+  backtrack list ->
+  Aume.Auto.auto -> Aume.Auto.transition list -> backtrack list
+)
+"reacte.ml" 76 2681 2698 "reacte.ml" 89 3233 3236
+type(
+  input ->
+  backtrack list ->
+  Aume.Auto.auto -> Aume.Auto.transition list -> backtrack list
+)
+"reacte.ml" 76 2681 2692 "reacte.ml" 89 3233 3236
+type(
+  Disp.phase ->
+  input ->
+  backtrack list ->
+  Aume.Auto.auto -> Aume.Auto.transition list -> backtrack list
+)
+"reacte.ml" 90 3237 3241 "reacte.ml" 90 3237 3249
+type(
+  backtrack list -> backtrack list
+)
+ident(
+  def continue "reacte.ml" 63 2172 2172 "reacte.ml" 106 3730 3733
+)
+"reacte.ml" 91 3256 3260 "reacte.ml" 91 3256 3262
+type(
+  backtrack list
+)
+"reacte.ml" 91 3256 3266 "reacte.ml" 91 3256 3268
+type(
+  backtrack list
+)
+"reacte.ml" 92 3269 3275 "reacte.ml" 92 3269 3281
+type(
+  backtrack list
+)
+type(
+  backtrack
+)
+ident(
+  def resume "reacte.ml" 92 3269 3295 "reacte.ml" 99 3595 3602
+)
+"reacte.ml" 92 3269 3285 "reacte.ml" 92 3269 3289
+type(
+  backtrack list
+)
+ident(
+  def back "reacte.ml" 92 3269 3295 "reacte.ml" 99 3595 3602
+)
+"reacte.ml" 92 3269 3301 "reacte.ml" 92 3269 3307
+type(
+  backtrack
+)
+ident(
+  int_ref resume "reacte.ml" 92 3269 3275 "reacte.ml" 92 3269 3281
+)
+"reacte.ml" 93 3313 3328 "reacte.ml" 93 3313 3333
+type(
+  Disp.phase
+)
+ident(
+  def phase "reacte.ml" 94 3358 3370 "reacte.ml" 94 3358 3407
+)
+"reacte.ml" 93 3313 3334 "reacte.ml" 93 3313 3339
+type(
+  input
+)
+ident(
+  def input "reacte.ml" 94 3358 3370 "reacte.ml" 94 3358 3407
+)
+"reacte.ml" 93 3313 3340 "reacte.ml" 93 3313 3345
+type(
+  Aume.Auto.auto
+)
+ident(
+  def state "reacte.ml" 94 3358 3370 "reacte.ml" 94 3358 3407
+)
+"reacte.ml" 93 3313 3346 "reacte.ml" 93 3313 3353
+type(
+  Aume.Auto.choices
+)
+ident(
+  def choices "reacte.ml" 94 3358 3370 "reacte.ml" 94 3358 3407
+)
+"reacte.ml" 93 3313 3321 "reacte.ml" 93 3313 3353
+type(
+  backtrack
+)
+"reacte.ml" 94 3358 3370 "reacte.ml" 94 3358 3376
+type(
+  Disp.phase ->
+  input ->
+  backtrack list -> Aume.Auto.auto -> Aume.Auto.choices -> backtrack list
+)
+ident(
+  int_ref choose "reacte.ml" 76 2681 2685 "reacte.ml" 76 2681 2691
+)
+"reacte.ml" 94 3358 3377 "reacte.ml" 94 3358 3382
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "reacte.ml" 93 3313 3328 "reacte.ml" 93 3313 3333
+)
+"reacte.ml" 94 3358 3383 "reacte.ml" 94 3358 3388
+type(
+  input
+)
+ident(
+  int_ref input "reacte.ml" 93 3313 3334 "reacte.ml" 93 3313 3339
+)
+"reacte.ml" 94 3358 3389 "reacte.ml" 94 3358 3393
+type(
+  backtrack list
+)
+ident(
+  int_ref back "reacte.ml" 92 3269 3285 "reacte.ml" 92 3269 3289
+)
+"reacte.ml" 94 3358 3394 "reacte.ml" 94 3358 3399
+type(
+  Aume.Auto.auto
+)
+ident(
+  int_ref state "reacte.ml" 93 3313 3340 "reacte.ml" 93 3313 3345
+)
+"reacte.ml" 94 3358 3400 "reacte.ml" 94 3358 3407
+type(
+  Aume.Auto.choices
+)
+ident(
+  int_ref choices "reacte.ml" 93 3313 3346 "reacte.ml" 93 3313 3353
+)
+"reacte.ml" 94 3358 3370 "reacte.ml" 94 3358 3407
+call(
+  tail
+)
+type(
+  backtrack list
+)
+"reacte.ml" 95 3409 3425 "reacte.ml" 95 3409 3430
+type(
+  Disp.phase
+)
+ident(
+  def phase "reacte.ml" 95 3409 3445 "reacte.ml" 98 3580 3594
+)
+"reacte.ml" 95 3409 3431 "reacte.ml" 95 3409 3436
+type(
+  input
+)
+ident(
+  def input "reacte.ml" 95 3409 3445 "reacte.ml" 98 3580 3594
+)
+"reacte.ml" 95 3409 3437 "reacte.ml" 95 3409 3441
+type(
+  Word.word
+)
+ident(
+  def word "reacte.ml" 95 3409 3445 "reacte.ml" 98 3580 3594
+)
+"reacte.ml" 95 3409 3417 "reacte.ml" 95 3409 3441
+type(
+  backtrack
+)
+"reacte.ml" 95 3409 3451 "reacte.ml" 95 3409 3457
+type(
+  Disp.phase -> Word.word -> Aume.Auto.auto option
+)
+ident(
+  int_ref access "reacte.ml" 38 1313 1319 "reacte.ml" 38 1313 1325
+)
+"reacte.ml" 95 3409 3458 "reacte.ml" 95 3409 3463
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "reacte.ml" 95 3409 3425 "reacte.ml" 95 3409 3430
+)
+"reacte.ml" 95 3409 3464 "reacte.ml" 95 3409 3468
+type(
+  Word.word
+)
+ident(
+  int_ref word "reacte.ml" 95 3409 3437 "reacte.ml" 95 3409 3441
+)
+"reacte.ml" 95 3409 3451 "reacte.ml" 95 3409 3468
+call(
+  stack
+)
+type(
+  Aume.Auto.auto option
+)
+"reacte.ml" 96 3474 3494 "reacte.ml" 96 3474 3504
+type(
+  Aume.Auto.auto
+)
+ident(
+  def next_state "reacte.ml" 96 3474 3508 "reacte.ml" 96 3474 3541
+)
+"reacte.ml" 96 3474 3489 "reacte.ml" 96 3474 3504
+type(
+  Aume.Auto.auto option
+)
+"reacte.ml" 96 3474 3508 "reacte.ml" 96 3474 3513
+type(
+  Disp.phase -> input -> backtrack list -> Aume.Auto.auto -> backtrack list
+)
+ident(
+  int_ref react "reacte.ml" 63 2172 2182 "reacte.ml" 63 2172 2187
+)
+"reacte.ml" 96 3474 3514 "reacte.ml" 96 3474 3519
+type(
+  Disp.phase
+)
+ident(
+  int_ref phase "reacte.ml" 95 3409 3425 "reacte.ml" 95 3409 3430
+)
+"reacte.ml" 96 3474 3520 "reacte.ml" 96 3474 3525
+type(
+  input
+)
+ident(
+  int_ref input "reacte.ml" 95 3409 3431 "reacte.ml" 95 3409 3436
+)
+"reacte.ml" 96 3474 3526 "reacte.ml" 96 3474 3530
+type(
+  backtrack list
+)
+ident(
+  int_ref back "reacte.ml" 92 3269 3285 "reacte.ml" 92 3269 3289
+)
+"reacte.ml" 96 3474 3531 "reacte.ml" 96 3474 3541
+type(
+  Aume.Auto.auto
+)
+ident(
+  int_ref next_state "reacte.ml" 96 3474 3494 "reacte.ml" 96 3474 3504
+)
+"reacte.ml" 96 3474 3508 "reacte.ml" 96 3474 3541
+call(
+  tail
+)
+type(
+  backtrack list
+)
+"reacte.ml" 97 3542 3557 "reacte.ml" 97 3542 3561
+type(
+  Aume.Auto.auto option
+)
+"reacte.ml" 97 3542 3565 "reacte.ml" 97 3542 3573
+type(
+  backtrack list -> backtrack list
+)
+ident(
+  int_ref continue "reacte.ml" 90 3237 3241 "reacte.ml" 90 3237 3249
+)
+"reacte.ml" 97 3542 3574 "reacte.ml" 97 3542 3578
+type(
+  backtrack list
+)
+ident(
+  int_ref back "reacte.ml" 92 3269 3285 "reacte.ml" 92 3269 3289
+)
+"reacte.ml" 97 3542 3565 "reacte.ml" 97 3542 3578
+call(
+  tail
+)
+type(
+  backtrack list
+)
+"reacte.ml" 95 3409 3445 "reacte.ml" 98 3580 3594
+type(
+  backtrack list
+)
+"reacte.ml" 92 3269 3295 "reacte.ml" 99 3595 3602
+type(
+  backtrack list
+)
+"reacte.ml" 90 3237 3252 "reacte.ml" 100 3604 3607
+type(
+  backtrack list -> backtrack list
+)
+"reacte.ml" 102 3610 3616 "reacte.ml" 102 3610 3626
+type(
+  input -> backtrack list
+)
+ident(
+  def init_react "reacte.ml" 104 3673 3673 "reacte.ml" 106 3730 3733
+)
+"reacte.ml" 102 3610 3627 "reacte.ml" 102 3610 3635
+type(
+  input
+)
+ident(
+  def sentence "reacte.ml" 102 3610 3640 "reacte.ml" 102 3610 3667
+)
+"reacte.ml" 102 3610 3648 "reacte.ml" 102 3610 3655
+type(
+  Disp.phase
+)
+ident(
+  int_ref Disp.initial "reacte.ml" 19 884 892 "reacte.ml" 19 884 913
+)
+"reacte.ml" 102 3610 3656 "reacte.ml" 102 3610 3664
+type(
+  input
+)
+ident(
+  int_ref sentence "reacte.ml" 102 3610 3627 "reacte.ml" 102 3610 3635
+)
+"reacte.ml" 102 3610 3665 "reacte.ml" 102 3610 3667
+type(
+  Word.word
+)
+"reacte.ml" 102 3610 3640 "reacte.ml" 102 3610 3667
+type(
+  backtrack list
+)
+type(
+  backtrack
+)
+type(
+  backtrack list
+)
+"reacte.ml" 102 3610 3627 "reacte.ml" 102 3610 3669
+type(
+  input -> backtrack list
+)
+"reacte.ml" 104 3673 3679 "reacte.ml" 104 3673 3685
+type(
+  input -> backtrack list
+)
+ident(
+  def react1 "reacte.ml" 104 3673 3727 "reacte.ml" 106 3730 3733
+)
+"reacte.ml" 104 3673 3686 "reacte.ml" 104 3673 3694
+type(
+  input
+)
+ident(
+  def sentence "reacte.ml" 104 3673 3697 "reacte.ml" 104 3673 3727
+)
+"reacte.ml" 104 3673 3697 "reacte.ml" 104 3673 3705
+type(
+  backtrack list -> backtrack list
+)
+ident(
+  int_ref continue "reacte.ml" 90 3237 3241 "reacte.ml" 90 3237 3249
+)
+"reacte.ml" 104 3673 3707 "reacte.ml" 104 3673 3717
+type(
+  input -> backtrack list
+)
+ident(
+  int_ref init_react "reacte.ml" 102 3610 3616 "reacte.ml" 102 3610 3626
+)
+"reacte.ml" 104 3673 3718 "reacte.ml" 104 3673 3726
+type(
+  input
+)
+ident(
+  int_ref sentence "reacte.ml" 104 3673 3686 "reacte.ml" 104 3673 3694
+)
+"reacte.ml" 104 3673 3707 "reacte.ml" 104 3673 3726
+call(
+  stack
+)
+type(
+  backtrack list
+)
+"reacte.ml" 104 3673 3697 "reacte.ml" 104 3673 3727
+call(
+  tail
+)
+type(
+  backtrack list
+)
+"reacte.ml" 104 3673 3686 "reacte.ml" 104 3673 3727
+type(
+  input -> backtrack list
+)

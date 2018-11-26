@@ -1,0 +1,269 @@
+"make_lex.ml" 16 810 816 "make_lex.ml" 16 810 823
+type(
+  Trie.trie ref
+)
+ident(
+  def lexicon "make_lex.ml" 18 843 843 "make_lex.ml" 29 1263 1266
+)
+"make_lex.ml" 16 810 826 "make_lex.ml" 16 810 829
+type(
+  Trie.trie -> Trie.trie ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1067 41215 41215 "stdlib.mli" 1067 41215 41259
+)
+"make_lex.ml" 16 810 830 "make_lex.ml" 16 810 840
+type(
+  Trie.trie
+)
+ident(
+  int_ref Trie.empty "trie.ml" 132 4893 4899 "trie.ml" 132 4893 4904
+)
+"make_lex.ml" 16 810 826 "make_lex.ml" 16 810 840
+type(
+  Trie.trie ref
+)
+"make_lex.ml" 18 843 849 "make_lex.ml" 18 843 864
+type(
+  unit -> unit
+)
+ident(
+  def trie_of_strings "make_lex.ml" 27 1247 1260 "make_lex.ml" 29 1263 1266
+)
+"make_lex.ml" 19 867 873 "make_lex.ml" 19 867 880
+type(
+  Trie.trie ref
+)
+ident(
+  def lexicon "make_lex.ml" 19 867 901 "make_lex.ml" 27 1247 1260
+)
+"make_lex.ml" 19 867 883 "make_lex.ml" 19 867 886
+type(
+  Trie.trie -> Trie.trie ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1067 41215 41215 "stdlib.mli" 1067 41215 41259
+)
+"make_lex.ml" 19 867 887 "make_lex.ml" 19 867 897
+type(
+  Trie.trie
+)
+ident(
+  int_ref Trie.empty "trie.ml" 132 4893 4899 "trie.ml" 132 4893 4904
+)
+"make_lex.ml" 19 867 883 "make_lex.ml" 19 867 897
+type(
+  Trie.trie ref
+)
+"make_lex.ml" 19 867 901 "make_lex.ml" 19 867 916
+type(
+  unit -> unit
+)
+ident(
+  int_ref process_strings "make_lex.ml" 20 918 932 "make_lex.ml" 20 918 947
+)
+"make_lex.ml" 20 918 932 "make_lex.ml" 20 918 947
+type(
+  unit -> unit
+)
+ident(
+  def process_strings "make_lex.ml" 19 867 901 "make_lex.ml" 27 1247 1260
+)
+"make_lex.ml" 20 918 948 "make_lex.ml" 20 918 950
+type(
+  unit
+)
+"make_lex.ml" 21 953 970 "make_lex.ml" 21 953 974
+type(
+  bool
+)
+"make_lex.ml" 22 979 994 "make_lex.ml" 22 979 997
+type(
+  string
+)
+ident(
+  def str "make_lex.ml" 23 1017 1028 "make_lex.ml" 23 1017 1085
+)
+"make_lex.ml" 22 979 1000 "make_lex.ml" 22 979 1009
+type(
+  unit -> string
+)
+ident(
+  int_ref Stdlib.read_line "stdlib.mli" 773 28286 28286 "stdlib.mli" 773 28286 28316
+)
+"make_lex.ml" 22 979 1010 "make_lex.ml" 22 979 1012
+type(
+  unit
+)
+"make_lex.ml" 22 979 1000 "make_lex.ml" 22 979 1012
+call(
+  stack
+)
+type(
+  string
+)
+"make_lex.ml" 23 1017 1028 "make_lex.ml" 23 1017 1035
+type(
+  Trie.trie ref
+)
+ident(
+  int_ref lexicon "make_lex.ml" 19 867 873 "make_lex.ml" 19 867 880
+)
+"make_lex.ml" 23 1017 1028 "make_lex.ml" 23 1017 1039
+type(
+  Trie.trie ref -> Trie.trie -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"make_lex.ml" 23 1017 1041 "make_lex.ml" 23 1017 1051
+type(
+  Trie.trie -> Word.word -> Trie.trie
+)
+ident(
+  int_ref Trie.enter "trie.ml" 82 2926 2932 "trie.ml" 82 2926 2937
+)
+"make_lex.ml" 23 1017 1052 "make_lex.ml" 23 1017 1059
+type(
+  Trie.trie ref
+)
+ident(
+  int_ref lexicon "make_lex.ml" 19 867 873 "make_lex.ml" 19 867 880
+)
+"make_lex.ml" 23 1017 1052 "make_lex.ml" 23 1017 1063
+type(
+  Trie.trie
+)
+type(
+  Trie.trie ref -> Trie.trie
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"make_lex.ml" 23 1017 1065 "make_lex.ml" 23 1017 1080
+type(
+  string -> Word.word
+)
+ident(
+  int_ref Encoding.encode "make_lex.ml" 13 719 721 "make_lex.ml" 13 719 755
+)
+"make_lex.ml" 23 1017 1081 "make_lex.ml" 23 1017 1084
+type(
+  string
+)
+ident(
+  int_ref str "make_lex.ml" 22 979 994 "make_lex.ml" 22 979 997
+)
+"make_lex.ml" 23 1017 1065 "make_lex.ml" 23 1017 1084
+call(
+  stack
+)
+type(
+  Word.word
+)
+"make_lex.ml" 23 1017 1041 "make_lex.ml" 23 1017 1085
+call(
+  stack
+)
+type(
+  Trie.trie
+)
+"make_lex.ml" 23 1017 1028 "make_lex.ml" 23 1017 1085
+type(
+  unit
+)
+"make_lex.ml" 22 979 990 "make_lex.ml" 23 1017 1085
+type(
+  unit
+)
+"make_lex.ml" 21 953 964 "make_lex.ml" 24 1087 1097
+type(
+  unit
+)
+"make_lex.ml" 25 1098 1112 "make_lex.ml" 25 1098 1123
+type(
+  exn
+)
+"make_lex.ml" 25 1098 1127 "make_lex.ml" 25 1098 1139
+type(
+  out_channel -> Trie.trie -> unit
+)
+ident(
+  int_ref Stdlib.output_value "stdlib.mli" 880 32823 32823 "stdlib.mli" 880 32823 32867
+)
+"make_lex.ml" 25 1098 1140 "make_lex.ml" 25 1098 1146
+type(
+  out_channel
+)
+ident(
+  int_ref Stdlib.stdout "stdlib.mli" 709 26541 26541 "stdlib.mli" 709 26541 26565
+)
+"make_lex.ml" 25 1098 1147 "make_lex.ml" 25 1098 1154
+type(
+  Trie.trie ref
+)
+ident(
+  int_ref lexicon "make_lex.ml" 19 867 873 "make_lex.ml" 19 867 880
+)
+"make_lex.ml" 25 1098 1147 "make_lex.ml" 25 1098 1158
+type(
+  Trie.trie
+)
+type(
+  Trie.trie ref -> Trie.trie
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"make_lex.ml" 25 1098 1127 "make_lex.ml" 25 1098 1158
+call(
+  tail
+)
+type(
+  unit
+)
+"make_lex.ml" 26 1160 1174 "make_lex.ml" 26 1160 1189
+type(
+  exn
+)
+"make_lex.ml" 26 1160 1193 "make_lex.ml" 26 1160 1206
+type(
+  out_channel -> string -> unit
+)
+ident(
+  int_ref Stdlib.output_string "stdlib.mli" 849 31559 31559 "stdlib.mli" 849 31559 31608
+)
+"make_lex.ml" 26 1160 1207 "make_lex.ml" 26 1160 1213
+type(
+  out_channel
+)
+ident(
+  int_ref Stdlib.stderr "stdlib.mli" 712 26611 26611 "stdlib.mli" 712 26611 26635
+)
+"make_lex.ml" 26 1160 1214 "make_lex.ml" 26 1160 1246
+type(
+  string
+)
+"make_lex.ml" 26 1160 1193 "make_lex.ml" 26 1160 1246
+call(
+  tail
+)
+type(
+  unit
+)
+"make_lex.ml" 21 953 960 "make_lex.ml" 27 1247 1260
+type(
+  unit
+)
+"make_lex.ml" 20 918 948 "make_lex.ml" 27 1247 1260
+type(
+  unit -> unit
+)
+"make_lex.ml" 19 867 901 "make_lex.ml" 27 1247 1260
+type(
+  unit -> unit
+)
+"make_lex.ml" 19 867 869 "make_lex.ml" 27 1247 1260
+type(
+  unit -> unit
+)

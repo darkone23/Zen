@@ -1,0 +1,397 @@
+"share.ml" 42 1844 1850 "share.ml" 42 1844 1854
+type(
+  bucket array
+)
+ident(
+  def memo "share.ml" 46 1929 1929 "share.ml" 100 4285 4288
+)
+"share.ml" 42 1844 1857 "share.ml" 42 1844 1867
+type(
+  int -> bucket -> bucket array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 38 1943 1943 "array.mli" 38 1943 1999
+)
+"share.ml" 42 1844 1868 "share.ml" 42 1844 1880
+type(
+  int
+)
+ident(
+  int_ref Algebra.size "share.ml" 12 654 694 "share.ml" 12 654 709
+)
+"share.ml" 42 1844 1882 "share.ml" 42 1844 1884
+type(
+  bucket
+)
+type(
+  bucket
+)
+"share.ml" 42 1844 1857 "share.ml" 42 1844 1894
+type(
+  bucket array
+)
+"share.ml" 46 1929 1935 "share.ml" 46 1929 1940
+type(
+  unit -> unit
+)
+ident(
+  def reset "share.ml" 54 2209 2209 "share.ml" 100 4285 4288
+)
+"share.ml" 46 1929 1941 "share.ml" 46 1929 1943
+type(
+  unit
+)
+"share.ml" 46 1929 1952 "share.ml" 46 1929 1953
+type(
+  int
+)
+"share.ml" 46 1929 1957 "share.ml" 46 1929 1969
+type(
+  int
+)
+ident(
+  int_ref Algebra.size "share.ml" 12 654 694 "share.ml" 12 654 709
+)
+"share.ml" 46 1929 1969 "share.ml" 46 1929 1970
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 271 10513 10513 "stdlib.mli" 271 10513 10559
+)
+"share.ml" 46 1929 1970 "share.ml" 46 1929 1971
+type(
+  int
+)
+"share.ml" 46 1929 1957 "share.ml" 46 1929 1971
+type(
+  int
+)
+"share.ml" 46 1929 1977 "share.ml" 46 1929 1981
+type(
+  bucket array
+)
+ident(
+  int_ref memo "share.ml" 42 1844 1850 "share.ml" 42 1844 1854
+)
+"share.ml" 46 1929 1983 "share.ml" 46 1929 1984
+type(
+  int
+)
+ident(
+  int_ref i "share.ml" 46 1929 1946 "share.ml" 46 1929 1993
+)
+"share.ml" 46 1929 1977 "share.ml" 46 1929 1985
+type(
+  bucket array -> int -> bucket -> unit
+)
+ident(
+  int_ref Stdlib.Array.set "array.mli" 30 1607 1607 "array.mli" 30 1607 1671
+)
+"share.ml" 46 1929 1989 "share.ml" 46 1929 1991
+type(
+  bucket
+)
+"share.ml" 46 1929 1977 "share.ml" 46 1929 1991
+type(
+  unit
+)
+"share.ml" 46 1929 1946 "share.ml" 46 1929 1993
+type(
+  unit
+)
+"share.ml" 46 1929 1941 "share.ml" 46 1929 1993
+type(
+  unit -> unit
+)
+"share.ml" 54 2209 2215 "share.ml" 54 2209 2221
+type(
+  'a -> 'a list -> 'a
+)
+ident(
+  def search "share.ml" 68 2763 2763 "share.ml" 100 4285 4288
+)
+"share.ml" 54 2209 2222 "share.ml" 54 2209 2223
+type(
+  'a
+)
+ident(
+  def e "share.ml" 54 2209 2226 "share.ml" 58 2342 2346
+)
+"share.ml" 54 2209 2226 "share.ml" 54 2209 2235
+type(
+  'a list -> 'a
+)
+ident(
+  int_ref searchrec "share.ml" 55 2237 2249 "share.ml" 55 2237 2258
+)
+"share.ml" 55 2237 2249 "share.ml" 55 2237 2258
+type(
+  'a list -> 'a
+)
+ident(
+  def searchrec "share.ml" 54 2209 2226 "share.ml" 58 2342 2346
+)
+"share.ml" 56 2265 2270 "share.ml" 56 2265 2272
+type(
+  'a list
+)
+"share.ml" 56 2265 2276 "share.ml" 56 2265 2281
+type(
+  exn -> 'a
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 36 1664 1664 "stdlib.mli" 36 1664 1701
+)
+"share.ml" 56 2265 2282 "share.ml" 56 2265 2291
+type(
+  exn
+)
+"share.ml" 56 2265 2276 "share.ml" 56 2265 2291
+type(
+  'a
+)
+"share.ml" 57 2292 2299 "share.ml" 57 2292 2300
+type(
+  'a list
+)
+type(
+  'a
+)
+ident(
+  def x "share.ml" 57 2292 2311 "share.ml" 57 2292 2341
+)
+"share.ml" 57 2292 2304 "share.ml" 57 2292 2305
+type(
+  'a list
+)
+ident(
+  def l "share.ml" 57 2292 2311 "share.ml" 57 2292 2341
+)
+"share.ml" 57 2292 2314 "share.ml" 57 2292 2315
+type(
+  'a
+)
+ident(
+  int_ref x "share.ml" 57 2292 2299 "share.ml" 57 2292 2300
+)
+"share.ml" 57 2292 2315 "share.ml" 57 2292 2316
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"share.ml" 57 2292 2316 "share.ml" 57 2292 2317
+type(
+  'a
+)
+ident(
+  int_ref e "share.ml" 54 2209 2222 "share.ml" 54 2209 2223
+)
+"share.ml" 57 2292 2314 "share.ml" 57 2292 2317
+type(
+  bool
+)
+"share.ml" 57 2292 2323 "share.ml" 57 2292 2324
+type(
+  'a
+)
+ident(
+  int_ref x "share.ml" 57 2292 2299 "share.ml" 57 2292 2300
+)
+"share.ml" 57 2292 2330 "share.ml" 57 2292 2339
+type(
+  'a list -> 'a
+)
+ident(
+  int_ref searchrec "share.ml" 55 2237 2249 "share.ml" 55 2237 2258
+)
+"share.ml" 57 2292 2340 "share.ml" 57 2292 2341
+type(
+  'a list
+)
+ident(
+  int_ref l "share.ml" 57 2292 2304 "share.ml" 57 2292 2305
+)
+"share.ml" 57 2292 2330 "share.ml" 57 2292 2341
+call(
+  tail
+)
+type(
+  'a
+)
+"share.ml" 57 2292 2311 "share.ml" 57 2292 2341
+type(
+  'a
+)
+"share.ml" 55 2237 2261 "share.ml" 58 2342 2346
+type(
+  'a list -> 'a
+)
+"share.ml" 54 2209 2226 "share.ml" 58 2342 2346
+type(
+  'a list -> 'a
+)
+"share.ml" 54 2209 2222 "share.ml" 58 2342 2346
+type(
+  'a -> 'a list -> 'a
+)
+"share.ml" 68 2763 2769 "share.ml" 68 2763 2774
+type(
+  Algebra.domain -> int -> Algebra.domain
+)
+ident(
+  def share "share.ml" 71 2891 2961 "share.ml" 100 4285 4288
+)
+"share.ml" 68 2763 2775 "share.ml" 68 2763 2782
+type(
+  Algebra.domain
+)
+ident(
+  def element "share.ml" 68 2763 2783 "share.ml" 71 2891 2961
+)
+"share.ml" 68 2763 2783 "share.ml" 68 2763 2786
+type(
+  int
+)
+ident(
+  def key "share.ml" 69 2828 2830 "share.ml" 71 2891 2961
+)
+"share.ml" 69 2828 2834 "share.ml" 69 2828 2840
+type(
+  bucket
+)
+ident(
+  def bucket "share.ml" 70 2857 2859 "share.ml" 71 2891 2961
+)
+"share.ml" 69 2828 2843 "share.ml" 69 2828 2847
+type(
+  bucket array
+)
+ident(
+  int_ref memo "share.ml" 42 1844 1850 "share.ml" 42 1844 1854
+)
+"share.ml" 69 2828 2849 "share.ml" 69 2828 2852
+type(
+  int
+)
+ident(
+  int_ref key "share.ml" 68 2763 2783 "share.ml" 68 2763 2786
+)
+"share.ml" 69 2828 2843 "share.ml" 69 2828 2853
+type(
+  bucket
+)
+type(
+  bucket array -> int -> bucket
+)
+ident(
+  int_ref Stdlib.Array.get "array.mli" 21 1224 1224 "array.mli" 21 1224 1280
+)
+"share.ml" 70 2857 2863 "share.ml" 70 2857 2869
+type(
+  Algebra.domain -> bucket -> Algebra.domain
+)
+ident(
+  int_ref search "share.ml" 54 2209 2215 "share.ml" 54 2209 2221
+)
+"share.ml" 70 2857 2870 "share.ml" 70 2857 2877
+type(
+  Algebra.domain
+)
+ident(
+  int_ref element "share.ml" 68 2763 2775 "share.ml" 68 2763 2782
+)
+"share.ml" 70 2857 2878 "share.ml" 70 2857 2884
+type(
+  bucket
+)
+ident(
+  int_ref bucket "share.ml" 69 2828 2834 "share.ml" 69 2828 2840
+)
+"share.ml" 70 2857 2863 "share.ml" 70 2857 2884
+call(
+  stack
+)
+type(
+  Algebra.domain
+)
+"share.ml" 71 2891 2897 "share.ml" 71 2891 2906
+type(
+  exn
+)
+"share.ml" 71 2891 2915 "share.ml" 71 2891 2919
+type(
+  bucket array
+)
+ident(
+  int_ref memo "share.ml" 42 1844 1850 "share.ml" 42 1844 1854
+)
+"share.ml" 71 2891 2921 "share.ml" 71 2891 2924
+type(
+  int
+)
+ident(
+  int_ref key "share.ml" 68 2763 2783 "share.ml" 68 2763 2786
+)
+"share.ml" 71 2891 2915 "share.ml" 71 2891 2925
+type(
+  bucket array -> int -> bucket -> unit
+)
+ident(
+  int_ref Stdlib.Array.set "array.mli" 30 1607 1607 "array.mli" 30 1607 1671
+)
+"share.ml" 71 2891 2929 "share.ml" 71 2891 2936
+type(
+  Algebra.domain
+)
+ident(
+  int_ref element "share.ml" 68 2763 2775 "share.ml" 68 2763 2782
+)
+"share.ml" 71 2891 2940 "share.ml" 71 2891 2946
+type(
+  bucket
+)
+ident(
+  int_ref bucket "share.ml" 69 2828 2834 "share.ml" 69 2828 2840
+)
+"share.ml" 71 2891 2929 "share.ml" 71 2891 2946
+type(
+  bucket
+)
+"share.ml" 71 2891 2915 "share.ml" 71 2891 2948
+type(
+  unit
+)
+"share.ml" 71 2891 2950 "share.ml" 71 2891 2957
+type(
+  Algebra.domain
+)
+ident(
+  int_ref element "share.ml" 68 2763 2775 "share.ml" 68 2763 2782
+)
+"share.ml" 71 2891 2915 "share.ml" 71 2891 2959
+type(
+  Algebra.domain
+)
+"share.ml" 70 2857 2859 "share.ml" 71 2891 2961
+type(
+  Algebra.domain
+)
+"share.ml" 69 2828 2830 "share.ml" 71 2891 2961
+type(
+  Algebra.domain
+)
+"share.ml" 68 2763 2783 "share.ml" 71 2891 2961
+type(
+  int -> Algebra.domain
+)
+"share.ml" 68 2763 2775 "share.ml" 71 2891 2961
+type(
+  Algebra.domain -> int -> Algebra.domain
+)
+"share.ml" 12 654 654 "share.ml" 100 4285 4288
+call(
+  stack
+)

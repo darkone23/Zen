@@ -1,0 +1,548 @@
+"gen.ml" 14 708 714 "gen.ml" 14 708 719
+type(
+  bool -> int
+)
+ident(
+  def dirac "gen.ml" 16 745 745 "gen.ml" 1 0 -1
+)
+"gen.ml" 14 708 720 "gen.ml" 14 708 721
+type(
+  bool
+)
+ident(
+  def b "gen.ml" 14 708 724 "gen.ml" 14 708 742
+)
+"gen.ml" 14 708 727 "gen.ml" 14 708 728
+type(
+  bool
+)
+ident(
+  int_ref b "gen.ml" 14 708 720 "gen.ml" 14 708 721
+)
+"gen.ml" 14 708 734 "gen.ml" 14 708 735
+type(
+  int
+)
+"gen.ml" 14 708 741 "gen.ml" 14 708 742
+type(
+  int
+)
+"gen.ml" 14 708 724 "gen.ml" 14 708 742
+type(
+  int
+)
+"gen.ml" 14 708 720 "gen.ml" 14 708 742
+type(
+  bool -> int
+)
+"gen.ml" 16 745 751 "gen.ml" 16 745 759
+type(
+  ('a -> unit) -> 'a option -> unit
+)
+ident(
+  def optional "gen.ml" 18 801 801 "gen.ml" 1 0 -1
+)
+"gen.ml" 16 745 760 "gen.ml" 16 745 761
+type(
+  'a -> unit
+)
+ident(
+  def f "gen.ml" 16 745 764 "gen.ml" 16 745 798
+)
+"gen.ml" 16 745 770 "gen.ml" 16 745 774
+type(
+  'a option
+)
+"gen.ml" 16 745 778 "gen.ml" 16 745 780
+type(
+  unit
+)
+"gen.ml" 16 745 788 "gen.ml" 16 745 789
+type(
+  'a
+)
+ident(
+  def d "gen.ml" 16 745 793 "gen.ml" 16 745 796
+)
+"gen.ml" 16 745 783 "gen.ml" 16 745 789
+type(
+  'a option
+)
+"gen.ml" 16 745 793 "gen.ml" 16 745 794
+type(
+  'a -> unit
+)
+ident(
+  int_ref f "gen.ml" 16 745 760 "gen.ml" 16 745 761
+)
+"gen.ml" 16 745 795 "gen.ml" 16 745 796
+type(
+  'a
+)
+ident(
+  int_ref d "gen.ml" 16 745 788 "gen.ml" 16 745 789
+)
+"gen.ml" 16 745 793 "gen.ml" 16 745 796
+call(
+  tail
+)
+type(
+  unit
+)
+"gen.ml" 16 745 764 "gen.ml" 16 745 798
+type(
+  'a option -> unit
+)
+"gen.ml" 16 745 760 "gen.ml" 16 745 798
+type(
+  ('a -> unit) -> 'a option -> unit
+)
+"gen.ml" 18 801 807 "gen.ml" 18 801 813
+type(
+  'a option -> bool
+)
+ident(
+  def active "gen.ml" 20 857 857 "gen.ml" 1 0 -1
+)
+"gen.ml" 18 801 822 "gen.ml" 18 801 826
+type(
+  'a option
+)
+"gen.ml" 18 801 830 "gen.ml" 18 801 835
+type(
+  bool
+)
+"gen.ml" 18 801 843 "gen.ml" 18 801 844
+type(
+  'a
+)
+"gen.ml" 18 801 838 "gen.ml" 18 801 844
+type(
+  'a option
+)
+"gen.ml" 18 801 848 "gen.ml" 18 801 852
+type(
+  bool
+)
+"gen.ml" 18 801 816 "gen.ml" 18 801 854
+type(
+  'a option -> bool
+)
+"gen.ml" 20 857 863 "gen.ml" 20 857 870
+type(
+  ('a -> 'b) -> 'a option -> 'b option
+)
+ident(
+  def opt_app "gen.ml" 24 954 954 "gen.ml" 1 0 -1
+)
+"gen.ml" 20 857 871 "gen.ml" 20 857 872
+type(
+  'a -> 'b
+)
+ident(
+  def f "gen.ml" 20 857 875 "gen.ml" 20 857 918
+)
+"gen.ml" 20 857 881 "gen.ml" 20 857 885
+type(
+  'a option
+)
+"gen.ml" 20 857 889 "gen.ml" 20 857 893
+type(
+  'b option
+)
+"gen.ml" 20 857 901 "gen.ml" 20 857 902
+type(
+  'a
+)
+ident(
+  def x "gen.ml" 20 857 906 "gen.ml" 20 857 916
+)
+"gen.ml" 20 857 896 "gen.ml" 20 857 902
+type(
+  'a option
+)
+"gen.ml" 20 857 912 "gen.ml" 20 857 913
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "gen.ml" 20 857 871 "gen.ml" 20 857 872
+)
+"gen.ml" 20 857 914 "gen.ml" 20 857 915
+type(
+  'a
+)
+ident(
+  int_ref x "gen.ml" 20 857 901 "gen.ml" 20 857 902
+)
+"gen.ml" 20 857 912 "gen.ml" 20 857 915
+call(
+  stack
+)
+type(
+  'b
+)
+"gen.ml" 20 857 906 "gen.ml" 20 857 916
+type(
+  'b option
+)
+"gen.ml" 20 857 875 "gen.ml" 20 857 918
+type(
+  'a option -> 'b option
+)
+"gen.ml" 20 857 871 "gen.ml" 20 857 918
+type(
+  ('a -> 'b) -> 'a option -> 'b option
+)
+"gen.ml" 24 954 960 "gen.ml" 24 954 964
+type(
+  'a -> string -> unit
+)
+ident(
+  def dump "gen.ml" 29 1123 1123 "gen.ml" 1 0 -1
+)
+"gen.ml" 24 954 965 "gen.ml" 24 954 966
+type(
+  'a
+)
+ident(
+  def v "gen.ml" 24 954 967 "gen.ml" 25 975 1044
+)
+"gen.ml" 24 954 967 "gen.ml" 24 954 971
+type(
+  string
+)
+ident(
+  def file "gen.ml" 25 975 977 "gen.ml" 25 975 1044
+)
+"gen.ml" 25 975 981 "gen.ml" 25 975 984
+type(
+  out_channel
+)
+ident(
+  def cho "gen.ml" 25 975 1009 "gen.ml" 25 975 1044
+)
+"gen.ml" 25 975 987 "gen.ml" 25 975 995
+type(
+  string -> out_channel
+)
+ident(
+  int_ref Stdlib.open_out "stdlib.mli" 817 30110 30110 "stdlib.mli" 817 30110 30146
+)
+"gen.ml" 25 975 996 "gen.ml" 25 975 1000
+type(
+  string
+)
+ident(
+  int_ref file "gen.ml" 24 954 967 "gen.ml" 24 954 971
+)
+"gen.ml" 25 975 987 "gen.ml" 25 975 1000
+call(
+  stack
+)
+type(
+  out_channel
+)
+"gen.ml" 25 975 1009 "gen.ml" 25 975 1021
+type(
+  out_channel -> 'a -> unit
+)
+ident(
+  int_ref Stdlib.output_value "stdlib.mli" 880 32823 32823 "stdlib.mli" 880 32823 32867
+)
+"gen.ml" 25 975 1022 "gen.ml" 25 975 1025
+type(
+  out_channel
+)
+ident(
+  int_ref cho "gen.ml" 25 975 981 "gen.ml" 25 975 984
+)
+"gen.ml" 25 975 1026 "gen.ml" 25 975 1027
+type(
+  'a
+)
+ident(
+  int_ref v "gen.ml" 24 954 965 "gen.ml" 24 954 966
+)
+"gen.ml" 25 975 1009 "gen.ml" 25 975 1027
+call(
+  stack
+)
+type(
+  unit
+)
+"gen.ml" 25 975 1029 "gen.ml" 25 975 1038
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_out "stdlib.mli" 904 33983 33983 "stdlib.mli" 904 33983 34018
+)
+"gen.ml" 25 975 1039 "gen.ml" 25 975 1042
+type(
+  out_channel
+)
+ident(
+  int_ref cho "gen.ml" 25 975 981 "gen.ml" 25 975 984
+)
+"gen.ml" 25 975 1029 "gen.ml" 25 975 1042
+call(
+  tail
+)
+type(
+  unit
+)
+"gen.ml" 25 975 1009 "gen.ml" 25 975 1044
+type(
+  unit
+)
+"gen.ml" 25 975 977 "gen.ml" 25 975 1044
+type(
+  unit
+)
+"gen.ml" 24 954 967 "gen.ml" 25 975 1044
+type(
+  string -> unit
+)
+"gen.ml" 24 954 965 "gen.ml" 25 975 1044
+type(
+  'a -> string -> unit
+)
+"gen.ml" 29 1123 1129 "gen.ml" 29 1123 1135
+type(
+  string -> 'a
+)
+ident(
+  def gobble "gen.ml" 35 1245 1245 "gen.ml" 1 0 -1
+)
+"gen.ml" 29 1123 1136 "gen.ml" 29 1123 1140
+type(
+  string
+)
+ident(
+  def file "gen.ml" 30 1144 1146 "gen.ml" 31 1172 1223
+)
+"gen.ml" 30 1144 1150 "gen.ml" 30 1144 1153
+type(
+  in_channel
+)
+ident(
+  def chi "gen.ml" 31 1172 1174 "gen.ml" 31 1172 1223
+)
+"gen.ml" 30 1144 1156 "gen.ml" 30 1144 1163
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Stdlib.open_in "stdlib.mli" 928 35075 35075 "stdlib.mli" 928 35075 35109
+)
+"gen.ml" 30 1144 1164 "gen.ml" 30 1144 1168
+type(
+  string
+)
+ident(
+  int_ref file "gen.ml" 29 1123 1136 "gen.ml" 29 1123 1140
+)
+"gen.ml" 30 1144 1156 "gen.ml" 30 1144 1168
+call(
+  stack
+)
+type(
+  in_channel
+)
+"gen.ml" 31 1172 1178 "gen.ml" 31 1172 1179
+type(
+  'b
+)
+ident(
+  def v "gen.ml" 31 1172 1206 "gen.ml" 31 1172 1223
+)
+"gen.ml" 31 1172 1182 "gen.ml" 31 1172 1193
+type(
+  in_channel -> 'b
+)
+ident(
+  int_ref Stdlib.input_value "stdlib.mli" 999 38408 38408 "stdlib.mli" 999 38408 38442
+)
+"gen.ml" 31 1172 1194 "gen.ml" 31 1172 1197
+type(
+  in_channel
+)
+ident(
+  int_ref chi "gen.ml" 30 1144 1150 "gen.ml" 30 1144 1153
+)
+"gen.ml" 31 1172 1182 "gen.ml" 31 1172 1197
+call(
+  stack
+)
+type(
+  'b
+)
+"gen.ml" 31 1172 1206 "gen.ml" 31 1172 1214
+type(
+  in_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_in "stdlib.mli" 1022 39483 39483 "stdlib.mli" 1022 39483 39516
+)
+"gen.ml" 31 1172 1215 "gen.ml" 31 1172 1218
+type(
+  in_channel
+)
+ident(
+  int_ref chi "gen.ml" 30 1144 1150 "gen.ml" 30 1144 1153
+)
+"gen.ml" 31 1172 1206 "gen.ml" 31 1172 1218
+call(
+  stack
+)
+type(
+  unit
+)
+"gen.ml" 31 1172 1220 "gen.ml" 31 1172 1221
+type(
+  'a
+)
+ident(
+  int_ref v "gen.ml" 31 1172 1178 "gen.ml" 31 1172 1179
+)
+"gen.ml" 31 1172 1206 "gen.ml" 31 1172 1223
+type(
+  'a
+)
+"gen.ml" 31 1172 1174 "gen.ml" 31 1172 1223
+type(
+  'a
+)
+"gen.ml" 30 1144 1146 "gen.ml" 31 1172 1223
+type(
+  'a
+)
+"gen.ml" 29 1123 1136 "gen.ml" 31 1172 1223
+type(
+  string -> 'a
+)
+"gen.ml" 35 1245 1251 "gen.ml" 35 1245 1256
+type(
+  string -> unit
+)
+ident(
+  def touch "gen.ml" 38 1293 1293 "gen.ml" 1 0 -1
+)
+"gen.ml" 35 1245 1257 "gen.ml" 35 1245 1261
+type(
+  string
+)
+ident(
+  def file "gen.ml" 35 1245 1264 "gen.ml" 35 1245 1289
+)
+"gen.ml" 35 1245 1264 "gen.ml" 35 1245 1273
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_out "stdlib.mli" 904 33983 33983 "stdlib.mli" 904 33983 34018
+)
+"gen.ml" 35 1245 1275 "gen.ml" 35 1245 1283
+type(
+  string -> out_channel
+)
+ident(
+  int_ref Stdlib.open_out "stdlib.mli" 817 30110 30110 "stdlib.mli" 817 30110 30146
+)
+"gen.ml" 35 1245 1284 "gen.ml" 35 1245 1288
+type(
+  string
+)
+ident(
+  int_ref file "gen.ml" 35 1245 1257 "gen.ml" 35 1245 1261
+)
+"gen.ml" 35 1245 1275 "gen.ml" 35 1245 1288
+call(
+  stack
+)
+type(
+  out_channel
+)
+"gen.ml" 35 1245 1264 "gen.ml" 35 1245 1289
+call(
+  tail
+)
+type(
+  unit
+)
+"gen.ml" 35 1245 1257 "gen.ml" 35 1245 1289
+type(
+  string -> unit
+)
+"gen.ml" 38 1293 1299 "gen.ml" 38 1293 1311
+type(
+  string -> unit
+)
+ident(
+  def notify_error "gen.ml" 39 1323 1374 "gen.ml" 1 0 -1
+)
+"gen.ml" 38 1293 1312 "gen.ml" 38 1293 1319
+type(
+  string
+)
+ident(
+  def message "gen.ml" 39 1323 1330 "gen.ml" 39 1323 1374
+)
+"gen.ml" 39 1323 1330 "gen.ml" 39 1323 1343
+type(
+  out_channel -> string -> unit
+)
+ident(
+  int_ref Stdlib.output_string "stdlib.mli" 849 31559 31559 "stdlib.mli" 849 31559 31608
+)
+"gen.ml" 39 1323 1344 "gen.ml" 39 1323 1350
+type(
+  out_channel
+)
+ident(
+  int_ref Stdlib.stderr "stdlib.mli" 712 26611 26611 "stdlib.mli" 712 26611 26635
+)
+"gen.ml" 39 1323 1351 "gen.ml" 39 1323 1358
+type(
+  string
+)
+ident(
+  int_ref message "gen.ml" 38 1293 1312 "gen.ml" 38 1293 1319
+)
+"gen.ml" 39 1323 1330 "gen.ml" 39 1323 1358
+call(
+  stack
+)
+type(
+  unit
+)
+"gen.ml" 39 1323 1360 "gen.ml" 39 1323 1365
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref Stdlib.flush "stdlib.mli" 837 31111 31111 "stdlib.mli" 837 31111 31142
+)
+"gen.ml" 39 1323 1366 "gen.ml" 39 1323 1372
+type(
+  out_channel
+)
+ident(
+  int_ref Stdlib.stderr "stdlib.mli" 712 26611 26611 "stdlib.mli" 712 26611 26635
+)
+"gen.ml" 39 1323 1360 "gen.ml" 39 1323 1372
+call(
+  tail
+)
+type(
+  unit
+)
+"gen.ml" 39 1323 1330 "gen.ml" 39 1323 1374
+type(
+  unit
+)
+"gen.ml" 38 1293 1312 "gen.ml" 39 1323 1374
+type(
+  string -> unit
+)

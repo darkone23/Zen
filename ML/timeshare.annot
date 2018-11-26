@@ -1,0 +1,1236 @@
+"timeshare.ml" 24 999 1005 "timeshare.ml" 24 999 1016
+type(
+  int list -> unit
+)
+ident(
+  def print_histo "timeshare.ml" 50 1918 1918 "timeshare.ml" 75 2634 2637
+)
+"timeshare.ml" 24 999 1017 "timeshare.ml" 24 999 1018
+type(
+  int list
+)
+ident(
+  def l "timeshare.ml" 25 1022 1025 "timeshare.ml" 48 1886 1915
+)
+"timeshare.ml" 25 1022 1029 "timeshare.ml" 25 1022 1034
+type(
+  'a -> 'a list -> int * 'a list
+)
+ident(
+  def count "timeshare.ml" 31 1219 1222 "timeshare.ml" 48 1886 1915
+)
+"timeshare.ml" 25 1022 1035 "timeshare.ml" 25 1022 1036
+type(
+  'a
+)
+ident(
+  def n "timeshare.ml" 25 1022 1039 "timeshare.ml" 30 1206 1215
+)
+"timeshare.ml" 25 1022 1039 "timeshare.ml" 25 1022 1048
+type(
+  int -> 'a list -> int * 'a list
+)
+ident(
+  int_ref count_rec "timeshare.ml" 26 1052 1067 "timeshare.ml" 26 1052 1076
+)
+"timeshare.ml" 25 1022 1049 "timeshare.ml" 25 1022 1050
+type(
+  int
+)
+"timeshare.ml" 25 1022 1039 "timeshare.ml" 25 1022 1050
+call(
+  tail
+)
+type(
+  'a list -> int * 'a list
+)
+"timeshare.ml" 26 1052 1067 "timeshare.ml" 26 1052 1076
+type(
+  int -> 'a list -> int * 'a list
+)
+ident(
+  def count_rec "timeshare.ml" 25 1022 1039 "timeshare.ml" 30 1206 1215
+)
+"timeshare.ml" 26 1052 1077 "timeshare.ml" 26 1052 1078
+type(
+  int
+)
+ident(
+  def k "timeshare.ml" 26 1052 1081 "timeshare.ml" 30 1206 1215
+)
+"timeshare.ml" 27 1085 1095 "timeshare.ml" 27 1085 1097
+type(
+  'a list
+)
+"timeshare.ml" 27 1085 1102 "timeshare.ml" 27 1085 1103
+type(
+  int
+)
+ident(
+  int_ref k "timeshare.ml" 26 1052 1077 "timeshare.ml" 26 1052 1078
+)
+"timeshare.ml" 27 1085 1104 "timeshare.ml" 27 1085 1106
+type(
+  'a list
+)
+"timeshare.ml" 27 1085 1101 "timeshare.ml" 27 1085 1107
+type(
+  int * 'a list
+)
+"timeshare.ml" 28 1108 1120 "timeshare.ml" 28 1108 1121
+type(
+  'a list
+)
+type(
+  'a
+)
+ident(
+  def m "timeshare.ml" 28 1108 1132 "timeshare.ml" 29 1162 1205
+)
+"timeshare.ml" 28 1108 1125 "timeshare.ml" 28 1108 1126
+type(
+  'a list
+)
+ident(
+  def r "timeshare.ml" 28 1108 1132 "timeshare.ml" 29 1162 1205
+)
+"timeshare.ml" 28 1108 1135 "timeshare.ml" 28 1108 1136
+type(
+  'a
+)
+ident(
+  int_ref m "timeshare.ml" 28 1108 1120 "timeshare.ml" 28 1108 1121
+)
+"timeshare.ml" 28 1108 1136 "timeshare.ml" 28 1108 1137
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"timeshare.ml" 28 1108 1137 "timeshare.ml" 28 1108 1138
+type(
+  'a
+)
+ident(
+  int_ref n "timeshare.ml" 25 1022 1035 "timeshare.ml" 25 1022 1036
+)
+"timeshare.ml" 28 1108 1135 "timeshare.ml" 28 1108 1138
+type(
+  bool
+)
+"timeshare.ml" 28 1108 1144 "timeshare.ml" 28 1108 1153
+type(
+  int -> 'a list -> int * 'a list
+)
+ident(
+  int_ref count_rec "timeshare.ml" 26 1052 1067 "timeshare.ml" 26 1052 1076
+)
+"timeshare.ml" 28 1108 1155 "timeshare.ml" 28 1108 1156
+type(
+  int
+)
+ident(
+  int_ref k "timeshare.ml" 26 1052 1077 "timeshare.ml" 26 1052 1078
+)
+"timeshare.ml" 28 1108 1156 "timeshare.ml" 28 1108 1157
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"timeshare.ml" 28 1108 1157 "timeshare.ml" 28 1108 1158
+type(
+  int
+)
+"timeshare.ml" 28 1108 1155 "timeshare.ml" 28 1108 1158
+type(
+  int
+)
+"timeshare.ml" 28 1108 1160 "timeshare.ml" 28 1108 1161
+type(
+  'a list
+)
+ident(
+  int_ref r "timeshare.ml" 28 1108 1125 "timeshare.ml" 28 1108 1126
+)
+"timeshare.ml" 28 1108 1144 "timeshare.ml" 28 1108 1161
+call(
+  tail
+)
+type(
+  int * 'a list
+)
+"timeshare.ml" 29 1162 1192 "timeshare.ml" 29 1162 1193
+type(
+  int
+)
+ident(
+  int_ref k "timeshare.ml" 26 1052 1077 "timeshare.ml" 26 1052 1078
+)
+"timeshare.ml" 29 1162 1196 "timeshare.ml" 29 1162 1197
+type(
+  'a
+)
+ident(
+  int_ref m "timeshare.ml" 28 1108 1120 "timeshare.ml" 28 1108 1121
+)
+"timeshare.ml" 29 1162 1201 "timeshare.ml" 29 1162 1202
+type(
+  'a list
+)
+ident(
+  int_ref r "timeshare.ml" 28 1108 1125 "timeshare.ml" 28 1108 1126
+)
+"timeshare.ml" 29 1162 1196 "timeshare.ml" 29 1162 1202
+type(
+  'a list
+)
+"timeshare.ml" 29 1162 1191 "timeshare.ml" 29 1162 1205
+type(
+  int * 'a list
+)
+"timeshare.ml" 28 1108 1132 "timeshare.ml" 29 1162 1205
+type(
+  int * 'a list
+)
+"timeshare.ml" 26 1052 1081 "timeshare.ml" 30 1206 1215
+type(
+  'a list -> int * 'a list
+)
+"timeshare.ml" 26 1052 1077 "timeshare.ml" 30 1206 1215
+type(
+  int -> 'a list -> int * 'a list
+)
+"timeshare.ml" 25 1022 1039 "timeshare.ml" 30 1206 1215
+type(
+  'a list -> int * 'a list
+)
+"timeshare.ml" 25 1022 1035 "timeshare.ml" 30 1206 1215
+type(
+  'a -> 'a list -> int * 'a list
+)
+"timeshare.ml" 31 1219 1230 "timeshare.ml" 31 1219 1237
+type(
+  ('b * int) list -> 'b list -> ('b * int) list
+)
+ident(
+  def process "timeshare.ml" 31 1219 1222 "timeshare.ml" 48 1886 1915
+)
+"timeshare.ml" 31 1219 1238 "timeshare.ml" 31 1219 1241
+type(
+  ('b * int) list
+)
+ident(
+  def acc "timeshare.ml" 31 1219 1244 "timeshare.ml" 34 1347 1353
+)
+"timeshare.ml" 32 1248 1255 "timeshare.ml" 32 1248 1257
+type(
+  'b list
+)
+"timeshare.ml" 32 1248 1261 "timeshare.ml" 32 1248 1269
+type(
+  ('b * int) list -> ('b * int) list
+)
+ident(
+  int_ref Stdlib.List.rev "list.mli" 73 3121 3121 "list.mli" 73 3121 3149
+)
+"timeshare.ml" 32 1248 1270 "timeshare.ml" 32 1248 1273
+type(
+  ('b * int) list
+)
+ident(
+  int_ref acc "timeshare.ml" 31 1219 1238 "timeshare.ml" 31 1219 1241
+)
+"timeshare.ml" 32 1248 1261 "timeshare.ml" 32 1248 1273
+call(
+  tail
+)
+type(
+  ('b * int) list
+)
+"timeshare.ml" 33 1274 1283 "timeshare.ml" 33 1274 1284
+type(
+  'b list
+)
+type(
+  'b
+)
+ident(
+  def n "timeshare.ml" 33 1274 1295 "timeshare.ml" 33 1274 1346
+)
+"timeshare.ml" 33 1274 1288 "timeshare.ml" 33 1274 1289
+type(
+  'b list
+)
+ident(
+  def l "timeshare.ml" 33 1274 1295 "timeshare.ml" 33 1274 1346
+)
+"timeshare.ml" 33 1274 1300 "timeshare.ml" 33 1274 1301
+type(
+  int
+)
+ident(
+  def c "timeshare.ml" 33 1274 1320 "timeshare.ml" 33 1274 1346
+)
+"timeshare.ml" 33 1274 1302 "timeshare.ml" 33 1274 1303
+type(
+  'b list
+)
+ident(
+  def r "timeshare.ml" 33 1274 1320 "timeshare.ml" 33 1274 1346
+)
+"timeshare.ml" 33 1274 1299 "timeshare.ml" 33 1274 1304
+type(
+  int * 'b list
+)
+"timeshare.ml" 33 1274 1307 "timeshare.ml" 33 1274 1312
+type(
+  'b -> 'b list -> int * 'b list
+)
+ident(
+  int_ref count "timeshare.ml" 25 1022 1029 "timeshare.ml" 25 1022 1034
+)
+"timeshare.ml" 33 1274 1313 "timeshare.ml" 33 1274 1314
+type(
+  'b
+)
+ident(
+  int_ref n "timeshare.ml" 33 1274 1283 "timeshare.ml" 33 1274 1284
+)
+"timeshare.ml" 33 1274 1315 "timeshare.ml" 33 1274 1316
+type(
+  'b list
+)
+ident(
+  int_ref l "timeshare.ml" 33 1274 1288 "timeshare.ml" 33 1274 1289
+)
+"timeshare.ml" 33 1274 1307 "timeshare.ml" 33 1274 1316
+call(
+  stack
+)
+type(
+  int * 'b list
+)
+"timeshare.ml" 33 1274 1320 "timeshare.ml" 33 1274 1327
+type(
+  ('b * int) list -> 'b list -> ('b * int) list
+)
+ident(
+  int_ref process "timeshare.ml" 31 1219 1230 "timeshare.ml" 31 1219 1237
+)
+"timeshare.ml" 33 1274 1331 "timeshare.ml" 33 1274 1332
+type(
+  'b
+)
+ident(
+  int_ref n "timeshare.ml" 33 1274 1283 "timeshare.ml" 33 1274 1284
+)
+"timeshare.ml" 33 1274 1333 "timeshare.ml" 33 1274 1334
+type(
+  int
+)
+ident(
+  int_ref c "timeshare.ml" 33 1274 1300 "timeshare.ml" 33 1274 1301
+)
+"timeshare.ml" 33 1274 1330 "timeshare.ml" 33 1274 1335
+type(
+  'b * int
+)
+"timeshare.ml" 33 1274 1339 "timeshare.ml" 33 1274 1342
+type(
+  ('b * int) list
+)
+ident(
+  int_ref acc "timeshare.ml" 31 1219 1238 "timeshare.ml" 31 1219 1241
+)
+"timeshare.ml" 33 1274 1330 "timeshare.ml" 33 1274 1342
+type(
+  ('b * int) list
+)
+"timeshare.ml" 33 1274 1345 "timeshare.ml" 33 1274 1346
+type(
+  'b list
+)
+ident(
+  int_ref r "timeshare.ml" 33 1274 1302 "timeshare.ml" 33 1274 1303
+)
+"timeshare.ml" 33 1274 1320 "timeshare.ml" 33 1274 1346
+call(
+  tail
+)
+type(
+  ('b * int) list
+)
+"timeshare.ml" 33 1274 1295 "timeshare.ml" 33 1274 1346
+type(
+  ('b * int) list
+)
+"timeshare.ml" 31 1219 1244 "timeshare.ml" 34 1347 1353
+type(
+  'b list -> ('b * int) list
+)
+"timeshare.ml" 31 1219 1238 "timeshare.ml" 34 1347 1353
+type(
+  ('b * int) list -> 'b list -> ('b * int) list
+)
+"timeshare.ml" 35 1357 1364 "timeshare.ml" 35 1357 1374
+type(
+  (int * int) list -> unit
+)
+ident(
+  def print_hist "timeshare.ml" 47 1841 1844 "timeshare.ml" 48 1886 1915
+)
+"timeshare.ml" 35 1357 1377 "timeshare.ml" 35 1357 1391
+type(
+  int -> (int * int) list -> unit
+)
+ident(
+  int_ref print_hist_rec "timeshare.ml" 36 1395 1410 "timeshare.ml" 36 1395 1424
+)
+"timeshare.ml" 35 1357 1392 "timeshare.ml" 35 1357 1393
+type(
+  int
+)
+"timeshare.ml" 35 1357 1377 "timeshare.ml" 35 1357 1393
+call(
+  stack
+)
+type(
+  (int * int) list -> unit
+)
+"timeshare.ml" 36 1395 1410 "timeshare.ml" 36 1395 1424
+type(
+  int -> (int * int) list -> unit
+)
+ident(
+  def print_hist_rec "timeshare.ml" 35 1357 1377 "timeshare.ml" 46 1828 1837
+)
+"timeshare.ml" 36 1395 1425 "timeshare.ml" 36 1395 1426
+type(
+  int
+)
+ident(
+  def k "timeshare.ml" 36 1395 1427 "timeshare.ml" 46 1828 1837
+)
+"timeshare.ml" 36 1395 1427 "timeshare.ml" 36 1395 1428
+type(
+  (int * int) list
+)
+ident(
+  def l "timeshare.ml" 36 1395 1431 "timeshare.ml" 46 1828 1837
+)
+"timeshare.ml" 36 1395 1437 "timeshare.ml" 36 1395 1438
+type(
+  (int * int) list
+)
+ident(
+  int_ref l "timeshare.ml" 36 1395 1427 "timeshare.ml" 36 1395 1428
+)
+"timeshare.ml" 37 1444 1454 "timeshare.ml" 37 1444 1456
+type(
+  (int * int) list
+)
+"timeshare.ml" 37 1444 1460 "timeshare.ml" 37 1444 1462
+type(
+  unit
+)
+"timeshare.ml" 38 1463 1476 "timeshare.ml" 38 1463 1477
+type(
+  int
+)
+ident(
+  def i "timeshare.ml" 39 1492 1504 "timeshare.ml" 45 1797 1827
+)
+"timeshare.ml" 38 1463 1478 "timeshare.ml" 38 1463 1479
+type(
+  int
+)
+ident(
+  def n "timeshare.ml" 39 1492 1504 "timeshare.ml" 45 1797 1827
+)
+"timeshare.ml" 38 1463 1475 "timeshare.ml" 38 1463 1480
+type(
+  (int * int) list
+)
+type(
+  int * int
+)
+"timeshare.ml" 38 1463 1484 "timeshare.ml" 38 1463 1485
+type(
+  (int * int) list
+)
+ident(
+  def r "timeshare.ml" 39 1492 1504 "timeshare.ml" 45 1797 1827
+)
+"timeshare.ml" 39 1492 1507 "timeshare.ml" 39 1492 1508
+type(
+  int
+)
+ident(
+  int_ref i "timeshare.ml" 38 1463 1476 "timeshare.ml" 38 1463 1477
+)
+"timeshare.ml" 39 1492 1509 "timeshare.ml" 39 1492 1510
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"timeshare.ml" 39 1492 1511 "timeshare.ml" 39 1492 1512
+type(
+  int
+)
+ident(
+  int_ref k "timeshare.ml" 36 1395 1425 "timeshare.ml" 36 1395 1426
+)
+"timeshare.ml" 39 1492 1507 "timeshare.ml" 39 1492 1512
+type(
+  bool
+)
+"timeshare.ml" 39 1492 1529 "timeshare.ml" 39 1492 1530
+type(
+  int
+)
+"timeshare.ml" 39 1492 1534 "timeshare.ml" 39 1492 1535
+type(
+  int
+)
+ident(
+  int_ref n "timeshare.ml" 38 1463 1478 "timeshare.ml" 38 1463 1479
+)
+"timeshare.ml" 39 1492 1541 "timeshare.ml" 39 1492 1553
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 721 26812 26812 "stdlib.mli" 721 26812 26845
+)
+"timeshare.ml" 39 1492 1554 "timeshare.ml" 39 1492 1557
+type(
+  string
+)
+"timeshare.ml" 39 1492 1541 "timeshare.ml" 39 1492 1557
+call(
+  stack
+)
+type(
+  unit
+)
+"timeshare.ml" 39 1492 1523 "timeshare.ml" 39 1492 1559
+type(
+  unit
+)
+"timeshare.ml" 40 1560 1591 "timeshare.ml" 40 1560 1604
+type(
+  unit -> unit
+)
+ident(
+  int_ref Stdlib.print_newline "stdlib.mli" 738 27318 27318 "stdlib.mli" 738 27318 27350
+)
+"timeshare.ml" 40 1560 1604 "timeshare.ml" 40 1560 1606
+type(
+  unit
+)
+"timeshare.ml" 40 1560 1591 "timeshare.ml" 40 1560 1606
+call(
+  stack
+)
+type(
+  unit
+)
+"timeshare.ml" 41 1608 1639 "timeshare.ml" 41 1608 1653
+type(
+  int -> (int * int) list -> unit
+)
+ident(
+  int_ref print_hist_rec "timeshare.ml" 36 1395 1410 "timeshare.ml" 36 1395 1424
+)
+"timeshare.ml" 41 1608 1655 "timeshare.ml" 41 1608 1656
+type(
+  int
+)
+ident(
+  int_ref k "timeshare.ml" 36 1395 1425 "timeshare.ml" 36 1395 1426
+)
+"timeshare.ml" 41 1608 1656 "timeshare.ml" 41 1608 1657
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"timeshare.ml" 41 1608 1657 "timeshare.ml" 41 1608 1658
+type(
+  int
+)
+"timeshare.ml" 41 1608 1655 "timeshare.ml" 41 1608 1658
+type(
+  int
+)
+"timeshare.ml" 41 1608 1660 "timeshare.ml" 41 1608 1661
+type(
+  (int * int) list
+)
+ident(
+  int_ref r "timeshare.ml" 38 1463 1484 "timeshare.ml" 38 1463 1485
+)
+"timeshare.ml" 41 1608 1639 "timeshare.ml" 41 1608 1661
+call(
+  tail
+)
+type(
+  unit
+)
+"timeshare.ml" 40 1560 1591 "timeshare.ml" 42 1662 1692
+type(
+  unit
+)
+"timeshare.ml" 39 1492 1523 "timeshare.ml" 42 1662 1692
+type(
+  unit
+)
+"timeshare.ml" 43 1693 1724 "timeshare.ml" 43 1693 1736
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 721 26812 26812 "stdlib.mli" 721 26812 26845
+)
+"timeshare.ml" 43 1693 1737 "timeshare.ml" 43 1693 1742
+type(
+  string
+)
+"timeshare.ml" 43 1693 1724 "timeshare.ml" 43 1693 1742
+call(
+  stack
+)
+type(
+  unit
+)
+"timeshare.ml" 44 1743 1774 "timeshare.ml" 44 1743 1788
+type(
+  int -> (int * int) list -> unit
+)
+ident(
+  int_ref print_hist_rec "timeshare.ml" 36 1395 1410 "timeshare.ml" 36 1395 1424
+)
+"timeshare.ml" 44 1743 1790 "timeshare.ml" 44 1743 1791
+type(
+  int
+)
+ident(
+  int_ref k "timeshare.ml" 36 1395 1425 "timeshare.ml" 36 1395 1426
+)
+"timeshare.ml" 44 1743 1791 "timeshare.ml" 44 1743 1792
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"timeshare.ml" 44 1743 1792 "timeshare.ml" 44 1743 1793
+type(
+  int
+)
+"timeshare.ml" 44 1743 1790 "timeshare.ml" 44 1743 1793
+type(
+  int
+)
+"timeshare.ml" 44 1743 1795 "timeshare.ml" 44 1743 1796
+type(
+  (int * int) list
+)
+ident(
+  int_ref l "timeshare.ml" 36 1395 1427 "timeshare.ml" 36 1395 1428
+)
+"timeshare.ml" 44 1743 1774 "timeshare.ml" 44 1743 1796
+call(
+  tail
+)
+type(
+  unit
+)
+"timeshare.ml" 43 1693 1724 "timeshare.ml" 45 1797 1827
+type(
+  unit
+)
+"timeshare.ml" 39 1492 1504 "timeshare.ml" 45 1797 1827
+type(
+  unit
+)
+"timeshare.ml" 36 1395 1431 "timeshare.ml" 46 1828 1837
+type(
+  unit
+)
+"timeshare.ml" 36 1395 1427 "timeshare.ml" 46 1828 1837
+type(
+  (int * int) list -> unit
+)
+"timeshare.ml" 36 1395 1425 "timeshare.ml" 46 1828 1837
+type(
+  int -> (int * int) list -> unit
+)
+"timeshare.ml" 35 1357 1377 "timeshare.ml" 46 1828 1837
+type(
+  (int * int) list -> unit
+)
+"timeshare.ml" 47 1841 1848 "timeshare.ml" 47 1841 1850
+type(
+  int list
+)
+ident(
+  def sl "timeshare.ml" 48 1886 1889 "timeshare.ml" 48 1886 1915
+)
+"timeshare.ml" 47 1841 1853 "timeshare.ml" 47 1841 1862
+type(
+  (int -> int -> int) -> int list -> int list
+)
+ident(
+  int_ref Stdlib.List.sort "list.mli" 306 11349 11349 "list.mli" 306 11349 11399
+)
+"timeshare.ml" 47 1841 1868 "timeshare.ml" 47 1841 1869
+type(
+  int
+)
+ident(
+  def x "timeshare.ml" 47 1841 1870 "timeshare.ml" 47 1841 1878
+)
+"timeshare.ml" 47 1841 1870 "timeshare.ml" 47 1841 1871
+type(
+  int
+)
+ident(
+  def y "timeshare.ml" 47 1841 1875 "timeshare.ml" 47 1841 1878
+)
+"timeshare.ml" 47 1841 1875 "timeshare.ml" 47 1841 1876
+type(
+  int
+)
+ident(
+  int_ref x "timeshare.ml" 47 1841 1868 "timeshare.ml" 47 1841 1869
+)
+"timeshare.ml" 47 1841 1876 "timeshare.ml" 47 1841 1877
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 271 10513 10513 "stdlib.mli" 271 10513 10559
+)
+"timeshare.ml" 47 1841 1877 "timeshare.ml" 47 1841 1878
+type(
+  int
+)
+ident(
+  int_ref y "timeshare.ml" 47 1841 1870 "timeshare.ml" 47 1841 1871
+)
+"timeshare.ml" 47 1841 1875 "timeshare.ml" 47 1841 1878
+type(
+  int
+)
+"timeshare.ml" 47 1841 1870 "timeshare.ml" 47 1841 1878
+type(
+  int -> int
+)
+"timeshare.ml" 47 1841 1868 "timeshare.ml" 47 1841 1878
+type(
+  int -> int -> int
+)
+"timeshare.ml" 47 1841 1880 "timeshare.ml" 47 1841 1881
+type(
+  int list
+)
+ident(
+  int_ref l "timeshare.ml" 24 999 1017 "timeshare.ml" 24 999 1018
+)
+"timeshare.ml" 47 1841 1853 "timeshare.ml" 47 1841 1881
+call(
+  stack
+)
+type(
+  int list
+)
+"timeshare.ml" 48 1886 1889 "timeshare.ml" 48 1886 1899
+type(
+  (int * int) list -> unit
+)
+ident(
+  int_ref print_hist "timeshare.ml" 35 1357 1364 "timeshare.ml" 35 1357 1374
+)
+"timeshare.ml" 48 1886 1901 "timeshare.ml" 48 1886 1908
+type(
+  (int * int) list -> int list -> (int * int) list
+)
+ident(
+  int_ref process "timeshare.ml" 31 1219 1230 "timeshare.ml" 31 1219 1237
+)
+"timeshare.ml" 48 1886 1909 "timeshare.ml" 48 1886 1911
+type(
+  (int * int) list
+)
+"timeshare.ml" 48 1886 1912 "timeshare.ml" 48 1886 1914
+type(
+  int list
+)
+ident(
+  int_ref sl "timeshare.ml" 47 1841 1848 "timeshare.ml" 47 1841 1850
+)
+"timeshare.ml" 48 1886 1901 "timeshare.ml" 48 1886 1914
+call(
+  stack
+)
+type(
+  (int * int) list
+)
+"timeshare.ml" 48 1886 1889 "timeshare.ml" 48 1886 1915
+call(
+  tail
+)
+type(
+  unit
+)
+"timeshare.ml" 47 1841 1844 "timeshare.ml" 48 1886 1915
+type(
+  unit
+)
+"timeshare.ml" 35 1357 1360 "timeshare.ml" 48 1886 1915
+type(
+  unit
+)
+"timeshare.ml" 31 1219 1222 "timeshare.ml" 48 1886 1915
+type(
+  unit
+)
+"timeshare.ml" 25 1022 1025 "timeshare.ml" 48 1886 1915
+type(
+  unit
+)
+"timeshare.ml" 24 999 1017 "timeshare.ml" 48 1886 1915
+type(
+  int list -> unit
+)
+"timeshare.ml" 50 1918 1924 "timeshare.ml" 50 1918 1933
+type(
+  unit -> unit
+)
+ident(
+  def timeshare "timeshare.ml" 64 2486 2486 "timeshare.ml" 75 2634 2637
+)
+"timeshare.ml" 50 1918 1934 "timeshare.ml" 50 1918 1936
+type(
+  unit
+)
+"timeshare.ml" 51 1940 1946 "timeshare.ml" 51 1940 1950
+type(
+  Trie.trie
+)
+ident(
+  def trie "timeshare.ml" 52 1989 1991 "timeshare.ml" 62 2473 2483
+)
+"timeshare.ml" 51 1940 1954 "timeshare.ml" 51 1940 1965
+type(
+  in_channel -> Trie.trie
+)
+ident(
+  int_ref Stdlib.input_value "stdlib.mli" 999 38408 38408 "stdlib.mli" 999 38408 38442
+)
+"timeshare.ml" 51 1940 1966 "timeshare.ml" 51 1940 1971
+type(
+  in_channel
+)
+ident(
+  int_ref Stdlib.stdin "stdlib.mli" 706 26474 26474 "stdlib.mli" 706 26474 26496
+)
+"timeshare.ml" 51 1940 1954 "timeshare.ml" 51 1940 1971
+call(
+  stack
+)
+type(
+  Trie.trie
+)
+type(
+  Trie.trie
+)
+"timeshare.ml" 52 1989 2011 "timeshare.ml" 52 1989 2016
+type(
+  float
+)
+ident(
+  def utime "timeshare.ml" 53 2059 2061 "timeshare.ml" 62 2473 2483
+)
+"timeshare.ml" 52 1989 2033 "timeshare.ml" 52 1989 2038
+type(
+  float
+)
+ident(
+  def stime "timeshare.ml" 53 2059 2061 "timeshare.ml" 62 2473 2483
+)
+"timeshare.ml" 52 1989 1995 "timeshare.ml" 52 1989 2039
+type(
+  Unix.process_times
+)
+"timeshare.ml" 52 1989 2042 "timeshare.ml" 52 1989 2052
+type(
+  unit -> Unix.process_times
+)
+ident(
+  int_ref Unix.times "unix.mli" 1040 43408 43408 "unix.mli" 1040 43408 43441
+)
+"timeshare.ml" 52 1989 2053 "timeshare.ml" 52 1989 2055
+type(
+  unit
+)
+"timeshare.ml" 52 1989 2042 "timeshare.ml" 52 1989 2055
+call(
+  stack
+)
+type(
+  Unix.process_times
+)
+"timeshare.ml" 53 2059 2065 "timeshare.ml" 53 2059 2066
+type(
+  Trie.trie
+)
+"timeshare.ml" 53 2059 2069 "timeshare.ml" 53 2059 2082
+type(
+  Trie.trie -> Trie.trie
+)
+ident(
+  int_ref Mini.minimize "mini.ml" 47 1951 1957 "mini.ml" 47 1951 1965
+)
+"timeshare.ml" 53 2059 2083 "timeshare.ml" 53 2059 2087
+type(
+  Trie.trie
+)
+ident(
+  int_ref trie "timeshare.ml" 51 1940 1946 "timeshare.ml" 51 1940 1950
+)
+"timeshare.ml" 53 2059 2069 "timeshare.ml" 53 2059 2087
+call(
+  stack
+)
+type(
+  Trie.trie
+)
+"timeshare.ml" 54 2092 2114 "timeshare.ml" 54 2092 2120
+type(
+  float
+)
+ident(
+  def utime' "timeshare.ml" 55 2164 2175 "timeshare.ml" 62 2473 2483
+)
+"timeshare.ml" 54 2092 2137 "timeshare.ml" 54 2092 2143
+type(
+  float
+)
+ident(
+  def stime' "timeshare.ml" 55 2164 2175 "timeshare.ml" 62 2473 2483
+)
+"timeshare.ml" 54 2092 2098 "timeshare.ml" 54 2092 2144
+type(
+  Unix.process_times
+)
+"timeshare.ml" 54 2092 2147 "timeshare.ml" 54 2092 2157
+type(
+  unit -> Unix.process_times
+)
+ident(
+  int_ref Unix.times "unix.mli" 1040 43408 43408 "unix.mli" 1040 43408 43441
+)
+"timeshare.ml" 54 2092 2158 "timeshare.ml" 54 2092 2160
+type(
+  unit
+)
+"timeshare.ml" 54 2092 2147 "timeshare.ml" 54 2092 2160
+call(
+  stack
+)
+type(
+  Unix.process_times
+)
+"timeshare.ml" 55 2164 2175 "timeshare.ml" 55 2164 2186
+type(
+  float -> unit
+)
+ident(
+  int_ref Stdlib.print_float "stdlib.mli" 731 27074 27074 "stdlib.mli" 731 27074 27105
+)
+"timeshare.ml" 55 2164 2188 "timeshare.ml" 55 2164 2194
+type(
+  float
+)
+ident(
+  int_ref utime' "timeshare.ml" 54 2092 2114 "timeshare.ml" 54 2092 2120
+)
+"timeshare.ml" 55 2164 2194 "timeshare.ml" 55 2164 2196
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( -. ) "stdlib.mli" 375 14458 14458 "stdlib.mli" 375 14458 14513
+)
+"timeshare.ml" 55 2164 2196 "timeshare.ml" 55 2164 2201
+type(
+  float
+)
+ident(
+  int_ref utime "timeshare.ml" 52 1989 2011 "timeshare.ml" 52 1989 2016
+)
+"timeshare.ml" 55 2164 2188 "timeshare.ml" 55 2164 2201
+type(
+  float
+)
+"timeshare.ml" 55 2164 2175 "timeshare.ml" 55 2164 2202
+call(
+  stack
+)
+type(
+  unit
+)
+"timeshare.ml" 56 2203 2214 "timeshare.ml" 56 2203 2226
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 721 26812 26812 "stdlib.mli" 721 26812 26845
+)
+"timeshare.ml" 56 2203 2227 "timeshare.ml" 56 2203 2241
+type(
+  string
+)
+"timeshare.ml" 56 2203 2214 "timeshare.ml" 56 2203 2241
+call(
+  stack
+)
+type(
+  unit
+)
+"timeshare.ml" 57 2242 2253 "timeshare.ml" 57 2242 2264
+type(
+  float -> unit
+)
+ident(
+  int_ref Stdlib.print_float "stdlib.mli" 731 27074 27074 "stdlib.mli" 731 27074 27105
+)
+"timeshare.ml" 57 2242 2266 "timeshare.ml" 57 2242 2272
+type(
+  float
+)
+ident(
+  int_ref stime' "timeshare.ml" 54 2092 2137 "timeshare.ml" 54 2092 2143
+)
+"timeshare.ml" 57 2242 2272 "timeshare.ml" 57 2242 2274
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( -. ) "stdlib.mli" 375 14458 14458 "stdlib.mli" 375 14458 14513
+)
+"timeshare.ml" 57 2242 2274 "timeshare.ml" 57 2242 2279
+type(
+  float
+)
+ident(
+  int_ref stime "timeshare.ml" 52 1989 2033 "timeshare.ml" 52 1989 2038
+)
+"timeshare.ml" 57 2242 2266 "timeshare.ml" 57 2242 2279
+type(
+  float
+)
+"timeshare.ml" 57 2242 2253 "timeshare.ml" 57 2242 2280
+call(
+  stack
+)
+type(
+  unit
+)
+"timeshare.ml" 58 2281 2292 "timeshare.ml" 58 2281 2304
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 721 26812 26812 "stdlib.mli" 721 26812 26845
+)
+"timeshare.ml" 58 2281 2305 "timeshare.ml" 58 2281 2321
+type(
+  string
+)
+"timeshare.ml" 58 2281 2292 "timeshare.ml" 58 2281 2321
+call(
+  stack
+)
+type(
+  unit
+)
+"timeshare.ml" 59 2322 2333 "timeshare.ml" 59 2322 2342
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.print_int "stdlib.mli" 728 26988 26988 "stdlib.mli" 728 26988 27015
+)
+"timeshare.ml" 59 2322 2344 "timeshare.ml" 59 2322 2353
+type(
+  Trie.trie -> int
+)
+ident(
+  int_ref Trie.size "trie.ml" 159 5634 5644 "trie.ml" 159 5634 5648
+)
+"timeshare.ml" 59 2322 2354 "timeshare.ml" 59 2322 2358
+type(
+  Trie.trie
+)
+ident(
+  int_ref trie "timeshare.ml" 51 1940 1946 "timeshare.ml" 51 1940 1950
+)
+"timeshare.ml" 59 2322 2344 "timeshare.ml" 59 2322 2358
+call(
+  stack
+)
+type(
+  int
+)
+"timeshare.ml" 59 2322 2333 "timeshare.ml" 59 2322 2359
+call(
+  stack
+)
+type(
+  unit
+)
+"timeshare.ml" 60 2360 2371 "timeshare.ml" 60 2360 2383
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 721 26812 26812 "stdlib.mli" 721 26812 26845
+)
+"timeshare.ml" 60 2360 2384 "timeshare.ml" 60 2360 2396
+type(
+  string
+)
+"timeshare.ml" 60 2360 2371 "timeshare.ml" 60 2360 2396
+call(
+  stack
+)
+type(
+  unit
+)
+"timeshare.ml" 61 2397 2408 "timeshare.ml" 61 2397 2419
+type(
+  int list -> unit
+)
+ident(
+  int_ref print_histo "timeshare.ml" 24 999 1005 "timeshare.ml" 24 999 1016
+)
+"timeshare.ml" 61 2397 2421 "timeshare.ml" 61 2397 2429
+type(
+  (Trie.trie list -> int) -> Trie.trie list list -> int list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+)
+"timeshare.ml" 61 2397 2430 "timeshare.ml" 61 2397 2441
+type(
+  Trie.trie list -> int
+)
+ident(
+  int_ref Stdlib.List.length "list.mli" 29 1637 1637 "list.mli" 29 1637 1664
+)
+"timeshare.ml" 61 2397 2443 "timeshare.ml" 61 2397 2456
+type(
+  Trie.trie list array -> Trie.trie list list
+)
+ident(
+  int_ref Stdlib.Array.to_list "array.mli" 129 5905 5905 "array.mli" 129 5905 5938
+)
+"timeshare.ml" 61 2397 2457 "timeshare.ml" 61 2397 2470
+type(
+  Trie.trie list array
+)
+ident(
+  int_ref Mini.Dag.memo "share.mli" 13 787 794 "share.mli" 13 787 834
+)
+"timeshare.ml" 61 2397 2443 "timeshare.ml" 61 2397 2470
+call(
+  stack
+)
+type(
+  Trie.trie list list
+)
+"timeshare.ml" 61 2397 2421 "timeshare.ml" 61 2397 2471
+call(
+  stack
+)
+type(
+  int list
+)
+"timeshare.ml" 61 2397 2408 "timeshare.ml" 61 2397 2472
+call(
+  tail
+)
+type(
+  unit
+)
+"timeshare.ml" 60 2360 2371 "timeshare.ml" 62 2473 2483
+type(
+  unit
+)
+"timeshare.ml" 59 2322 2333 "timeshare.ml" 62 2473 2483
+type(
+  unit
+)
+"timeshare.ml" 58 2281 2292 "timeshare.ml" 62 2473 2483
+type(
+  unit
+)
+"timeshare.ml" 57 2242 2253 "timeshare.ml" 62 2473 2483
+type(
+  unit
+)
+"timeshare.ml" 56 2203 2214 "timeshare.ml" 62 2473 2483
+type(
+  unit
+)
+"timeshare.ml" 55 2164 2175 "timeshare.ml" 62 2473 2483
+type(
+  unit
+)
+"timeshare.ml" 54 2092 2094 "timeshare.ml" 62 2473 2483
+type(
+  unit
+)
+"timeshare.ml" 53 2059 2061 "timeshare.ml" 62 2473 2483
+type(
+  unit
+)
+"timeshare.ml" 52 1989 1991 "timeshare.ml" 62 2473 2483
+type(
+  unit
+)
+"timeshare.ml" 51 1940 1942 "timeshare.ml" 62 2473 2483
+type(
+  unit
+)
+"timeshare.ml" 50 1918 1934 "timeshare.ml" 62 2473 2483
+type(
+  unit -> unit
+)
+"timeshare.ml" 64 2486 2486 "timeshare.ml" 64 2486 2495
+type(
+  unit -> unit
+)
+ident(
+  int_ref timeshare "timeshare.ml" 50 1918 1924 "timeshare.ml" 50 1918 1933
+)
+"timeshare.ml" 64 2486 2496 "timeshare.ml" 64 2486 2498
+type(
+  unit
+)
+"timeshare.ml" 64 2486 2486 "timeshare.ml" 64 2486 2498
+call(
+  stack
+)
+type(
+  unit
+)

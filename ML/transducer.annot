@@ -1,0 +1,3053 @@
+"transducer.ml" 17 750 764 "transducer.ml" 17 750 782
+call(
+  stack
+)
+"transducer.ml" 21 809 815 "transducer.ml" 21 809 825
+type(
+  'a Gram.Entry.t -> string -> 'a
+)
+ident(
+  def transducer "transducer.ml" 34 1101 1101 "transducer.ml" 1 0 -1
+)
+"transducer.ml" 21 809 826 "transducer.ml" 21 809 830
+type(
+  'a Gram.Entry.t
+)
+ident(
+  def trad "transducer.ml" 21 809 831 "transducer.ml" 30 1067 1070
+)
+"transducer.ml" 21 809 831 "transducer.ml" 21 809 832
+type(
+  string
+)
+ident(
+  def t "transducer.ml" 22 835 837 "transducer.ml" 30 1067 1070
+)
+"transducer.ml" 22 835 841 "transducer.ml" 22 835 858
+type(
+  'a Gram.Entry.t -> Gram.Loc.t -> string -> 'a
+)
+ident(
+  int_ref Gram.parse_string "camlp4/Camlp4/Sig.ml" 1165 45126 45130 "camlp4/Camlp4/Sig.ml" 1165 45126 45186
+)
+"transducer.ml" 22 835 859 "transducer.ml" 22 835 863
+type(
+  'a Gram.Entry.t
+)
+ident(
+  int_ref trad "transducer.ml" 21 809 826 "transducer.ml" 21 809 830
+)
+"transducer.ml" 22 835 864 "transducer.ml" 22 835 873
+type(
+  Zen_lexer.Token.Loc.t
+)
+ident(
+  int_ref Zen_lexer.Token.Loc.ghost "camlp4/Camlp4/Sig.ml" 85 3096 3098 "camlp4/Camlp4/Sig.ml" 85 3096 3113
+)
+"transducer.ml" 22 835 874 "transducer.ml" 22 835 875
+type(
+  string
+)
+ident(
+  int_ref t "transducer.ml" 21 809 831 "transducer.ml" 21 809 832
+)
+"transducer.ml" 22 835 841 "transducer.ml" 22 835 875
+call(
+  stack
+)
+type(
+  'a
+)
+"transducer.ml" 24 883 903 "transducer.ml" 24 883 906
+type(
+  Zen_lexer.Token.Loc.t
+)
+ident(
+  def loc "transducer.ml" 25 915 922 "transducer.ml" 29 1059 1065
+)
+"transducer.ml" 24 883 907 "transducer.ml" 24 883 908
+type(
+  exn
+)
+ident(
+  def e "transducer.ml" 25 915 922 "transducer.ml" 29 1059 1065
+)
+"transducer.ml" 24 883 887 "transducer.ml" 24 883 908
+type(
+  exn
+)
+"transducer.ml" 25 915 922 "transducer.ml" 25 915 934
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 721 26812 26812 "stdlib.mli" 721 26812 26845
+)
+"transducer.ml" 25 915 935 "transducer.ml" 25 915 943
+type(
+  string
+)
+"transducer.ml" 25 915 922 "transducer.ml" 25 915 943
+call(
+  stack
+)
+type(
+  unit
+)
+"transducer.ml" 26 944 951 "transducer.ml" 26 944 965
+type(
+  (string ->
+   (Format.formatter -> Zen_lexer.Token.Loc.t -> unit) ->
+   Zen_lexer.Token.Loc.t -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Zen_lexer.Token.Loc.t -> unit) ->
+  Zen_lexer.Token.Loc.t -> unit
+)
+ident(
+  int_ref Stdlib.Format.eprintf "format.mli" 1043 41627 41627 "format.mli" 1043 41627 41675
+)
+"transducer.ml" 26 944 966 "transducer.ml" 26 944 1003
+type(
+  (string ->
+   (Format.formatter -> Zen_lexer.Token.Loc.t -> unit) ->
+   Zen_lexer.Token.Loc.t -> unit, Format.formatter, unit)
+  format
+)
+"transducer.ml" 27 1005 1027 "transducer.ml" 27 1005 1028
+type(
+  string
+)
+ident(
+  int_ref t "transducer.ml" 21 809 831 "transducer.ml" 21 809 832
+)
+"transducer.ml" 27 1005 1029 "transducer.ml" 27 1005 1038
+type(
+  Format.formatter -> Zen_lexer.Token.Loc.t -> unit
+)
+ident(
+  int_ref Zen_lexer.Token.Loc.print "camlp4/Camlp4/Sig.ml" 183 6559 6561 "camlp4/Camlp4/Sig.ml" 183 6559 6604
+)
+"transducer.ml" 27 1005 1039 "transducer.ml" 27 1005 1042
+type(
+  Zen_lexer.Token.Loc.t
+)
+ident(
+  int_ref loc "transducer.ml" 24 883 903 "transducer.ml" 24 883 906
+)
+"transducer.ml" 26 944 951 "transducer.ml" 27 1005 1042
+call(
+  stack
+)
+type(
+  unit
+)
+"transducer.ml" 28 1044 1051 "transducer.ml" 28 1044 1056
+type(
+  exn -> 'a
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 36 1664 1664 "stdlib.mli" 36 1664 1701
+)
+"transducer.ml" 28 1044 1057 "transducer.ml" 28 1044 1058
+type(
+  exn
+)
+ident(
+  int_ref e "transducer.ml" 24 883 907 "transducer.ml" 24 883 908
+)
+"transducer.ml" 28 1044 1051 "transducer.ml" 28 1044 1058
+type(
+  'a
+)
+"transducer.ml" 26 944 951 "transducer.ml" 29 1059 1065
+type(
+  'a
+)
+"transducer.ml" 25 915 922 "transducer.ml" 29 1059 1065
+type(
+  'a
+)
+"transducer.ml" 22 835 837 "transducer.ml" 30 1067 1070
+type(
+  'a
+)
+"transducer.ml" 21 809 831 "transducer.ml" 30 1067 1070
+type(
+  string -> 'a
+)
+"transducer.ml" 21 809 826 "transducer.ml" 30 1067 1070
+type(
+  'a Gram.Entry.t -> string -> 'a
+)
+"transducer.ml" 34 1101 1107 "transducer.ml" 34 1101 1113
+type(
+  string Gram.Entry.t
+)
+ident(
+  def french "transducer.ml" 36 1150 1150 "transducer.ml" 1 0 -1
+)
+"transducer.ml" 34 1101 1116 "transducer.ml" 34 1101 1129
+type(
+  string -> string Gram.Entry.t
+)
+ident(
+  int_ref Gram.Entry.mk "camlp4/Camlp4/Sig.ml" 1111 43082 43088 "camlp4/Camlp4/Sig.ml" 1111 43082 43113
+)
+"transducer.ml" 34 1101 1130 "transducer.ml" 34 1101 1147
+type(
+  string
+)
+"transducer.ml" 34 1101 1116 "transducer.ml" 34 1101 1147
+call(
+  stack
+)
+type(
+  string Gram.Entry.t
+)
+"transducer.ml" 36 1150 1156 "transducer.ml" 36 1150 1167
+type(
+  string Gram.Entry.t
+)
+ident(
+  def french_word "transducer.ml" 38 1209 1209 "transducer.ml" 1 0 -1
+)
+"transducer.ml" 36 1150 1170 "transducer.ml" 36 1150 1183
+type(
+  string -> string Gram.Entry.t
+)
+ident(
+  int_ref Gram.Entry.mk "camlp4/Camlp4/Sig.ml" 1111 43082 43088 "camlp4/Camlp4/Sig.ml" 1111 43082 43113
+)
+"transducer.ml" 36 1150 1184 "transducer.ml" 36 1150 1206
+type(
+  string
+)
+"transducer.ml" 36 1150 1170 "transducer.ml" 36 1150 1206
+call(
+  stack
+)
+type(
+  string Gram.Entry.t
+)
+"transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+type(
+  Gram.single_extend_statment list
+)
+type(
+  Gram.single_extend_statment
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  '_weak1 -> Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  '_weak1
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  '_weak2 -> Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  '_weak2
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  '_weak3 -> Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  '_weak3
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  '_weak4 -> Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  '_weak4
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  '_weak5 -> Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  '_weak5
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  '_weak6 -> Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  '_weak6
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  '_weak7 -> Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  '_weak7
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  '_weak8 -> Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  '_weak8
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  '_weak9 -> Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  '_weak9
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  '_weak10 -> Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  '_weak10
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  '_weak11 -> Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  '_weak11
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  '_weak12 -> Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  '_weak12
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  '_weak13 -> Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  '_weak13
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  '_weak14 -> Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  '_weak14
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  '_weak15 -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  '_weak15
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  '_weak16 -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  '_weak16
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  '_weak17 -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  '_weak17
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  Gram.Token.t -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref l "transducer.ml" 63 1937 1945 "transducer.ml" 63 1937 1955
+)
+type(
+  string
+)
+ident(
+  def l "transducer.ml" 63 1937 1959 "transducer.ml" 63 1937 1960
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string option
+)
+type(
+  Gram.single_extend_statment list
+)
+type(
+  Camlp4.Sig.Grammar.position option
+)
+type(
+  string Gram.Entry.t
+)
+type(
+  string Gram.Entry.t
+)
+ident(
+  int_ref french "transducer.ml" 34 1101 1107 "transducer.ml" 34 1101 1113
+)
+"transducer.ml" 38 1209 1216 "transducer.ml" 39 1242 1250
+type(
+  ('_weak1 -> Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  ('_weak2 -> Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  (Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  ('_weak3 -> Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  ('_weak4 -> Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  ('_weak5 -> Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  ('_weak6 -> Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  (Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  ('_weak7 -> Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  ('_weak8 -> Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  (Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  ('_weak9 -> Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  (Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  ('_weak10 -> Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  ('_weak11 -> Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  ('_weak12 -> Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  ('_weak13 -> Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  (Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  ('_weak14 -> Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  (Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  ('_weak15 -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  ('_weak16 -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  ('_weak17 -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+type(
+  Gram.Token.t -> string
+)
+ident(
+  int_ref Gram.Token.extract_string "camlp4/Camlp4/Sig.ml" 819 32435 32437 "camlp4/Camlp4/Sig.ml" 819 32435 32471
+)
+type(
+  (Gram.Token.t -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+"transducer.ml" 40 1252 1260 "transducer.ml" 40 1252 1270
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 40 1252 1272 "transducer.ml" 40 1252 1275
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 40 1252 1279 "transducer.ml" 40 1252 1282
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 41 1283 1291 "transducer.ml" 41 1283 1301
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 41 1283 1303 "transducer.ml" 41 1283 1306
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 41 1283 1310 "transducer.ml" 41 1283 1313
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 42 1314 1322 "transducer.ml" 42 1314 1332
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 42 1314 1336 "transducer.ml" 42 1314 1339
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 43 1340 1348 "transducer.ml" 43 1340 1358
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 43 1340 1360 "transducer.ml" 43 1340 1363
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 43 1340 1367 "transducer.ml" 43 1340 1370
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 44 1371 1379 "transducer.ml" 44 1371 1389
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 44 1371 1391 "transducer.ml" 44 1371 1394
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 44 1371 1398 "transducer.ml" 44 1371 1401
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 45 1402 1410 "transducer.ml" 45 1402 1420
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 45 1402 1422 "transducer.ml" 45 1402 1425
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 45 1402 1429 "transducer.ml" 45 1402 1432
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 46 1433 1441 "transducer.ml" 46 1433 1451
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 46 1433 1453 "transducer.ml" 46 1433 1457
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 46 1433 1461 "transducer.ml" 46 1433 1464
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 47 1465 1473 "transducer.ml" 47 1465 1483
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 47 1465 1487 "transducer.ml" 47 1465 1490
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 48 1491 1499 "transducer.ml" 48 1491 1509
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 48 1491 1511 "transducer.ml" 48 1491 1514
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 48 1491 1518 "transducer.ml" 48 1491 1521
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 49 1522 1530 "transducer.ml" 49 1522 1540
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 49 1522 1542 "transducer.ml" 49 1522 1546
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 49 1522 1550 "transducer.ml" 49 1522 1553
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 50 1554 1562 "transducer.ml" 50 1554 1572
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 50 1554 1576 "transducer.ml" 50 1554 1579
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 51 1580 1588 "transducer.ml" 51 1580 1598
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 51 1580 1600 "transducer.ml" 51 1580 1603
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 51 1580 1607 "transducer.ml" 51 1580 1610
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 52 1611 1619 "transducer.ml" 52 1611 1629
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 52 1611 1633 "transducer.ml" 52 1611 1636
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 53 1637 1645 "transducer.ml" 53 1637 1655
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 53 1637 1657 "transducer.ml" 53 1637 1660
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 53 1637 1664 "transducer.ml" 53 1637 1667
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 54 1668 1676 "transducer.ml" 54 1668 1686
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 54 1668 1688 "transducer.ml" 54 1668 1691
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 54 1668 1695 "transducer.ml" 54 1668 1698
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 55 1699 1707 "transducer.ml" 55 1699 1717
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 55 1699 1719 "transducer.ml" 55 1699 1723
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 55 1699 1727 "transducer.ml" 55 1699 1730
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 56 1731 1739 "transducer.ml" 56 1731 1749
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 56 1731 1751 "transducer.ml" 56 1731 1755
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 56 1731 1759 "transducer.ml" 56 1731 1764
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 57 1778 1786 "transducer.ml" 57 1778 1796
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 57 1778 1800 "transducer.ml" 57 1778 1803
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 58 1804 1812 "transducer.ml" 58 1804 1822
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 58 1804 1824 "transducer.ml" 58 1804 1827
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 58 1804 1832 "transducer.ml" 58 1804 1835
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 59 1836 1844 "transducer.ml" 59 1836 1854
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 59 1836 1858 "transducer.ml" 59 1836 1861
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 60 1862 1870 "transducer.ml" 60 1862 1873
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 60 1862 1877 "transducer.ml" 60 1862 1880
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 61 1881 1889 "transducer.ml" 61 1881 1892
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 61 1881 1896 "transducer.ml" 61 1881 1899
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 62 1900 1908 "transducer.ml" 62 1900 1911
+type(
+  string
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 62 1900 1915 "transducer.ml" 62 1900 1918
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 63 1937 1949 "transducer.ml" 63 1937 1955
+type(
+  Gram.Token.t
+)
+type(
+  string
+)
+"transducer.ml" 63 1937 1945 "transducer.ml" 63 1937 1955
+type(
+  Gram.Token.t
+)
+ident(
+  def l "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 63 1937 1959 "transducer.ml" 63 1937 1960
+type(
+  string
+)
+ident(
+  int_ref l "transducer.ml" 39 1242 1244 "transducer.ml" 39 1242 1250
+)
+"transducer.ml" 65 1972 1974 "transducer.ml" 65 1972 1985
+call(
+  stack
+)
+type(
+  Gram.single_extend_statment list
+)
+type(
+  Gram.single_extend_statment
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Gram.production_rule
+)
+type(
+  Gram.Action.t
+)
+type(
+  Gram.Token.t -> string list -> Gram.Loc.t -> string
+)
+type(
+  string list -> Gram.Loc.t -> string
+)
+type(
+  Gram.Loc.t -> string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "transducer.ml" 65 1972 1974 "transducer.ml" 65 1972 1985
+)
+type(
+  Gram.Loc.t
+)
+ident(
+  def _loc "transducer.ml" 65 1972 1974 "transducer.ml" 65 1972 1985
+)
+type(
+  Gram.Token.t
+)
+ident(
+  def __camlp4_0 "transducer.ml" 65 1972 1974 "transducer.ml" 65 1972 1985
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.symbol list
+)
+type(
+  Gram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string option
+)
+type(
+  Gram.single_extend_statment list
+)
+type(
+  Camlp4.Sig.Grammar.position option
+)
+type(
+  string Gram.Entry.t
+)
+type(
+  string Gram.Entry.t
+)
+ident(
+  int_ref french_word "transducer.ml" 36 1150 1156 "transducer.ml" 36 1150 1167
+)
+"transducer.ml" 38 1209 1216 "transducer.ml" 65 1972 1985
+type(
+  (Gram.Token.t -> string list -> Gram.Loc.t -> string) -> Gram.Action.t
+)
+ident(
+  int_ref Gram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+)
+"transducer.ml" 66 1987 2005 "transducer.ml" 66 1987 2011
+call(
+  stack
+)
+type(
+  Gram.internal_entry
+)
+type(
+  string Gram.Entry.t
+)
+type(
+  string Gram.Entry.t
+)
+ident(
+  int_ref french "transducer.ml" 34 1101 1107 "transducer.ml" 34 1101 1113
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 66 1987 1999 "transducer.ml" 66 1987 2011
+type(
+  Gram.symbol
+)
+"transducer.ml" 66 1987 1995 "transducer.ml" 66 1987 2011
+type(
+  string list
+)
+ident(
+  def w "transducer.ml" 65 1972 1974 "transducer.ml" 65 1972 1985
+)
+"transducer.ml" 38 1209 1216 "transducer.ml" 66 1987 2011
+type(
+  string Gram.Entry.t -> Gram.internal_entry
+)
+ident(
+  int_ref Gram.Entry.obj "camlp4/Camlp4/Sig.ml" 1131 43712 43718 "camlp4/Camlp4/Sig.ml" 1131 43712 43752
+)
+"transducer.ml" 66 1987 2014 "transducer.ml" 66 1987 2017
+type(
+  Gram.Token.t
+)
+type(
+  Gram.Token.t
+)
+"transducer.ml" 66 1987 2013 "transducer.ml" 66 1987 2017
+type(
+  Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Gram.Token.t
+)
+type(
+  Gram.symbol
+)
+"transducer.ml" 66 1987 2021 "transducer.ml" 66 1987 2034
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref Stdlib.String.concat "string.mli" 123 5313 5313 "string.mli" 123 5313 5357
+)
+"transducer.ml" 66 1987 2035 "transducer.ml" 66 1987 2037
+type(
+  string
+)
+"transducer.ml" 66 1987 2038 "transducer.ml" 66 1987 2039
+type(
+  string list
+)
+ident(
+  int_ref w "transducer.ml" 66 1987 1995 "transducer.ml" 66 1987 2011
+)
+"transducer.ml" 66 1987 2021 "transducer.ml" 66 1987 2039
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"transducer.ml" 38 1209 1216 "transducer.ml" 66 1987 2044
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Gram.extend_statment
+)
+type(
+  unit
+)
+type(
+  unit -> Gram.extend_statment
+)
+type(
+  Camlp4.Sig.Grammar.position option * Gram.single_extend_statment list
+)
+type(
+  unit
+)
+type(
+  string Gram.Entry.t -> Gram.extend_statment -> unit
+)
+ident(
+  int_ref Gram.extend "camlp4/Camlp4/Sig.ml" 1142 44021 44025 "camlp4/Camlp4/Sig.ml" 1142 44021 44082
+)
+type(
+  unit
+)
+type(
+  Gram.extend_statment
+)
+type(
+  unit
+)
+type(
+  unit -> Gram.extend_statment
+)
+type(
+  Camlp4.Sig.Grammar.position option * Gram.single_extend_statment list
+)
+type(
+  unit
+)
+type(
+  string Gram.Entry.t -> Gram.extend_statment -> unit
+)
+ident(
+  int_ref Gram.extend "camlp4/Camlp4/Sig.ml" 1142 44021 44025 "camlp4/Camlp4/Sig.ml" 1142 44021 44082
+)
+"transducer.ml" 69 2051 2057 "transducer.ml" 69 2051 2072
+type(
+  string -> string
+)
+ident(
+  def latin_of_string "transducer.ml" 69 2051 2097 "transducer.ml" 1 0 -1
+)
+"transducer.ml" 69 2051 2075 "transducer.ml" 69 2051 2085
+type(
+  string Gram.Entry.t -> string -> string
+)
+ident(
+  int_ref transducer "transducer.ml" 21 809 815 "transducer.ml" 21 809 825
+)
+"transducer.ml" 69 2051 2086 "transducer.ml" 69 2051 2097
+type(
+  string Gram.Entry.t
+)
+ident(
+  int_ref french_word "transducer.ml" 36 1150 1156 "transducer.ml" 36 1150 1167
+)
+"transducer.ml" 69 2051 2075 "transducer.ml" 69 2051 2097
+call(
+  stack
+)
+type(
+  string -> string
+)

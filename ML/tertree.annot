@@ -1,0 +1,1773 @@
+"tertree.ml" 32 1442 1452 "tertree.ml" 32 1442 1464
+type(
+  Trie.trie -> tree
+)
+ident(
+  def trie_to_tree "tertree.ml" 32 1442 1442 "tertree.ml" 1 0 -1
+)
+"tertree.ml" 33 1471 1486 "tertree.ml" 33 1471 1487
+type(
+  bool
+)
+ident(
+  def b "tertree.ml" 33 1471 1497 "tertree.ml" 37 1649 1655
+)
+"tertree.ml" 33 1471 1488 "tertree.ml" 33 1471 1492
+type(
+  Trie.arcs
+)
+ident(
+  def arcs "tertree.ml" 33 1471 1497 "tertree.ml" 37 1649 1655
+)
+"tertree.ml" 33 1471 1485 "tertree.ml" 33 1471 1493
+type(
+  bool * Trie.arcs
+)
+"tertree.ml" 33 1471 1475 "tertree.ml" 33 1471 1493
+type(
+  Trie.trie
+)
+"tertree.ml" 33 1471 1503 "tertree.ml" 33 1471 1507
+type(
+  Trie.arcs
+)
+ident(
+  int_ref arcs "tertree.ml" 33 1471 1488 "tertree.ml" 33 1471 1492
+)
+"tertree.ml" 34 1514 1521 "tertree.ml" 34 1514 1523
+type(
+  Trie.arcs
+)
+"tertree.ml" 34 1514 1532 "tertree.ml" 34 1514 1533
+type(
+  bool
+)
+ident(
+  int_ref b "tertree.ml" 33 1471 1486 "tertree.ml" 33 1471 1487
+)
+"tertree.ml" 34 1514 1527 "tertree.ml" 34 1514 1533
+type(
+  tree
+)
+"tertree.ml" 35 1534 1544 "tertree.ml" 35 1534 1545
+type(
+  Word.letter
+)
+ident(
+  def n "tertree.ml" 35 1534 1562 "tertree.ml" 36 1607 1648
+)
+"tertree.ml" 35 1534 1546 "tertree.ml" 35 1534 1547
+type(
+  Trie.trie
+)
+ident(
+  def t "tertree.ml" 35 1534 1562 "tertree.ml" 36 1607 1648
+)
+"tertree.ml" 35 1534 1543 "tertree.ml" 35 1534 1548
+type(
+  Trie.arcs
+)
+type(
+  Word.letter * Trie.trie
+)
+"tertree.ml" 35 1534 1552 "tertree.ml" 35 1534 1556
+type(
+  (Word.letter * Trie.trie) list
+)
+ident(
+  def arcs "tertree.ml" 35 1534 1562 "tertree.ml" 36 1607 1648
+)
+"tertree.ml" 35 1534 1568 "tertree.ml" 35 1534 1569
+type(
+  bool
+)
+ident(
+  int_ref b "tertree.ml" 33 1471 1486 "tertree.ml" 33 1471 1487
+)
+"tertree.ml" 35 1534 1570 "tertree.ml" 35 1534 1572
+type(
+  forest
+)
+"tertree.ml" 35 1534 1573 "tertree.ml" 35 1534 1574
+type(
+  Word.letter
+)
+ident(
+  int_ref n "tertree.ml" 35 1534 1544 "tertree.ml" 35 1534 1545
+)
+"tertree.ml" 35 1534 1575 "tertree.ml" 35 1534 1587
+type(
+  Trie.trie -> tree
+)
+ident(
+  int_ref trie_to_tree "tertree.ml" 32 1442 1452 "tertree.ml" 32 1442 1464
+)
+"tertree.ml" 35 1534 1588 "tertree.ml" 35 1534 1589
+type(
+  Trie.trie
+)
+ident(
+  int_ref t "tertree.ml" 35 1534 1546 "tertree.ml" 35 1534 1547
+)
+"tertree.ml" 35 1534 1575 "tertree.ml" 35 1534 1589
+call(
+  stack
+)
+type(
+  tree
+)
+"tertree.ml" 35 1534 1590 "tertree.ml" 35 1534 1598
+type(
+  (Word.letter * Trie.trie -> Word.letter * tree) ->
+  (Word.letter * Trie.trie) list -> forest
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+)
+"tertree.ml" 35 1534 1599 "tertree.ml" 35 1534 1600
+type(
+  Word.letter * Trie.trie -> Word.letter * tree
+)
+ident(
+  int_ref f "tertree.ml" 36 1607 1620 "tertree.ml" 36 1607 1621
+)
+"tertree.ml" 35 1534 1601 "tertree.ml" 35 1534 1605
+type(
+  (Word.letter * Trie.trie) list
+)
+ident(
+  int_ref arcs "tertree.ml" 35 1534 1552 "tertree.ml" 35 1534 1556
+)
+"tertree.ml" 35 1534 1590 "tertree.ml" 35 1534 1605
+call(
+  stack
+)
+type(
+  forest
+)
+"tertree.ml" 35 1534 1567 "tertree.ml" 35 1534 1606
+type(
+  bool * forest * Word.letter * tree * forest
+)
+"tertree.ml" 35 1534 1562 "tertree.ml" 35 1534 1606
+type(
+  tree
+)
+"tertree.ml" 36 1607 1620 "tertree.ml" 36 1607 1621
+type(
+  'a * Trie.trie -> 'a * tree
+)
+ident(
+  def f "tertree.ml" 35 1534 1562 "tertree.ml" 35 1534 1606
+)
+"tertree.ml" 36 1607 1623 "tertree.ml" 36 1607 1624
+type(
+  'a
+)
+ident(
+  def n "tertree.ml" 36 1607 1630 "tertree.ml" 36 1607 1648
+)
+"tertree.ml" 36 1607 1625 "tertree.ml" 36 1607 1626
+type(
+  Trie.trie
+)
+ident(
+  def t "tertree.ml" 36 1607 1630 "tertree.ml" 36 1607 1648
+)
+"tertree.ml" 36 1607 1622 "tertree.ml" 36 1607 1627
+type(
+  'a * Trie.trie
+)
+"tertree.ml" 36 1607 1631 "tertree.ml" 36 1607 1632
+type(
+  'a
+)
+ident(
+  int_ref n "tertree.ml" 36 1607 1623 "tertree.ml" 36 1607 1624
+)
+"tertree.ml" 36 1607 1633 "tertree.ml" 36 1607 1645
+type(
+  Trie.trie -> tree
+)
+ident(
+  int_ref trie_to_tree "tertree.ml" 32 1442 1452 "tertree.ml" 32 1442 1464
+)
+"tertree.ml" 36 1607 1646 "tertree.ml" 36 1607 1647
+type(
+  Trie.trie
+)
+ident(
+  int_ref t "tertree.ml" 36 1607 1625 "tertree.ml" 36 1607 1626
+)
+"tertree.ml" 36 1607 1633 "tertree.ml" 36 1607 1647
+call(
+  stack
+)
+type(
+  tree
+)
+"tertree.ml" 36 1607 1630 "tertree.ml" 36 1607 1648
+type(
+  'a * tree
+)
+"tertree.ml" 36 1607 1622 "tertree.ml" 36 1607 1648
+type(
+  'a * Trie.trie -> 'a * tree
+)
+"tertree.ml" 35 1534 1562 "tertree.ml" 36 1607 1648
+type(
+  tree
+)
+"tertree.ml" 33 1471 1497 "tertree.ml" 37 1649 1655
+type(
+  tree
+)
+"tertree.ml" 32 1442 1467 "tertree.ml" 38 1656 1659
+type(
+  Trie.trie -> tree
+)
+"tertree.ml" 44 1740 1750 "tertree.ml" 44 1740 1758
+type(
+  Trie.trie -> tree
+)
+ident(
+  def balanced "tertree.ml" 44 1740 1740 "tertree.ml" 1 0 -1
+)
+"tertree.ml" 45 1765 1780 "tertree.ml" 45 1765 1781
+type(
+  bool
+)
+ident(
+  def b "tertree.ml" 45 1765 1791 "tertree.ml" 62 2506 2512
+)
+"tertree.ml" 45 1765 1782 "tertree.ml" 45 1765 1786
+type(
+  Trie.arcs
+)
+ident(
+  def arcs "tertree.ml" 45 1765 1791 "tertree.ml" 62 2506 2512
+)
+"tertree.ml" 45 1765 1779 "tertree.ml" 45 1765 1787
+type(
+  bool * Trie.arcs
+)
+"tertree.ml" 45 1765 1769 "tertree.ml" 45 1765 1787
+type(
+  Trie.trie
+)
+"tertree.ml" 45 1765 1797 "tertree.ml" 45 1765 1801
+type(
+  Trie.arcs
+)
+ident(
+  int_ref arcs "tertree.ml" 45 1765 1782 "tertree.ml" 45 1765 1786
+)
+"tertree.ml" 46 1808 1815 "tertree.ml" 46 1808 1817
+type(
+  Trie.arcs
+)
+"tertree.ml" 46 1808 1826 "tertree.ml" 46 1808 1827
+type(
+  bool
+)
+ident(
+  int_ref b "tertree.ml" 45 1765 1780 "tertree.ml" 45 1765 1781
+)
+"tertree.ml" 46 1808 1821 "tertree.ml" 46 1808 1827
+type(
+  tree
+)
+"tertree.ml" 47 1828 1835 "tertree.ml" 47 1828 1836
+type(
+  Trie.arcs
+)
+"tertree.ml" 48 1900 1915 "tertree.ml" 48 1900 1918
+type(
+  ('a * tree) list ->
+  ('a * Trie.trie) list -> int -> ('a * tree) list * ('a * Trie.trie) list
+)
+ident(
+  def bal "tertree.ml" 48 1900 1907 "tertree.ml" 61 2495 2505
+)
+"tertree.ml" 48 1900 1919 "tertree.ml" 48 1900 1922
+type(
+  ('a * tree) list
+)
+ident(
+  def acc "tertree.ml" 48 1900 1923 "tertree.ml" 53 2146 2159
+)
+"tertree.ml" 48 1900 1923 "tertree.ml" 48 1900 1924
+type(
+  ('a * Trie.trie) list
+)
+ident(
+  def l "tertree.ml" 48 1900 1925 "tertree.ml" 53 2146 2159
+)
+"tertree.ml" 48 1900 1925 "tertree.ml" 48 1900 1926
+type(
+  int
+)
+ident(
+  def k "tertree.ml" 49 1953 1963 "tertree.ml" 53 2146 2159
+)
+"tertree.ml" 49 1953 1966 "tertree.ml" 49 1953 1967
+type(
+  int
+)
+ident(
+  int_ref k "tertree.ml" 48 1900 1925 "tertree.ml" 48 1900 1926
+)
+"tertree.ml" 49 1953 1967 "tertree.ml" 49 1953 1968
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"tertree.ml" 49 1953 1968 "tertree.ml" 49 1953 1969
+type(
+  int
+)
+"tertree.ml" 49 1953 1966 "tertree.ml" 49 1953 1969
+type(
+  bool
+)
+"tertree.ml" 49 1953 1976 "tertree.ml" 49 1953 1979
+type(
+  ('a * tree) list
+)
+ident(
+  int_ref acc "tertree.ml" 48 1900 1919 "tertree.ml" 48 1900 1922
+)
+"tertree.ml" 49 1953 1980 "tertree.ml" 49 1953 1981
+type(
+  ('a * Trie.trie) list
+)
+ident(
+  int_ref l "tertree.ml" 48 1900 1923 "tertree.ml" 48 1900 1924
+)
+"tertree.ml" 49 1953 1975 "tertree.ml" 49 1953 1982
+type(
+  ('a * tree) list * ('a * Trie.trie) list
+)
+"tertree.ml" 50 1983 2004 "tertree.ml" 50 1983 2005
+type(
+  ('a * Trie.trie) list
+)
+ident(
+  int_ref l "tertree.ml" 48 1900 1923 "tertree.ml" 48 1900 1924
+)
+"tertree.ml" 51 2012 2026 "tertree.ml" 51 2012 2028
+type(
+  ('a * Trie.trie) list
+)
+"tertree.ml" 51 2012 2032 "tertree.ml" 51 2012 2037
+type(
+  exn -> ('a * tree) list * ('a * Trie.trie) list
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 36 1664 1664 "stdlib.mli" 36 1664 1701
+)
+"tertree.ml" 51 2012 2038 "tertree.ml" 51 2012 2045
+type(
+  exn
+)
+"tertree.ml" 51 2012 2032 "tertree.ml" 51 2012 2045
+type(
+  ('a * tree) list * ('a * Trie.trie) list
+)
+"tertree.ml" 52 2076 2093 "tertree.ml" 52 2076 2094
+type(
+  'a
+)
+ident(
+  def n "tertree.ml" 52 2076 2108 "tertree.ml" 52 2076 2145
+)
+"tertree.ml" 52 2076 2095 "tertree.ml" 52 2076 2096
+type(
+  Trie.trie
+)
+ident(
+  def t "tertree.ml" 52 2076 2108 "tertree.ml" 52 2076 2145
+)
+"tertree.ml" 52 2076 2092 "tertree.ml" 52 2076 2097
+type(
+  ('a * Trie.trie) list
+)
+type(
+  'a * Trie.trie
+)
+"tertree.ml" 52 2076 2101 "tertree.ml" 52 2076 2102
+type(
+  ('a * Trie.trie) list
+)
+ident(
+  def r "tertree.ml" 52 2076 2108 "tertree.ml" 52 2076 2145
+)
+"tertree.ml" 52 2076 2108 "tertree.ml" 52 2076 2111
+type(
+  ('a * tree) list ->
+  ('a * Trie.trie) list -> int -> ('a * tree) list * ('a * Trie.trie) list
+)
+ident(
+  int_ref bal "tertree.ml" 48 1900 1915 "tertree.ml" 48 1900 1918
+)
+"tertree.ml" 52 2076 2115 "tertree.ml" 52 2076 2116
+type(
+  'a
+)
+ident(
+  int_ref n "tertree.ml" 52 2076 2093 "tertree.ml" 52 2076 2094
+)
+"tertree.ml" 52 2076 2117 "tertree.ml" 52 2076 2125
+type(
+  Trie.trie -> tree
+)
+ident(
+  int_ref balanced "tertree.ml" 44 1740 1750 "tertree.ml" 44 1740 1758
+)
+"tertree.ml" 52 2076 2126 "tertree.ml" 52 2076 2127
+type(
+  Trie.trie
+)
+ident(
+  int_ref t "tertree.ml" 52 2076 2095 "tertree.ml" 52 2076 2096
+)
+"tertree.ml" 52 2076 2117 "tertree.ml" 52 2076 2127
+call(
+  stack
+)
+type(
+  tree
+)
+"tertree.ml" 52 2076 2114 "tertree.ml" 52 2076 2128
+type(
+  'a * tree
+)
+"tertree.ml" 52 2076 2132 "tertree.ml" 52 2076 2135
+type(
+  ('a * tree) list
+)
+ident(
+  int_ref acc "tertree.ml" 48 1900 1919 "tertree.ml" 48 1900 1922
+)
+"tertree.ml" 52 2076 2114 "tertree.ml" 52 2076 2135
+type(
+  ('a * tree) list
+)
+"tertree.ml" 52 2076 2138 "tertree.ml" 52 2076 2139
+type(
+  ('a * Trie.trie) list
+)
+ident(
+  int_ref r "tertree.ml" 52 2076 2101 "tertree.ml" 52 2076 2102
+)
+"tertree.ml" 52 2076 2141 "tertree.ml" 52 2076 2142
+type(
+  int
+)
+ident(
+  int_ref k "tertree.ml" 48 1900 1925 "tertree.ml" 48 1900 1926
+)
+"tertree.ml" 52 2076 2142 "tertree.ml" 52 2076 2143
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 271 10513 10513 "stdlib.mli" 271 10513 10559
+)
+"tertree.ml" 52 2076 2143 "tertree.ml" 52 2076 2144
+type(
+  int
+)
+"tertree.ml" 52 2076 2141 "tertree.ml" 52 2076 2144
+type(
+  int
+)
+"tertree.ml" 52 2076 2108 "tertree.ml" 52 2076 2145
+call(
+  tail
+)
+type(
+  ('a * tree) list * ('a * Trie.trie) list
+)
+"tertree.ml" 50 1983 1998 "tertree.ml" 53 2146 2159
+type(
+  ('a * tree) list * ('a * Trie.trie) list
+)
+"tertree.ml" 49 1953 1963 "tertree.ml" 53 2146 2159
+type(
+  ('a * tree) list * ('a * Trie.trie) list
+)
+"tertree.ml" 48 1900 1925 "tertree.ml" 53 2146 2159
+type(
+  int -> ('a * tree) list * ('a * Trie.trie) list
+)
+"tertree.ml" 48 1900 1923 "tertree.ml" 53 2146 2159
+type(
+  ('a * Trie.trie) list -> int -> ('a * tree) list * ('a * Trie.trie) list
+)
+"tertree.ml" 48 1900 1919 "tertree.ml" 53 2146 2159
+type(
+  ('a * tree) list ->
+  ('a * Trie.trie) list -> int -> ('a * tree) list * ('a * Trie.trie) list
+)
+"tertree.ml" 54 2163 2175 "tertree.ml" 54 2163 2180
+type(
+  (Word.letter * tree) list
+)
+ident(
+  def stack "tertree.ml" 56 2270 2277 "tertree.ml" 61 2495 2505
+)
+"tertree.ml" 54 2163 2181 "tertree.ml" 54 2163 2185
+type(
+  Trie.arcs
+)
+ident(
+  def rest "tertree.ml" 56 2270 2277 "tertree.ml" 61 2495 2505
+)
+"tertree.ml" 54 2163 2174 "tertree.ml" 54 2163 2186
+type(
+  (Word.letter * tree) list * Trie.arcs
+)
+"tertree.ml" 54 2163 2193 "tertree.ml" 54 2163 2197
+type(
+  int
+)
+ident(
+  def half "tertree.ml" 55 2224 2250 "tertree.ml" 55 2224 2266
+)
+"tertree.ml" 54 2163 2201 "tertree.ml" 54 2163 2212
+type(
+  Trie.arcs -> int
+)
+ident(
+  int_ref Stdlib.List.length "list.mli" 29 1637 1637 "list.mli" 29 1637 1664
+)
+"tertree.ml" 54 2163 2213 "tertree.ml" 54 2163 2217
+type(
+  Trie.arcs
+)
+ident(
+  int_ref arcs "tertree.ml" 45 1765 1782 "tertree.ml" 45 1765 1786
+)
+"tertree.ml" 54 2163 2201 "tertree.ml" 54 2163 2217
+call(
+  stack
+)
+type(
+  int
+)
+"tertree.ml" 54 2163 2218 "tertree.ml" 54 2163 2219
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( / ) "stdlib.mli" 279 10780 10780 "stdlib.mli" 279 10780 10826
+)
+"tertree.ml" 54 2163 2219 "tertree.ml" 54 2163 2220
+type(
+  int
+)
+"tertree.ml" 54 2163 2200 "tertree.ml" 54 2163 2220
+type(
+  int
+)
+"tertree.ml" 55 2224 2250 "tertree.ml" 55 2224 2253
+type(
+  (Word.letter * tree) list ->
+  Trie.arcs -> int -> (Word.letter * tree) list * Trie.arcs
+)
+ident(
+  int_ref bal "tertree.ml" 48 1900 1915 "tertree.ml" 48 1900 1918
+)
+"tertree.ml" 55 2224 2254 "tertree.ml" 55 2224 2256
+type(
+  (Word.letter * tree) list
+)
+"tertree.ml" 55 2224 2257 "tertree.ml" 55 2224 2261
+type(
+  Trie.arcs
+)
+ident(
+  int_ref arcs "tertree.ml" 45 1765 1782 "tertree.ml" 45 1765 1786
+)
+"tertree.ml" 55 2224 2262 "tertree.ml" 55 2224 2266
+type(
+  int
+)
+ident(
+  int_ref half "tertree.ml" 54 2163 2193 "tertree.ml" 54 2163 2197
+)
+"tertree.ml" 55 2224 2250 "tertree.ml" 55 2224 2266
+call(
+  stack
+)
+type(
+  (Word.letter * tree) list * Trie.arcs
+)
+"tertree.ml" 54 2163 2189 "tertree.ml" 55 2224 2266
+type(
+  (Word.letter * tree) list * Trie.arcs
+)
+"tertree.ml" 56 2270 2283 "tertree.ml" 56 2270 2287
+type(
+  Trie.arcs
+)
+ident(
+  int_ref rest "tertree.ml" 54 2163 2181 "tertree.ml" 54 2163 2185
+)
+"tertree.ml" 57 2293 2304 "tertree.ml" 57 2293 2306
+type(
+  Trie.arcs
+)
+"tertree.ml" 57 2293 2310 "tertree.ml" 57 2293 2315
+type(
+  exn -> tree
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 36 1664 1664 "stdlib.mli" 36 1664 1701
+)
+"tertree.ml" 57 2293 2316 "tertree.ml" 57 2293 2323
+type(
+  exn
+)
+"tertree.ml" 57 2293 2310 "tertree.ml" 57 2293 2323
+type(
+  tree
+)
+"tertree.ml" 58 2359 2373 "tertree.ml" 58 2359 2374
+type(
+  Word.letter
+)
+ident(
+  def n "tertree.ml" 59 2393 2406 "tertree.ml" 60 2451 2494
+)
+"tertree.ml" 58 2359 2375 "tertree.ml" 58 2359 2376
+type(
+  Trie.trie
+)
+ident(
+  def t "tertree.ml" 59 2393 2406 "tertree.ml" 60 2451 2494
+)
+"tertree.ml" 58 2359 2372 "tertree.ml" 58 2359 2377
+type(
+  Trie.arcs
+)
+type(
+  Word.letter * Trie.trie
+)
+"tertree.ml" 58 2359 2381 "tertree.ml" 58 2359 2386
+type(
+  (Word.letter * Trie.trie) list
+)
+ident(
+  def right "tertree.ml" 59 2393 2406 "tertree.ml" 60 2451 2494
+)
+"tertree.ml" 59 2393 2412 "tertree.ml" 59 2393 2413
+type(
+  bool
+)
+ident(
+  int_ref b "tertree.ml" 45 1765 1780 "tertree.ml" 45 1765 1781
+)
+"tertree.ml" 59 2393 2414 "tertree.ml" 59 2393 2419
+type(
+  forest
+)
+ident(
+  int_ref stack "tertree.ml" 54 2163 2175 "tertree.ml" 54 2163 2180
+)
+"tertree.ml" 59 2393 2420 "tertree.ml" 59 2393 2421
+type(
+  Word.letter
+)
+ident(
+  int_ref n "tertree.ml" 58 2359 2373 "tertree.ml" 58 2359 2374
+)
+"tertree.ml" 59 2393 2422 "tertree.ml" 59 2393 2430
+type(
+  Trie.trie -> tree
+)
+ident(
+  int_ref balanced "tertree.ml" 44 1740 1750 "tertree.ml" 44 1740 1758
+)
+"tertree.ml" 59 2393 2431 "tertree.ml" 59 2393 2432
+type(
+  Trie.trie
+)
+ident(
+  int_ref t "tertree.ml" 58 2359 2375 "tertree.ml" 58 2359 2376
+)
+"tertree.ml" 59 2393 2422 "tertree.ml" 59 2393 2432
+call(
+  stack
+)
+type(
+  tree
+)
+"tertree.ml" 59 2393 2433 "tertree.ml" 59 2393 2441
+type(
+  (Word.letter * Trie.trie -> Word.letter * tree) ->
+  (Word.letter * Trie.trie) list -> forest
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+)
+"tertree.ml" 59 2393 2442 "tertree.ml" 59 2393 2443
+type(
+  Word.letter * Trie.trie -> Word.letter * tree
+)
+ident(
+  int_ref f "tertree.ml" 60 2451 2470 "tertree.ml" 60 2451 2471
+)
+"tertree.ml" 59 2393 2444 "tertree.ml" 59 2393 2449
+type(
+  (Word.letter * Trie.trie) list
+)
+ident(
+  int_ref right "tertree.ml" 58 2359 2381 "tertree.ml" 58 2359 2386
+)
+"tertree.ml" 59 2393 2433 "tertree.ml" 59 2393 2449
+call(
+  stack
+)
+type(
+  forest
+)
+"tertree.ml" 59 2393 2411 "tertree.ml" 59 2393 2450
+type(
+  bool * forest * Word.letter * tree * forest
+)
+"tertree.ml" 59 2393 2406 "tertree.ml" 59 2393 2450
+type(
+  tree
+)
+"tertree.ml" 60 2451 2470 "tertree.ml" 60 2451 2471
+type(
+  'b * Trie.trie -> 'b * tree
+)
+ident(
+  def f "tertree.ml" 59 2393 2406 "tertree.ml" 59 2393 2450
+)
+"tertree.ml" 60 2451 2473 "tertree.ml" 60 2451 2474
+type(
+  'b
+)
+ident(
+  def n "tertree.ml" 60 2451 2480 "tertree.ml" 60 2451 2494
+)
+"tertree.ml" 60 2451 2475 "tertree.ml" 60 2451 2476
+type(
+  Trie.trie
+)
+ident(
+  def t "tertree.ml" 60 2451 2480 "tertree.ml" 60 2451 2494
+)
+"tertree.ml" 60 2451 2472 "tertree.ml" 60 2451 2477
+type(
+  'b * Trie.trie
+)
+"tertree.ml" 60 2451 2481 "tertree.ml" 60 2451 2482
+type(
+  'b
+)
+ident(
+  int_ref n "tertree.ml" 60 2451 2473 "tertree.ml" 60 2451 2474
+)
+"tertree.ml" 60 2451 2483 "tertree.ml" 60 2451 2491
+type(
+  Trie.trie -> tree
+)
+ident(
+  int_ref balanced "tertree.ml" 44 1740 1750 "tertree.ml" 44 1740 1758
+)
+"tertree.ml" 60 2451 2492 "tertree.ml" 60 2451 2493
+type(
+  Trie.trie
+)
+ident(
+  int_ref t "tertree.ml" 60 2451 2475 "tertree.ml" 60 2451 2476
+)
+"tertree.ml" 60 2451 2483 "tertree.ml" 60 2451 2493
+call(
+  stack
+)
+type(
+  tree
+)
+"tertree.ml" 60 2451 2480 "tertree.ml" 60 2451 2494
+type(
+  'b * tree
+)
+"tertree.ml" 60 2451 2472 "tertree.ml" 60 2451 2494
+type(
+  'b * Trie.trie -> 'b * tree
+)
+"tertree.ml" 59 2393 2406 "tertree.ml" 60 2451 2494
+type(
+  tree
+)
+"tertree.ml" 56 2270 2277 "tertree.ml" 61 2495 2505
+type(
+  tree
+)
+"tertree.ml" 54 2163 2170 "tertree.ml" 61 2495 2505
+type(
+  tree
+)
+"tertree.ml" 48 1900 1907 "tertree.ml" 61 2495 2505
+type(
+  tree
+)
+"tertree.ml" 45 1765 1791 "tertree.ml" 62 2506 2512
+type(
+  tree
+)
+"tertree.ml" 44 1740 1761 "tertree.ml" 63 2513 2516
+type(
+  Trie.trie -> tree
+)
+"tertree.ml" 75 2718 2728 "tertree.ml" 75 2718 2734
+type(
+  tree -> zipper -> tree
+)
+ident(
+  def zip_up "tertree.ml" 75 2718 2718 "tertree.ml" 1 0 -1
+)
+"tertree.ml" 75 2718 2735 "tertree.ml" 75 2718 2736
+type(
+  tree
+)
+ident(
+  def t "tertree.ml" 75 2718 2739 "tertree.ml" 78 2825 2828
+)
+"tertree.ml" 76 2744 2748 "tertree.ml" 76 2744 2751
+type(
+  zipper
+)
+"tertree.ml" 76 2744 2755 "tertree.ml" 76 2744 2756
+type(
+  tree
+)
+ident(
+  int_ref t "tertree.ml" 75 2718 2735 "tertree.ml" 75 2718 2736
+)
+"tertree.ml" 77 2758 2767 "tertree.ml" 77 2758 2768
+type(
+  bool
+)
+ident(
+  def b "tertree.ml" 77 2758 2789 "tertree.ml" 77 2758 2824
+)
+"tertree.ml" 77 2758 2769 "tertree.ml" 77 2758 2773
+type(
+  forest
+)
+ident(
+  def left "tertree.ml" 77 2758 2789 "tertree.ml" 77 2758 2824
+)
+"tertree.ml" 77 2758 2774 "tertree.ml" 77 2758 2775
+type(
+  int
+)
+ident(
+  def n "tertree.ml" 77 2758 2789 "tertree.ml" 77 2758 2824
+)
+"tertree.ml" 77 2758 2776 "tertree.ml" 77 2758 2781
+type(
+  forest
+)
+ident(
+  def right "tertree.ml" 77 2758 2789 "tertree.ml" 77 2758 2824
+)
+"tertree.ml" 77 2758 2782 "tertree.ml" 77 2758 2784
+type(
+  zipper
+)
+ident(
+  def up "tertree.ml" 77 2758 2789 "tertree.ml" 77 2758 2824
+)
+"tertree.ml" 77 2758 2766 "tertree.ml" 77 2758 2785
+type(
+  bool * forest * int * forest * zipper
+)
+"tertree.ml" 77 2758 2762 "tertree.ml" 77 2758 2785
+type(
+  zipper
+)
+"tertree.ml" 77 2758 2789 "tertree.ml" 77 2758 2795
+type(
+  tree -> zipper -> tree
+)
+ident(
+  int_ref zip_up "tertree.ml" 75 2718 2728 "tertree.ml" 75 2718 2734
+)
+"tertree.ml" 77 2758 2803 "tertree.ml" 77 2758 2804
+type(
+  bool
+)
+ident(
+  int_ref b "tertree.ml" 77 2758 2767 "tertree.ml" 77 2758 2768
+)
+"tertree.ml" 77 2758 2805 "tertree.ml" 77 2758 2809
+type(
+  forest
+)
+ident(
+  int_ref left "tertree.ml" 77 2758 2769 "tertree.ml" 77 2758 2773
+)
+"tertree.ml" 77 2758 2810 "tertree.ml" 77 2758 2811
+type(
+  int
+)
+ident(
+  int_ref n "tertree.ml" 77 2758 2774 "tertree.ml" 77 2758 2775
+)
+"tertree.ml" 77 2758 2812 "tertree.ml" 77 2758 2813
+type(
+  tree
+)
+ident(
+  int_ref t "tertree.ml" 75 2718 2735 "tertree.ml" 75 2718 2736
+)
+"tertree.ml" 77 2758 2814 "tertree.ml" 77 2758 2819
+type(
+  forest
+)
+ident(
+  int_ref right "tertree.ml" 77 2758 2776 "tertree.ml" 77 2758 2781
+)
+"tertree.ml" 77 2758 2802 "tertree.ml" 77 2758 2820
+type(
+  bool * forest * int * tree * forest
+)
+"tertree.ml" 77 2758 2797 "tertree.ml" 77 2758 2820
+type(
+  tree
+)
+"tertree.ml" 77 2758 2822 "tertree.ml" 77 2758 2824
+type(
+  zipper
+)
+ident(
+  int_ref up "tertree.ml" 77 2758 2782 "tertree.ml" 77 2758 2784
+)
+"tertree.ml" 77 2758 2789 "tertree.ml" 77 2758 2824
+call(
+  tail
+)
+type(
+  tree
+)
+"tertree.ml" 75 2718 2739 "tertree.ml" 78 2825 2828
+type(
+  zipper -> tree
+)
+"tertree.ml" 75 2718 2735 "tertree.ml" 78 2825 2828
+type(
+  tree -> zipper -> tree
+)
+"tertree.ml" 83 2924 2934 "tertree.ml" 83 2924 2941
+type(
+  int list -> tree
+)
+ident(
+  def tree_of "tertree.ml" 83 2924 2924 "tertree.ml" 1 0 -1
+)
+"tertree.ml" 84 2948 2952 "tertree.ml" 84 2948 2954
+type(
+  int list
+)
+"tertree.ml" 84 2948 2974 "tertree.ml" 84 2948 2979
+type(
+  bool
+)
+"tertree.ml" 84 2948 2969 "tertree.ml" 84 2948 2979
+type(
+  tree
+)
+"tertree.ml" 85 2980 2986 "tertree.ml" 85 2980 2987
+type(
+  int list
+)
+type(
+  int
+)
+ident(
+  def n "tertree.ml" 85 2980 3001 "tertree.ml" 85 2980 3031
+)
+"tertree.ml" 85 2980 2984 "tertree.ml" 85 2980 2989
+type(
+  int list
+)
+"tertree.ml" 85 2980 3007 "tertree.ml" 85 2980 3012
+type(
+  bool
+)
+"tertree.ml" 85 2980 3013 "tertree.ml" 85 2980 3015
+type(
+  forest
+)
+"tertree.ml" 85 2980 3016 "tertree.ml" 85 2980 3017
+type(
+  int
+)
+ident(
+  int_ref n "tertree.ml" 85 2980 2986 "tertree.ml" 85 2980 2987
+)
+"tertree.ml" 85 2980 3023 "tertree.ml" 85 2980 3027
+type(
+  bool
+)
+"tertree.ml" 85 2980 3018 "tertree.ml" 85 2980 3027
+type(
+  tree
+)
+"tertree.ml" 85 2980 3028 "tertree.ml" 85 2980 3030
+type(
+  forest
+)
+"tertree.ml" 85 2980 3006 "tertree.ml" 85 2980 3031
+type(
+  bool * forest * int * tree * forest
+)
+"tertree.ml" 85 2980 3001 "tertree.ml" 85 2980 3031
+type(
+  tree
+)
+"tertree.ml" 86 3032 3038 "tertree.ml" 86 3032 3039
+type(
+  int list
+)
+type(
+  int
+)
+ident(
+  def n "tertree.ml" 86 3032 3053 "tertree.ml" 86 3032 3086
+)
+"tertree.ml" 86 3032 3043 "tertree.ml" 86 3032 3047
+type(
+  int list
+)
+ident(
+  def rest "tertree.ml" 86 3032 3053 "tertree.ml" 86 3032 3086
+)
+"tertree.ml" 86 3032 3059 "tertree.ml" 86 3032 3064
+type(
+  bool
+)
+"tertree.ml" 86 3032 3065 "tertree.ml" 86 3032 3067
+type(
+  forest
+)
+"tertree.ml" 86 3032 3068 "tertree.ml" 86 3032 3069
+type(
+  int
+)
+ident(
+  int_ref n "tertree.ml" 86 3032 3038 "tertree.ml" 86 3032 3039
+)
+"tertree.ml" 86 3032 3070 "tertree.ml" 86 3032 3077
+type(
+  int list -> tree
+)
+ident(
+  int_ref tree_of "tertree.ml" 83 2924 2934 "tertree.ml" 83 2924 2941
+)
+"tertree.ml" 86 3032 3078 "tertree.ml" 86 3032 3082
+type(
+  int list
+)
+ident(
+  int_ref rest "tertree.ml" 86 3032 3043 "tertree.ml" 86 3032 3047
+)
+"tertree.ml" 86 3032 3070 "tertree.ml" 86 3032 3082
+call(
+  stack
+)
+type(
+  tree
+)
+"tertree.ml" 86 3032 3083 "tertree.ml" 86 3032 3085
+type(
+  forest
+)
+"tertree.ml" 86 3032 3058 "tertree.ml" 86 3032 3086
+type(
+  bool * forest * int * tree * forest
+)
+"tertree.ml" 86 3032 3053 "tertree.ml" 86 3032 3086
+type(
+  tree
+)
+"tertree.ml" 83 2924 2944 "tertree.ml" 87 3087 3090
+type(
+  int list -> tree
+)
+"tertree.ml" 91 3134 3144 "tertree.ml" 91 3134 3152
+type(
+  int list -> tree -> bool
+)
+ident(
+  def mem_tree "tertree.ml" 91 3134 3134 "tertree.ml" 1 0 -1
+)
+"tertree.ml" 91 3134 3153 "tertree.ml" 91 3134 3154
+type(
+  int list
+)
+ident(
+  def c "tertree.ml" 91 3134 3157 "tertree.ml" 108 3616 3619
+)
+"tertree.ml" 92 3161 3171 "tertree.ml" 92 3161 3172
+type(
+  bool
+)
+ident(
+  def b "tertree.ml" 92 3161 3185 "tertree.ml" 106 3586 3591
+)
+"tertree.ml" 92 3161 3173 "tertree.ml" 92 3161 3174
+type(
+  forest
+)
+ident(
+  def l "tertree.ml" 92 3161 3185 "tertree.ml" 106 3586 3591
+)
+"tertree.ml" 92 3161 3175 "tertree.ml" 92 3161 3176
+type(
+  int
+)
+ident(
+  def n "tertree.ml" 92 3161 3185 "tertree.ml" 106 3586 3591
+)
+"tertree.ml" 92 3161 3177 "tertree.ml" 92 3161 3178
+type(
+  tree
+)
+ident(
+  def t "tertree.ml" 92 3161 3185 "tertree.ml" 106 3586 3591
+)
+"tertree.ml" 92 3161 3179 "tertree.ml" 92 3161 3180
+type(
+  forest
+)
+ident(
+  def r "tertree.ml" 92 3161 3185 "tertree.ml" 106 3586 3591
+)
+"tertree.ml" 92 3161 3170 "tertree.ml" 92 3161 3181
+type(
+  bool * forest * int * tree * forest
+)
+"tertree.ml" 92 3161 3165 "tertree.ml" 92 3161 3181
+type(
+  tree
+)
+"tertree.ml" 92 3161 3191 "tertree.ml" 92 3161 3192
+type(
+  int list
+)
+ident(
+  int_ref c "tertree.ml" 91 3134 3153 "tertree.ml" 91 3134 3154
+)
+"tertree.ml" 93 3198 3204 "tertree.ml" 93 3198 3206
+type(
+  int list
+)
+"tertree.ml" 93 3198 3210 "tertree.ml" 93 3198 3211
+type(
+  bool
+)
+ident(
+  int_ref b "tertree.ml" 92 3161 3171 "tertree.ml" 92 3161 3172
+)
+"tertree.ml" 94 3212 3220 "tertree.ml" 94 3212 3221
+type(
+  int list
+)
+type(
+  int
+)
+ident(
+  def i "tertree.ml" 95 3233 3239 "tertree.ml" 105 3565 3585
+)
+"tertree.ml" 94 3212 3225 "tertree.ml" 94 3212 3226
+type(
+  int list
+)
+ident(
+  def s "tertree.ml" 95 3233 3239 "tertree.ml" 105 3565 3585
+)
+"tertree.ml" 95 3233 3247 "tertree.ml" 95 3233 3253
+type(
+  (int * tree) list -> int -> tree -> (int * tree) list -> bool
+)
+ident(
+  def memrec "tertree.ml" 95 3233 3239 "tertree.ml" 105 3565 3585
+)
+"tertree.ml" 95 3233 3254 "tertree.ml" 95 3233 3255
+type(
+  (int * tree) list
+)
+ident(
+  def l "tertree.ml" 95 3233 3256 "tertree.ml" 104 3549 3561
+)
+"tertree.ml" 95 3233 3256 "tertree.ml" 95 3233 3257
+type(
+  int
+)
+ident(
+  def n "tertree.ml" 95 3233 3258 "tertree.ml" 104 3549 3561
+)
+"tertree.ml" 95 3233 3258 "tertree.ml" 95 3233 3259
+type(
+  tree
+)
+ident(
+  def t "tertree.ml" 95 3233 3260 "tertree.ml" 104 3549 3561
+)
+"tertree.ml" 95 3233 3260 "tertree.ml" 95 3233 3261
+type(
+  (int * tree) list
+)
+ident(
+  def r "tertree.ml" 96 3264 3273 "tertree.ml" 104 3549 3561
+)
+"tertree.ml" 96 3264 3276 "tertree.ml" 96 3264 3277
+type(
+  int
+)
+ident(
+  int_ref i "tertree.ml" 94 3212 3220 "tertree.ml" 94 3212 3221
+)
+"tertree.ml" 96 3264 3277 "tertree.ml" 96 3264 3278
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"tertree.ml" 96 3264 3278 "tertree.ml" 96 3264 3279
+type(
+  int
+)
+ident(
+  int_ref n "tertree.ml" 95 3233 3256 "tertree.ml" 95 3233 3257
+)
+"tertree.ml" 96 3264 3276 "tertree.ml" 96 3264 3279
+type(
+  bool
+)
+"tertree.ml" 96 3264 3285 "tertree.ml" 96 3264 3293
+type(
+  int list -> tree -> bool
+)
+ident(
+  int_ref mem_tree "tertree.ml" 91 3134 3144 "tertree.ml" 91 3134 3152
+)
+"tertree.ml" 96 3264 3294 "tertree.ml" 96 3264 3295
+type(
+  int list
+)
+ident(
+  int_ref s "tertree.ml" 94 3212 3225 "tertree.ml" 94 3212 3226
+)
+"tertree.ml" 96 3264 3296 "tertree.ml" 96 3264 3297
+type(
+  tree
+)
+ident(
+  int_ref t "tertree.ml" 95 3233 3258 "tertree.ml" 95 3233 3259
+)
+"tertree.ml" 96 3264 3285 "tertree.ml" 96 3264 3297
+call(
+  tail
+)
+type(
+  bool
+)
+"tertree.ml" 97 3298 3315 "tertree.ml" 97 3298 3316
+type(
+  int
+)
+ident(
+  int_ref i "tertree.ml" 94 3212 3220 "tertree.ml" 94 3212 3221
+)
+"tertree.ml" 97 3298 3316 "tertree.ml" 97 3298 3317
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 70 2854 2854 "stdlib.mli" 70 2854 2901
+)
+"tertree.ml" 97 3298 3317 "tertree.ml" 97 3298 3318
+type(
+  int
+)
+ident(
+  int_ref n "tertree.ml" 95 3233 3256 "tertree.ml" 95 3233 3257
+)
+"tertree.ml" 97 3298 3315 "tertree.ml" 97 3298 3318
+type(
+  bool
+)
+"tertree.ml" 97 3298 3330 "tertree.ml" 97 3298 3331
+type(
+  (int * tree) list
+)
+ident(
+  int_ref l "tertree.ml" 95 3233 3254 "tertree.ml" 95 3233 3255
+)
+"tertree.ml" 98 3338 3351 "tertree.ml" 98 3338 3353
+type(
+  (int * tree) list
+)
+"tertree.ml" 98 3338 3357 "tertree.ml" 98 3338 3362
+type(
+  bool
+)
+"tertree.ml" 99 3363 3379 "tertree.ml" 99 3363 3380
+type(
+  int
+)
+ident(
+  def m "tertree.ml" 99 3363 3394 "tertree.ml" 99 3363 3422
+)
+"tertree.ml" 99 3363 3381 "tertree.ml" 99 3363 3382
+type(
+  tree
+)
+ident(
+  def u "tertree.ml" 99 3363 3394 "tertree.ml" 99 3363 3422
+)
+"tertree.ml" 99 3363 3378 "tertree.ml" 99 3363 3383
+type(
+  (int * tree) list
+)
+type(
+  int * tree
+)
+"tertree.ml" 99 3363 3387 "tertree.ml" 99 3363 3389
+type(
+  (int * tree) list
+)
+ident(
+  def l' "tertree.ml" 99 3363 3394 "tertree.ml" 99 3363 3422
+)
+"tertree.ml" 99 3363 3394 "tertree.ml" 99 3363 3400
+type(
+  (int * tree) list -> int -> tree -> (int * tree) list -> bool
+)
+ident(
+  int_ref memrec "tertree.ml" 95 3233 3247 "tertree.ml" 95 3233 3253
+)
+"tertree.ml" 99 3363 3401 "tertree.ml" 99 3363 3403
+type(
+  (int * tree) list
+)
+ident(
+  int_ref l' "tertree.ml" 99 3363 3387 "tertree.ml" 99 3363 3389
+)
+"tertree.ml" 99 3363 3404 "tertree.ml" 99 3363 3405
+type(
+  int
+)
+ident(
+  int_ref m "tertree.ml" 99 3363 3379 "tertree.ml" 99 3363 3380
+)
+"tertree.ml" 99 3363 3406 "tertree.ml" 99 3363 3407
+type(
+  tree
+)
+ident(
+  int_ref u "tertree.ml" 99 3363 3381 "tertree.ml" 99 3363 3382
+)
+"tertree.ml" 99 3363 3411 "tertree.ml" 99 3363 3412
+type(
+  int
+)
+ident(
+  int_ref n "tertree.ml" 95 3233 3256 "tertree.ml" 95 3233 3257
+)
+"tertree.ml" 99 3363 3413 "tertree.ml" 99 3363 3414
+type(
+  tree
+)
+ident(
+  int_ref t "tertree.ml" 95 3233 3258 "tertree.ml" 95 3233 3259
+)
+"tertree.ml" 99 3363 3410 "tertree.ml" 99 3363 3415
+type(
+  int * tree
+)
+"tertree.ml" 99 3363 3419 "tertree.ml" 99 3363 3420
+type(
+  (int * tree) list
+)
+ident(
+  int_ref r "tertree.ml" 95 3233 3260 "tertree.ml" 95 3233 3261
+)
+"tertree.ml" 99 3363 3410 "tertree.ml" 99 3363 3420
+type(
+  (int * tree) list
+)
+"tertree.ml" 99 3363 3394 "tertree.ml" 99 3363 3422
+call(
+  tail
+)
+type(
+  bool
+)
+"tertree.ml" 97 3298 3324 "tertree.ml" 100 3423 3435
+type(
+  bool
+)
+"tertree.ml" 101 3436 3456 "tertree.ml" 101 3436 3457
+type(
+  (int * tree) list
+)
+ident(
+  int_ref r "tertree.ml" 95 3233 3260 "tertree.ml" 95 3233 3261
+)
+"tertree.ml" 102 3464 3477 "tertree.ml" 102 3464 3479
+type(
+  (int * tree) list
+)
+"tertree.ml" 102 3464 3483 "tertree.ml" 102 3464 3488
+type(
+  bool
+)
+"tertree.ml" 103 3489 3505 "tertree.ml" 103 3489 3506
+type(
+  int
+)
+ident(
+  def m "tertree.ml" 103 3489 3521 "tertree.ml" 103 3489 3548
+)
+"tertree.ml" 103 3489 3507 "tertree.ml" 103 3489 3508
+type(
+  tree
+)
+ident(
+  def u "tertree.ml" 103 3489 3521 "tertree.ml" 103 3489 3548
+)
+"tertree.ml" 103 3489 3504 "tertree.ml" 103 3489 3509
+type(
+  (int * tree) list
+)
+type(
+  int * tree
+)
+"tertree.ml" 103 3489 3513 "tertree.ml" 103 3489 3515
+type(
+  (int * tree) list
+)
+ident(
+  def r' "tertree.ml" 103 3489 3521 "tertree.ml" 103 3489 3548
+)
+"tertree.ml" 103 3489 3521 "tertree.ml" 103 3489 3527
+type(
+  (int * tree) list -> int -> tree -> (int * tree) list -> bool
+)
+ident(
+  int_ref memrec "tertree.ml" 95 3233 3247 "tertree.ml" 95 3233 3253
+)
+"tertree.ml" 103 3489 3531 "tertree.ml" 103 3489 3532
+type(
+  int
+)
+ident(
+  int_ref n "tertree.ml" 95 3233 3256 "tertree.ml" 95 3233 3257
+)
+"tertree.ml" 103 3489 3533 "tertree.ml" 103 3489 3534
+type(
+  tree
+)
+ident(
+  int_ref t "tertree.ml" 95 3233 3258 "tertree.ml" 95 3233 3259
+)
+"tertree.ml" 103 3489 3530 "tertree.ml" 103 3489 3535
+type(
+  int * tree
+)
+"tertree.ml" 103 3489 3539 "tertree.ml" 103 3489 3540
+type(
+  (int * tree) list
+)
+ident(
+  int_ref l "tertree.ml" 95 3233 3254 "tertree.ml" 95 3233 3255
+)
+"tertree.ml" 103 3489 3530 "tertree.ml" 103 3489 3540
+type(
+  (int * tree) list
+)
+"tertree.ml" 103 3489 3542 "tertree.ml" 103 3489 3543
+type(
+  int
+)
+ident(
+  int_ref m "tertree.ml" 103 3489 3505 "tertree.ml" 103 3489 3506
+)
+"tertree.ml" 103 3489 3544 "tertree.ml" 103 3489 3545
+type(
+  tree
+)
+ident(
+  int_ref u "tertree.ml" 103 3489 3507 "tertree.ml" 103 3489 3508
+)
+"tertree.ml" 103 3489 3546 "tertree.ml" 103 3489 3548
+type(
+  (int * tree) list
+)
+ident(
+  int_ref r' "tertree.ml" 103 3489 3513 "tertree.ml" 103 3489 3515
+)
+"tertree.ml" 103 3489 3521 "tertree.ml" 103 3489 3548
+call(
+  tail
+)
+type(
+  bool
+)
+"tertree.ml" 101 3436 3450 "tertree.ml" 104 3549 3561
+type(
+  bool
+)
+"tertree.ml" 97 3298 3312 "tertree.ml" 104 3549 3561
+type(
+  bool
+)
+"tertree.ml" 96 3264 3273 "tertree.ml" 104 3549 3561
+type(
+  bool
+)
+"tertree.ml" 95 3233 3260 "tertree.ml" 104 3549 3561
+type(
+  (int * tree) list -> bool
+)
+"tertree.ml" 95 3233 3258 "tertree.ml" 104 3549 3561
+type(
+  tree -> (int * tree) list -> bool
+)
+"tertree.ml" 95 3233 3256 "tertree.ml" 104 3549 3561
+type(
+  int -> tree -> (int * tree) list -> bool
+)
+"tertree.ml" 95 3233 3254 "tertree.ml" 104 3549 3561
+type(
+  (int * tree) list -> int -> tree -> (int * tree) list -> bool
+)
+"tertree.ml" 105 3565 3571 "tertree.ml" 105 3565 3577
+type(
+  forest -> int -> tree -> forest -> bool
+)
+ident(
+  int_ref memrec "tertree.ml" 95 3233 3247 "tertree.ml" 95 3233 3253
+)
+"tertree.ml" 105 3565 3578 "tertree.ml" 105 3565 3579
+type(
+  forest
+)
+ident(
+  int_ref l "tertree.ml" 92 3161 3173 "tertree.ml" 92 3161 3174
+)
+"tertree.ml" 105 3565 3580 "tertree.ml" 105 3565 3581
+type(
+  int
+)
+ident(
+  int_ref n "tertree.ml" 92 3161 3175 "tertree.ml" 92 3161 3176
+)
+"tertree.ml" 105 3565 3582 "tertree.ml" 105 3565 3583
+type(
+  tree
+)
+ident(
+  int_ref t "tertree.ml" 92 3161 3177 "tertree.ml" 92 3161 3178
+)
+"tertree.ml" 105 3565 3584 "tertree.ml" 105 3565 3585
+type(
+  forest
+)
+ident(
+  int_ref r "tertree.ml" 92 3161 3179 "tertree.ml" 92 3161 3180
+)
+"tertree.ml" 105 3565 3571 "tertree.ml" 105 3565 3585
+call(
+  tail
+)
+type(
+  bool
+)
+"tertree.ml" 95 3233 3239 "tertree.ml" 105 3565 3585
+type(
+  bool
+)
+"tertree.ml" 92 3161 3185 "tertree.ml" 106 3586 3591
+type(
+  bool
+)
+"tertree.ml" 107 3592 3601 "tertree.ml" 107 3592 3602
+type(
+  bool
+)
+ident(
+  def b "tertree.ml" 107 3592 3606 "tertree.ml" 107 3592 3615
+)
+"tertree.ml" 107 3592 3596 "tertree.ml" 107 3592 3602
+type(
+  tree
+)
+"tertree.ml" 107 3592 3606 "tertree.ml" 107 3592 3607
+type(
+  bool
+)
+ident(
+  int_ref b "tertree.ml" 107 3592 3601 "tertree.ml" 107 3592 3602
+)
+"tertree.ml" 107 3592 3608 "tertree.ml" 107 3592 3610
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 143 5989 5989 "stdlib.mli" 143 5989 6040
+)
+"tertree.ml" 107 3592 3611 "tertree.ml" 107 3592 3612
+type(
+  int list
+)
+ident(
+  int_ref c "tertree.ml" 91 3134 3153 "tertree.ml" 91 3134 3154
+)
+"tertree.ml" 107 3592 3612 "tertree.ml" 107 3592 3613
+type(
+  int list -> int list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"tertree.ml" 107 3592 3613 "tertree.ml" 107 3592 3615
+type(
+  int list
+)
+"tertree.ml" 107 3592 3611 "tertree.ml" 107 3592 3615
+type(
+  bool
+)
+"tertree.ml" 107 3592 3606 "tertree.ml" 107 3592 3615
+type(
+  bool
+)
+"tertree.ml" 91 3134 3157 "tertree.ml" 108 3616 3619
+type(
+  tree -> bool
+)
+"tertree.ml" 91 3134 3153 "tertree.ml" 108 3616 3619
+type(
+  int list -> tree -> bool
+)
+"tertree.ml" 114 3863 3869 "tertree.ml" 114 3863 3886
+type(
+  string -> string -> unit
+)
+ident(
+  def translate_entries "tertree.ml" 116 3976 4022 "tertree.ml" 1 0 -1
+)
+"tertree.ml" 114 3863 3887 "tertree.ml" 114 3863 3899
+type(
+  string
+)
+ident(
+  def entries_file "tertree.ml" 114 3863 3900 "tertree.ml" 116 3976 4022
+)
+"tertree.ml" 114 3863 3900 "tertree.ml" 114 3863 3911
+type(
+  string
+)
+ident(
+  def result_file "tertree.ml" 115 3914 3916 "tertree.ml" 116 3976 4022
+)
+"tertree.ml" 115 3914 3920 "tertree.ml" 115 3914 3932
+type(
+  Trie.trie
+)
+ident(
+  def entries_trie "tertree.ml" 116 3976 3978 "tertree.ml" 116 3976 4022
+)
+"tertree.ml" 115 3914 3936 "tertree.ml" 115 3914 3946
+type(
+  string -> Trie.trie
+)
+ident(
+  int_ref Gen.gobble "gen.ml" 29 1123 1129 "gen.ml" 29 1123 1135
+)
+"tertree.ml" 115 3914 3947 "tertree.ml" 115 3914 3959
+type(
+  string
+)
+ident(
+  int_ref entries_file "tertree.ml" 114 3863 3887 "tertree.ml" 114 3863 3899
+)
+"tertree.ml" 115 3914 3936 "tertree.ml" 115 3914 3959
+call(
+  stack
+)
+type(
+  Trie.trie
+)
+type(
+  Trie.trie
+)
+"tertree.ml" 116 3976 3978 "tertree.ml" 116 3976 3986
+type(
+  tree -> string -> unit
+)
+ident(
+  int_ref Gen.dump "gen.ml" 24 954 960 "gen.ml" 24 954 964
+)
+"tertree.ml" 116 3976 3988 "tertree.ml" 116 3976 3996
+type(
+  Trie.trie -> tree
+)
+ident(
+  int_ref balanced "tertree.ml" 44 1740 1750 "tertree.ml" 44 1740 1758
+)
+"tertree.ml" 116 3976 3997 "tertree.ml" 116 3976 4009
+type(
+  Trie.trie
+)
+ident(
+  int_ref entries_trie "tertree.ml" 115 3914 3920 "tertree.ml" 115 3914 3932
+)
+"tertree.ml" 116 3976 3988 "tertree.ml" 116 3976 4009
+call(
+  stack
+)
+type(
+  tree
+)
+"tertree.ml" 116 3976 4011 "tertree.ml" 116 3976 4022
+type(
+  string
+)
+ident(
+  int_ref result_file "tertree.ml" 114 3863 3900 "tertree.ml" 114 3863 3911
+)
+"tertree.ml" 116 3976 3978 "tertree.ml" 116 3976 4022
+call(
+  tail
+)
+type(
+  unit
+)
+"tertree.ml" 115 3914 3916 "tertree.ml" 116 3976 4022
+type(
+  unit
+)
+"tertree.ml" 114 3863 3900 "tertree.ml" 116 3976 4022
+type(
+  string -> unit
+)
+"tertree.ml" 114 3863 3887 "tertree.ml" 116 3976 4022
+type(
+  string -> string -> unit
+)
