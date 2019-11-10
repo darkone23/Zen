@@ -26,7 +26,7 @@ and resumption = list backtrack  (* coroutine resumptions *)
 ;
 
 (* Now we define our unglueing reactive engine as a recursive process which
-navigates directly on the (flexed) lexicon trie 
+navigates directly on the (inflected) lexicon trie 
 (typically the compressed trie resulting from the Dag module considered above).
 The reactive engine takes as arguments the (remaining) input, the (partially 
 constructed) list of words returned as output, a backtrack stack whose items 

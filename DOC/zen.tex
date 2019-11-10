@@ -1,5 +1,5 @@
 \documentclass[12pt]{article}
-\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage[headings]{fullpage}
 \usepackage[noweb]{ocamlweb}
 \pagestyle{headings}
@@ -7,7 +7,7 @@
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% This file has been automatically generated with the command
-%% ocamlweb -p \usepackage{url} \usepackage{graphicx} --noweb intro.tex ../ML/pidgin.ml gen.tex ../ML/gen.ml list2.tex ../ML/list2.ml word.tex ../ML/word.ml zipper.tex ../ML/zipper.ml bintree.tex ../ML/bintree.ml trie.tex ../ML/trie.ml ascii.tex ../ML/ascii.ml lexicon.tex ../ML/lexicon.ml make_lex.tex ../ML/make_lex.ml share.tex ../ML/share.mli ../ML/share.ml mini.tex ../ML/mini.ml dagify.tex ../ML/dagify.ml ../ML/make_english_lexicon.ml english.tex ../ML/zen_lexer.ml ../ML/transducer.ml ../ML/latin.ml french.tex ../ML/make_french_lexicon.ml sanskrit.tex tertree.tex ../ML/tertree.ml ../ML/minitertree.ml deco.tex ../ML/deco.ml lexmap.tex ../ML/lexmap.ml minimap.tex ../ML/minimap.mli ../ML/minimap.ml unglue.tex ../ML/unglue.ml ../ML/unglue_test.ml coroutines.tex intro_aum0.tex ../ML/aum0.mli react0.tex ../ML/react0.ml aumt.tex ../ML/aumt.mli reactt.tex ../ML/reactt.ml regular.tex ../ML/regular.ml linking.tex ../ML/sanskrit_engine.ml conclusion.tex biblio.tex -o zen.tex 
+%% ../../../ocamlweb-1.41/ocamlweb -p \usepackage{url} \usepackage{graphicx} --noweb intro.tex ../ML/pidgin.ml gen.tex ../ML/gen.ml list2.tex ../ML/list2.ml word.tex ../ML/word.ml zipper.tex ../ML/zipper.ml bintree.tex ../ML/bintree.ml trie.tex ../ML/trie.ml ascii.tex ../ML/ascii.ml lexicon.tex ../ML/lexicon.ml make_lex.tex ../ML/make_lex.ml share.tex ../ML/share.mli ../ML/share.ml mini.tex ../ML/mini.ml dagify.tex ../ML/dagify.ml ../ML/make_english_lexicon.ml english.tex ../ML/zen_lexer.ml ../ML/latin.ml french.tex ../ML/make_french_lexicon.ml sanskrit.tex tertree.tex ../ML/tertree.ml ../ML/minitertree.ml deco.tex ../ML/deco.ml lexmap.tex ../ML/lexmap.ml minimap.tex ../ML/minimap.mli ../ML/minimap.ml unglue.tex ../ML/unglue.ml ../ML/unglue_test.ml coroutines.tex intro_aum0.tex ../ML/aum0.mli react0.tex ../ML/react0.ml aumt.tex ../ML/aumt.mli reactt.tex ../ML/reactt.ml regular.tex ../ML/regular.ml linking.tex ../ML/sanskrit_engine.ml conclusion.tex biblio.tex -o zen.tex 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\documentclass[11pt]{article}
 %\pagestyle{plain}
@@ -2344,7 +2344,7 @@ They are nonetheless efficient enough for production use, thanks to the
 optimizing native-code compiler of Objective Caml. 
 
 In our Sanskrit application, the trie of 11500 entries
-is shrunk from 219Kb to 103Kb in 0.1s, whereas the trie of 120000 flexed
+is shrunk from 219Kb to 103Kb in 0.1s, whereas the trie of 120000 inflected
 forms is shrunk from 1.63Mb to 140Kb in 0.5s on a 864MHz PC.
 
 Our list of 173528 English words, represented as an ASCII file of 1.92
@@ -2618,120 +2618,6 @@ $($\ocwkw{fun}~$\ocwlowerid{\_}~\rightarrow{}$\ocweol
 \ocwindent{4.00em}
 $\ocwupperid{Some}~(\ocwlowerid{tok},~\ocwlowerid{loc}))$\ocweol
 \ocwindent{1.00em}
-;\ocweol
-\ocwendcode{}\typeout{OcamlWeb file Transducer.ml}
-\ocwmodule{Transducer}
-\label{../ML/transducer.ml:0}%
-\label{../ML/transducer.ml:750}%
-\ocwbegincode{}\ocwindent{0.00em}
-\ocwkw{module}~$\ocwupperid{Gram}~=~\ocwupperid{MakeGram}~\ocwupperid{Zen\_lexer};$\medskip
-
-\label{../ML/transducer.ml:786}%
-\ocwindent{0.00em}
-\ocwkw{open}~$\ocwupperid{Zen\_lexer.Token};$\medskip
-
-\label{../ML/transducer.ml:809}%
-\ocwindent{0.00em}
-$\ocwlowerid{value}~\ocwlowerid{transducer}~\ocwlowerid{trad}~\ocwlowerid{t}~=$\ocweol
-\ocwindent{1.00em}
-\ocwkw{try}~$\ocwupperid{Gram.}\ocwlowerid{parse\_string}~\ocwlowerid{trad}~\ocwupperid{Loc.}\ocwlowerid{ghost}~\ocwlowerid{t}$\ocweol
-\ocwindent{1.00em}
-\ocwkw{with}\ocweol
-\ocwindent{1.00em}
-$[~\ocwupperid{Loc.Exc\_located}~\ocwlowerid{loc}~\ocwlowerid{e}~\rightarrow{}~$\ocwkw{do}\ocweol
-\ocwindent{2.50em}
-\{~$\ocwlowerid{print\_string}~$\ocwstring{"\symbol{92}n\symbol{92}n\%!"}\ocweol
-\ocwindent{2.50em}
-;~$\ocwupperid{Format.}\ocwlowerid{eprintf}~$\ocwstring{"In\ocwvspace{}string\ocwvspace{}\symbol{92}"\%s\symbol{92}",\ocwvspace{}at\ocwvspace{}location\ocwvspace{}\%a:@."}~\ocweol
-\ocwindent{11.00em}
-$\ocwlowerid{t}~\ocwupperid{Loc.}\ocwlowerid{print}~\ocwlowerid{loc}~$\ocweol
-\ocwindent{2.50em}
-;~$\ocwlowerid{raise}~\ocwlowerid{e}$\ocweol
-\ocwindent{2.50em}
-\}~\ocweol
-\ocwindent{1.00em}
-$]$\ocweol
-\ocwindent{0.00em}
-;\medskip
-
-\ocwendcode{}\ocwindent{0.00em}
-French with accents. 
-\ocweol
-\label{../ML/transducer.ml:1101}%
-\medskip
-\ocwbegincode{}\ocwindent{0.00em}
-$\ocwlowerid{value}~\ocwlowerid{french}~=~\ocwupperid{Gram.Entry.}\ocwlowerid{mk}~$\ocwstring{"french\ocwvspace{}encoding"}\ocweol
-\ocwindent{0.00em}
-;\ocweol
-\ocwindent{0.00em}
-$\ocwlowerid{value}~\ocwlowerid{french\_word}~=~\ocwupperid{Gram.Entry.}\ocwlowerid{mk}~$\ocwstring{"french\ocwvspace{}word\ocwvspace{}encoding"}\ocweol
-\ocwindent{0.00em}
-;\ocweol
-\ocwindent{0.00em}
-$\ocwupperid{EXTEND}~\ocwupperid{Gram}~$\ocwbc{} french to code \ocwec{}\ocweol
-\ocwindent{1.00em}
-$\ocwlowerid{french}:$\ocweol
-\ocwindent{2.00em}
-$[~[~\ocwupperid{LETTER}~$\ocwstring{"a"};~\ocwstring{"\^{}"}~$\rightarrow{}~$\ocwstring{"â"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"a"};~\ocwstring{"`"}~$\rightarrow{}~$\ocwstring{"à"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"a"}~$\rightarrow{}~$\ocwstring{"a"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"e"};~\ocwstring{"'"}~$\rightarrow{}~$\ocwstring{"é"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"e"};~\ocwstring{"`"}~$\rightarrow{}~$\ocwstring{"è"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"e"};~\ocwstring{"\^{}"}~$\rightarrow{}~$\ocwstring{"ê"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"e"};~\ocwstring{"\symbol{92}""}~$\rightarrow{}~$\ocwstring{"ë"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"e"}~$\rightarrow{}~$\ocwstring{"e"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"i"};~\ocwstring{"\^{}"}~$\rightarrow{}~$\ocwstring{"î"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"i"};~\ocwstring{"\symbol{92}""}~$\rightarrow{}~$\ocwstring{"ï"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"i"}~$\rightarrow{}~$\ocwstring{"i"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"o"};~\ocwstring{"\^{}"}~$\rightarrow{}~$\ocwstring{"ô"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"o"}~$\rightarrow{}~$\ocwstring{"o"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"u"};~\ocwstring{"`"}~$\rightarrow{}~$\ocwstring{"ù"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"u"};~\ocwstring{"\^{}"}~$\rightarrow{}~$\ocwstring{"û"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"u"};~\ocwstring{"\symbol{92}""}~$\rightarrow{}~$\ocwstring{"ü"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"y"};~\ocwstring{"\symbol{92}""}~$\rightarrow{}~$\ocwstring{"y\symbol{92}""}~\ocwbc{} oulipo \ocwec{}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"u"}~$\rightarrow{}~$\ocwstring{"u"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"c"};~\ocwstring{"/"}~$\rightarrow{}~$\ocwstring{"ç"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwupperid{LETTER}~$\ocwstring{"c"}~$\rightarrow{}~$\ocwstring{"c"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~$\ocwstring{"\symbol{45}"}~$\rightarrow{}~$\ocwstring{"\symbol{45}"}\ocweol
-\ocwindent{3.00em}
-$\mid{}~$\ocwstring{"."}~$\rightarrow{}~$\ocwstring{"."}\ocweol
-\ocwindent{3.00em}
-$\mid{}~$\ocwstring{"'"}~$\rightarrow{}~$\ocwstring{"'"}~\ocwbc{} aujourd'hui \ocwec{}\ocweol
-\ocwindent{3.00em}
-$\mid{}~\ocwlowerid{l}~=~\ocwupperid{LETTER}~\rightarrow{}~\ocwlowerid{l}$\ocweol
-\ocwindent{3.00em}
-$]~];$\ocweol
-\ocwindent{1.00em}
-$\ocwlowerid{french\_word}:$\ocweol
-\ocwindent{2.00em}
-$[~[~\ocwlowerid{w}~=~\ocwupperid{LIST0}~\ocwlowerid{french};~`\ocwupperid{EOI}~\rightarrow{}~\ocwupperid{String.}\ocwlowerid{concat}~$\ocwstring{""}~$\ocwlowerid{w}~]~];$\ocweol
-\ocwindent{0.00em}
-$\ocwupperid{END}$\ocweol
-\ocwindent{0.00em}
-;\ocweol
-\ocwindent{0.00em}
-$\ocwlowerid{value}~\ocwlowerid{latin\_of\_string}~=~\ocwlowerid{transducer}~\ocwlowerid{french\_word}$\ocweol
-\ocwindent{0.00em}
 ;\ocweol
 \ocwendcode{}\typeout{OcamlWeb file Latin.ml}
 \ocwmodule{Latin}
@@ -3946,7 +3832,7 @@ non-determinism. The unglueing transducer is a lexicon morphism.
 
 \ocwendcode{}\ocwindent{0.00em}
 Now we define our unglueing reactive engine as a recursive process which
-navigates directly on the (flexed) lexicon trie 
+navigates directly on the (inflected) lexicon trie 
 (typically the compressed trie resulting from the Dag module considered above).
 The reactive engine takes as arguments the (remaining) input, the (partially 
 constructed) list of words returned as output, a backtrack stack whose items 
@@ -3957,7 +3843,7 @@ it on the \ocwbegindcode{}$\ocwlowerid{backtrack}$\ocwenddcode{} stack, because 
 and so we continue reading the input until either we exhaust the input, or the 
 next input character is inconsistent with the lexicon data. 
 \ocweol
-\label{../ML/unglue.ml:2202}%
+\label{../ML/unglue.ml:2205}%
 \medskip
 \ocwbegincode{}\ocwindent{0.00em}
 $\ocwlowerid{value}~$\ocwkw{rec}~$\ocwlowerid{react}~\ocwlowerid{input}~\ocwlowerid{output}~\ocwlowerid{back}~\ocwlowerid{occ}~=~$\ocwkw{fun}\ocweol
@@ -4014,7 +3900,7 @@ $]$\ocweol
 Now, unglueing a sentence is just calling the reactive engine from the
 appropriate initial backtrack situation: 
 \ocweol
-\label{../ML/unglue.ml:3205}%
+\label{../ML/unglue.ml:3208}%
 \medskip
 \ocwbegincode{}\ocwindent{0.00em}
 $\ocwlowerid{value}~\ocwlowerid{unglue}~\ocwlowerid{sentence}~=~\ocwlowerid{backtrack}~[~(\ocwlowerid{sentence},[\,])~]$\ocweol
@@ -4032,7 +3918,7 @@ $\ocwlowerid{where}~\ocwlowerid{pr}~\ocwlowerid{word}~=~\ocwlowerid{print\_strin
 \ocwendcode{}\ocwindent{0.00em}
 \ocwbegindcode{}$\ocwlowerid{resume}~:~\ocwlowerid{resumption}~\rightarrow{}~$\ocwbt{int}~$\rightarrow{}~\ocwlowerid{resumption}$\ocwenddcode{} 
 \ocweol
-\label{../ML/unglue.ml:3957}%
+\label{../ML/unglue.ml:3960}%
 \medskip
 \ocwbegincode{}\ocwindent{0.00em}
 $\ocwlowerid{value}~\ocwlowerid{resume}~\ocwlowerid{cont}~\ocwlowerid{n}~=~$\ocwkw{match}~$\ocwlowerid{backtrack}~\ocwlowerid{cont}~$\ocwkw{with}\ocweol
@@ -4075,7 +3961,7 @@ $]$\ocweol
 \ocwindent{0.00em}
 ;\medskip
 
-\label{../ML/unglue.ml:4516}%
+\label{../ML/unglue.ml:4519}%
 \ocwindent{0.00em}
 \ocwkw{end};\ocweol
 \ocwendcode{}\typeout{OcamlWeb file Unglue_test.ml}
@@ -6783,7 +6669,6 @@ Computational Linguistics 22,3 (1996), pp. 377--408.
 \ocwrefindexentry{$\ocwupperid{Sanskrit\_engine}$ (module)}{../ML/sanskrit_engine.ml:0}{}{\ref{../ML/sanskrit_engine.ml:0}}{}
 \ocwrefindexentry{$\ocwupperid{Share}$ (module)}{../ML/share.mli:0,../ML/share.ml:0}{}{\ref{../ML/share.mli:0}, \ref{../ML/share.ml:0}}{}
 \ocwrefindexentry{$\ocwupperid{Tertree}$ (module)}{../ML/tertree.ml:0}{}{\ref{../ML/tertree.ml:0}}{}
-\ocwrefindexentry{$\ocwupperid{Transducer}$ (module)}{../ML/transducer.ml:0}{}{\ref{../ML/transducer.ml:0}}{}
 \ocwrefindexentry{$\ocwupperid{Trie}$ (module)}{../ML/trie.ml:0}{../ML/lexicon.ml:814,../ML/lexicon.ml:951}{\ref{../ML/trie.ml:0}}{\ref{../ML/lexicon.ml:814}, \ref{../ML/lexicon.ml:951}}
 \ocwrefindexentry{$\ocwupperid{Unglue}$ (module)}{../ML/unglue.ml:0}{}{\ref{../ML/unglue.ml:0}}{}
 \ocwrefindexentry{$\ocwupperid{Unglue\_test}$ (module)}{../ML/unglue_test.ml:0}{}{\ref{../ML/unglue_test.ml:0}}{}
