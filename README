@@ -4,7 +4,7 @@
 (*                                                                        *)
 (*                      Gérard Huet & Benoît Razet                        *)
 (*                                                                        *)
-(* ©2018 Institut National de Recherche en Informatique et en Automatique *)
+(* ©2019 Institut National de Recherche en Informatique et en Automatique *)
 (**************************************************************************)
 
 The Zen Computational Linguistics Toolkit is a library of
@@ -20,8 +20,8 @@ This software runs under Objective Caml with the Camlp4 library.
 The documentation is in directory DOC, under Postscript format as zen.ps, 
 under pdf format as zen.pdf, and under a Web page format as zen.html. 
 
-This library has been used for the implementation of the Sanskrit Library,
-available at http://sanskrit.inria.fr/
+This library has been used for the implementation of the Sanskrit Heritage
+Platform of Web services, available at http://sanskrit.inria.fr/
 
 This version 5.1 taken from current branch of Heritage_Platform on Nov 25th 2018
 in order to install as stand-alone Git archive.
