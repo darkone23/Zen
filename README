@@ -7,6 +7,9 @@
 (* ©2019 Institut National de Recherche en Informatique et en Automatique *)
 (**************************************************************************)
 
+Personal fork of upstream: https://gitlab.inria.fr/huet/Zen.git
+See project environment: https://github.com/darkone23/sanskrit-heritage
+
 The Zen Computational Linguistics Toolkit is a library of
 Objective Caml modules and module interfaces of use for computational
 linguistics applications - in the aspects of lexicon representation, 

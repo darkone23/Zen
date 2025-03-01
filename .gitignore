@@ -1,0 +1,29 @@
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
+
+# generated project files
+ML/make_*_lexicon
+ML/*.annot
+ML/*.cmo
+ML/*.cmi
+ML/*.cmt
+ML/*.cmti
+ML/*.cmx
+ML/*.cmxa
+ML/*.a
+ML/*.o
+
+# more generated programs
+ML/ML
+ML/dagify
+ML/terdagify
+ML/test
+ML/timeshare
+ML/unshare
